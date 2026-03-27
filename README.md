@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mcp-tool-shop-org/brand/main/logos/sprite-foundry-packs/readme.png" width="600" alt="Sprite Foundry Packs" />
+  <img src="https://raw.githubusercontent.com/mcp-tool-shop-org/brand/main/logos/sprite-foundry-packs/readme.png" width="500" alt="Sprite Foundry Packs" />
 </p>
 
 <p align="center">
