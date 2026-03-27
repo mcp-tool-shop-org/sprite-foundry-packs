@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T19:33:09.767888+00:00",
+  "foundry_version": "177b1a8",
+  "identity": {
+    "subject_slug": "pirate_ships_cook",
+    "display_name": "Ship's Cook",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "pirate_ships_cook_p3_20260327_190633",
+    "seed": 850510,
+    "generated_at": "2026-03-27T19:07:22.737349+00:00",
+    "accepted_at": "2026-03-27T19:20:05.441320+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "177b1a8"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "81245b2ab6763d4e366a8e54d0f19b9d5c842bb4662d45ed00029f2dfbd0a244",
+    "normal/front.png": "7ddaa0326c1d93af811c90427e896940c80286a21a2434741ff532068445f78a",
+    "depth/front.png": "3f6713b238d1c37d4eb2467bedae43747d4657880439db34b9d7774577c36325",
+    "albedo/front_left.png": "2c28690c3de753046d220f8a0f16d42bd946a9cbd20c51cfe90e54db24ff39df",
+    "normal/front_left.png": "74874bfaa355973a4713ace3428dfeb98d26d643430a0233cd32b76dc2041ac1",
+    "depth/front_left.png": "97d8553ae0c55362f9fed4ca1e56dba53eae2eefee0ec9e37b0b7bdf188d79da",
+    "albedo/left.png": "328ece93e89c35c6c29f7d78ae5c723eff4f38832db0f1b1b9020faf8e786a44",
+    "normal/left.png": "7a5d320460326e67aaaf8350f19f820a30828fdae61a8be558c24b452f2ebf1a",
+    "depth/left.png": "9eda27237868d9ca31f07b081cabfaeff13d17140607dc640cbb7360a6a4b0f8",
+    "albedo/back_left.png": "d03bcab88c0787d620cc92ea30cf0b4c885d92106dfcb1a500a99dcfdcfa19af",
+    "normal/back_left.png": "3a693e89e8596c45439d71cb133eb5207a2717d83ff7a93dfd08337aa5ef0e66",
+    "depth/back_left.png": "e99135619958cb13a69649f2f24f23597c14780ede506969409aa9da95ab1fd8",
+    "albedo/back.png": "743135f83c3e736b3823863215791507546242d9eac78671efa628f717d2c9ac",
+    "normal/back.png": "e3e87471f3001cb50bf7d0cfe74b336ec47e024016c3f02b4eaf7e706515ee13",
+    "depth/back.png": "93c9f64ac8e71a7b443d309bfe2a8082944d4571d7ed357b6c6e327f276e3e0f",
+    "albedo/back_right.png": "17d135163669694366180f0bcbfdf28f1c80f80ecf8af23b50c881f5304678d2",
+    "normal/back_right.png": "d10cf1ba6264f717644ee3e4aaceadc23a0d7add72bd4533d861b8c10b256ac0",
+    "depth/back_right.png": "d248e3790c48a51374ae1e793c3665c09fe7b7a601b5bd853c929b29893c6792",
+    "albedo/right.png": "a70ed3421861b1f5167194d8cd2ea5c43df97f7a7fc5ba57be90646005e73d23",
+    "normal/right.png": "3771fdedaca277f8dfa86f02e91f03739352eba48080555ba32adff5084bf04c",
+    "depth/right.png": "00776caf5e13a9b307c18b432e81a11e0393fb00867b1bfc7b3f79d17bc5d787",
+    "albedo/front_right.png": "bad89ee8e65ae861c8bc6859297188d2357f29ffe581f156666c140e818e35e1",
+    "normal/front_right.png": "ed3c272ad9417e69a876c5f1246a06d444c94535675cea62bff5d5ffcabcfaf6",
+    "depth/front_right.png": "1cecfc13e14af784e75632b3cd9ad7d41700ae2242859e96a1e7babc2c4f0b43",
+    "preview/contact_sheet.png": "c41b2fd2669a1c1e76ff3c443bca6ad4f6b37b0d7a9351e29a2637afbfa35e35"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\pirate_ships_cook_p3_20260327_190633",
+    "maps_dir": "bakeoff\\pirate_ships_cook_p3_20260327_190633_maps"
+  },
+  "notes": null
+}

@@ -13,6 +13,14 @@
     { "slug": "navy-sailor",   "name": "Navy Sailor",       "role": "authority/military",   "path": "assets/navy-sailor/manifest.json" },
     { "slug": "governor",      "name": "Harbor Governor",   "role": "authority/civilian",   "path": "assets/governor/manifest.json" },
     { "slug": "drowned",       "name": "Drowned Guardian",  "role": "undead maritime",     "path": "assets/drowned/manifest.json" },
-    { "slug": "sea-priest",    "name": "Sea Priest",        "role": "mystic/support",      "path": "assets/sea-priest/manifest.json" }
+    { "slug": "sea-priest",    "name": "Sea Priest",        "role": "mystic/support",      "path": "assets/sea-priest/manifest.json" },
+    { "slug": "cabin-boy",    "name": "Cabin Boy",         "role": "young deckhand",      "path": "assets/cabin-boy/manifest.json" },
+    { "slug": "navigator",    "name": "Navigator",         "role": "chart reader",        "path": "assets/navigator/manifest.json" },
+    { "slug": "ships-cook",   "name": "Ship's Cook",       "role": "galley master",       "path": "assets/ships-cook/manifest.json" },
+    { "slug": "smuggler",     "name": "Smuggler",          "role": "hidden cargo runner", "path": "assets/smuggler/manifest.json" },
+    { "slug": "privateer",    "name": "Privateer",         "role": "licensed pirate",     "path": "assets/privateer/manifest.json" },
+    { "slug": "siren",        "name": "Siren",             "role": "oceanic enchantress", "path": "assets/siren/manifest.json" },
+    { "slug": "kraken-cultist","name": "Kraken Cultist",   "role": "deep-sea zealot",     "path": "assets/kraken-cultist/manifest.json" },
+    { "slug": "shipwright",   "name": "Shipwright",        "role": "ship builder",        "path": "assets/shipwright/manifest.json" }
   ]
 }

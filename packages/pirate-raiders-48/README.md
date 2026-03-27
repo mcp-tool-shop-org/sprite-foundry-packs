@@ -17,7 +17,9 @@ A 48px, 8-direction pixel-art pack of maritime characters with albedo, normal, a
 
 ## What's Included
 
-8 pirate archetypes — three visual lanes covering the maritime world:
+16 pirate archetypes across two tiers — **Officers and Authority** and **The Crew** — each with 8 directional views:
+
+### Officers and Authority (original 8)
 
 | Variant | Role | Silhouette |
 |---------|------|------------|
@@ -29,6 +31,19 @@ A 48px, 8-direction pixel-art pack of maritime characters with albedo, normal, a
 | Harbor Governor | Civilian authority | Plum formal coat, powdered wig, portly build, walking cane |
 | Drowned Guardian | Undead maritime | Waterlogged green skin, tattered coat, rusted iron chestplate, barnacles |
 | Sea Priest | Mystic / support | Coral-branch headdress, teal layered robe, barnacle censer on chain |
+
+### The Crew — Working Hands and Port Life (v1.1)
+
+| Variant | Role | Silhouette |
+|---------|------|------------|
+| Cabin Boy | Young deckhand | Tiny frame, oversized hat, mop, gap-toothed grin |
+| Navigator | Chart reader | Spyglass extended, rolled charts, wire spectacles |
+| Ship's Cook | Galley master | Stocky build, cleaver on shoulder, stained apron, bandana |
+| Smuggler | Hidden cargo runner | Hooded cloak pulled closed, shifty stance, gold tooth |
+| Privateer | Licensed pirate | Cavalier hat, rapier, sealed letter, refined but dangerous |
+| Siren | Oceanic enchantress | Flowing teal hair, shell crown, glowing enchantment |
+| Kraken Cultist | Deep-sea zealot | Shaved head with tentacle tattoos, ritual dagger, mad eyes |
+| Shipwright | Ship builder | Muscular, carpenter's hammer, wooden planks, tool belt |
 
 Each variant ships with three map layers:
 
@@ -59,6 +74,14 @@ assets/
   governor/
   drowned/
   sea-priest/
+  cabin-boy/
+  navigator/
+  ships-cook/
+  smuggler/
+  privateer/
+  siren/
+  kraken-cultist/
+  shipwright/
 pack.json          pack-level index
 previews/          contact sheets per variant
 ```

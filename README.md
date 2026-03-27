@@ -22,7 +22,7 @@ Monorepo for all [Sprite Foundry](https://github.com/mcp-tool-shop-org/sprite-fo
 | Goblin Warband | [`@sprite-foundry/goblin-warband-48`](https://www.npmjs.com/package/@sprite-foundry/goblin-warband-48) | 16 (8 combat + 8 camp) | Fantasy enemies |
 | Fantasy Heroes | [`@sprite-foundry/fantasy-heroes-48`](https://www.npmjs.com/package/@sprite-foundry/fantasy-heroes-48) | 16 (8 core + 8 second party) | Classic RPG party |
 | Fantasy Villains | [`@sprite-foundry/fantasy-villains-48`](https://www.npmjs.com/package/@sprite-foundry/fantasy-villains-48) | 16 (8 elite + 8 court) | Boss encounters |
-| Pirate Raiders | [`@sprite-foundry/pirate-raiders-48`](https://www.npmjs.com/package/@sprite-foundry/pirate-raiders-48) | 8 pirates | Maritime/naval |
+| Pirate Raiders | [`@sprite-foundry/pirate-raiders-48`](https://www.npmjs.com/package/@sprite-foundry/pirate-raiders-48) | 16 (8 officers + 8 crew) | Maritime/naval |
 
 ## Install
 

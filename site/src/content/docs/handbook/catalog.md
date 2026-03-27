@@ -139,6 +139,9 @@ Each pack contains 8–16 character variants designed around a specific theme. E
 
 **npm:** `@sprite-foundry/pirate-raiders-48`
 **Theme:** Maritime and naval characters
+**Variants:** 16 (doubled in v1.1)
+
+### Officers and Authority
 
 | Variant | Role | Visual identity |
 |---------|------|-----------------|
@@ -151,6 +154,19 @@ Each pack contains 8–16 character variants designed around a specific theme. E
 | Drowned Guardian | Undead maritime | Waterlogged green skin, tattered coat, iron chestplate |
 | Sea Priest | Mystic/support | Coral headdress, teal robes, ritual staff |
 
+### The Crew — Working Hands and Port Life (v1.1)
+
+| Variant | Role | Visual identity |
+|---------|------|-----------------|
+| Cabin Boy | Young deckhand | Tiny frame, oversized hat, mop, gap-toothed grin |
+| Navigator | Chart reader | Spyglass, rolled charts, wire spectacles |
+| Ship's Cook | Galley master | Stocky, cleaver on shoulder, stained apron, bandana |
+| Smuggler | Hidden cargo runner | Hooded cloak pulled closed, shifty stance, gold tooth |
+| Privateer | Licensed pirate | Cavalier hat, rapier, sealed letter, refined but dangerous |
+| Siren | Oceanic enchantress | Flowing teal hair, shell crown, glowing enchantment |
+| Kraken Cultist | Deep-sea zealot | Tentacle tattoos on shaved head, ritual dagger, mad eyes |
+| Shipwright | Ship builder | Muscular, carpenter's hammer, wooden planks, tool belt |
+
 ## Asset counts
 
 | Metric | Per variant | Per pack (8) | Per pack (16) | All 5 packs |
@@ -161,4 +177,4 @@ Each pack contains 8–16 character variants designed around a specific theme. E
 | Manifests | 1 | 8 | 16 | 56 |
 | Preview sheets | 1 | 8 | 16 | 56 |
 
-Four packs (Undead Patrol, Goblin Warband, Fantasy Heroes, Fantasy Villains) have 16 variants each. Pirate Raiders has 8 variants, with an expansion planned.
+All 5 packs have 16 variants each — 80 characters total, 1,920 sprites across the full catalog.

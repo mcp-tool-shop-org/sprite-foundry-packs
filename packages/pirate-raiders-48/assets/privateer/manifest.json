@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T19:33:10.244107+00:00",
+  "foundry_version": "177b1a8",
+  "identity": {
+    "subject_slug": "pirate_privateer",
+    "display_name": "Privateer",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "pirate_privateer_p3_20260327_190815",
+    "seed": 850512,
+    "generated_at": "2026-03-27T19:09:04.884164+00:00",
+    "accepted_at": "2026-03-27T19:20:06.010325+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "177b1a8"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "41aa55a5fda8a270b6e370b9c57f45d2f24e637daab53727232de624401d1c75",
+    "normal/front.png": "1476e504c24e8d2aa75f2624793d28ce46c1d57dbd05ba113ded1a11946ec710",
+    "depth/front.png": "b3be69aba45ad97bab8b9c29bbda4dd6b29753e5ed57143906010b5d58729892",
+    "albedo/front_left.png": "76f263cd21aba8c831881597fc1c2176d0d520e82716d5a57792843a5c6f7e94",
+    "normal/front_left.png": "9eb1325491f81c82750da41e8a629b85289656766d474777d03e771585e3b759",
+    "depth/front_left.png": "4383ea23458aa4aaaa8a38deac31f5ffdc7642d052f266549fc0dfa588caecfd",
+    "albedo/left.png": "256982fe0809640328576ca16df78261987dea9d75af3f7b39c5d3a21e8eabaf",
+    "normal/left.png": "66c299ed6736a0cdadd6decd6215849caa04bb628eb3f8301496e4131577497f",
+    "depth/left.png": "5b6f5b4ad2b8958663fa588ae086277506daa85366438df9908ea1657a60f2e1",
+    "albedo/back_left.png": "031d190d5ad9fc898b66588c264e581306c55d1b2e03db797ba7da8692f021ee",
+    "normal/back_left.png": "012526b85a23d95b50f446036a788cb55aacf6f06ab516def8707f8139498cac",
+    "depth/back_left.png": "72b7d865744ce2766e4fe6e0d284c32591963e31424275f7ae6e605b6b66a4f0",
+    "albedo/back.png": "b81b924eebea40e819f094eea7346f3cd514e27c243d4cf01ca160c0d296a268",
+    "normal/back.png": "d9dc674847e2afa7d921bbc39be44c0ccdbe5e4eea54f1cb9f8b218295c0c117",
+    "depth/back.png": "9f9214082528093a98cbf90026d3b38b0fe042148f3afaa4f6e868c1158a3597",
+    "albedo/back_right.png": "73629d42888ec916da1c638f9e0359c6b0dff55f801ea1ebf1610448aca58f6b",
+    "normal/back_right.png": "59fd065dc0fe74994146c67a8f69ebc8b07310553e38beaf3c601188b4b70993",
+    "depth/back_right.png": "739768ecc4e45bc53904ab7d81a1b3985fb2773e59837db2a084935ecbffd431",
+    "albedo/right.png": "711e63da80641274ce7fde96ae4ccc56bbaa7a248371fd1e47f6e71be985bd40",
+    "normal/right.png": "c0b60aac2990864a9319de6cab2dbd4f2b8ac449a389e4b7a616b0aff722ebcb",
+    "depth/right.png": "4aff9b9eb26aca1634b289f99c8cc91c6b5fc502972c27884bc555747dfa5fe9",
+    "albedo/front_right.png": "23f463cef92ae490ef9234cad9b15e9f059304d28eb3ba883d2e79f649328f43",
+    "normal/front_right.png": "c14c9425ff02da233374f97793809b19490c6c51e16947e13db4002b61eba5c0",
+    "depth/front_right.png": "bf8719c65e0240cf7641c2a6e6aafbe5f5dc9a93ff30a58b606ed31032b7d6dd",
+    "preview/contact_sheet.png": "98b22445f987787a640b920aa8fc86abc4805dd76d10d3facb40d88f3ba216e9"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\pirate_privateer_p3_20260327_190815",
+    "maps_dir": "bakeoff\\pirate_privateer_p3_20260327_190815_maps"
+  },
+  "notes": null
+}

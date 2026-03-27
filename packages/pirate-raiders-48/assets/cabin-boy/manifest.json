@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T19:33:09.514885+00:00",
+  "foundry_version": "177b1a8",
+  "identity": {
+    "subject_slug": "pirate_cabin_boy",
+    "display_name": "Cabin Boy",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "pirate_cabin_boy_p3_20260327_190445",
+    "seed": 850508,
+    "generated_at": "2026-03-27T19:05:40.542371+00:00",
+    "accepted_at": "2026-03-27T19:20:04.876845+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "177b1a8"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "44091d0a7940caa83df6ebbc7d5ee3c9fc8789897df2e2fc65014cd2a927f057",
+    "normal/front.png": "12a667862a4d327414af93d112d7c6de7a8d69966a1eb5186affb410313825e4",
+    "depth/front.png": "e82279c5f36448cc269d97684986798a0c15bf94d372373f9494b2173ce86084",
+    "albedo/front_left.png": "310c1ccd657fbe94dd7872dc12fccf3a46ad4ed218711ff00380ba40e990a101",
+    "normal/front_left.png": "d9f66c000cc33c1e08ae0dc7448e6da4bc096f1b54322a11e18916dfce42df92",
+    "depth/front_left.png": "3a9374abf10f136f58c649e55e82bd897ab23177e1c5f29f23256bdb837e232f",
+    "albedo/left.png": "b283b7feb7edbc9fc7fda6f1374de2669a3b84da6ea954fc7a5d6a1f87686b35",
+    "normal/left.png": "c68e1f78ae5cb36b1763f8cbcbf58769c9728e9378c9448dca3089342be60619",
+    "depth/left.png": "3ad92985f3f4399e56d987c4327f22959a6fe3b3974e82ec678b0f3f194670e7",
+    "albedo/back_left.png": "8c36d1199f3b6ab559070cc04abe556de66f7e99c7cdda0ae29c610a8e2f9d76",
+    "normal/back_left.png": "44cff74b33179bde36b2fe3c73e65c49cf98ed845345016a416e0a92268d03ae",
+    "depth/back_left.png": "58adb6679c988da1c3d7bd2d0e3c50ce09abef03ceda260648e692ba372c7c9f",
+    "albedo/back.png": "0141611b2d82a2a34b319213fef66664c62559cc5aa7aa7cbc48f7df65d50c76",
+    "normal/back.png": "b1c9ad06f19d52468c06756caa61f8b4b5e3fc739783de5d4fbfc2058d7b9d08",
+    "depth/back.png": "1eadb65eaaa12650af327e4472c8f4d3518610cfb186bb30c700c28d335811f8",
+    "albedo/back_right.png": "3260d3d58edfe965b59da06c47a2b4b2c5fb670f6cdb344acc57bc4766a80f70",
+    "normal/back_right.png": "2a9dddb75c9362ab5f32c2f0bb391acde95b91bedc04dcc5f0cb7d13f2716085",
+    "depth/back_right.png": "393674e5a19ad738f23527e74cd42b32dbda6789c5b69d11b6b0dda0313ab90b",
+    "albedo/right.png": "cd895a0f0c6eb6fef35ec0caf57cf9fd929dceff975d6d8121e44784027ec838",
+    "normal/right.png": "14c7fac0a1fa474c8d96aa3ad72583235984bcb6fc55134f358139aa437f796b",
+    "depth/right.png": "477b90026222e78d9bc57d3a062cb3348214893d0be12def01725c820a555786",
+    "albedo/front_right.png": "e21ec81571747386d776f2d80169ee92956b1a315efdbf6ff86116d19d4c46a1",
+    "normal/front_right.png": "6344daf479fb1eb380cea28407c620805ae95ba5bd3c7b6b0bc7676501eee9d6",
+    "depth/front_right.png": "5c17aaaf290fcf108dbdb9523ae1b0fca1b7acd85af45c81fe80a3a6e8eb5a30",
+    "preview/contact_sheet.png": "ce27258601f6ea3b2267b0a66ec90ec37ba0e479c1c740c2e4b781f415ff0552"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\pirate_cabin_boy_p3_20260327_190445",
+    "maps_dir": "bakeoff\\pirate_cabin_boy_p3_20260327_190445_maps"
+  },
+  "notes": null
+}

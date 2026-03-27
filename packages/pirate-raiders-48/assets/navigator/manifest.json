@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T19:32:53.908532+00:00",
+  "foundry_version": "177b1a8",
+  "identity": {
+    "subject_slug": "pirate_navigator",
+    "display_name": "Navigator",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "pirate_navigator_p3_20260327_192743",
+    "seed": 850509,
+    "generated_at": "2026-03-27T19:29:01.767821+00:00",
+    "accepted_at": "2026-03-27T19:30:54.617276+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "177b1a8"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "756d5399b332d50aa4a615710de7b6a01f243c03c54df61596940940fb71e880",
+    "normal/front.png": "392bfb129622ce2834aa99ae9c2aa189474f0d65da6d013597bec7e66f61b451",
+    "depth/front.png": "231579b4c051e5651b8f4a56cb044ae106b29e7d99427441aa16fcf71214e177",
+    "albedo/front_left.png": "ba3b2d6773f702bf1c9e698294e12e812873c64cde005e59faf3b809218971f6",
+    "normal/front_left.png": "cad317873e49a3458cfbce81e2ab8b86c255e7fe2a7af667638690a345cd0aed",
+    "depth/front_left.png": "89da849b7624b479f33d4343b3888fa63a1094946c00b6083d789f751073e61a",
+    "albedo/left.png": "9b09ed9d2e82091283fc39a747bc5057000c5aa6ad609b617dfe8f839115485e",
+    "normal/left.png": "4e9356fe03a404fac95ec9e99d3a344e565fb459c6172b30210d13e4744685ed",
+    "depth/left.png": "6fb86b669777bd17e14862442e7d9ed21a6085109e0352fe21aa43433178dcff",
+    "albedo/back_left.png": "cd84f532a04c423dd3168af572af4b82fc2039074800241c3fa3f0f23553873e",
+    "normal/back_left.png": "cacc3b1a8f9d28761ddb1999c866d0780b9560dc9ca134f18db37f874232886a",
+    "depth/back_left.png": "17b351bc8f86462d1964d49da141b87172893c724e642e20d5795610f7c5118a",
+    "albedo/back.png": "664b41d29424221b63d270a8f2e9c018a20236136a583688487f0109c3f14023",
+    "normal/back.png": "17ecf1dd72b6348addc8fac9437509edff39c133ed649025c2e020fbcf923133",
+    "depth/back.png": "ee67555362d32e044010d523595f6670da14e079fb24600772896a9589822a00",
+    "albedo/back_right.png": "f55a40df42d1657955fbd26f24761ba9db27d67a92456ab1ac6d6d7420af1f48",
+    "normal/back_right.png": "c76dbd49445048439e80a6aaca2203577b2f9848e4dba021ea4130f15481ea7c",
+    "depth/back_right.png": "7480af322cc476616e3412b9a88c7acca72606c0fe79e4be6e28b3c859d8935c",
+    "albedo/right.png": "29a2c485c20bc81af06a92613b29631b8befcb104472db273bcbc173ecb291ce",
+    "normal/right.png": "94799aa701c98a01d733760ecfeb10becab367adbddf70b14eacff1312c9374d",
+    "depth/right.png": "a20f3daecc9466106db97ba30d6b69fcdae5fe7f94c616bf2cc57e17e8a503bb",
+    "albedo/front_right.png": "f8c5e64569d89b4d2b45e958c8b5d6fc530cf00308aafbc3150305b9f77a06d2",
+    "normal/front_right.png": "5f7ae1075036ef7a751fd9e1b382dd2b503d44ba98225250d00b198fe55f2055",
+    "depth/front_right.png": "adb779e686268f1045360b89319500388e63849d57a93bb9f7d1fefa7cec430a",
+    "preview/contact_sheet.png": "3ec2f39ff248bbc4565779be4bd3bb22a78dfd6e6facd5a26dba8f982629836b"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\pirate_navigator_p3_20260327_192743",
+    "maps_dir": "bakeoff\\pirate_navigator_p3_20260327_192743_maps"
+  },
+  "notes": null
+}

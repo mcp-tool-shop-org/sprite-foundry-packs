@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T19:33:10.488497+00:00",
+  "foundry_version": "177b1a8",
+  "identity": {
+    "subject_slug": "pirate_kraken_cultist",
+    "display_name": "Kraken Cultist",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "pirate_kraken_cultist_p3_20260327_190957",
+    "seed": 850514,
+    "generated_at": "2026-03-27T19:10:58.907190+00:00",
+    "accepted_at": "2026-03-27T19:20:06.543940+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "177b1a8"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "78882cfda52db8d0d46937698d06c4bf862146512af0c283b2728197ee8b12b4",
+    "normal/front.png": "18a7057d85dd0824b51bb1d5316ba4800b6ce7f4b455b9883d3f1556fe08a6fe",
+    "depth/front.png": "36cf19a8f9e59f66c647584ba11c1960985087ff91a73faa9b297202e3b86eb7",
+    "albedo/front_left.png": "322d8843da200d8ccc6fe3b388225a725455283a44a631c1c380cd212a68dca4",
+    "normal/front_left.png": "76552fd85268da669a14c871e8571f635cd330c837da7c4e19325a634e07b37b",
+    "depth/front_left.png": "25f8aa61c92a4ac12150669246ef31e8eb0552a4f3e545717003bf0ca222208b",
+    "albedo/left.png": "62a1e258b85788fb90822e985cb7fa7fb1ddb4096bf164beee9f4bca9530b5c4",
+    "normal/left.png": "e8997d693294f1af18bb33d0f8ecffb1bf4a3b58badeadfc252ced6f5fddfe9c",
+    "depth/left.png": "06285984696a92e86ecaa138860f9f54a3a1882474f4fca9e218940c48d059e1",
+    "albedo/back_left.png": "d0f8bf7151e90a867193416bada9351f3f65257709d1ea2573841cf38b3c93a9",
+    "normal/back_left.png": "3483ebf70df9463c0ca53955aad2e159274a43f2cec02fe0df11889bffaeec6b",
+    "depth/back_left.png": "7bc4f16fd60bf2db9113b0b7be3bc6ab28aed9b6814c9f2190cbf762f18c636a",
+    "albedo/back.png": "09f7e19177610503d472dd642fc54c5340b3875713a8223ccca4c0836357f791",
+    "normal/back.png": "f8940f295ec1616bd00ecbf77fc7d5b21e1e37a2801ac0c09416f11d19077527",
+    "depth/back.png": "c6dd23e44555a3a284e7a1fa2b0e899e97da1e0cfc7593f3719332dd59898a5f",
+    "albedo/back_right.png": "e1229c57ef922ef1f1a10cda4841dc13d41b4ec4ad5bab295e3f7dda90ccc7c9",
+    "normal/back_right.png": "e8da8137c4096c77d05c08a1f12477383b751a2bb220ca01270b1fc8ecee23cf",
+    "depth/back_right.png": "7a3e07cbdc2ab9fec5952f81ed94a449b8b5897fc38e748de5657844fa7cc7b6",
+    "albedo/right.png": "2972df0a7f85230285d6972c3f545a17d51b4e68aa56804211b733f61ce8f71e",
+    "normal/right.png": "07998ac734befc8800c20aede33bb32f84a9fa8769d1afd6022aacf7527c2b01",
+    "depth/right.png": "c3e173e2b639b012aacc79ad23de48be5e5b688becc09a070f4b450a59b72b55",
+    "albedo/front_right.png": "be341d227c8ebbfee6a4911aa6cef685a9c8ff49fa9f8b03e4552cdca157c66a",
+    "normal/front_right.png": "61ac18b7debf52e1173235c8f09017245013433d3f4be55ac3279edfeab0bf28",
+    "depth/front_right.png": "f4051c3c582cf6b73eb1dd28c87ff08787eb896020c27e2b8756da079cf4712c",
+    "preview/contact_sheet.png": "40b8ce8de119db89f43d1dd0445527f05ac21b44b8b3a491f2e679f016b54d82"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\pirate_kraken_cultist_p3_20260327_190957",
+    "maps_dir": "bakeoff\\pirate_kraken_cultist_p3_20260327_190957_maps"
+  },
+  "notes": null
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T19:33:10.699110+00:00",
+  "foundry_version": "177b1a8",
+  "identity": {
+    "subject_slug": "pirate_shipwright",
+    "display_name": "Shipwright",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "pirate_shipwright_p3_20260327_191100",
+    "seed": 850515,
+    "generated_at": "2026-03-27T19:11:52.624931+00:00",
+    "accepted_at": "2026-03-27T19:20:06.835424+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "177b1a8"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "bc9b4f640554a7599099a41f24a32878b20d76a6af43a8d02247026e829190d7",
+    "normal/front.png": "c2a9da40f10c45158f0dfb9065af09bf23664e1c2a7fca3dc6bc8ab3cbc7f88c",
+    "depth/front.png": "98e98a5af4ba10d6f52ba4969a68378449171b455cd1182fad073bbb81de735f",
+    "albedo/front_left.png": "47066e1f589f1b0aefa5d3838ce2e5f042232082e5bfff97f67330ab62477bcb",
+    "normal/front_left.png": "d3b9d5b2380b33187496c1dc0bed014bab9317cadb675dabcbe41021b46204c1",
+    "depth/front_left.png": "6002dad5454aabf74fd84262774d82b92cc445f7ffe2ee1750535d0155cfdaba",
+    "albedo/left.png": "60a4d4c667d2f3f1bf44f8e44ebaab744d791afb77c0a842356ed76730bd51b2",
+    "normal/left.png": "2889a7dfcf8e24ebde4531e1ad79f93d3a6a415cc345041b5a8641401a539007",
+    "depth/left.png": "5adf2695a242b3373cf0a5088b2b5e0f7d768a596d73763af58572934b2509e3",
+    "albedo/back_left.png": "d6df3f950207421db39aa551729cf22ffba448f335b4d3c94ffe2dbe7daac03b",
+    "normal/back_left.png": "611ff3004854097f27e3486ed823684be2251a1be4bb657e77ad26ec1c278691",
+    "depth/back_left.png": "f940efb70f50f6ad684c96eae71329aa0453a90bd1a450b2698fa92e1282b9d6",
+    "albedo/back.png": "1c20883cfc908acf1090ec511c9bc808f01727aa5bd631bec8cdea9a64c690a7",
+    "normal/back.png": "4bb82c1b5bddb1cfeda2a99b2f288fc0f2ebc34eede3867fb3c556edc637e232",
+    "depth/back.png": "b940b1c0904ffb3fb262997da6ca11038d0ce15a5beca16526fca9b968a74277",
+    "albedo/back_right.png": "d32b89e4f2ae1e7712ef60b7cc0ee4edd5ab93e92d939b3d8084dffae987e5ae",
+    "normal/back_right.png": "a8c1e7456171a182bbb7052f97535964f4a66e465a13bbe47b407eb63698bdc0",
+    "depth/back_right.png": "a39986c7e4b653b9c66f47d51a0af4a5448dd28c2e0d305814a8abaa3e09d375",
+    "albedo/right.png": "01ee0775797e110eedbc583b3752a3ca889996a4313162cf9c212843021261be",
+    "normal/right.png": "071f45c3ac3af4b5f970f7e8f905bfe31e9d6b7993bd525f2887f710cd1076e7",
+    "depth/right.png": "61431205f32bcf68d531bd289e5802c83865626d3ba2cc2dbb86eda3b682aae8",
+    "albedo/front_right.png": "05bfde1fe99cb4c2cc8bfdbf68c5a6367a715cd58b03ebe44518bb7039a6c371",
+    "normal/front_right.png": "b4272bf16409a4c3dcb0278ebc147cbaa0d268bf1201d318f5ac6ea5a511f13e",
+    "depth/front_right.png": "6f68287071ebced96546b0767a8f46e8f862d1d4743f63d700b807aa3f488968",
+    "preview/contact_sheet.png": "34e38f12458ed8c7ef145bd5d3f59fd738b84039b50502bb8d219c2c405110e3"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\pirate_shipwright_p3_20260327_191100",
+    "maps_dir": "bakeoff\\pirate_shipwright_p3_20260327_191100_maps"
+  },
+  "notes": null
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T19:33:10.004535+00:00",
+  "foundry_version": "177b1a8",
+  "identity": {
+    "subject_slug": "pirate_smuggler",
+    "display_name": "Smuggler",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "pirate_smuggler_p3_20260327_190724",
+    "seed": 850511,
+    "generated_at": "2026-03-27T19:08:13.782953+00:00",
+    "accepted_at": "2026-03-27T19:20:05.724259+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "177b1a8"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "62001350ccc1e2f11a8d90d2473a59c4b139a0e457f73294eeea03763c1151b1",
+    "normal/front.png": "a26da0a57a1a31dc0b642c7efedca75069e78b5e8444b53a29d780158068a2d7",
+    "depth/front.png": "b752cef075b1009c7f23087bae4de758d16565fc39b8761c4a7c71b4a865f27f",
+    "albedo/front_left.png": "471eff7fdb66e2f6b1246dce1098051356456c3607ad622612f9ff0af8b6ffbe",
+    "normal/front_left.png": "ecbd878e04d8104d72dd5d9db4ddfe15aae5cdcb1b0db05460d890b9a3dd543c",
+    "depth/front_left.png": "482cd528da16085f47428d8bb44aab0be093811eccde536adb21155f264a9155",
+    "albedo/left.png": "aaf180069c75ebed636c584b6c13a36cf7ebfff63ebe0d61cc954a071b065c5e",
+    "normal/left.png": "b6a7de9c2a38fbabfbfc40d13616f5d1875995b580a9ec415d65be6ecdb7283c",
+    "depth/left.png": "607c37302066f87af1407f5d8bcd93d782322693b99cb35b1b7ee36b59f72e52",
+    "albedo/back_left.png": "ff3e064ed8a0c503ad7451d41829dc4dbf847cca1f472f5291e4adec0b43d8d5",
+    "normal/back_left.png": "ce36089ed53da1bc2cd85cb9992b4845b94398c47f8ec33f3f359d3c19d15cd5",
+    "depth/back_left.png": "25080b86b5c00747abf09d9763c96b04757204e75a4a4dd55a3c2e1d2cb52016",
+    "albedo/back.png": "85ca0a2ff500e58ac1d894ce414b39e30de3910d72c1e54028434fa0d1132150",
+    "normal/back.png": "3b42131b97caa4b474fca8089516d01244e44e296dcf54f3ea56127e0527d045",
+    "depth/back.png": "b39ab129d6e8f756bbf691744b05c90f89c8fe6531a2cdf397cc6af8df8b22f2",
+    "albedo/back_right.png": "69e099f69d1f1680c5366331942eb27bf5621645cd4af4bf146180a26abe1acf",
+    "normal/back_right.png": "710a5f1e66f592e46d94ae23fe20c10cb47675b465adcd93bf56e146797ffeb6",
+    "depth/back_right.png": "5ece95c4b51538a9f8f1ec916ae5a7c97ff7797581d150cd2286fd2455c12962",
+    "albedo/right.png": "046f23950476dc8f6c41d76405b75ad96143e632e2a06fcd14806ed58f8858cd",
+    "normal/right.png": "3e3135dfb781d1a04b2dd7a78f655142b80b1459a00390269463a1df098c020d",
+    "depth/right.png": "a8883b8d68b987aa56be7d7724b0a62b65b7eeb76df60479d955ca606d213c9f",
+    "albedo/front_right.png": "a3b27656f21f2dfc4fd25a14fc7b053cdc1da194d5968bdd1bb1db211170e6b1",
+    "normal/front_right.png": "e7494597eb01a8b1f347ce8db6cd0525de055c591ef30e6c02a209160ce0ee01",
+    "depth/front_right.png": "6a4a3d4f7311da560623bcaa8c3a3680c6c8e839660e6b231c36e418faaa84fe",
+    "preview/contact_sheet.png": "eab9558628cdaa14a7f0e00db54d5b35aec97918a8d1c0291b73d9dab45ecd82"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\pirate_smuggler_p3_20260327_190724",
+    "maps_dir": "bakeoff\\pirate_smuggler_p3_20260327_190724_maps"
+  },
+  "notes": null
+}

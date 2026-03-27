@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T19:32:54.207336+00:00",
+  "foundry_version": "177b1a8",
+  "identity": {
+    "subject_slug": "pirate_siren",
+    "display_name": "Siren",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "pirate_siren_p3_20260327_192913",
+    "seed": 850513,
+    "generated_at": "2026-03-27T19:30:04.993852+00:00",
+    "accepted_at": null,
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "177b1a8"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "11de5d697c0d025ededc69dcce285d9298825fabcf86c2ca2fc6016881fdf251",
+    "normal/front.png": "052c37121049cba1b2267f2fcdeeb8d98d8395d9714fecb76c57b94bfa4009f5",
+    "depth/front.png": "50b61ee34b1946fc72f8ae28807610901e2eeba73c64d283191f4e4eaf5a0add",
+    "albedo/front_left.png": "b89e1550ab15260ead9e5b707e02786c62603486bbd70a1d6202a8ed487d24bd",
+    "normal/front_left.png": "ef11cc26254665d9ac0209f6160f0eea9ed276e2099ce6c449425ab04fc9323c",
+    "depth/front_left.png": "80c19fd52580f7be4112eab7dc109ec709649abc5fc44a856b18cabf0ce99aa0",
+    "albedo/left.png": "bf3a29a25170b87a40b95bfacc72d1f4376d9c4de4431e042cf6789a84f59a62",
+    "normal/left.png": "96d7a25398dec5e7a851859f8d9e848ab5e5d10a843569522dad967d5ce7eb4f",
+    "depth/left.png": "d020debffb2e14fdb9ad501f3689b7e58acf0e993365aa1c497eade7d7f71385",
+    "albedo/back_left.png": "c03951d2f562f1a43b2cdf2088a2cb0997f40e8b3137efd384a1ebfad4da139d",
+    "normal/back_left.png": "a6fad054782c767ed19925b889543db3481baeabed561990455ee1ecda5ff4cd",
+    "depth/back_left.png": "8b7833c045f1b44d39466ffd27976e4c5070ece592005da9b0c80dd291731b16",
+    "albedo/back.png": "ac34c36a2fbf1cf2c6e31eea125d6118c03d995c8d35062b0739acaa9cb348ff",
+    "normal/back.png": "809d92c54695050b9da4f6783adf22ccbb247a9877eee8ec1a681c27701a809c",
+    "depth/back.png": "07057eb21506fefbf58cd0e0e143b781e34acadae2ab55704d0f657b1572b0d4",
+    "albedo/back_right.png": "3e11c9259acb0b3ef92038fda3a9d115eae654d9d0dc75a18ea867a56c0b3c91",
+    "normal/back_right.png": "792a73c3b631b523baea5fb9a93e748d437758881a53cb7e28943e1787643f46",
+    "depth/back_right.png": "4b7d837df301613289d75370c6c220ca3ef9ad627dcd263312eaa25d14e9400c",
+    "albedo/right.png": "71dc6e41efdb30eb183f9ac003eddc8b598b6ea18bed188fb4a871c9ad226cdb",
+    "normal/right.png": "5133b87529140c9d9ffde580418741f11177e6b7e7c814aa9844584206fd6601",
+    "depth/right.png": "d1e1241c769785bc9fac32753460e8e38385fc640e8c123f9642217e7c73c7d6",
+    "albedo/front_right.png": "e2eb5a71d6dbb1b6c7ac34c32a7c211d728827efba8bcc0002f2107e42cb0fb9",
+    "normal/front_right.png": "d9953cd69432fd792e43fb90fe2c7d04c9bf2c727c739ddf31a01133cc2a0630",
+    "depth/front_right.png": "135191bcc2ee2551dfd96c4058c2a6eafeaffc0ca188d7de3b72790b170b6572",
+    "preview/contact_sheet.png": "84516c2b775896f2aec7b03878a1793d2cee0470b3583e19b887982f1f56c654"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\pirate_siren_p3_20260327_192913",
+    "maps_dir": "bakeoff\\pirate_siren_p3_20260327_192913_maps"
+  },
+  "notes": null
+}
