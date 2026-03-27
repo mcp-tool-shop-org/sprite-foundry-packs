@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T20:52:50.015522+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "townsfolk_innkeeper",
+    "display_name": "Innkeeper",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "townsfolk_innkeeper_p3_20260327_200752",
+    "seed": 816100,
+    "generated_at": "2026-03-27T20:08:50.735575+00:00",
+    "accepted_at": "2026-03-27T20:38:26.677904+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "2a8933d447ed3793407e5b839001f5acd955eadc0cc1c4ce0f7fd28946175c53",
+    "normal/front.png": "1d5ff6abcd4c1de153f83b3f143b14d5b20c0f42cba6c7d9671b9b4614ff7df2",
+    "depth/front.png": "c138850cb02b4598a61f4a9d2628a0536763c3e48e4abf92608baf4db2077cc3",
+    "albedo/front_left.png": "ea06a44fc9f8ca44903ba46b8ce9b03ff3488bddf0f880b0264e8904a4b68ed2",
+    "normal/front_left.png": "0c0f1c37ad3adea024da2b4221b84327a5c878f0ce8a30171088b29e4f3d9b53",
+    "depth/front_left.png": "ab42f242e7637a88af290abd2c9b3860c9a0ec6ab346fd2cb54e451718580985",
+    "albedo/left.png": "2d55c9cab1b11b1422c47de27c7a9fc3075146fb22c30b241bf4b8ea9b4c7ee4",
+    "normal/left.png": "5462d6285c5b8cd01fe8a633eb981df5be1404351c4eae23e35f5fdb88039f3e",
+    "depth/left.png": "026a6cce6deab45f19267c9d6c13fbc2e74abebc5329e5bcf084c5d3f665d968",
+    "albedo/back_left.png": "32c53a1155c4399a193604c2c6021a3223378db0ab808ef658847128c8419c55",
+    "normal/back_left.png": "47101eb6b01d598371ed19f828590f700ac880545f859b0bc305bb75be2844d5",
+    "depth/back_left.png": "b1d630c250b56a461ec0f85786c8528fd189ea171133fcf1a97d71e79356277e",
+    "albedo/back.png": "d6c1bee4e02a8ae5e4f9ff2bdc7d5ca55869b3e3405c699fd95d2926819e4fcf",
+    "normal/back.png": "83a7a592203042148fe1f04f1c04354fd15c2ec8d34182e23fad24b871bcf479",
+    "depth/back.png": "b9fb010cf41895a3c146ab188bd6d1f0a12f0b892455ca9c9cd0972c1713a2c4",
+    "albedo/back_right.png": "ef6fdcf4a91139da3709cdaaf7234e212f3fe1dd386a6738735386638aaa4130",
+    "normal/back_right.png": "b210bd44e59d58733d195f8e9b3a2e9af0bdd788ef1385ec339fc23b652602cb",
+    "depth/back_right.png": "6953a063077ff102fcbb436ea07d39abe62814f65e1b765205cb5ce6e2593921",
+    "albedo/right.png": "be6482df56c8f190d0dc3a2aa36132bb455465f0ffe27cb821d6a203f3607e6f",
+    "normal/right.png": "7b67dcc5b72e34d67c9cb3d0a25d77cabb8f8668ad29c2a68a7c3ded12de10c0",
+    "depth/right.png": "6325df9bb7b72834159e3b73ba6d4043af700340f763e6e33d999d0916709064",
+    "albedo/front_right.png": "51f6411f9fe1c80cd54a7668d1f50d64f5ed1c10a7daafa6b776b77bf72f0aa2",
+    "normal/front_right.png": "b3f97788d7c78dea0adcb14b5959cfd9fc290dbb92ef272e918a00d8cd8f8d70",
+    "depth/front_right.png": "eaa42cbd798c02c3419825542ffa9922e66ef5d88539ad8600b23274d2a71486",
+    "preview/contact_sheet.png": "a5ac4d82cdce5678351fbc00b835f8c97c6ef7b45b115ef4a0e1dc51f77c3b4e"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\townsfolk_innkeeper_p3_20260327_200752",
+    "maps_dir": "bakeoff\\townsfolk_innkeeper_p3_20260327_200752_maps"
+  },
+  "notes": null
+}

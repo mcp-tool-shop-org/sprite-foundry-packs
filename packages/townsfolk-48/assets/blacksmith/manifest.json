@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T20:52:49.731976+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "townsfolk_blacksmith",
+    "display_name": "Blacksmith",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "townsfolk_blacksmith_p3_20260327_200629",
+    "seed": 816000,
+    "generated_at": "2026-03-27T20:07:31.123629+00:00",
+    "accepted_at": "2026-03-27T20:37:21.189789+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "8fe0ad7d87844effe85b3397482f8cce6a8eb411ddb80d5461d1004b31c3d11a",
+    "normal/front.png": "58d817d0a15de53f7779384e107242038151ac6afda19f650f919cb22f747d75",
+    "depth/front.png": "134e1d60cc1bb0d839fb4df3ca7c15323cc059469a5dc68fedb019f609455dd2",
+    "albedo/front_left.png": "eb9e1c98b4316b4fb76b82e1b2a9891e3009d6ffbc3c1644c0524846d02379fb",
+    "normal/front_left.png": "c39b8c50387961ded70d2fe32d53c8a0cca1619ec827b7c991f8cfdde311edb9",
+    "depth/front_left.png": "234d2a5b988b3f6925be3d5b1417d69ec9f7636d40eb2c4c5a0a69ecbbc52d97",
+    "albedo/left.png": "decc28d0ac3de8b28046031e3a2f4375cb1b815d9b2aa7f48a546369761e83a7",
+    "normal/left.png": "d8cb46c196e057852fe1281d51899b7ea3a0e5883788646d01eca6f86d61701d",
+    "depth/left.png": "fafefdb692456a50a8c04c1246cdaae3cb2ba009e323630119775fac2f2e64f3",
+    "albedo/back_left.png": "cf5ffda367d318dd283806949e325d02f2d2d7222390967112ca1b81af191534",
+    "normal/back_left.png": "d997f8f0b6ffcaf0e8a4f63ba8384cecc06614c9b00963dbe88a120f85af1191",
+    "depth/back_left.png": "1be8ba8c69be44d7cb7ab0fe73d330a9833680de1b11103530daade5376300e1",
+    "albedo/back.png": "5ff23acc9d35b05ac3efbfb3393e9567264c83af8e119af0e556fdfb5babc985",
+    "normal/back.png": "c8c4002336ea6d8a8f3301134a26399926e72716782443d2e85e768d7dda526f",
+    "depth/back.png": "0c53777eeb21e452a00fb129343d881199a8aa3d61612e171f92a8bbe2de6e9c",
+    "albedo/back_right.png": "bd383b7b6bc59ef1e76bd27620a99482a9639526646876ba37a95a7f48a5775f",
+    "normal/back_right.png": "c2f9e7da18935c73076c0b8319f5478268a8ea0243c1aa86cecbcd2cb0ad973f",
+    "depth/back_right.png": "e47ff6e1b49574f638ae1448be1a890384e1bf59372d98b1f98f5f2cb24cda01",
+    "albedo/right.png": "755d9491c9e027b988c719d6851a8844b1097254ce059ecd7976ed7458a287ca",
+    "normal/right.png": "f41a117e405a8474346a4142aa266872bd835cac7516739fec8cda3351650a83",
+    "depth/right.png": "ab423528264203c70de267b5d035ea0c92aef37598c655e58747e6c62a34c8b7",
+    "albedo/front_right.png": "b4cd39841c2810569c55e2288686a2a94f02375c5664f9af53ff37d19e192e5d",
+    "normal/front_right.png": "404908f7ac308749cbdb52589445993a5f4007ea0758d80ea4ab4be56a6b2c79",
+    "depth/front_right.png": "c4507317fa2a01a2490e92e5ad4536bbb75cf7d82a5919e4ed8319d940e88070",
+    "preview/contact_sheet.png": "3bf84d9d9c7eb5f1adb0d233c2344bf850b147362289003ff1ba1d231604e4d8"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\townsfolk_blacksmith_p3_20260327_200629",
+    "maps_dir": "bakeoff\\townsfolk_blacksmith_p3_20260327_200629_maps"
+  },
+  "notes": null
+}

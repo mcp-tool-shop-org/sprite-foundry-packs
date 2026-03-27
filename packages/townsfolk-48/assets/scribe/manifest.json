@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T20:52:53.079659+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "townsfolk_scribe",
+    "display_name": "Scribe",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "townsfolk_scribe_p3_20260327_202251",
+    "seed": 817200,
+    "generated_at": "2026-03-27T20:23:55.470965+00:00",
+    "accepted_at": "2026-03-27T20:49:31.255872+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "eb29a9d1eb6efe21afb093b31617f9aa362fe4eee27b788f3a471ea7b801b1f7",
+    "normal/front.png": "717031e84ac09b0dbc75a86044ecf4f815132555c08a0f06e4fccfe35a34b863",
+    "depth/front.png": "049a774d8b75839de6e88210a3e7447d6c24fb4f9a33d33de270235dd1d4287d",
+    "albedo/front_left.png": "c4e59d5842e9533aae8ee7b5c2947c1bf2566242b0a798ac9d7633cb3225eeb4",
+    "normal/front_left.png": "295efc40a15258c2721e4fe55ffa3fecb1d9a23cedf3868744740b156c6d551a",
+    "depth/front_left.png": "e36dbc3c56e43c96327ed3965ef5984a824a24f14127c891d23fef454bb89f07",
+    "albedo/left.png": "893b2b96a694ff40649a8cfebe230cd135965e8f882e0c9a80174a16a13171a5",
+    "normal/left.png": "92878b2613e6c42f283a8e910358f5f5ee1358eb9bcacfff7b15f0f9d3420e91",
+    "depth/left.png": "2f5b2e0cdf8431decd1d281130edeb83ef5904245c9fbe0f6b91bda0f1d4e217",
+    "albedo/back_left.png": "98bf4559abc9e9919c9e7d42d45fb9d91c7ede2257eb8a1fdde9f65e438d244c",
+    "normal/back_left.png": "e64c9f68b3d83a1414aeff41574a73130b43da19b9d91659ea05627a592c71c9",
+    "depth/back_left.png": "1c59eff491b4a938616fea747623cf2bb1ac29009f086a96bfb962cbfacb79a2",
+    "albedo/back.png": "572a8cf07cdd766f0b68cde01494eeb317b972cba64ebf341e34a5ef64f92a36",
+    "normal/back.png": "fd9294ee7c91760913de430db206266f1f0350bde10d93c4c00189cdac6ed1bb",
+    "depth/back.png": "f25ffc80b5f4a355ca05cb721207df7457270057f0d70ce6f1b789e31cd3d0e0",
+    "albedo/back_right.png": "5c072cd993cc3b4bcfc4d5f666fd88a72434179f5f79249cae19425922921391",
+    "normal/back_right.png": "ecaec994cd64ecc18021b06970d68cbe46e0bc87647df9eb68d61de9cbdc8895",
+    "depth/back_right.png": "174094d818e5bc233cd4194a01b405765276901944cfeffb48a8d8e400665570",
+    "albedo/right.png": "15e7ba5785549c7e53dd660979c04583736c2fc4abfb924ca4a74bfb7beda47e",
+    "normal/right.png": "90afda6e99b29390da69c952e02a131ed831db59ea8266093bd2c8bd310b3f4c",
+    "depth/right.png": "5eff4283c367b21b4f74a57c196630ea98e678a274f079ac51b803dd62b9250f",
+    "albedo/front_right.png": "40c4d9c580169cf5ec934c74d00dd2a520e2b02d26c4f37696e19fe8bff8a21c",
+    "normal/front_right.png": "5303d9254407f86354645d6947f7af955024faf08eeaf4baa5e565de457bbfee",
+    "depth/front_right.png": "32451482fa795bcfcf32702a30d6fb95502400ac507138915204a507dc87f6a2",
+    "preview/contact_sheet.png": "1da55cc2a1f4b69f636c13f05c10f5c040db79bf648145a7e4d28a0d15e40891"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\townsfolk_scribe_p3_20260327_202251",
+    "maps_dir": "bakeoff\\townsfolk_scribe_p3_20260327_202251_maps"
+  },
+  "notes": null
+}

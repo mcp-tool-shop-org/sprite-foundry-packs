@@ -167,14 +167,46 @@ Each pack contains 8–16 character variants designed around a specific theme. E
 | Kraken Cultist | Deep-sea zealot | Tentacle tattoos on shaved head, ritual dagger, mad eyes |
 | Shipwright | Ship builder | Muscular, carpenter's hammer, wooden planks, tool belt |
 
+## Pack 06 — Townsfolk
+
+**npm:** `@sprite-foundry/townsfolk-48`
+**Theme:** Medieval NPC townsfolk — the people you don't fight
+**Variants:** 16
+
+### Town Core
+
+| Variant | Role | Visual identity |
+|---------|------|-----------------|
+| Blacksmith | Weapon/armor shop | Burly build, leather apron, hammer on shoulder |
+| Innkeeper | Rest/tavern hub | Stout frame, ale mug extended, keys on belt |
+| Merchant | General goods trader | Fur-trimmed robe, balance scale, coin pouch |
+| Town Guard | Town watch/authority | Chainmail, spear, round shield, open-face helmet |
+| Farmer | Rural civilian | Straw hat, pitchfork, simple tunic |
+| Barmaid | Tavern service/rumors | Braided hair, serving tray, tavern dress with apron |
+| Noble | Wealthy quest-giver | Velvet doublet, jeweled chain, refined gloves |
+| Beggar | Street info broker | Thin frame, ragged hood, wooden bowl, patched cloak |
+
+### Town Life
+
+| Variant | Role | Visual identity |
+|---------|------|-----------------|
+| Herbalist | Potion/remedy shop | Herb pouches, mortar and pestle, green shawl |
+| Stable Hand | Mount/travel services | Hay in hair, rope coil, leather vest |
+| Fisherman | Docks/waterfront NPC | Wide-brim hat, fishing rod over shoulder, waders |
+| Minstrel | Entertainment/lore | Feathered cap, lute, colorful patchwork outfit |
+| Scribe | Library/records | Spectacles, quill pen, leather-bound tome |
+| Lamplighter | Night-shift atmosphere | Long pole with flame, lantern on belt, dark coat |
+| Town Child | Town life flavor | Small frame, oversized cap, wooden toy sword |
+| Village Elder | Village wisdom/quests | Long white beard, walking staff, heavy robes, hunched |
+
 ## Asset counts
 
-| Metric | Per variant | Per pack (8) | Per pack (16) | All 5 packs |
-|--------|-----------|-------------|--------------|-------------|
-| Directions | 8 | 64 | 128 | 448 |
-| Layers | 3 | 24 | 48 | 168 |
-| Total sprites | 24 | 192 | 384 | 1,536 |
-| Manifests | 1 | 8 | 16 | 56 |
-| Preview sheets | 1 | 8 | 16 | 56 |
+| Metric | Per variant | Per pack (16) | All 6 packs |
+|--------|-----------|--------------|-------------|
+| Directions | 8 | 128 | 768 |
+| Layers | 3 | 48 | 288 |
+| Total sprites | 24 | 384 | 2,304 |
+| Manifests | 1 | 16 | 96 |
+| Preview sheets | 1 | 16 | 96 |
 
-All 5 packs have 16 variants each — 80 characters total, 1,920 sprites across the full catalog.
+All 6 packs have 16 variants each — 96 characters total, 2,304 sprites across the full catalog.

@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T20:52:52.821445+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "townsfolk_minstrel",
+    "display_name": "Minstrel",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "townsfolk_minstrel_p3_20260327_202124",
+    "seed": 817100,
+    "generated_at": "2026-03-27T20:22:30.851826+00:00",
+    "accepted_at": "2026-03-27T20:48:35.167987+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "4afaf6cfc5bb1ebdc9cbac406d57dd57ede2b1dc1509d69ab69fbe95016bc9b0",
+    "normal/front.png": "2c4f40fa24561d7b7a86972c9270b3270827b7d1c318759fc5e55efb8e3d8e92",
+    "depth/front.png": "59790e189a20ce162dc994f921b4b3f5e9a39cfb4845840fb3a91c6cb59ae0a8",
+    "albedo/front_left.png": "fb05c41e16c954d5b8b4ea1e09d6ffe3aea275f6e0307a5ab0d512746da26e5f",
+    "normal/front_left.png": "847d7fa78884307292ddafc23b62d718d0bc8ed07756e08bbfa7a309338b8b92",
+    "depth/front_left.png": "fa252266c559812e5972544195a8ba9df9af872c448ea2c95ef57671e8fce098",
+    "albedo/left.png": "75f0784f065a2c078da209d9ba771d7587ed682adf855195e1dc2e52e478f99c",
+    "normal/left.png": "adccd5f88947a827d809a16f790b1444a2a2455f10536e86dd48de5dc5f8cb51",
+    "depth/left.png": "711e04b495b7429e1e0d7ebaec167a21cf1fdd43846524c00057b954008b8a7a",
+    "albedo/back_left.png": "9427b5b43c785fc26b8b62d8b8d14923f31f7f735e59ad040d52d97400a64e84",
+    "normal/back_left.png": "0daf44ad011f4edb8aef128df4a39f2348c27cc77db0ab306738927000bba591",
+    "depth/back_left.png": "b71436885c237d9c3f6350a6d13c6b13a9209de6a06ccb0d2ab888563bbcd1f6",
+    "albedo/back.png": "9c3eb8953eec0b78bef3e3777119c16638bb66082e26d2bc6b8ddbc1cf8b26c4",
+    "normal/back.png": "c9c5e53934fab61e2af087c2b8f83d10db1d115bc57dd933ae88a6100f7f7c51",
+    "depth/back.png": "8a96292988c0da21d86121728bfb75de6fd5944e0e78922126318553a0aa6272",
+    "albedo/back_right.png": "7ec27c5fbf2bd4f5f65b12a3a104972d7effe798fc838f9d974f9a4aea87b0e3",
+    "normal/back_right.png": "a48c3e63a303886dae73f446ed090d962adc1c9bafe79daa522835eab3bcbed6",
+    "depth/back_right.png": "fe82b01024bc7fa01445eb6d3a9cd3d949da11d7aefe8dbc58275e94810db0dc",
+    "albedo/right.png": "ab585a62f808beb46ffbcfdb4c287c4eae491b9f9c5a3943da033ba7f696d45d",
+    "normal/right.png": "5956a654e2dbc492422481ad3eea03d07a15e82aefe1f9563f1615cd431183a3",
+    "depth/right.png": "d1b8c888d03655abe2ac7001877593ea1554e63c682d0d82cbf9b2a6204ca991",
+    "albedo/front_right.png": "e745233b0054e77bb07e910118faba25805bf02930b3550e35d3a95156f20ab0",
+    "normal/front_right.png": "6652857c75de32216bb7b05e00da7f3028cb5bbd155181ee5cfb79bef6ef9afa",
+    "depth/front_right.png": "39693ac1ee19c2b11290e792d20f68a7247fd90efd6306c0095e4b47af02a057",
+    "preview/contact_sheet.png": "3ebe28ca7e223776fc626c1b3101f71a05b51d5cc3b90e2a941ef7acec713a83"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\townsfolk_minstrel_p3_20260327_202124",
+    "maps_dir": "bakeoff\\townsfolk_minstrel_p3_20260327_202124_maps"
+  },
+  "notes": null
+}

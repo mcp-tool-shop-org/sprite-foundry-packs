@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T20:52:52.561588+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "townsfolk_fisherman",
+    "display_name": "Fisherman",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "townsfolk_fisherman_p3_20260327_201957",
+    "seed": 817000,
+    "generated_at": "2026-03-27T20:21:04.490183+00:00",
+    "accepted_at": "2026-03-27T20:47:37.723776+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "0018ef2949893926be665ecf50d7620589e208b7d6177b02ae0d5308040cabca",
+    "normal/front.png": "17b09fe99bdeb3c5de9c8a7897dbf3df14db87663f3e45ab05f91670c1e86af7",
+    "depth/front.png": "6566ffab6ef3562f77eed3f033caf7e7fc1409112de42b6c856f42b2031a2516",
+    "albedo/front_left.png": "3591e22380ab165026bcb243ecbc6cb8400299de041d58799989a8249be2235d",
+    "normal/front_left.png": "3f8907eb5a7647de470aeb8c2a45c5f760c2683293b26c78cb704b3ae0601772",
+    "depth/front_left.png": "24906c1ec484c9d5fcf94c5f73c4e6c0369f17caed6c14241fa30b5dcf59e3df",
+    "albedo/left.png": "0bc0e448cc6976bc27773108a1c962485ef2d1d831d340d140485c3d6e047dea",
+    "normal/left.png": "473315dcfc6b88fb65a94867bee3e7bcfc3ef98bd2e5d661b9d10c0c942c4f17",
+    "depth/left.png": "abf841f3400d474bfe654895a2a38f026c902adfb89e89de9c1f62cab44f6a6e",
+    "albedo/back_left.png": "591b5a4b0a07c13a21b049d50246d1c8d0c30f9f40b3fa14d8fe5d699bbca1b5",
+    "normal/back_left.png": "0eebcf4df97d443eecd6079f98c49968985980ef7e6dc926b2782fb7ae9f1484",
+    "depth/back_left.png": "0ccc5144e405768c52764f467435393d196aeff10e1a2f86487ab6eac7fd09bd",
+    "albedo/back.png": "afe211a3b95bcbb4b43b6c4bdd906aa3573be86b6c655f5e80eb68b25381223f",
+    "normal/back.png": "3fd21d3243a7cb1f825755d23cb810859ece1adbf46a0e5037607358142f9e30",
+    "depth/back.png": "dd21b15d396f1120bf6c1e340486365767a89e576120193c88b6aba4dda579b5",
+    "albedo/back_right.png": "e470e3beccbed73205bd649b2ecbb753d56d608c7f34be8ec78abf1b451bd8c4",
+    "normal/back_right.png": "b5a1961ee6d3234385f50cdcbd328d10af79a6fb7b4870fd0cbc96ed3dd00d41",
+    "depth/back_right.png": "b981ee9c84e9023b1da2c89c5795bf418b648103eee99cf8c6396b75ee300e3c",
+    "albedo/right.png": "e1aec26ece3fe895839717c91f260197e625868515d4aef66fe0ae67922f1ba6",
+    "normal/right.png": "67ee523123e0263d4cf6837e56d7951918f37cc4716d6368a3edf43673808242",
+    "depth/right.png": "43df0c1e77d86140bb8062c93a587513db097babaa86ca3e4ffdb4a515da55d3",
+    "albedo/front_right.png": "714417b9dfd7910e46ce436e87b5fc9a4fa4c42271e2583f3b11bbf551cee2d7",
+    "normal/front_right.png": "c6d0e6dde333761d2e6188feee16691d7abb25aa56c166286fc918b086241a1a",
+    "depth/front_right.png": "df6375375a6ff11ae6afba6bedea64d062553c0e055e7422727ec3f248c7b3aa",
+    "preview/contact_sheet.png": "de27bb85799af21f27b43fbd78ceb167ab4e7474cfd063171b2000964363805a"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\townsfolk_fisherman_p3_20260327_201957",
+    "maps_dir": "bakeoff\\townsfolk_fisherman_p3_20260327_201957_maps"
+  },
+  "notes": null
+}

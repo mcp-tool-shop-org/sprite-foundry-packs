@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T20:52:50.265555+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "townsfolk_merchant",
+    "display_name": "Merchant",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "townsfolk_merchant_p3_20260327_200916",
+    "seed": 816200,
+    "generated_at": "2026-03-27T20:10:23.099235+00:00",
+    "accepted_at": "2026-03-27T20:39:34.685420+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "6980af7a4aefc927706d89ec41a260f8bad5b9501c58f556269ed35b693b6def",
+    "normal/front.png": "e22a528f7ba4912159395488df9cd90fda0ca1c8b3f8c21f6edf75229e641c03",
+    "depth/front.png": "c20b27ce51011d8c489b7e0609a6cd53357dbec06e04e5260db2df5b7b6051e3",
+    "albedo/front_left.png": "4e41255c4da973d5b9b97022d4de030de013a503c31ba02f5fdd3d165b758253",
+    "normal/front_left.png": "f7c1dfdadafb6960d6c75570d4ea1994e974e7e695c2d96e4bbf4917afe2f449",
+    "depth/front_left.png": "3e0d3909d974c55e40cc348d9f48f15e92d62eadff1c05319c00a77c18de46ad",
+    "albedo/left.png": "2331c4d3dc6085c16f6126c35829d449e3f90bb80c85a56144a736b5181b12f8",
+    "normal/left.png": "f00ca987872952ee547e9b9b7ebcdf5a30bb0b2ba7b28f5aeaedb0a63315204c",
+    "depth/left.png": "8df19ab366712242ed53907d3cecc1f170ee344f97ccc6dfcc83061ac266894d",
+    "albedo/back_left.png": "1df9483fe6673c15f6642ad1a6f817cf5c8c3087868208a80270017c904ae5bb",
+    "normal/back_left.png": "f6ba3a71b510d5aa9528d0e629f39d1d598d6abb057e8812d5e22009ceb0d20b",
+    "depth/back_left.png": "88635dbcb15e6d4c0f97db7e51cd2cfadf856241d7f45a98897696bed4fd0f07",
+    "albedo/back.png": "f032c9cb6a878dca3a4684980fe4d54b816d04099110f71412cefdd95dd25bc7",
+    "normal/back.png": "cf68ddaab884a56633f2efa00d166d0e511b80aeb82984acdd4a50e15ec266f6",
+    "depth/back.png": "9fc5ef0699a3dfda57cdb40f6bfb461a3983c50bb7cc1520c4bb2e1d6dbed5c6",
+    "albedo/back_right.png": "847fdbfc1947032ef0597f581cc75c65e0572e27090e59ef702f1a6621e567a2",
+    "normal/back_right.png": "3493e2090e786b9906bdddf8905df1e5c1b7880f06a91343e9b31ba7e71e5580",
+    "depth/back_right.png": "12bd49c0b6a36ff3cc92ee7c042cdf9aff8e9b927e5740dfc4b006edf001274b",
+    "albedo/right.png": "a42623cb68bf8aada515bd89a917ef4224299628722b623c06b5045533ac9d86",
+    "normal/right.png": "b12bffac9c217d8d1200cda8e6953529fcf542f88cffacbc6fe281fed0ea999c",
+    "depth/right.png": "1da85c7707d68a39cf866509be3ab2fb0f455db72f5fccec09af798ca292af80",
+    "albedo/front_right.png": "84724f4651c2e4588d0ee1a12e7f4c8b5c403fd49c36eb42630661666f22ec94",
+    "normal/front_right.png": "a72d92d7d8b7e1ecb441da0bd7530a2168939903b225b06b30f15d48e61d47af",
+    "depth/front_right.png": "bc0e8f4724b77a27f9f11672d390ff74b7b71efbec17f76ca56d1960d399539a",
+    "preview/contact_sheet.png": "847e1ac173920d9ae8ba23e51ed9381ff43fb4220e0a172fb7c7a985e98f89c3"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\townsfolk_merchant_p3_20260327_200916",
+    "maps_dir": "bakeoff\\townsfolk_merchant_p3_20260327_200916_maps"
+  },
+  "notes": null
+}

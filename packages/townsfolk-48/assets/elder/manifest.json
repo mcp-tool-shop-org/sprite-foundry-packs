@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T20:52:53.885901+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "townsfolk_elder",
+    "display_name": "Village Elder",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "townsfolk_elder_p3_20260327_202648",
+    "seed": 817500,
+    "generated_at": "2026-03-27T20:27:46.233433+00:00",
+    "accepted_at": "2026-03-27T20:52:26.402181+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "2990e894007527e1ad6472abf7a68da5a0fecfe4a663d92f6b7361f52dc5fd93",
+    "normal/front.png": "95ce3c47ddcd5627bea98be165b9fb47433d4d117193d505bd5b35da79cad987",
+    "depth/front.png": "f690e7a6c5e62e8f05eb5954cc8dc519ed41c894f9d1fa8c2fbd16c981ba8938",
+    "albedo/front_left.png": "c276c07df9463c84833a8e6a1d591fbf0f4ca87388d20b5f2dba36ea519640c5",
+    "normal/front_left.png": "e3be6c35cd49ba344e33b6aa05ad897a6b3b86f4c5183f8042d2c6a6d1fe5a8b",
+    "depth/front_left.png": "458dcd09d0e63208f1e6e0920d6d677e8f5aed2f1db1cf025182fb22364aedfb",
+    "albedo/left.png": "87d4078c3c85bd9a37651f7dbbf4ffb7b6233ca6dbfb971f181428cffe7da8ff",
+    "normal/left.png": "5cb126b34e02c158f60cd32eb6a7e165c9a7436946f56510099cce564f3fca35",
+    "depth/left.png": "6d214a47b33bda8b83b81f8ef6c49d3dbb7566500ab6aa79f1274eb39f28a325",
+    "albedo/back_left.png": "0aec318bd16c7a41ee995569f44972a6fb1484d2b636fd323a56e3c588019773",
+    "normal/back_left.png": "d8c73b9bd713315def2748f626a68bb9f21c57e66e7badd5fd0ddc2a71ba83a7",
+    "depth/back_left.png": "54266051ca9e04fcc4f916d83db878ba978ea0b8b7e7f8aee2c2d603a30641dc",
+    "albedo/back.png": "952d660ede013e6b37d77f268cbd830aae65ef35311a98e86269ff90e2975e1f",
+    "normal/back.png": "6555c516f5a163d163d4f27da8dbc63c9fbecbeadf4a846ad626eee78f0989ea",
+    "depth/back.png": "3d64f8587025ee23bd3f108d8ef06e8d019aa1afb527daf169b261fcba08cf1f",
+    "albedo/back_right.png": "e9775fdad586779da1031380948fe8567ee8ec387a8b9511a15703375f513baa",
+    "normal/back_right.png": "cc83ee19b780e57db56ed30e1d9ad767159e689339dbe9be4884121300ee3463",
+    "depth/back_right.png": "7c31d3674f1d00b3830ee6a7db00ac27c04c367de4efe435f489cd3f71f3abae",
+    "albedo/right.png": "46b8cc8ebea74e3a17327cba4b4c9e158df7d52a7525d598606f58c62ae76c1a",
+    "normal/right.png": "c4872a7b76b0adefc228a637bcb5726eb046d4d70ac21f357b959fb568ce6b72",
+    "depth/right.png": "a0097f2195a02aa5455c2eab947d3de377b4f145cb4fa8320d3b796146d29706",
+    "albedo/front_right.png": "c70f13ffe18d71ade79c0f53928b1c987bf065d387f4371fc658b37a4dd5a855",
+    "normal/front_right.png": "a2413cdd27ef57f243501adfd46ee7b33b4e7cad642661b1c31805708f58421d",
+    "depth/front_right.png": "a9069423f43b95747d5336fcd9dae14679f7260cb9a77c31ed50713fba3c59af",
+    "preview/contact_sheet.png": "6cbb16c26b9d95c5816c001f9770ca43da9b49eaadd9107db80b632cf9b38ec1"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\townsfolk_elder_p3_20260327_202648",
+    "maps_dir": "bakeoff\\townsfolk_elder_p3_20260327_202648_maps"
+  },
+  "notes": null
+}

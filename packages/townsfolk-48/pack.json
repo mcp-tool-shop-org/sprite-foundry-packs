@@ -1,0 +1,26 @@
+{
+  "name": "Townsfolk",
+  "slug": "townsfolk-06",
+  "version": "1.0.0",
+  "tileSize": 48,
+  "directions": ["front", "front_left", "left", "back_left", "back", "back_right", "right", "front_right"],
+  "layers": ["albedo", "normal", "depth"],
+  "variants": [
+    { "slug": "blacksmith",    "name": "Blacksmith",      "role": "weapon/armor shop",     "path": "assets/blacksmith/manifest.json" },
+    { "slug": "innkeeper",     "name": "Innkeeper",       "role": "rest/tavern hub",       "path": "assets/innkeeper/manifest.json" },
+    { "slug": "merchant",      "name": "Merchant",        "role": "general goods trader",  "path": "assets/merchant/manifest.json" },
+    { "slug": "guard",         "name": "Town Guard",      "role": "town watch/authority",  "path": "assets/guard/manifest.json" },
+    { "slug": "farmer",        "name": "Farmer",          "role": "rural civilian",        "path": "assets/farmer/manifest.json" },
+    { "slug": "barmaid",       "name": "Barmaid",         "role": "tavern service/rumors", "path": "assets/barmaid/manifest.json" },
+    { "slug": "noble",         "name": "Noble",           "role": "wealthy quest-giver",   "path": "assets/noble/manifest.json" },
+    { "slug": "beggar",        "name": "Beggar",          "role": "street info broker",    "path": "assets/beggar/manifest.json" },
+    { "slug": "herbalist",     "name": "Herbalist",       "role": "potion/remedy shop",    "path": "assets/herbalist/manifest.json" },
+    { "slug": "stable-hand",   "name": "Stable Hand",     "role": "mount/travel services", "path": "assets/stable-hand/manifest.json" },
+    { "slug": "fisherman",     "name": "Fisherman",       "role": "docks/waterfront NPC",  "path": "assets/fisherman/manifest.json" },
+    { "slug": "minstrel",      "name": "Minstrel",        "role": "entertainment/lore",    "path": "assets/minstrel/manifest.json" },
+    { "slug": "scribe",        "name": "Scribe",          "role": "library/records",       "path": "assets/scribe/manifest.json" },
+    { "slug": "lamplighter",   "name": "Lamplighter",     "role": "night-shift atmosphere","path": "assets/lamplighter/manifest.json" },
+    { "slug": "child",         "name": "Town Child",      "role": "town life flavor",      "path": "assets/child/manifest.json" },
+    { "slug": "elder",         "name": "Village Elder",   "role": "village wisdom/quests",  "path": "assets/elder/manifest.json" }
+  ]
+}

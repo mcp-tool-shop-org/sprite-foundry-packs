@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T20:52:51.099685+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "townsfolk_barmaid",
+    "display_name": "Barmaid",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "townsfolk_barmaid_p3_20260327_201329",
+    "seed": 816500,
+    "generated_at": "2026-03-27T20:14:31.211986+00:00",
+    "accepted_at": "2026-03-27T20:42:41.897415+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "f95eb1cb915e81c9a145fb2de8e33505797554705ee29421cc6f2b5ae39c0131",
+    "normal/front.png": "a76653ba89ca7b3bcaf4e74a5f65b92599557fd825f18f3bbde7f4c17c3f416f",
+    "depth/front.png": "4b84f6b0e375f490a7d3f5d5538ab31edd6720067fd88abcdb0272b428b2ebae",
+    "albedo/front_left.png": "30c3f8bafabf4a22eec950b065a61ab3c691849e72dc1b96303aa09095f87294",
+    "normal/front_left.png": "97d35de8a77a522f5e54db2d68308d3c931f37f17b23a5a271c2a0949f08abf4",
+    "depth/front_left.png": "09fa70333122a94ed58a5d05ba3055d252a39cdc0ddc261a3c971edd2aab5905",
+    "albedo/left.png": "bf0d12127c65b9aa4828bc93cf0d3024f069d4e6cf0e4dcda62705077ececaee",
+    "normal/left.png": "0ed8d33a66ed10ecf13662bc524a0e69007fb9cbc07e7fc10b31a5b7922276cd",
+    "depth/left.png": "57a80b0046a85799892de3c1322349b409210e492a026b4743a923a5920dc84e",
+    "albedo/back_left.png": "19968b0668cbff651e8b8fc1655bc887863b2a0407300069fed139a25a8432ff",
+    "normal/back_left.png": "fe9b5ec517ea3719c2a5aa62d444afd9a773d44f95b7d2ccd3149798cf3a9fa5",
+    "depth/back_left.png": "4bf21282feffcb6f66c17a7578a180bdee6a25ab24dc3bfb3a0a871ec5c02aa8",
+    "albedo/back.png": "ca46d7442e1c0973f5a40175c6a6707bbbe47052301d63935ad1564e3326f77a",
+    "normal/back.png": "594c1f021cfdc0c0caebb4342358c2b391a854b7cabf1d6ef628983d3426b57c",
+    "depth/back.png": "ce7db2a36404ea5d117e8da8ea5fc1b019aa19626ce48be2fb2ecf768ffcb3c9",
+    "albedo/back_right.png": "7fb56c67cc2685ecba64c8b76bcb3cac806093c4f0d5f75e90aa43dd5b5e8b7b",
+    "normal/back_right.png": "460da296d87a2e0b91b5dbdec09dc5d02d02996e3deda6e25f533481f9695624",
+    "depth/back_right.png": "ea9679fe7f3f5204b9fc571ac74021c05f09bacd9fc35043aa8b7550c9c721db",
+    "albedo/right.png": "89f95f0a9ad3b95ff6c22d8541128c6b450afc27b341f431cb52c615d1a90bb2",
+    "normal/right.png": "5d203bab7254203aa88e89944bde4afb12f096abaa767cdaa18728f6f24b0540",
+    "depth/right.png": "baeea202c81a6e30dc8b983fbddfc240edce9a4620729f66e62ce7ebcae665ae",
+    "albedo/front_right.png": "8d3adea4848cabbb70a8563b8089a45bb1299e813b1122a469f8f570995fa968",
+    "normal/front_right.png": "97cc1d6de1060d2ba8402c4f83925b1d37656576e2f58ba5273bff0e6d43ade3",
+    "depth/front_right.png": "2f4641a77399539cebbf66939a673c3869660912b439d27eca5a28d42b1cd3c8",
+    "preview/contact_sheet.png": "5848d6015d2121578bd7d1ff03d65021afd68722bfa0fe53c57ecadcc672b74c"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\townsfolk_barmaid_p3_20260327_201329",
+    "maps_dir": "bakeoff\\townsfolk_barmaid_p3_20260327_201329_maps"
+  },
+  "notes": null
+}

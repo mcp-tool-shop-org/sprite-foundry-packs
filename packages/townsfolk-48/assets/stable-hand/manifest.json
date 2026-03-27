@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T20:52:52.259944+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "townsfolk_stable_hand",
+    "display_name": "Stable Hand",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "townsfolk_stable_hand_p3_20260327_201841",
+    "seed": 816900,
+    "generated_at": "2026-03-27T20:19:36.549889+00:00",
+    "accepted_at": "2026-03-27T20:46:41.615372+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "9a6e44e16cefbdf93b41d34ed4908f9c3449c207f6fc8391093032da4d4f3394",
+    "normal/front.png": "5133b7cbb0098ec2b4c8597979bb010dbecfa437ed67db9e15ba3d5e23323094",
+    "depth/front.png": "0e6db1d1ea82415da9adaddd267747a6471a42ba831dce09d7b53ecf12b5ba1e",
+    "albedo/front_left.png": "c227b833471315eab9b4f8f09f806e26c97e5ad2488a202dd5023db9c3099304",
+    "normal/front_left.png": "5fbcd189b3912eb178e0f3def0ba1b6f72467bcb63480ba7fdd95ea15c11fbaf",
+    "depth/front_left.png": "276612a03b2fc8f1ce6ce4c8225f291b00eec16906406d639284dede13c11d85",
+    "albedo/left.png": "36bd6638118479d53862c73f7fd307131c5c32142dde3968b13613ad882d7801",
+    "normal/left.png": "8655dfe1cadf72a6d4301f38c90ac2d50912aae3bad1e25944dd3583aa53884c",
+    "depth/left.png": "be52a9c662c3778d0a3b04d44245ef61d074f5e4227c0b05142ec2648d3fef54",
+    "albedo/back_left.png": "91db80f804c7e0e7409030d76054624e8bde742e0a9228fb4c113bd712012f66",
+    "normal/back_left.png": "9bd6a24270ad2f653f954a6d817b66fd49db38b8b267c2a7ea3739ae58cbc420",
+    "depth/back_left.png": "2adf05da4fdccf415e14806de0073dd59d199148fb87b7bf31d34c150d6c9832",
+    "albedo/back.png": "6bc382d416948cb79a2d95601a17f5b3059d60f32bf3af432e36ffc5f261ca0b",
+    "normal/back.png": "ff760b3b19d1f8bb3166c25b3de452cc7c70912645e9c6d3aee4b3cca29184e5",
+    "depth/back.png": "f823b9777e31d7f65c5639ae4363b56721ea99efc9b2ee8838154cd823a7d93e",
+    "albedo/back_right.png": "01b5906e94f40064f2faa77b4a4bd52605a65d75b431881915882b141e54832d",
+    "normal/back_right.png": "c764e40e955e7a35e3e1879d16f9025b774c461b620e92c1dc0e48ea99789ffc",
+    "depth/back_right.png": "f511aa65776445e78c9d4e99554d1528963b174e2cea38018d2c7e5f8b11d510",
+    "albedo/right.png": "0fffb3272321049b8cdbac993dee61e3982b823c55b2ada071f3231a77b954db",
+    "normal/right.png": "099fb99207a7ca5a48d12c15291d60e723d1b2b779016b839afc3902b5e5f3a7",
+    "depth/right.png": "42e3f534955769e3688e42865597216e95e9420e179f679a67b27734be874653",
+    "albedo/front_right.png": "ab41fb08f9d1dd4cce57d654c2c30219822ece8b4d62bd369e7fb328898205af",
+    "normal/front_right.png": "437dd0b0c0bf59bc9e78563bb648bfbc9c2134932cbe310d1d869d2d1c55242d",
+    "depth/front_right.png": "a61f5967cd22e1320ac8d1a9af792185919b6de9472036306e7911e4899dd132",
+    "preview/contact_sheet.png": "3029af2a4b8d48de410827c89f443504293baec23d53c8e06f2e8cc157ea5a9f"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\townsfolk_stable_hand_p3_20260327_201841",
+    "maps_dir": "bakeoff\\townsfolk_stable_hand_p3_20260327_201841_maps"
+  },
+  "notes": null
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T20:52:51.948931+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "townsfolk_herbalist",
+    "display_name": "Herbalist",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "townsfolk_herbalist_p3_20260327_201720",
+    "seed": 816800,
+    "generated_at": "2026-03-27T20:18:22.012594+00:00",
+    "accepted_at": "2026-03-27T20:45:44.214771+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "fe9871d438a9ec2aef9ae1a4e4ce57e87e70496ec17b92c752db093ca185d221",
+    "normal/front.png": "8ee6756912b5d7f35047f4398fed5fac0c00a4ca84bf9e6d6c3297fa8b7e618c",
+    "depth/front.png": "ca19637c110cfd0a1051aa1e0fd3e1e88b5b4e9309c5c28513dbd2f8fa0c6872",
+    "albedo/front_left.png": "53b1180b73d58f83610a08423189fc5fba8a1b46bc4fe1b87391e2d95b436d3a",
+    "normal/front_left.png": "d4bd8b56cd52ba85ecfdedb48461dd24969ea15c89de3e9c6914f6aaa067f2de",
+    "depth/front_left.png": "68bb318188a047fb700158837abdfcf7cc43d9e285dc26e434f19a85228b5c6d",
+    "albedo/left.png": "74d24c26d8f58e532650277fb2bb52ea5529384f2a62321345f7a4e4e60c81dc",
+    "normal/left.png": "23b16b2e59bcb9c5e179d7c3ad7bbc947b3fca8640d378ef382681a3ee71362d",
+    "depth/left.png": "ddcc4ba65de98cff523f2a2e847321317e607917e3449f4e03ac83d5811ea045",
+    "albedo/back_left.png": "58e537aba88c8139160398fe7544ba591c1dd54bd84849e348e567849f2e61f7",
+    "normal/back_left.png": "68862cc987165dc5a6e23b99228bf363eb05a9d906eb3d114a14e8dea07ee20c",
+    "depth/back_left.png": "f6e2237df55712364246a6309c5fb655606a524b76a8e0c24ffeb8af5ab99385",
+    "albedo/back.png": "602a4e416974699c4a11552cd397bd98a5623f23b4b959b6297213dd4de75a22",
+    "normal/back.png": "f6caa70762d3be7a064c84f03934cc62185883632dc9eb8a6851552858f42388",
+    "depth/back.png": "5116a0c947637930523c58fd23c2d4346009b7a78d765206172089ec92b66f25",
+    "albedo/back_right.png": "41698628ba41f32e9dc3964305946aef7a4104c6e3bba0260251122f4e9773c2",
+    "normal/back_right.png": "a823278fe97e48afefd2ea40df76ca44ff73bd4e65b244e1888580c481aa62b9",
+    "depth/back_right.png": "0576b4e42b594273b92f2d013ecf0324fd49041108574a01173b11cc91277d52",
+    "albedo/right.png": "60e5e6dbfc164a541492d3a1193f6a692b6cf2046d699ab9bcbc51531e760bca",
+    "normal/right.png": "763f7fac619996075d55cd5db31904c7556f7989a2b1bed034ba84d9860d3e9d",
+    "depth/right.png": "fb4a75fa9aab8e7aebb47945f67663bba85632ce172d0e1a66c829d34159ec8b",
+    "albedo/front_right.png": "e3ff7c98c4b58fcd62b9d4f8c2a1e7a546fd21d25093cf3564e935e348e23aba",
+    "normal/front_right.png": "6a15a9a61803b8fe55a347b83c1c44a69ec77a007de842aedb6ab4289bb23b29",
+    "depth/front_right.png": "591511103e4c58b08f7759c7a272b6d13c4cba93ed80739010e1f1b5b2d767fa",
+    "preview/contact_sheet.png": "972f0fe8e2d4df50d837febbb9c68e1cc33eda623f2fba297c38fea3588eeb17"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\townsfolk_herbalist_p3_20260327_201720",
+    "maps_dir": "bakeoff\\townsfolk_herbalist_p3_20260327_201720_maps"
+  },
+  "notes": null
+}

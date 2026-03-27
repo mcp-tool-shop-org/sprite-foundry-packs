@@ -1,0 +1,37 @@
+{
+  "name": "@sprite-foundry/townsfolk-48",
+  "version": "1.0.0",
+  "description": "Townsfolk — Pack 06 | 16 medieval NPC archetypes × 8 directions × 3 layers | 48px pixel-art sprite pack",
+  "author": "mcp-tool-shop",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcp-tool-shop-org/sprite-foundry-packs.git",
+    "directory": "packages/townsfolk-48"
+  },
+  "keywords": [
+    "sprites",
+    "pixel-art",
+    "game-assets",
+    "rpg",
+    "npc",
+    "townsfolk",
+    "medieval",
+    "fantasy",
+    "48px",
+    "normal-maps",
+    "depth-maps",
+    "8-direction",
+    "sprite-foundry"
+  ],
+  "files": [
+    "assets/",
+    "previews/",
+    "pack.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "verify": "node -e \"const fs=require('fs');const p=require('./pack.json');let ok=true;let total=0;for(const v of p.variants){const base=v.path.replace('manifest.json','');const m=JSON.parse(fs.readFileSync(v.path,'utf8'));const dirs=m.render_contract.direction_order;const layers=p.layers;for(const d of dirs){for(const l of layers){const f=base+l+'/'+d+'.png';if(!fs.existsSync(f)){console.error('MISSING:',f);ok=false}else{total++}}}}if(ok){console.log('All assets verified: '+total+' files across '+p.variants.length+' variants')}else{process.exit(1)}\""
+  }
+}

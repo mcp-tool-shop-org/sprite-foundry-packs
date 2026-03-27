@@ -12,7 +12,7 @@
   <a href="https://mcp-tool-shop-org.github.io/sprite-foundry-packs/"><img src="https://img.shields.io/badge/Landing_Page-blue" alt="Landing Page" /></a>
 </p>
 
-Monorepo for all [Sprite Foundry](https://github.com/mcp-tool-shop-org/sprite-foundry) asset packs. Each pack ships 8 character variants with 8 directional sprites across 3 map layers (albedo, normal, depth) at 48px resolution.
+Monorepo for all [Sprite Foundry](https://github.com/mcp-tool-shop-org/sprite-foundry) asset packs. Each pack ships 16 character variants with 8 directional sprites across 3 map layers (albedo, normal, depth) at 48px resolution.
 
 ## Packs
 
@@ -23,6 +23,7 @@ Monorepo for all [Sprite Foundry](https://github.com/mcp-tool-shop-org/sprite-fo
 | Fantasy Heroes | [`@sprite-foundry/fantasy-heroes-48`](https://www.npmjs.com/package/@sprite-foundry/fantasy-heroes-48) | 16 (8 core + 8 second party) | Classic RPG party |
 | Fantasy Villains | [`@sprite-foundry/fantasy-villains-48`](https://www.npmjs.com/package/@sprite-foundry/fantasy-villains-48) | 16 (8 elite + 8 court) | Boss encounters |
 | Pirate Raiders | [`@sprite-foundry/pirate-raiders-48`](https://www.npmjs.com/package/@sprite-foundry/pirate-raiders-48) | 16 (8 officers + 8 crew) | Maritime/naval |
+| Townsfolk | [`@sprite-foundry/townsfolk-48`](https://www.npmjs.com/package/@sprite-foundry/townsfolk-48) | 16 (8 town core + 8 town life) | Medieval NPCs |
 
 ## Install
 
@@ -33,6 +34,7 @@ npm install @sprite-foundry/goblin-warband-48
 npm install @sprite-foundry/fantasy-heroes-48
 npm install @sprite-foundry/fantasy-villains-48
 npm install @sprite-foundry/pirate-raiders-48
+npm install @sprite-foundry/townsfolk-48
 ```
 
 ## Asset Structure
@@ -80,10 +82,10 @@ cd packages/undead-patrol-48 && npm run verify
 ## Per-Pack Assets
 
 Each pack contains:
-- **192 PNG sprites** (8 variants x 8 directions x 3 layers)
-- **8 manifests** with full provenance and checksums
-- **8 preview sheets** for visual reference
-- **Total across all 5 packs: 960 sprites**
+- **384 PNG sprites** (16 variants x 8 directions x 3 layers)
+- **16 manifests** with full provenance and checksums
+- **16 preview sheets** for visual reference
+- **Total across all 6 packs: 2,304 sprites**
 
 ## Security and Trust
 
@@ -106,6 +108,7 @@ sprite-foundry-packs/
     fantasy-heroes-48/     @sprite-foundry/fantasy-heroes-48
     fantasy-villains-48/   @sprite-foundry/fantasy-villains-48
     pirate-raiders-48/     @sprite-foundry/pirate-raiders-48
+    townsfolk-48/          @sprite-foundry/townsfolk-48
   tooling/
     verify-all.mjs         shared verification script
 ```

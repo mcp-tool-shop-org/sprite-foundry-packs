@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T20:52:51.651157+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "townsfolk_beggar",
+    "display_name": "Beggar",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "townsfolk_beggar_p3_20260327_201602",
+    "seed": 816700,
+    "generated_at": "2026-03-27T20:16:54.504537+00:00",
+    "accepted_at": "2026-03-27T20:44:37.490860+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "3a9e138ef3e457cc79c9636c97add4bc086f0cd525a516e9fd022cb3d42e51ef",
+    "normal/front.png": "5fc5a2a2bcbdf859ea525083044173ced8ed832ad10032f013e19dcad3d2b3d0",
+    "depth/front.png": "a42af16cd047b9f3213e58180a77c41821e197c66ebd6f1b680a40a311a5f010",
+    "albedo/front_left.png": "e7bf0364c8242327f6c513bd88c8d60f878d1d218b0feb2be9d22a28b9453b22",
+    "normal/front_left.png": "bda57478c9a9a2f0f6948bb1f9d8fa1addd469f61eb93afc6567369c53abc851",
+    "depth/front_left.png": "c3452705467027f5ba98641ee521c47de85bd12a1fe27ba81e974e9809201900",
+    "albedo/left.png": "c601dda49ad5248d2b205e3f14576165fadb77c826e34fc5a5981f3692da5b3a",
+    "normal/left.png": "8c932f684ff1cb130d1a49b524c358c6c9b63fe943e17f2ca7fb982a7411aee2",
+    "depth/left.png": "993a45fa69fe230b3b542318b27e6253235e86ccf48c70972542171ecf12059f",
+    "albedo/back_left.png": "053698ab0427836c8d06a7d07f5bbfd5ee44e8eea1dfb254f55c15e2d67b28f4",
+    "normal/back_left.png": "9f6b143354c079de078e76b671d488084aebe94588e13aa65080e6380f9b9f18",
+    "depth/back_left.png": "0058b93587dc2d9b396e7baa23096b43a842dbf9d164c3c2b437920584599dc2",
+    "albedo/back.png": "cf30dc476fb9e6c4b06b8b99de21287829f59e34c79088db7de87eba98084c85",
+    "normal/back.png": "7218e136d66494b18c17193ce76975b58a685921664899b53ec5d7287e29a6df",
+    "depth/back.png": "be2f64e73bbf642e6199753ecc4e62188a3f33e87ca6d50aee4bbf006d28a2f4",
+    "albedo/back_right.png": "714a576a4afc3f0c1ed00f773d4cf34b97b6dd2ef669853619fee23d2e61c34c",
+    "normal/back_right.png": "8b07fcb9c808f3b81d1c58d0c08fb3d7c992f567aec3a14a2e037a290a126ed9",
+    "depth/back_right.png": "1b711136ee9b0e1861d80686742808820da932b652880b4a0a72708e2bdd6ecc",
+    "albedo/right.png": "a594e37c5ebf76843de3ff74a9f37b2a32096a59cb9f7caabd6596e2f9e08fcd",
+    "normal/right.png": "6ef02ce4895dd672d4f86b555ac13107749c7b8ea8c4a41b3455d188e5bd12c3",
+    "depth/right.png": "51500b9050228bb4fdebfbc82b55f5408c75c80ce397dcdbe9f18c5bd3d0e6b7",
+    "albedo/front_right.png": "d17a5129a9fa9cefb1b693471a6a15c24122b81f50ade83da4cdd69261a20a5b",
+    "normal/front_right.png": "fee2214b05d94e0f7ec0207b9bd73d3c0ad1a17c2a9b3f2278f10f7c5adad41e",
+    "depth/front_right.png": "be65a43a10f9b4efba57e5e11c62f499043cb120102fbfad1a74f1c8d3d074d8",
+    "preview/contact_sheet.png": "7f89c7d5ba024556523caf99cdf1fcc2092963e4fe3431794ffdb99672fd41d1"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\townsfolk_beggar_p3_20260327_201602",
+    "maps_dir": "bakeoff\\townsfolk_beggar_p3_20260327_201602_maps"
+  },
+  "notes": null
+}
