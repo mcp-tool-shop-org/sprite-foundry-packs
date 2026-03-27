@@ -13,15 +13,17 @@
   <a href="https://mcp-tool-shop-org.github.io/zombie-sprite-pack/"><img src="https://img.shields.io/badge/Landing_Page-live-blue" alt="Landing Page"></a>
 </p>
 
-A 48px, 8-direction pixel-art zombie enemy pack with albedo, normal, and depth maps for engine-agnostic game use.
+A 48px, 8-direction pixel-art zombie + human pack with albedo, normal, and depth maps for engine-agnostic game use. Includes **before/after** storytelling pairs — every zombie has a matching living human variant.
 
 ![Undead Patrol Banner](previews/banner.png)
 
 ## What's Included
 
-8 zombie variants, each with 8 directional views:
+16 variants (8 zombies + 8 matching humans), each with 8 directional views:
 
 ![Variant Lineup](previews/lineup.png)
+
+### The Undead (v1.0)
 
 | Variant | Role | Silhouette |
 |---------|------|------------|
@@ -33,6 +35,19 @@ A 48px, 8-direction pixel-art zombie enemy pack with albedo, normal, and depth m
 | Skeletal Zombie | Fragile/ancient | Thin limbs, angular read |
 | Worker Zombie | Industrial/civilian | Uniform, tool-belt, readable gear |
 | Elite Zombie | Commander/brute | Tall, imposing, upgraded mass |
+
+### The Living — Before the Outbreak (v1.1)
+
+| Variant | Mirrors | Silhouette |
+|---------|---------|------------|
+| Civilian | Shambler | Grey hoodie, jeans, backpack |
+| Jogger | Runner | Orange tank top, athletic build, earbuds |
+| Hazmat Tech | Hazmat Zombie | Clean yellow suit, intact visor, clipboard |
+| Riot Officer | Riot Zombie | Dark navy riot armor, intact shield, helmet |
+| Soldier | Elite Zombie | Olive camo fatigues, tactical vest, slung rifle |
+| Construction Worker | Worker Zombie | Hard hat, hi-vis vest, tool belt |
+| Lab Scientist | Skeletal Zombie | White lab coat, glasses, tablet |
+| Paramedic | Bloater | Navy uniform, red med bag, stethoscope |
 
 Each variant ships with three map layers:
 
@@ -63,6 +78,14 @@ assets/
   skeletal-zombie/
   worker-zombie/
   elite-zombie/
+  civilian/
+  jogger/
+  hazmat_tech/
+  riot_officer/
+  soldier/
+  construction_worker/
+  lab_scientist/
+  paramedic/
 pack.json          pack-level index
 previews/          banner and lineup sheets
 ```
@@ -104,8 +127,10 @@ No engine-specific format or runtime dependency.
 
 ## Specs
 
+- **Variants:** 16 (8 zombies + 8 matching humans)
 - **Tile size:** 48 x 48 px
 - **Directions:** 8 (front, front_left, left, back_left, back, back_right, right, front_right)
+- **Total sprites:** 384 (16 × 8 × 3)
 - **Format:** transparent PNG
 - **Maps:** albedo + normal + depth
 - **Animation:** static poses (v1)

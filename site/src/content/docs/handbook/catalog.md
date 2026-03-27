@@ -10,7 +10,10 @@ Each pack contains 8–16 character variants designed around a specific theme. E
 ## Pack 01 — Undead Patrol
 
 **npm:** `@sprite-foundry/undead-patrol-48`
-**Theme:** Horror and survival zombie enemies
+**Theme:** Horror and survival — zombies with matching human "before" variants
+**Variants:** 16 (doubled in v1.1)
+
+### The Undead
 
 | Variant | Role | Visual identity |
 |---------|------|-----------------|
@@ -22,6 +25,19 @@ Each pack contains 8–16 character variants designed around a specific theme. E
 | Riot Zombie | Armored | Riot shield fragments, helmet, heavy boots |
 | Skeletal Zombie | Ranged variant | Exposed bones, tattered robes, throwing pose |
 | Worker Zombie | Ambient/filler | Hard hat, tool belt, coveralls |
+
+### The Living — Before the Outbreak (v1.1)
+
+| Variant | Mirrors | Visual identity |
+|---------|---------|-----------------|
+| Civilian | Shambler | Grey hoodie, jeans, backpack |
+| Jogger | Runner | Orange tank top, athletic build, earbuds |
+| Hazmat Tech | Hazmat Zombie | Clean yellow suit, intact visor, clipboard |
+| Riot Officer | Riot Zombie | Dark navy riot armor, intact shield |
+| Soldier | Elite Zombie | Olive camo fatigues, tactical vest, rifle |
+| Construction Worker | Worker Zombie | Hard hat, hi-vis vest, tool belt |
+| Lab Scientist | Skeletal Zombie | White lab coat, glasses, tablet |
+| Paramedic | Bloater | Navy uniform, red med bag, stethoscope |
 
 ## Pack 02 — Goblin Warband
 

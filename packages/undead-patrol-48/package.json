@@ -1,7 +1,7 @@
 {
   "name": "@sprite-foundry/undead-patrol-48",
-  "version": "1.0.0",
-  "description": "Undead Patrol — Pack 01: A 48px, 8-direction pixel-art zombie enemy pack with albedo, normal, and depth maps for engine-agnostic game use.",
+  "version": "1.1.0",
+  "description": "Undead Patrol — Pack 01: 16 zombie + human variants × 8 directions × 3 layers | 48px pixel-art sprite pack with before/after storytelling",
   "keywords": [
     "sprites",
     "pixel-art",

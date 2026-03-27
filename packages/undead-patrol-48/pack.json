@@ -62,6 +62,62 @@
       "role": "commander/brute",
       "silhouette": "tall, imposing, upgraded mass",
       "path": "assets/elite-zombie/manifest.json"
+    },
+    {
+      "slug": "civilian",
+      "name": "Civilian",
+      "role": "before: Shambler",
+      "silhouette": "casual clothes, backpack, relaxed stance",
+      "path": "assets/civilian/manifest.json"
+    },
+    {
+      "slug": "jogger",
+      "name": "Jogger",
+      "role": "before: Runner",
+      "silhouette": "athletic, orange tank, running gear",
+      "path": "assets/jogger/manifest.json"
+    },
+    {
+      "slug": "hazmat_tech",
+      "name": "Hazmat Tech",
+      "role": "before: Hazmat Zombie",
+      "silhouette": "yellow suit, intact visor, clipboard",
+      "path": "assets/hazmat_tech/manifest.json"
+    },
+    {
+      "slug": "riot_officer",
+      "name": "Riot Officer",
+      "role": "before: Riot Zombie",
+      "silhouette": "riot armor, intact shield, helmet",
+      "path": "assets/riot_officer/manifest.json"
+    },
+    {
+      "slug": "soldier",
+      "name": "Soldier",
+      "role": "before: Elite Zombie",
+      "silhouette": "camo fatigues, tactical vest, slung rifle",
+      "path": "assets/soldier/manifest.json"
+    },
+    {
+      "slug": "construction_worker",
+      "name": "Construction Worker",
+      "role": "before: Worker Zombie",
+      "silhouette": "hard hat, hi-vis vest, tool belt",
+      "path": "assets/construction_worker/manifest.json"
+    },
+    {
+      "slug": "lab_scientist",
+      "name": "Lab Scientist",
+      "role": "before: Skeletal Zombie",
+      "silhouette": "white lab coat, glasses, tablet",
+      "path": "assets/lab_scientist/manifest.json"
+    },
+    {
+      "slug": "paramedic",
+      "name": "Paramedic",
+      "role": "before: Bloater",
+      "silhouette": "navy uniform, red med bag, stethoscope",
+      "path": "assets/paramedic/manifest.json"
     }
   ]
 }

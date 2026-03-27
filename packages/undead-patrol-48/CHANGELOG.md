@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-03-27
+
+### Added
+
+- 8 human "before the outbreak" variants: Civilian, Jogger, Hazmat Tech, Riot Officer, Soldier, Construction Worker, Lab Scientist, Paramedic
+- Each human mirrors a zombie for before/after storytelling
+- Pack now contains 16 variants (384 total sprites)
+
 ## [1.0.0] - 2026-03-26
 
 ### Added
