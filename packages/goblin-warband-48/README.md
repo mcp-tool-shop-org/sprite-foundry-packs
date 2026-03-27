@@ -19,9 +19,11 @@ A 48px, 8-direction pixel-art goblin enemy pack with albedo, normal, and depth m
 
 ## What's Included
 
-8 goblin variants, each with 8 directional views:
+16 goblin variants across two tiers — **Combat** and **Camp** — each with 8 directional views:
 
 ![Variant Lineup](previews/lineup.png)
+
+### Combat (original 8)
 
 | Variant | Role | Silhouette |
 |---------|------|------------|
@@ -33,6 +35,19 @@ A 48px, 8-direction pixel-art goblin enemy pack with albedo, normal, and depth m
 | Bomber | AoE threat | Bulging satchel, lit fuse bomb, goggles |
 | Warchief | Elite leader | Tusked helmet, banner pole, heavy armor |
 | Wolf-Rider | Mounted unit | Goblin on dire wolf, unique body plan |
+
+### Camp (v1.1 expansion)
+
+| Variant | Role | Silhouette |
+|---------|------|------------|
+| Merchant | Camp trader | Pudgy build, loot sack, balance scale, pouches |
+| Trap Maker | Ambush engineer | Crouching, coiled rope, bundle of stakes |
+| Tunneler | Cave specialist | Stocky build, pickaxe on shoulder, headlamp |
+| Pup | Young goblin child | Tiny frame, oversized helmet, wooden toy sword |
+| Cook | Camp cook | Pudgy, chef hat, wooden ladle, stained apron |
+| Banner Bearer | War standard carrier | Tall banner pole, war paint, drum on hip |
+| Prisoner | Chained captive | Thin emaciated build, iron shackles, ragged clothing |
+| Alchemist | Volatile potion brewer | Goggles, bubbling flask, bandolier of vials |
 
 Each variant ships with three map layers:
 
@@ -63,6 +78,14 @@ assets/
   bomber/
   warchief/
   wolf-rider/
+  merchant/
+  trap-maker/
+  tunneler/
+  pup/
+  cook/
+  banner-bearer/
+  prisoner/
+  alchemist/
 pack.json          pack-level index
 previews/          banner and lineup sheets
 ```

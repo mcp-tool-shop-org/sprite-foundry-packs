@@ -1,0 +1,13 @@
+{
+  "slug": "tunneler",
+  "name": "Tunneler",
+  "version": "1.0.0",
+  "tileSize": 48,
+  "directions": ["front", "front_left", "left", "back_left", "back", "back_right", "right", "front_right"],
+  "layers": {
+    "albedo": "albedo/{direction}.png",
+    "normal": "normal/{direction}.png",
+    "depth": "depth/{direction}.png"
+  },
+  "preview": "preview/contact_sheet.png"
+}

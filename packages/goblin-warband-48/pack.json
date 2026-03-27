@@ -62,6 +62,62 @@
       "role": "mounted unit",
       "silhouette": "goblin on dire wolf, widest and longest profile, completely different body plan",
       "path": "assets/wolf-rider/manifest.json"
+    },
+    {
+      "slug": "merchant",
+      "name": "Merchant",
+      "role": "camp trader",
+      "silhouette": "pudgy build, loot sack over shoulder, balance scale, belt of pouches",
+      "path": "assets/merchant/manifest.json"
+    },
+    {
+      "slug": "trap-maker",
+      "name": "Trap Maker",
+      "role": "ambush engineer",
+      "silhouette": "crouching low, coiled rope over shoulder, bundle of stakes",
+      "path": "assets/trap-maker/manifest.json"
+    },
+    {
+      "slug": "tunneler",
+      "name": "Tunneler",
+      "role": "cave specialist",
+      "silhouette": "stocky build, pickaxe on shoulder, headlamp, heavy boots",
+      "path": "assets/tunneler/manifest.json"
+    },
+    {
+      "slug": "pup",
+      "name": "Pup",
+      "role": "young goblin child",
+      "silhouette": "tiny frame, oversized helmet tilting over eyes, wooden toy sword",
+      "path": "assets/pup/manifest.json"
+    },
+    {
+      "slug": "cook",
+      "name": "Cook",
+      "role": "camp cook",
+      "silhouette": "pudgy build, chef hat, wooden ladle, stained apron",
+      "path": "assets/cook/manifest.json"
+    },
+    {
+      "slug": "banner-bearer",
+      "name": "Banner Bearer",
+      "role": "war standard carrier",
+      "silhouette": "tall banner pole with tattered flag, war paint, drum on hip",
+      "path": "assets/banner-bearer/manifest.json"
+    },
+    {
+      "slug": "prisoner",
+      "name": "Prisoner",
+      "role": "chained captive",
+      "silhouette": "thin emaciated build, iron shackles on wrists, ragged clothing",
+      "path": "assets/prisoner/manifest.json"
+    },
+    {
+      "slug": "alchemist",
+      "name": "Alchemist",
+      "role": "volatile potion brewer",
+      "silhouette": "goggles on forehead, bubbling flask raised, bandolier of vials",
+      "path": "assets/alchemist/manifest.json"
     }
   ]
 }
