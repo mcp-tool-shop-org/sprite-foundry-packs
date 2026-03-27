@@ -42,7 +42,10 @@ Each pack contains 8–16 character variants designed around a specific theme. E
 ## Pack 02 — Goblin Warband
 
 **npm:** `@sprite-foundry/goblin-warband-48`
-**Theme:** Fantasy goblin enemies with tactical roles
+**Theme:** Fantasy goblin enemies and camp life
+**Variants:** 16 (doubled in v1.1)
+
+### Combat
 
 | Variant | Role | Visual identity |
 |---------|------|-----------------|
@@ -54,6 +57,19 @@ Each pack contains 8–16 character variants designed around a specific theme. E
 | Bomber | Area damage | Satchel of bombs, lit fuse, manic grin |
 | Warchief | Leader/boss | Crown, war paint, dual axes, cape |
 | Wolf Rider | Mounted | Riding dire wolf, lance, fur armor |
+
+### Camp — The Settlement (v1.1)
+
+| Variant | Role | Visual identity |
+|---------|------|-----------------|
+| Merchant | Camp trader | Pudgy build, loot sack, balance scale, pouches |
+| Trap Maker | Ambush engineer | Crouching, coiled rope, bundle of stakes |
+| Tunneler | Cave specialist | Stocky build, pickaxe on shoulder, headlamp |
+| Pup | Young goblin child | Tiny frame, oversized helmet, wooden toy sword |
+| Cook | Camp cook | Pudgy, chef hat, wooden ladle, stained apron |
+| Banner Bearer | War standard carrier | Tall banner pole, war paint, drum on hip |
+| Prisoner | Chained captive | Thin emaciated build, iron shackles, ragged clothing |
+| Alchemist | Volatile potion brewer | Goggles, bubbling flask, bandolier of vials |
 
 ## Pack 03 — Fantasy Heroes
 
@@ -121,10 +137,12 @@ Each pack contains 8–16 character variants designed around a specific theme. E
 
 ## Asset counts
 
-| Metric | Per variant | Per pack (8 variants) | Fantasy Heroes (16 variants) | All 5 packs |
-|--------|-----------|----------------------|------------------------------|-------------|
-| Directions | 8 | 64 | 128 | 512 |
+| Metric | Per variant | Per pack (8) | Per pack (16) | All 5 packs |
+|--------|-----------|-------------|--------------|-------------|
+| Directions | 8 | 64 | 128 | 448 |
 | Layers | 3 | 24 | 48 | 168 |
-| Total sprites | 24 | 192 | 384 | 1,152 |
-| Manifests | 1 | 8 | 16 | 48 |
-| Preview sheets | 1 | 8 | 16 | 48 |
+| Total sprites | 24 | 192 | 384 | 1,536 |
+| Manifests | 1 | 8 | 16 | 56 |
+| Preview sheets | 1 | 8 | 16 | 56 |
+
+Three packs (Undead Patrol, Goblin Warband, Fantasy Heroes) have 16 variants each. Two packs (Fantasy Villains, Pirate Raiders) have 8 variants each, with expansions planned.

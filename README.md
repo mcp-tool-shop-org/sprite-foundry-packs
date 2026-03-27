@@ -1,4 +1,8 @@
 <p align="center">
+  <a href="README.ja.md">日本語</a> | <a href="README.zh.md">中文</a> | <a href="README.es.md">Español</a> | <a href="README.fr.md">Français</a> | <a href="README.hi.md">हिन्दी</a> | <a href="README.it.md">Italiano</a> | <a href="README.pt-BR.md">Português (BR)</a>
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/mcp-tool-shop-org/brand/main/logos/sprite-foundry-packs/readme.png" width="500" alt="Sprite Foundry Packs" />
 </p>
 
@@ -14,9 +18,9 @@ Monorepo for all [Sprite Foundry](https://github.com/mcp-tool-shop-org/sprite-fo
 
 | Pack | npm | Variants | Theme |
 |------|-----|----------|-------|
-| Undead Patrol | [`@sprite-foundry/undead-patrol-48`](https://www.npmjs.com/package/@sprite-foundry/undead-patrol-48) | 8 zombies | Horror/survival |
-| Goblin Warband | [`@sprite-foundry/goblin-warband-48`](https://www.npmjs.com/package/@sprite-foundry/goblin-warband-48) | 8 goblins | Fantasy enemies |
-| Fantasy Heroes | [`@sprite-foundry/fantasy-heroes-48`](https://www.npmjs.com/package/@sprite-foundry/fantasy-heroes-48) | 8 heroes | Classic RPG party |
+| Undead Patrol | [`@sprite-foundry/undead-patrol-48`](https://www.npmjs.com/package/@sprite-foundry/undead-patrol-48) | 16 (8 zombies + 8 living) | Horror/survival |
+| Goblin Warband | [`@sprite-foundry/goblin-warband-48`](https://www.npmjs.com/package/@sprite-foundry/goblin-warband-48) | 16 (8 combat + 8 camp) | Fantasy enemies |
+| Fantasy Heroes | [`@sprite-foundry/fantasy-heroes-48`](https://www.npmjs.com/package/@sprite-foundry/fantasy-heroes-48) | 16 (8 core + 8 second party) | Classic RPG party |
 | Fantasy Villains | [`@sprite-foundry/fantasy-villains-48`](https://www.npmjs.com/package/@sprite-foundry/fantasy-villains-48) | 8 villains | Boss encounters |
 | Pirate Raiders | [`@sprite-foundry/pirate-raiders-48`](https://www.npmjs.com/package/@sprite-foundry/pirate-raiders-48) | 8 pirates | Maritime/naval |
 
