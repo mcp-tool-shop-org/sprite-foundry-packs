@@ -4,12 +4,16 @@ on:
   push:
     branches: [main]
     paths:
-      - 'assets/**'
-      - 'pack.json'
+      - 'packages/**'
+      - 'tooling/**'
       - 'package.json'
       - '.github/workflows/ci.yml'
   pull_request:
-    branches: [main]
+    paths:
+      - 'packages/**'
+      - 'tooling/**'
+      - 'package.json'
+      - '.github/workflows/ci.yml'
   workflow_dispatch:
 
 concurrency:
@@ -21,8 +25,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Verify all assets
-        run: npm run verify
+
+      - name: Verify all packs
+        run: node tooling/verify-all.mjs
