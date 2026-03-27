@@ -1,0 +1,45 @@
+{
+  "name": "@sprite-foundry/pirate-raiders-48",
+  "version": "1.0.0",
+  "description": "Pirate Raiders — Pack 05 | 8 pirate archetypes × 8 directions × 3 layers | 48px pixel-art sprite pack",
+  "author": "mcp-tool-shop",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcp-tool-shop-org/sprite-foundry-packs",
+    "directory": "packages/pirate-raiders-48"
+  },
+  "homepage": "https://github.com/mcp-tool-shop-org/sprite-foundry-packs/tree/main/packages/pirate-raiders-48",
+  "keywords": [
+    "sprites",
+    "pixel-art",
+    "pirate",
+    "maritime",
+    "naval",
+    "game-assets",
+    "48px",
+    "normal-maps",
+    "depth-maps",
+    "8-direction",
+    "rpg",
+    "portlight",
+    "ai-rpg-engine"
+  ],
+  "scripts": {
+    "verify": "node -e \"const fs=require('fs');const p=require('./pack.json');let ok=true;let total=0;for(const v of p.variants){const base=v.path.replace('manifest.json','');const m=JSON.parse(fs.readFileSync(v.path,'utf8'));const dirs=m.render_contract.direction_order;const layers=p.layers;for(const d of dirs){for(const l of layers){const f=base+l+'/'+d+'.png';if(!fs.existsSync(f)){console.error('MISSING:',f);ok=false}else{total++}}}}if(ok){console.log('All assets verified: '+total+' files across '+p.variants.length+' variants')}else{process.exit(1)}\""
+  },
+  "files": [
+    "assets/",
+    "previews/",
+    "pack.json",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

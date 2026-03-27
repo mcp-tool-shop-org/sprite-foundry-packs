@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-26T21:20:59.432938+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "villain_necromancer",
+    "display_name": "Necromancer",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "villain_necromancer_p3_20260326_205132",
+    "seed": 811900,
+    "generated_at": "2026-03-26T20:52:27.368849+00:00",
+    "accepted_at": "2026-03-26T20:53:35.538370+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "089507cc4fec0e860342042ccecbbefd67a1edd1459954957835a13d3afafa47",
+    "normal/front.png": "d296bba27148589738bd4a10cea96eb6206199880c7d80aed59a047fb5429796",
+    "depth/front.png": "67a2dae934fe7128721c397c3875ec1b08e7a04e6521cf0d10b856026e9f6ec2",
+    "albedo/front_left.png": "72081a6ae30bb189b24aabb153584336f0576ef6efb7e9ff4736d512d9c5096f",
+    "normal/front_left.png": "762597e6f09048aee1e5199ff94ef9af42e134bfa11bcfa70a2589d3883bb1bb",
+    "depth/front_left.png": "77e8234eeaa3adbf27d3208129c061170c88da465194f7293035a84c39e0e6f8",
+    "albedo/left.png": "8aa3366feb7ec187dae4a4a1fea6614555f0ad707b529cc0ca17b63be0214b2f",
+    "normal/left.png": "cadf01a3f468bb6bcbe1a73b73123846c352cf39252f247594ca5b7d63c4c11c",
+    "depth/left.png": "b1bfb628ccee6c20f35c50fd9417613633e16c6d77fad61c67b0b930e1d004ca",
+    "albedo/back_left.png": "07b617fa7c68eab11598071d8bf513ba888806ea6ccd1a8f3650b03345361f03",
+    "normal/back_left.png": "723be96f33aac79d2565b9e7dd2dd463a26de4cb8f0c4bd75e9abd8a1edaf6ac",
+    "depth/back_left.png": "be9ebc4427a6b6aac41ae67647940c41a7d9011e9885b9c33a9802e54492547d",
+    "albedo/back.png": "86adaa4ab2af4fa76f894f9d8d15baec73179f7107fcc523b65b98bdfaee46c5",
+    "normal/back.png": "bb14f641547da8326c88666fae8f3a00556df9242f59866d51c3c169f8288502",
+    "depth/back.png": "382ad74d96f4e508a7c9189b507a58f3c88751bfc22de161905f837dee058666",
+    "albedo/back_right.png": "84b3a0bbb8bb95f3a7320a81b344b86fb3f96c186082e5a5ac35708fa9706e86",
+    "normal/back_right.png": "17aed6dc402c6383bd27d253aacc4aa6f433c66802237a2d9a3f08c3c81d2231",
+    "depth/back_right.png": "d83d66ff788498a89e3e21ba43c68191c7ff19b69a08f60b53551fdbe0543556",
+    "albedo/right.png": "e7110a937a28dddae47739db79d2e9d538caa01ff8ad868b873494586ebf108e",
+    "normal/right.png": "350a1e3575c55f0ea685b1d013e54f154892f68477db352a0f3a50d471ff9ff8",
+    "depth/right.png": "9bb90c944e0644098388f2c6854295195b9f64589cb64f1f0a2fae0c84fa5440",
+    "albedo/front_right.png": "07b3915c264a804d2c902d16b2dfb0fb2462eb7aff2a0648594b4c9378395e3d",
+    "normal/front_right.png": "6a8bf0437c7b3a25c5ff96e43ffd191c73bfb616f0220256b561119abc0827ae",
+    "depth/front_right.png": "d448105efcf8986dcad0759b99db7240a5bc67c27964e87d3a0d03f8c5d1761a",
+    "preview/contact_sheet.png": "cb2b37c6bccf4e28ad6d49c01b419f2b100cb6f0226767f66fa857c2473abe5e"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\villain_necromancer_p3_20260326_205132",
+    "maps_dir": "bakeoff\\villain_necromancer_p3_20260326_205132_maps"
+  },
+  "notes": null
+}

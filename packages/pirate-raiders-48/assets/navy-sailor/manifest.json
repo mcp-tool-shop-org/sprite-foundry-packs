@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T03:03:08.780687+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "pirate_navy_sailor",
+    "display_name": "Navy Sailor",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "pirate_navy_sailor_p3_20260327_024658",
+    "seed": 813400,
+    "generated_at": "2026-03-27T02:48:07.927008+00:00",
+    "accepted_at": "2026-03-27T03:02:56.528668+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "bcf8f5e2089546f1cccf3c574a75cd7f1b042153125a295989bd30187571b74e",
+    "normal/front.png": "e93231c3fce1f740f43c08b4641519efe834ed741b6d1986cbbac40fe556a520",
+    "depth/front.png": "0379912bd913f9d933bb46ac84f7da563651d422336b21a0fc6fef7ca7c41d0a",
+    "albedo/front_left.png": "bd693dc6c41b6af41ee8dbe9ab779779bca9627396ef480a5cf3ff11b5fb50b0",
+    "normal/front_left.png": "e43b4b3e49afbd91c5bd97e9d57f5b0f67909b74b37338380c0db49d33d40069",
+    "depth/front_left.png": "2c08c204553222bf74c9afc16846bcb13bc746d5003921309f116740bf2cd957",
+    "albedo/left.png": "5457835a30cfcfce5d02f61587046aaf5d16cda4ceba26bc1a30708863d0e1c7",
+    "normal/left.png": "1bfd5d4a892421d34b8b85cb60b1a3ecf9685a3c8a63c970f087f3742ecc6223",
+    "depth/left.png": "d4257e39fab2d6da3df3d7a53d14d39d594f8803d07d7bc1dfc3c1ed25d0d3bb",
+    "albedo/back_left.png": "42f51978f7ce7b4382391905115f4267577350045395b0fe98693b4a3fd2a21a",
+    "normal/back_left.png": "f1eba5416c2067d6e33b13107c763de24d56431fece745e309cc01eef39c47d8",
+    "depth/back_left.png": "d05cb8165d13dc507b5a6808ea115f1f462cbe6f65d0b9352b8ead789c35f422",
+    "albedo/back.png": "0a7d4d7e4751645b438fc64bcd76e49b3ec678104d27ba219c1904bd0b2cbde0",
+    "normal/back.png": "e6d6e9b4eafd0de58859b69e91b41ea39d6a3554aec75cdf3d81e415daeb4d12",
+    "depth/back.png": "77e25a831b9d385ee448803dec7418f4c3bd00142a25c7a2818e9b2c78f48b72",
+    "albedo/back_right.png": "0617fbe76534eca5f93a9429065a40ef7b4bc6f77a705519c92a24950445222d",
+    "normal/back_right.png": "caf239f08a65e021eb9b8d45607bfc1ea2360ba7993b64ebb2fe1e1a8cafaedf",
+    "depth/back_right.png": "54d762664329341600f0f21338a73b1bd17445181973fc066f9a5e8afe4f867c",
+    "albedo/right.png": "6da854fccb527fb89dea9a8239ee56444bebb56716bc8fdfa810c39aa77ea115",
+    "normal/right.png": "33e8a6d672dfde908e50d236fa02e0ba010dff505afd9f9292a0d4ad4a60f2e4",
+    "depth/right.png": "09504bb2f1019eb868bde5bbef4b7b4f1be0fc247cb4ec0f01693b3244fc57ca",
+    "albedo/front_right.png": "5ca27210f1379d69e66c8be3c384b4e34381a36392649a0e6cd5e780fdddafe4",
+    "normal/front_right.png": "c0f4f70a8748769c0f49ae2fe2e3c9ec95be89fec9ecc0f8b46045a39a03f66b",
+    "depth/front_right.png": "c4ed99b3d6ec29001be1a3340af485d24751ce9099570c26c78d53916c1bc235",
+    "preview/contact_sheet.png": "153b1cc0d945e374055c905c822c2d0e806b99653378ee28f179edda8c17bb2d"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\pirate_navy_sailor_p3_20260327_024658",
+    "maps_dir": "bakeoff\\pirate_navy_sailor_p3_20260327_024658_maps"
+  },
+  "notes": null
+}

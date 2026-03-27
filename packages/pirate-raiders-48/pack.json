@@ -1,0 +1,18 @@
+{
+  "name": "Pirate Raiders",
+  "slug": "pirate-raiders-05",
+  "version": "1.0.0",
+  "tileSize": 48,
+  "directions": ["front", "front_left", "left", "back_left", "back", "back_right", "right", "front_right"],
+  "layers": ["albedo", "normal", "depth"],
+  "variants": [
+    { "slug": "captain",       "name": "Captain",           "role": "commander",           "path": "assets/captain/manifest.json" },
+    { "slug": "quartermaster", "name": "Quartermaster",     "role": "logistics/discipline", "path": "assets/quartermaster/manifest.json" },
+    { "slug": "cutthroat",     "name": "Cutthroat Boarder", "role": "melee assault",       "path": "assets/cutthroat/manifest.json" },
+    { "slug": "pistoleer",     "name": "Pistol Duelist",    "role": "ranged specialist",   "path": "assets/pistoleer/manifest.json" },
+    { "slug": "navy-sailor",   "name": "Navy Sailor",       "role": "authority/military",   "path": "assets/navy-sailor/manifest.json" },
+    { "slug": "governor",      "name": "Harbor Governor",   "role": "authority/civilian",   "path": "assets/governor/manifest.json" },
+    { "slug": "drowned",       "name": "Drowned Guardian",  "role": "undead maritime",     "path": "assets/drowned/manifest.json" },
+    { "slug": "sea-priest",    "name": "Sea Priest",        "role": "mystic/support",      "path": "assets/sea-priest/manifest.json" }
+  ]
+}

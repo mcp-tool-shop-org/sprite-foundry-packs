@@ -1,0 +1,19 @@
+{
+  "name": "sprite-foundry-packs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo for all Sprite Foundry asset packs — 48px pixel-art sprites with albedo, normal, and depth maps",
+  "author": "mcp-tool-shop",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcp-tool-shop-org/sprite-foundry-packs"
+  },
+  "scripts": {
+    "verify": "node tooling/verify-all.mjs",
+    "verify:pack": "pnpm --filter"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

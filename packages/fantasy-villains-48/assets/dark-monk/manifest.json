@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-26T21:21:00.815235+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "villain_dark_monk",
+    "display_name": "Dark Monk",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "villain_dark_monk_p3_20260326_211446",
+    "seed": 812400,
+    "generated_at": "2026-03-26T21:15:40.998908+00:00",
+    "accepted_at": "2026-03-26T21:17:09.695316+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "b3476217a36deb348aaf373c053d507c90b1e6deb987a6cd185626bee2c57a0e",
+    "normal/front.png": "2f9939d0d63642ceec3c900c1330abb339548dc25f90927a3765750f45c8ee69",
+    "depth/front.png": "50aca6926b755ac8dbc4ca9526094329e66da74c50aa1dd9beb392bf897c693f",
+    "albedo/front_left.png": "0dd558be6fb03a95c415c36f86d9484e08bf54da8b1b7636e27e9cf4025b18cd",
+    "normal/front_left.png": "c7f22960f36f24985b00b61a8bfea4cce77547a463636388c2361d6996910066",
+    "depth/front_left.png": "8f5773ef59d5caf41bf4737c0e0245cffeaae9b227b5416c11a1eb13f5bbaade",
+    "albedo/left.png": "f7e42378a7d428c91a19bbaa6cece09f217ef822050b97c67075c57973141a98",
+    "normal/left.png": "355112f4e6f08b1fe6d43d4fee392f7757931a2589167f2b5f1cdce8ecd0af07",
+    "depth/left.png": "f697908f47166943fa3fe3bd67f2fdf82606410c96f6a4d0512f9b822f7ae047",
+    "albedo/back_left.png": "c7f2252cbf77f9277526aa432b459284a42318dd5aa1c59fa715aeeac7915797",
+    "normal/back_left.png": "023a81930278585a16ab9d0185378d1894d26bd9a32a06cb61749ac764232726",
+    "depth/back_left.png": "f9e2a310a803f1e9c42921da60c55a4971d5c7965a2eb48d75a53c988f7277c7",
+    "albedo/back.png": "1538acaac18e863c127fd186847e0f1012f539c6d083e38fda53dc46d91c7dbf",
+    "normal/back.png": "8c0cab466ce60292edd92f2389cf5aa43d8b2376924038049251512a9eb5d90d",
+    "depth/back.png": "894fe9091a6dc4be6f975e5cb415e11ce8712dc77cad008d4a8d5edcc4d9c453",
+    "albedo/back_right.png": "daad7257e22ef4a88eaa503c985fbeec29da5ccbda71e336c9ffd7e0b89e459e",
+    "normal/back_right.png": "5343a16ac71418e7717f68e8583ad434a0ce31fc7c4ae5aff1cadef87e897278",
+    "depth/back_right.png": "0f96f114d6a60fa8d3495c744d92a9538a1d9ae8af1eb0f30b902e4f7d8c0f2e",
+    "albedo/right.png": "59318c8ad43eb18428c2c1aa1694b531bfecbc266bbc81b960bb71279d573e85",
+    "normal/right.png": "402ce841b8e5cde35936c3e0a43f5d28354eb22e763269d1a56bea79cdd54506",
+    "depth/right.png": "3af1abd695e67a5a9686db24f2999b0c938f7240b6e5f6bfb8f4ae0c3baa6061",
+    "albedo/front_right.png": "421e141107612032a08cadb4c0658acf897784917110ea2ca00511a15875a111",
+    "normal/front_right.png": "9aebe52ca4d7446f9e74fa9292864b100dd7f25939040bae1dea6373ca8944d6",
+    "depth/front_right.png": "0d1c20d247a5952a4b20db8571f4dbf916233975ce32a262565d6fcc4948caa1",
+    "preview/contact_sheet.png": "37e90056279ed2f09b2d6df63bd6b881c8b24d1b5a3d2d5777e565c2bfdba1c6"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\villain_dark_monk_p3_20260326_211446",
+    "maps_dir": "bakeoff\\villain_dark_monk_p3_20260326_211446_maps"
+  },
+  "notes": null
+}

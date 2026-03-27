@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-26T21:20:59.995741+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "villain_cult_priest",
+    "display_name": "Cult Priest",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "villain_cult_priest_p3_20260326_205712",
+    "seed": 812100,
+    "generated_at": "2026-03-26T20:58:07.042870+00:00",
+    "accepted_at": "2026-03-26T20:59:06.578130+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "2a6a840e9b8a1bb134e3f2bda4bd5375cfca15bf26417f95b5e37cd92f1dad7c",
+    "normal/front.png": "4fa7a0ddaa2c4a6d999c9c98d5ba7be779d47a6201492b15ecc0ae1cdd0b88e8",
+    "depth/front.png": "52ec3619ba45e02470bd61749ddc6956cdb08e120473ab96595acee4b524b59f",
+    "albedo/front_left.png": "39a0f513351869442f1be196f5a5f83d71f7ed7ffb496f0f2f491f88606674f0",
+    "normal/front_left.png": "ae2c8e20c2bc3c3ee2c3933b2929c34805b9017112d04ccd772d9457678234fb",
+    "depth/front_left.png": "9b4a58f850fb38728e94d6dd56e2c361902ba11d70f1c9f346551695446d3cee",
+    "albedo/left.png": "7a518adeb6cc7a3722fd03a3b7dd8021d6839c78f4021bfa77f20dbaf9b5bf7c",
+    "normal/left.png": "894d3a9c955b158f00db6a8bfed9da6c86dfe6984d13113dc740141b039c00fc",
+    "depth/left.png": "0150379e189b165b4965ddcecfaec4ba29e3aef9b7c7d4c5a58de63f4cf70241",
+    "albedo/back_left.png": "330b505034dbb8100822c2f6dd26c9e221e0612296fe6dc51eeaa30fef8270d2",
+    "normal/back_left.png": "d7cc3c61d56f37f47b754145a9b8e55f17470eb18747ef5b622f23f5608b8362",
+    "depth/back_left.png": "014fe64dd8f711e36b42dfb930e59bbebd77f397708676f8b8e8e69607aa1c22",
+    "albedo/back.png": "7d8974f3f3365c4d064ca0a0f9d43b011e260bb2aa1d68eeea9e5df2a753e41f",
+    "normal/back.png": "3ad84d40f32b6d8be0572b3b48b4106cef7f60127bd0372d248d24dff67db222",
+    "depth/back.png": "b24913010971a6a8a801e637c65f0e0ff87e24cb48b2b3a6007788fae6fc18ba",
+    "albedo/back_right.png": "4a41c80ee12203af8cc1f147cab4321527e18ab2f3286457dfce4bdbd26a47e2",
+    "normal/back_right.png": "07088f547d947c58c0cb0250be0c50a45e8deee7637e1f198814f1af6990ab85",
+    "depth/back_right.png": "c2a7a8a243a083c6fc2abfa479e854c337a4d4e6c65a43904ab81cf969ee46a9",
+    "albedo/right.png": "150e9dbc75c18c907c70d0390814c7cd19475772b0785398b93af6d67a5e0317",
+    "normal/right.png": "ef931e56d1d768b8ad4d757429e1d33ae230cab63c91b0b7647ab231023638ac",
+    "depth/right.png": "f8f0adde6d7de3d4ab184a58681f366377b5de554457f08b140567e55ddef005",
+    "albedo/front_right.png": "0803c0268594a11b6798196bc70d0d5ff5c317673ab7f14f09f67e57d38dfbca",
+    "normal/front_right.png": "97e13fe1672d2d930f050e11422deb8fced3e084040727f61526a6ae0f1e2112",
+    "depth/front_right.png": "d40368d3fa62c0ecfe8e94b03978c10e1c76e973ba73c7a0e798d90ef78ff360",
+    "preview/contact_sheet.png": "bd5d921e3d9b57c80de9d448ddebfa15b43f5aa292567213ceea83354da11f65"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\villain_cult_priest_p3_20260326_205712",
+    "maps_dir": "bakeoff\\villain_cult_priest_p3_20260326_205712_maps"
+  },
+  "notes": null
+}

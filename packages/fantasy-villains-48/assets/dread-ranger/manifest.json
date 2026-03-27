@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-26T21:20:59.123655+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "villain_dread_ranger",
+    "display_name": "Dread Ranger",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "villain_dread_ranger_p3_20260326_204918",
+    "seed": 811800,
+    "generated_at": "2026-03-26T20:50:13.346256+00:00",
+    "accepted_at": "2026-03-26T20:51:22.870033+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "b12b4bb617131482dccf6ca7c4b9a295d191768a00af0f8b975974bf70ca9909",
+    "normal/front.png": "a696986073cd0e43b6646949babb275a66e876bf0b689101ec2b51064d37e74f",
+    "depth/front.png": "8eca01fdb8f3573b7e0b4a1efa62d851330469c2577dc51071d8bb070f972fc4",
+    "albedo/front_left.png": "33f8cbfc7e976b010557108498f0462f40b06a17eee7112dfb1a9a5acf24d277",
+    "normal/front_left.png": "c7e90568037373aa3806daa1d0af199baa5b16fe2021c9590cac13c89b04cab5",
+    "depth/front_left.png": "9328a4c573474055401745642e9e708d4f74fe21822af12c482c7383a9662f64",
+    "albedo/left.png": "3a29658fc9dca58e952b5d972c87a9c037867ca575dc40899fce382c0b4a8c03",
+    "normal/left.png": "1cb73662aed19e68df624be8230fc6c2dc29960209f72676628a0ac58152d3b4",
+    "depth/left.png": "5d549fbc6b8a3df9ed753df88c49246c3a60bd24dc4ba202e90daec4dbd85186",
+    "albedo/back_left.png": "cd8aee7f59ececb89a3027d39492925ddb9891c3b3578634228970696f6f0996",
+    "normal/back_left.png": "bbf6947e96c505e518d94a798596799134b066886f3a384aba15f30481e2dc48",
+    "depth/back_left.png": "c85f9bbb9e45cd3358180df7a574397be2e06d30d9b8b007e1c9d5d8ae7bd5d5",
+    "albedo/back.png": "95bc8e4cf587422e5cb2c3ccbd901148dbba3ad7bb5337b97080c330652059aa",
+    "normal/back.png": "34b1d13c608cb128a2c0f32ae7ac8fb04941fc63d2ee3a573900f99df8579c81",
+    "depth/back.png": "f53a77b8734d1c8c42fc1adbe8835f00b6d6b9b2e7c483ef68e974637da0e955",
+    "albedo/back_right.png": "b7fe3886c0aee75006ab451e9b56cf6de41d00e9871a8682ee96a20c40c2b38f",
+    "normal/back_right.png": "e31d5d16a10daf33614b27e2049f80e6d6ef33a59fe616bb0a790881993b658c",
+    "depth/back_right.png": "4e8ac2a0439a19d097015076137f281660e422c105badbd9ab8c7172c74feb9c",
+    "albedo/right.png": "774ca86c0b0effdaf94eeb051487404a39e3573fbe4987b4bf1352284b212f66",
+    "normal/right.png": "5505ede322af03322ca53f176d34db3405cc5bf1d1d552ca85511a4f3e332028",
+    "depth/right.png": "2d769b8e761ed35baa6aa744eb6067e71a49a164c69c671c3570d9ecf6cc75c0",
+    "albedo/front_right.png": "5878f8d0066efdb070ce651c2df82dd8175b2b475a2e041084d7184415664d62",
+    "normal/front_right.png": "9e8114941ee45dcc684d651966a33f760b5e77efa4fa899d23275658032ea494",
+    "depth/front_right.png": "cd9557a15c8649738a7a601721dd6d268046735b479b8282ab532db7708612f9",
+    "preview/contact_sheet.png": "aee52e40d637614b9ebc69d4172612aa711084502a351cd56fb87aebbb354f89"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\villain_dread_ranger_p3_20260326_204918",
+    "maps_dir": "bakeoff\\villain_dread_ranger_p3_20260326_204918_maps"
+  },
+  "notes": null
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T03:03:08.536477+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "pirate_pistoleer",
+    "display_name": "Pistol Duelist",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "pirate_pistoleer_p3_20260327_024543",
+    "seed": 813300,
+    "generated_at": "2026-03-27T02:46:47.594095+00:00",
+    "accepted_at": "2026-03-27T03:02:56.382623+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "0658d8c9352e8b39a09b79999ce78bb565d66ce63e1b25332cb27da59f1ffb6b",
+    "normal/front.png": "f7d5c809beb2edb9fe3227b0616bac340eaf6d8c07eca399d3dde9cb02c4d0ef",
+    "depth/front.png": "fb52cbcbb5bfbd1d3fd9e05d1b8115b986f4dbf73fbcdd7d75942bee0d1d4ed8",
+    "albedo/front_left.png": "62534977bc61bdb02b28469669a73072ad31afacd928d3445bb35694e171cc68",
+    "normal/front_left.png": "30cc50a183ebcc290b24af721b810b4d81a338ee4f45a574c88b4456872147e8",
+    "depth/front_left.png": "736d5dbcbc362bacad115506230c7a5673fb0c537daf487965c20ccd9c7cce2e",
+    "albedo/left.png": "5bf27978a1b114162569fb71aee61235eeba5ccaa9f762a177c1660fe7f0bcae",
+    "normal/left.png": "b9e96593d422ff8c9221c5f82214fc3cba465c69ba53bb038b8398b8e300e070",
+    "depth/left.png": "5dceef0ea0f6af640c8c6acbc39c232b9d30c830b58fc30eefe93b2e89d8f36c",
+    "albedo/back_left.png": "bc2a17366fe630609d27b1e8b86a7b3a41d1fa2680216792ca449977135d853c",
+    "normal/back_left.png": "4d00f408f80161fa7d7e68df2a6f79fb4cd0eac1349948f1a178336fb440c763",
+    "depth/back_left.png": "5213c8c1e09df3f119ec6b47733b7ae5634f73549876e847243955cf0bf2a7c9",
+    "albedo/back.png": "b260eaff0d7440ca575c1431ebee41f60e54812a00b0b8e3777d6edac67c33e5",
+    "normal/back.png": "6dd5bfe5c88062c63b8dbe5e8ec4303999ff39c82b5956c249ad499df7e83a3d",
+    "depth/back.png": "bfafb7a3590c4f681aa40b6b2cb347ade6106002eae1b548a5694a1d735d27b0",
+    "albedo/back_right.png": "d54bfbfd7b648523780eb296972cb19ea71ae2c84c1c818e93c05729668d5edf",
+    "normal/back_right.png": "b6b481e79bcb70f30446c6fb08ab27664d62b6c47a901d0bda67d69c6ea9a206",
+    "depth/back_right.png": "22ed364e578f532c71e9b0c12458a3b16c7591e29f618d1e1812689eeefbeef5",
+    "albedo/right.png": "bf1af071264f0f931c9979da6a4b4cc135fa4ed5c2babb46ad969da88ed879a1",
+    "normal/right.png": "6403472155633d181f86863d4bd48a97d03a50357a8c5113fec10fa710f420e0",
+    "depth/right.png": "67aa564fdca675aa391d145f21351e22f575e856b5b398d51f984862ac729fd1",
+    "albedo/front_right.png": "df1dfa0e0702dea1a4036764439f1fd4aadf77f0033d32211c8b1923bbf32667",
+    "normal/front_right.png": "e0af16ca336f5bf1396264f0e1250b89942a3fb579fd1091aa88a9a3fc6c0c83",
+    "depth/front_right.png": "0863f1131f1821612b6b1b0573bedae5f7b372cf08fed6b8fbb12042864cf800",
+    "preview/contact_sheet.png": "a858910e2e7cc7b261cd589aa5032ea40e616d5588b4863d74770639521503c9"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\pirate_pistoleer_p3_20260327_024543",
+    "maps_dir": "bakeoff\\pirate_pistoleer_p3_20260327_024543_maps"
+  },
+  "notes": null
+}

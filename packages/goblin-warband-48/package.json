@@ -1,0 +1,44 @@
+{
+  "name": "@sprite-foundry/goblin-warband-48",
+  "version": "1.0.1",
+  "description": "Goblin Warband — Pack 02 | 8 goblin variants × 8 directions × 3 layers | 48px pixel-art sprite pack",
+  "author": "mcp-tool-shop",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcp-tool-shop-org/sprite-foundry-packs",
+    "directory": "packages/goblin-warband-48"
+  },
+  "homepage": "https://github.com/mcp-tool-shop-org/sprite-foundry-packs/tree/main/packages/goblin-warband-48",
+  "keywords": [
+    "sprites",
+    "pixel-art",
+    "goblin",
+    "warband",
+    "game-assets",
+    "48px",
+    "normal-maps",
+    "depth-maps",
+    "8-direction",
+    "rpg",
+    "dungeon-crawler",
+    "tactics"
+  ],
+  "scripts": {
+    "verify": "node -e \"const fs=require('fs');const p=require('./pack.json');let ok=true;for(const v of p.variants){const m=JSON.parse(fs.readFileSync(v.path,'utf8'));for(const d of m.directions){for(const[l,pat]of Object.entries(m.layers)){const f=v.path.replace('manifest.json','')+pat.replace('{direction}',d);if(!fs.existsSync(f)){console.error('MISSING:',f);ok=false}}}}if(ok){console.log('All assets verified')}else{process.exit(1)}\""
+  },
+  "files": [
+    "assets/",
+    "previews/",
+    "pack.json",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

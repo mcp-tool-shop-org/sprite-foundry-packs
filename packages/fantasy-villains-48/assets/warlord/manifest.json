@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-26T21:21:00.558420+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "villain_warlord",
+    "display_name": "Warlord",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "villain_warlord_p3_20260326_211156",
+    "seed": 812300,
+    "generated_at": "2026-03-26T21:12:51.099796+00:00",
+    "accepted_at": "2026-03-26T21:14:36.369534+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "15932001ebcba9242075d9404639ea0b0fd0ec5f7a6bbd27adb77d6f53aab538",
+    "normal/front.png": "ef7a4924e8b4ed157081b079e38d08fbc78beae09b41403bb35f0c79a459575c",
+    "depth/front.png": "c65e619a62417e43c20143e8f454f3f291f4866615166b31bb5e9094592c2c22",
+    "albedo/front_left.png": "367856e9d8c87f82589fb9092a17cf9a7f8045aeab06a1311020d6eda72f464f",
+    "normal/front_left.png": "f176f3a59fbb1bc2e9422f0c296a9133363d1b9687977003c95e5f5c59ce03bb",
+    "depth/front_left.png": "df23c9f0f091d2d8c8d98b96ff9429d75c2a8e70a22d735d3732eafce3dc3902",
+    "albedo/left.png": "d3e1b8f47168416bf9e6ddf1571cfddc708c5b0626a139b0307d519ef12f5163",
+    "normal/left.png": "cd7aa8a4ed7c74b9f3e24af79f2797adabbd2203fd386777dc09a70852ec1567",
+    "depth/left.png": "a07bbcd2465f6d1e9e2b47a3a0dafd2adfd22cb1d5005ef919f0b9ab8d36989e",
+    "albedo/back_left.png": "cdae94985a09210692dbe3d31e3165a993abeef1f921cc86e223beb69870bf43",
+    "normal/back_left.png": "be991ac26f28e390b976644424c1adde13c5268f8a77a7541c29fbd364f5d48f",
+    "depth/back_left.png": "d6b1cc5eeb76005034e10253815bafae48a576a7c6c0851fc5133f959632b20f",
+    "albedo/back.png": "6981bd7bceb43f93cbd36aa41f25181fc57f2da1ce2e5c203b13ff6a1c6f32d8",
+    "normal/back.png": "0fbadef81dbe9b77592c8242e2c14459d06688c4caef88b66ccf6b4612b75465",
+    "depth/back.png": "e6a843c9e69f14619bb91295fade3b279c83266442ff403e13d9ebbaca4d6ae5",
+    "albedo/back_right.png": "48012b165ee559cca116dcc99794dfbbe6152d24600f6a9ef6f292ee608c927d",
+    "normal/back_right.png": "a6a1fb15e7b449165d1f20de4adcacf02ff2bed431db6956e49208a2bbd4e9f1",
+    "depth/back_right.png": "14eb2c6d619ece4ed876c732b4365a46be25513ee2cb768b5a6f6e2f669c415e",
+    "albedo/right.png": "27e1aa4478322001a432eea0c043c146f4f5f099f0f924336495f7565fd20424",
+    "normal/right.png": "f19dadc9abfec45eef77b6c2fdc9256bfb0ea894f8680189e1c7b1e82b189589",
+    "depth/right.png": "fd7ebf45b928afe638dfd458f7f1feb4ac4992a7fd3e7290b7927819417be0cf",
+    "albedo/front_right.png": "5c1b5986e34783e01177c18e2c356bd0137b949c94b507abe416529eed4179ec",
+    "normal/front_right.png": "29cb2d31855329bc80c04e380e738d3f5db1059b42e966f04b3d3765b1b9872c",
+    "depth/front_right.png": "f512ffbccca6c8fc8311c334e1ada68126717fc1c7cce1d6e85180ee8efc5db0",
+    "preview/contact_sheet.png": "9a58356e5d27e9d909d814b9192017054995ee8263a418cfef3d5b9416668850"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\villain_warlord_p3_20260326_211156",
+    "maps_dir": "bakeoff\\villain_warlord_p3_20260326_211156_maps"
+  },
+  "notes": null
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Undead Patrol — Pack 01",
+  "version": "1.0.0",
+  "style": "pixel-art",
+  "tileSize": 48,
+  "directions": ["front", "front_left", "left", "back_left", "back", "back_right", "right", "front_right"],
+  "layers": ["albedo", "normal", "depth"],
+  "format": "png",
+  "variants": [
+    {
+      "slug": "shambler",
+      "name": "Shambler",
+      "role": "baseline undead",
+      "silhouette": "hunched, slow, broken posture",
+      "path": "assets/shambler/manifest.json"
+    },
+    {
+      "slug": "runner",
+      "name": "Runner",
+      "role": "fast threat",
+      "silhouette": "lean, forward, aggressive stride",
+      "path": "assets/runner/manifest.json"
+    },
+    {
+      "slug": "riot-zombie",
+      "name": "Riot Zombie",
+      "role": "armored tank",
+      "silhouette": "heavy shoulders, shield/armor bulk",
+      "path": "assets/riot-zombie/manifest.json"
+    },
+    {
+      "slug": "hazmat-zombie",
+      "name": "Hazmat Zombie",
+      "role": "contaminated specialist",
+      "silhouette": "suit mass, round hood profile",
+      "path": "assets/hazmat-zombie/manifest.json"
+    },
+    {
+      "slug": "bloater",
+      "name": "Bloater",
+      "role": "area threat",
+      "silhouette": "wide torso, swollen asymmetry",
+      "path": "assets/bloater/manifest.json"
+    },
+    {
+      "slug": "skeletal-zombie",
+      "name": "Skeletal Zombie",
+      "role": "fragile/ancient",
+      "silhouette": "thin limbs, angular read",
+      "path": "assets/skeletal-zombie/manifest.json"
+    },
+    {
+      "slug": "worker-zombie",
+      "name": "Worker Zombie",
+      "role": "industrial/civilian texture",
+      "silhouette": "uniform, tool-belt, readable gear",
+      "path": "assets/worker-zombie/manifest.json"
+    },
+    {
+      "slug": "elite-zombie",
+      "name": "Elite Zombie",
+      "role": "commander/brute",
+      "silhouette": "tall, imposing, upgraded mass",
+      "path": "assets/elite-zombie/manifest.json"
+    }
+  ]
+}

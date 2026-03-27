@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-26T21:20:59.730428+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "villain_assassin",
+    "display_name": "Assassin",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "villain_assassin_p3_20260326_205507",
+    "seed": 812000,
+    "generated_at": "2026-03-26T20:56:02.372442+00:00",
+    "accepted_at": "2026-03-26T20:57:02.470749+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "a5708663ca3557d3f5d14e18dde3eee4d2746d4ff0ce9a6700542d2c5f2d2049",
+    "normal/front.png": "2be89c2570b54d389b7d91f9f279a817909e13746fdcdd4b4a1100be9719a34a",
+    "depth/front.png": "9973445b0fdc140fdf26efd11c3eb946cbbd8173fbb45bad2cc5b0929f4eeb36",
+    "albedo/front_left.png": "080dbda03aaa98c4afe1cb2433973dfb9c8a23631f49568b8190abdf722a54dc",
+    "normal/front_left.png": "07185dba5b333433e1f864ac8c6e4f80db9253110dd15dd5697590073dfd26e8",
+    "depth/front_left.png": "9db9486776b8fb8029fd0996467f0bb7139039489eee5e6c91b3e8f0e5a4ef41",
+    "albedo/left.png": "dd74c63d323ab32b1cc374bcc784adf1788acb4fa6224ad433c9b5d542dbc428",
+    "normal/left.png": "ae4cd1cae47ea0c37055d6ac249b6aa41bdd4e38acf7f27c5af66f91cd9ba038",
+    "depth/left.png": "3bdde5d2f92597ff5830e58cdaa396b6d54507d5fd7c9eba103bd755c608bd07",
+    "albedo/back_left.png": "009932b075ea5e52673287feeccce6a74b02a277d16652ca40b995d6f3df9a01",
+    "normal/back_left.png": "8f13ba054f619df419ef4e54cd5e19c71a8fc56bc17b884d9208e1e0494d9a03",
+    "depth/back_left.png": "39124fb0b15248efcd9cce69c9b6eb4cdd8c693fbc6f33b191036d64e037486f",
+    "albedo/back.png": "3a56c7ed419d767a3572a1558b1cb7b3c5bad1c29ee09b88a158780b1c81cb03",
+    "normal/back.png": "1e4144b9b57242559a8744cf05bac28523c4d3d615cefd3c06700dc12588447a",
+    "depth/back.png": "884c9ebcd9b72017179eb77fdf82e94f49bc0e87002a8c80560537c9159af2ca",
+    "albedo/back_right.png": "2ed5df6a81ce678165243483475dd87c661feb6d74b0f17e02d97d1b90dad1d1",
+    "normal/back_right.png": "b2259d5a6f9596d6bab6cb360fb89b2e83d414ec2f3ff03185f4bc2855048b91",
+    "depth/back_right.png": "8090d6e16f8eb2f8f2e66bb9ca6c8a5447a1028a484b0b3ba417e96b0c52f888",
+    "albedo/right.png": "6d4d48942b6f91d89231da4abb52a85dd045c0a54429ea54561fadbd4af4242f",
+    "normal/right.png": "47f4a2a083fe0b0c09d10f3907b39616af12fd4cf31076b431a87e418a94c611",
+    "depth/right.png": "fe666d458899410963ee87dd0308817c5ccf8ebf2bfb8919b1c2aa65a1816ef6",
+    "albedo/front_right.png": "82a7e982a26d483ae97a7fda820f708f7a09fba3a3d2663384539eae04f54c3a",
+    "normal/front_right.png": "ad109eb236f71c769d276bfc8595e6c0073b4229387ccec0d17efa8f3fb1c667",
+    "depth/front_right.png": "29602de9f7ea1f8d76e4010cc52d819183e4c7153548a5dfb2721ff7c23a55ce",
+    "preview/contact_sheet.png": "ce81037dff39e7641aa948e6394841b2777b0e20fc205cd366dca19cbdb1d577"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\villain_assassin_p3_20260326_205507",
+    "maps_dir": "bakeoff\\villain_assassin_p3_20260326_205507_maps"
+  },
+  "notes": null
+}

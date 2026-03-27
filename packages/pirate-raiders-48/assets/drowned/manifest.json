@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T03:03:09.355759+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "pirate_drowned",
+    "display_name": "Drowned Guardian",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "pirate_drowned_p3_20260327_025408",
+    "seed": 813602,
+    "generated_at": "2026-03-27T02:54:59.794926+00:00",
+    "accepted_at": "2026-03-27T03:02:56.821034+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "281832d4059fcb9b27cb6019881aec81c8713d467832982a604034d9fb7e07c6",
+    "normal/front.png": "e076e7a518d5818e7c1c00e8035f857c447068ef24d0befc9ced311c107588fb",
+    "depth/front.png": "4276d94022c4b713286724fd6dff3cc02b71237e014619510a049c3c05b10c5d",
+    "albedo/front_left.png": "313209fc180fa237d100ed5f91ab5e97f7e9947f08c3d34fae1cc3f430512034",
+    "normal/front_left.png": "e5028f3f611e9d2664a44ffd1cfba381eb9d6de4aa67211f1a5c4438add0bfb7",
+    "depth/front_left.png": "135da578ee3c8b2c64e1415beb6c70713f7664f850274e388c38b7c86d25b12f",
+    "albedo/left.png": "f52b04b8a8d98d4d44aee0deef8a0da20e7d7f6566ddb0fd83d84f26139710d3",
+    "normal/left.png": "d54b89e4cb960eb8615c1e35cd9526057ff6302785d353a3811f84f008eb9188",
+    "depth/left.png": "80b97942be50d131f9ca7c8bc8bd4433784c2bfe10229642a4d309bba968700e",
+    "albedo/back_left.png": "d2ee1e18a20568dc1fada2e716112fc9b0936d2f5ab81e1ba4872bbde848bde0",
+    "normal/back_left.png": "0803579d90aaaace2e90fdaa2d90a4468b43d0a86c624d9abb85903afd74d22a",
+    "depth/back_left.png": "6a79bb0c2bc3441bcffc9985ea517e46b5a66d023b3cf311bb33bf8dcea42bda",
+    "albedo/back.png": "be42b18eac208ad2a3369c6ac26876df6e01d5ccbde77957ad27db0d7330fde5",
+    "normal/back.png": "646d4f5528cf04c1e290fbc60dc4193ef42cb7ecef0b114e52816e5905c6936f",
+    "depth/back.png": "6a01899830491bee2d650a93c4143322770897922c12c9120ad8576503e930cc",
+    "albedo/back_right.png": "ee582917083dce194e707635ea1f54e88586f7e898ea0057b5026d533d1b1b6e",
+    "normal/back_right.png": "9cbcac9f38c29b7bda9a072e126bf7fba57877746b5e4057995f9c75e48e5fe8",
+    "depth/back_right.png": "3c229d2e5594f9f81f9d00414b46155a1fcd30fda910119ee8a5dd4e59d294de",
+    "albedo/right.png": "4b55a85d4c7b2d531cc64ba88e55d50e6aed862e6386bade5dfb467c661a9b93",
+    "normal/right.png": "ffdd6b0534475be5edda3774d78d3ff8facdc7c42f4550182f4587ab9f9e56a5",
+    "depth/right.png": "8c2227d1f86a0ec1f92ff4d7ea2b3b620f3283ccc40767d3b3e8397e8edaf472",
+    "albedo/front_right.png": "7cd2161ba7a0b3b90db909b2a6cf0ed9d4a4888301ff3f015f66a62b8a95aa3a",
+    "normal/front_right.png": "a6778633b12881cdb22b032d48285aa51fee605a71864fd498e86250f47ba46f",
+    "depth/front_right.png": "bf87ff650d51a782a15e304616d9d490be0e2fafa74ad318bf854d33d096a101",
+    "preview/contact_sheet.png": "a160c5d8309eea67f6dd6aff44cde42688355c2af12d7b871df55da1051ac32b"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\pirate_drowned_p3_20260327_025408",
+    "maps_dir": "bakeoff\\pirate_drowned_p3_20260327_025408_maps"
+  },
+  "notes": null
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-26T21:21:00.290875+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "villain_reaver",
+    "display_name": "Reaver",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "villain_reaver_p3_20260326_205916",
+    "seed": 812200,
+    "generated_at": "2026-03-26T21:00:10.773830+00:00",
+    "accepted_at": "2026-03-26T21:01:10.463717+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "360e7ddf26e77b3a591d233b431b594dedf570ed3be7c87bc7d10e2032920e1d",
+    "normal/front.png": "bc9a80db47d521025d985a44a5fe4ee6530ae28b28de63d192883a6e4e086158",
+    "depth/front.png": "81caf530d3bab12d3a6fb2cd61f09fbfb769bc03a481c708c8deeb98f3c9642f",
+    "albedo/front_left.png": "5ba458609ad5084f3414a7a5f4c5c5edef33c0b6b56de36f12ff8111b20d1014",
+    "normal/front_left.png": "6c0a2b75224a162865cf97f6c794907eb5bcdbd36a7bac726e5dae572445d3af",
+    "depth/front_left.png": "6cfe84f9d89ad473ae673ca349975df748422cd4dbab518d88dc484ab1d63597",
+    "albedo/left.png": "e6d7025cb45e951edb2da5824d69331fc68c45e750ab48a374770355cf56a0ae",
+    "normal/left.png": "ea135fe16fc01fcf1a1e57b7b650b1da9a41af60c9e3a2202bac7b0f40a8f58d",
+    "depth/left.png": "a7641e91a890a05338ab4f08a13cf5c13cebebec702cf3808dfc04611e6fc7e2",
+    "albedo/back_left.png": "bac30b19f9bf416bb7ee362fd31daa8a1afbe0fc1e8b63fd26f2ec3cd5256d7b",
+    "normal/back_left.png": "c31253b5ed7376906ff549fd53a0614b3a7168f0656348bdac39928ec12cbbfd",
+    "depth/back_left.png": "206e5d007422100c316d6f05daa0ed120aac453fcd92d6b16e6205730e7a5b02",
+    "albedo/back.png": "b367061197272bc7d6822ee0ea539d6e51e157fa77ba36ee66112162df94f961",
+    "normal/back.png": "978f18f6256e1ad5ddb4ac3b432a0ff513236ee6a2f4d0b6641f913064badd07",
+    "depth/back.png": "6a25a7ace4e9ee9fafa601cb23a8cdba9ca20257b315025c93acc24614945ca9",
+    "albedo/back_right.png": "c3a9ae9607c60bd6d72897cdb5f1a17f7212f1f0437410ef9f8dbddcdd1d0646",
+    "normal/back_right.png": "99a046a5cb382af46bbc85528e6f7149620579c9ecafd1ee0ea090bb6dbeed01",
+    "depth/back_right.png": "699a4a7291973df661e4e95f7f7b3a1a13880a225d9c0daf303714266294383a",
+    "albedo/right.png": "fe9ff1d0a2a2d09a9c99c803a2e8aa97d3e105a5496352dfba39b86dc4eb3dac",
+    "normal/right.png": "aa06c25d0609812af6305b8cc87d32e787cb5784395faa50a441710017267d00",
+    "depth/right.png": "d6349c9cc13ed0f45e374264d9346e1d5cb143d6cfec2d4620d9c397e7ac62c3",
+    "albedo/front_right.png": "0fc165911b2f6b679924d8768568b742d7faf66d4c6b15db2ae03f61297eebb1",
+    "normal/front_right.png": "d29851f81f440e4872e932910cbf4b87b5020fdfa3bf98233c3ac3de5917d002",
+    "depth/front_right.png": "a95c4d6f6a26f07b055ddec98d976eb66c8d57de81568270fa53e3770cd2eed9",
+    "preview/contact_sheet.png": "df067db2557cdd14cf579ac75f65bec5901c90b9e290a08049bb2993da7ba577"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\villain_reaver_p3_20260326_205916",
+    "maps_dir": "bakeoff\\villain_reaver_p3_20260326_205916_maps"
+  },
+  "notes": null
+}

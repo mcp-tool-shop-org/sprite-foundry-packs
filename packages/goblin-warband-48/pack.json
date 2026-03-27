@@ -1,0 +1,67 @@
+{
+  "name": "Goblin Warband — Pack 02",
+  "version": "1.0.0",
+  "style": "pixel-art",
+  "tileSize": 48,
+  "directions": ["front", "front_left", "left", "back_left", "back", "back_right", "right", "front_right"],
+  "layers": ["albedo", "normal", "depth"],
+  "format": "png",
+  "variants": [
+    {
+      "slug": "grunt",
+      "name": "Grunt",
+      "role": "melee fodder",
+      "silhouette": "small hunched frame, crude club, baseline goblin read",
+      "path": "assets/grunt/manifest.json"
+    },
+    {
+      "slug": "archer",
+      "name": "Archer",
+      "role": "ranged skirmisher",
+      "silhouette": "lean build, oversized shortbow, quiver bump on back",
+      "path": "assets/archer/manifest.json"
+    },
+    {
+      "slug": "shaman",
+      "name": "Shaman",
+      "role": "caster/healer",
+      "silhouette": "horned headdress, staff with totem, robed lower half",
+      "path": "assets/shaman/manifest.json"
+    },
+    {
+      "slug": "brute",
+      "name": "Brute",
+      "role": "heavy melee tank",
+      "silhouette": "wide shoulders, massive jaw, spiked maul, heaviest build in pack",
+      "path": "assets/brute/manifest.json"
+    },
+    {
+      "slug": "scout",
+      "name": "Scout",
+      "role": "fast flanker",
+      "silhouette": "crouched low posture, twin daggers, hooded, smallest profile",
+      "path": "assets/scout/manifest.json"
+    },
+    {
+      "slug": "bomber",
+      "name": "Bomber",
+      "role": "AoE threat",
+      "silhouette": "bulging satchel, lit fuse bomb in hand, goggled eyes",
+      "path": "assets/bomber/manifest.json"
+    },
+    {
+      "slug": "warchief",
+      "name": "Warchief",
+      "role": "elite leader",
+      "silhouette": "tusked helmet, banner pole on back, heavy armor, tallest goblin",
+      "path": "assets/warchief/manifest.json"
+    },
+    {
+      "slug": "wolf-rider",
+      "name": "Wolf-Rider",
+      "role": "mounted unit",
+      "silhouette": "goblin on dire wolf, widest and longest profile, completely different body plan",
+      "path": "assets/wolf-rider/manifest.json"
+    }
+  ]
+}

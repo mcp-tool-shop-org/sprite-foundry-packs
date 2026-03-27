@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T03:16:52.623078+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "pirate_sea_priest",
+    "display_name": "Sea Priest",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "pirate_sea_priest_p3_20260327_031321",
+    "seed": 813703,
+    "generated_at": "2026-03-27T03:14:10.379842+00:00",
+    "accepted_at": "2026-03-27T03:16:52.350967+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "ba5ded947b4c84f94cea98fa42905928ad007121872c8a19c49e9a1c60a3273a",
+    "normal/front.png": "144a150b8a57ee884401589b2fdd29cc8772e8f773092469dd4b747d0bb41b35",
+    "depth/front.png": "4889d83cd1690ff782eba9c4b6a51d06ec6c4f2fe1719ad18f3d554c677441da",
+    "albedo/front_left.png": "bb75a19de5755fcfbb2bf67caef6dda7c8afde4bc69d8cca51c7092952cbb4ab",
+    "normal/front_left.png": "22cd60f75deb77a103dacf5f60aefce53f69a47c6eee934727ec066ec151d8e7",
+    "depth/front_left.png": "e3da26232a3347a19bd0476127b5f354a39a69b094c977e5f47990f316abaeef",
+    "albedo/left.png": "7849faf089982e7882fbf3b6029a8f86f104f9c471916591b2b7ba901eddf3cb",
+    "normal/left.png": "648c8f969c3bed47f733d58469e13aee4d4b636a295547f6ba86abf4b4241e6f",
+    "depth/left.png": "39ce368c76d4515c7246fed99c0a8b7cd2e0f09617abe407075be82072645169",
+    "albedo/back_left.png": "9db150379da9c688ca8f51b3c6a3be9274f40567ecf4fd98db62632ff52c8600",
+    "normal/back_left.png": "cb93d5bb7a142c081e5bdf55984940e733aa5f78705cb9bb0f520981f367b9fa",
+    "depth/back_left.png": "4fc457b80a49df23fc3d4cd9ad51783718aaf01e2e5f7e42e941112a5b231ed0",
+    "albedo/back.png": "a3e038aa0b17ce1c2d01183e20eb297c948065a869a29509bb739b8f813ad41b",
+    "normal/back.png": "caeccd723a423ba2925844ed2d82d9961d0ee2a68bfa8c53653c22955ec61b29",
+    "depth/back.png": "ebe6ff79dd8d0f8e164df8a6c9c3078f78a7ae59d91282d932ce2903480c4330",
+    "albedo/back_right.png": "b2ce49d5d537362bb42c26b299de0822d6ed9443c6136841ad89fc828fb94a70",
+    "normal/back_right.png": "117f44dacb9754eca98c197c5af8c8dedcc571a52a4aeb847fda4c3287ddcd9e",
+    "depth/back_right.png": "a01f2f9fc32365fc23220230d74067244ecf8fc27d530447cd85a4eea013fc79",
+    "albedo/right.png": "c5dfdadc0e52ee7eff825cfd2a679a1ba043914e1368af15c28f1b3149b53351",
+    "normal/right.png": "a98670d0ff6b81c0fb38cba91544cdf4b4b99bf6598dc5522e4a367ce8f8404f",
+    "depth/right.png": "bc755febf45fdc5d2a913343abced1227a98f2dc7ac26627a19181bf45c2a4e5",
+    "albedo/front_right.png": "9aaba152e284d2c14f520efb76a4bde08db02dc4a731bfe530a3d9b48cd5aa86",
+    "normal/front_right.png": "4611598f4519ce48a4408e8333d4ea4202c8d6979c9b648faaa448e6438f072c",
+    "depth/front_right.png": "fa3c9be9c8785162c9ffdaa737688f23a22d550c170fd2a2a4f1913f066584bb",
+    "preview/contact_sheet.png": "99ce08ede0acee6c4261b09f34d568a540bd9df42d3bc42c5702b2fd3bd4858c"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\pirate_sea_priest_p3_20260327_031321",
+    "maps_dir": "bakeoff\\pirate_sea_priest_p3_20260327_031321_maps"
+  },
+  "notes": null
+}

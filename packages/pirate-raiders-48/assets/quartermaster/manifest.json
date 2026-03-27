@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T03:03:07.921350+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "pirate_quartermaster",
+    "display_name": "Quartermaster",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "pirate_quartermaster_p3_20260327_024305",
+    "seed": 813100,
+    "generated_at": "2026-03-27T02:44:12.277582+00:00",
+    "accepted_at": "2026-03-27T03:02:56.085303+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "da31a6f5e8e4de07088130fb66304e3f782994afd0f0eb85e803f1dcd98c2e3a",
+    "normal/front.png": "f5c935b9c67d9709c44cf1107963004cdc9ce20208b33aabb12c2c4e916911e5",
+    "depth/front.png": "a9b7f18889456ca4992aaa77254f7e096de9ab81855a448a7011bfef9aa2788b",
+    "albedo/front_left.png": "ef25c91c1432c4f7c9f9a7b35a782f53c34d95a37b1aa3d5a010f670ed14ceed",
+    "normal/front_left.png": "e1530607a90a2d66d7d368bf80199a85ea476931cb794c45b7a6e9f08cea9692",
+    "depth/front_left.png": "9f7c7c5ebc419c2cd7ddaec7ee3b2f6cca7fb063992aa028c49a4cf8410cd24d",
+    "albedo/left.png": "f92c6759c5cda8c0ffc22810bd15f967d6d89e03822ed94b3166672171a02d0e",
+    "normal/left.png": "888d806806a18de3616565abf8ab1109e83d6ceb5d017b186b82c23329c219ed",
+    "depth/left.png": "da1f69e8476dd34a9080b7834e0f8f6d37f3848e2c93efb96f6d154824233ecc",
+    "albedo/back_left.png": "9536d2a0ec2d41453a3b99a3a424baf435fe9058dbf68cd44d81ee5c629842db",
+    "normal/back_left.png": "827133f2cd72fc09f64764af3ec5e21b9e1da8c0f6180864f687b2625de74a30",
+    "depth/back_left.png": "b500282f51cb50db3a8242217c2536c9319566bd65cee2b91a74120d5ec52d41",
+    "albedo/back.png": "18c1f1eefa8bfeb5086fb8c1e0d473673819bedaa9753d9db021624e8a4fccab",
+    "normal/back.png": "690a4d785885f1ac539ce4942e0e90c1c43947335cba3934b7a020e4b95dce06",
+    "depth/back.png": "6864492987ae34ea2e03ec2df5752ac1f1f38f4182e87e9e3e516754c77f75ad",
+    "albedo/back_right.png": "5723a77c503b8fb26d10a3a8c878a508431182eca3d3e4011972cc26e932a989",
+    "normal/back_right.png": "a6472e33fc9cab4c1a41dca9ad49241266fcb9d54ada2ed6e0e4a908eedfaf23",
+    "depth/back_right.png": "e7329ec03c9adb79b5f8ac3208594044b5059364f2b256a6991115690a573feb",
+    "albedo/right.png": "627071da5824435b5ee400ce09d0ed17ea3df54e81f0d456988f93e0f8777fba",
+    "normal/right.png": "799f0996b77d7cf4f6fba1fa3894e92eb405bdce768eccc2a3f99b5d11cc7f3d",
+    "depth/right.png": "07140f97c1e9b5547b11f7f6afa63e6dc37ce854adbaebe013a63553043d093a",
+    "albedo/front_right.png": "f05f0e1c35b6e959b47b0a9e93cda4caff08eb8514015f0c217372e328055bce",
+    "normal/front_right.png": "ee2ff04ffaeffae3cb173bf20cdb18cb25f9a5654d4e8e6211e9a8b8142be829",
+    "depth/front_right.png": "93bf59262ec2ff819aba3d3f4532048c9b36b30b61de7bacb3d8e2a3302f973d",
+    "preview/contact_sheet.png": "7b444bd4f62efe63d937b1806ceb59ab969d73fe5ac6046a22d16f178bd5b71d"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\pirate_quartermaster_p3_20260327_024305",
+    "maps_dir": "bakeoff\\pirate_quartermaster_p3_20260327_024305_maps"
+  },
+  "notes": null
+}

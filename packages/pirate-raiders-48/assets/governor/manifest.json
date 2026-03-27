@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T03:03:09.078081+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "pirate_governor",
+    "display_name": "Harbor Governor",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "pirate_governor_p3_20260327_024818",
+    "seed": 813500,
+    "generated_at": "2026-03-27T02:49:25.919166+00:00",
+    "accepted_at": "2026-03-27T03:02:56.660127+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "f144cb02199274bfca20089fb52987d1f3b79d6c2d09d7575af290bc532a7069",
+    "normal/front.png": "9e3b5475b83fa1f485022f729b8e8abc0fc95e8edd0b3da0ced3f58de3852a0e",
+    "depth/front.png": "75a82beedc7b15875833ff0bdf9b357e93637a9fe2dbd82e53a0fa1cf28e761f",
+    "albedo/front_left.png": "461184f7317a9fd472e40bf91f825bf4ed24f0eeef842bbe9418860d16ea29a9",
+    "normal/front_left.png": "c559bb3ea1da5a9458cf03d86815563a7e4d08a17960f3504d01591c87eb4e7c",
+    "depth/front_left.png": "8f016d0d8522f4dadc1a2bca80e41c28c19b1ea1c11092ea83042fad45ecffc7",
+    "albedo/left.png": "c05b4e05e1fd15456601ea28c8f49fd71fe97e997ec61701cbeede9cfd609f56",
+    "normal/left.png": "31542f5de217b5416ad6dde59d32ddd1634181d5b878fbc214aa887bd15f21a2",
+    "depth/left.png": "5203d366b3d031d5f012d3ece41bcd67f35bb5090df559d9d4f9733f58c47669",
+    "albedo/back_left.png": "a20194e2ef3a3469ca2996dbb6e4bdc9b18832e1c382eb92d162d67919ad4a27",
+    "normal/back_left.png": "2f6ef174b6ab62de49da84644f78cc171799e4be8c2ed506167c7dfe13ebdfba",
+    "depth/back_left.png": "7fe4fbbf78cc2cac6fa67d256cf254e80cc4cbdd35e0c424367becfe8c83f1ad",
+    "albedo/back.png": "22d208b33a2e2de1c574bc5310fdf8b726054925cf9b3fa511cf78d125258bbd",
+    "normal/back.png": "384e493f2e469b0e310f76ae4fadbe73c2aec0462f0bf30f5b249090d02c562a",
+    "depth/back.png": "32b1c8a18f4bef5dacae324d35cecd9053f2cd64d8861c61c1825997ac99e418",
+    "albedo/back_right.png": "51af9d74d326918b043288fd5f88a3acf863b4071456784c87490fb0e7c9078a",
+    "normal/back_right.png": "57e724f6e6b8b3122f650d4101522102a8245222cc048b5dc91ccd0b2cd9249a",
+    "depth/back_right.png": "089dae48e2b1a246fc2d7c20e1393e9bcf0af93a90ccbaccdb9a7550265dbf26",
+    "albedo/right.png": "7c51b79ac132478e5a7270bb306b6c62e1fa0aaed60c67d915116af060b341d5",
+    "normal/right.png": "b65673df079e46e5386f9e3711cd9232d5956e30c11e1ad69ff099536bf1ecee",
+    "depth/right.png": "08c9ffd4b51a159949afda7911a54c9222651787438d925757e5fa557acbce40",
+    "albedo/front_right.png": "80c11f6a253a9757b65a6461000bb41ac5201d21a67017b94c90459ba8e99f53",
+    "normal/front_right.png": "2c9a1f656d9ff40810ade88290fae7e48e7dadf66ad1aa0ce1b3ea6dcbb6d2ec",
+    "depth/front_right.png": "289434b4d75aa093e73dc144885bfd06ee0549dc8c4454a32ae9f7b1a66656b9",
+    "preview/contact_sheet.png": "5287ecae37609025d0b83ccd67e02a98622e4bbcda2c6f22289c2a96221cba79"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\pirate_governor_p3_20260327_024818",
+    "maps_dir": "bakeoff\\pirate_governor_p3_20260327_024818_maps"
+  },
+  "notes": null
+}

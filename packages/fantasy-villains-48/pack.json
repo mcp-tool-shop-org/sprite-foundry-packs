@@ -1,0 +1,18 @@
+{
+  "name": "Fantasy Villains",
+  "slug": "fantasy-villains-04",
+  "version": "1.0.0",
+  "tileSize": 48,
+  "directions": ["front", "front_left", "left", "back_left", "back", "back_right", "right", "front_right"],
+  "layers": ["albedo", "normal", "depth"],
+  "variants": [
+    { "slug": "blackguard",   "name": "Blackguard",   "role": "elite tank",         "path": "assets/blackguard/manifest.json" },
+    { "slug": "dread-ranger", "name": "Dread Ranger", "role": "ranged hunter",      "path": "assets/dread-ranger/manifest.json" },
+    { "slug": "necromancer",  "name": "Necromancer",  "role": "summoner/caster",    "path": "assets/necromancer/manifest.json" },
+    { "slug": "assassin",     "name": "Assassin",     "role": "flanker",            "path": "assets/assassin/manifest.json" },
+    { "slug": "cult-priest",  "name": "Cult Priest",  "role": "support/debuffer",   "path": "assets/cult-priest/manifest.json" },
+    { "slug": "reaver",       "name": "Reaver",       "role": "heavy damage",       "path": "assets/reaver/manifest.json" },
+    { "slug": "warlord",      "name": "Warlord",      "role": "commander",          "path": "assets/warlord/manifest.json" },
+    { "slug": "dark-monk",    "name": "Dark Monk",    "role": "fast specialist",    "path": "assets/dark-monk/manifest.json" }
+  ]
+}

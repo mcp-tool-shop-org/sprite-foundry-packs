@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T03:03:08.233425+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "pirate_cutthroat",
+    "display_name": "Cutthroat Boarder",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "pirate_cutthroat_p3_20260327_024427",
+    "seed": 813200,
+    "generated_at": "2026-03-27T02:45:31.743330+00:00",
+    "accepted_at": "2026-03-27T03:02:56.225900+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "9da2c3c2227573941c6d5b3d7e749b0dea46f87d83ea5d45d1d472ad757fca71",
+    "normal/front.png": "1d0afe06595d16f0f9cbec77421ed4638bdfe9b7726ef7d467ae8215e2e2e56f",
+    "depth/front.png": "f44013eb725393f2059c65617596368a4264792e1468720f290f0b2ab1e4e89d",
+    "albedo/front_left.png": "065fdc564d3fef678515a760cbaa1ccaf5e206f41271f44b1f0db3967c488d43",
+    "normal/front_left.png": "0a721fe8fc7db25857a59f762a0e3f2fefac9af92e87a4f8ba63e52df161fc01",
+    "depth/front_left.png": "c83f5b52bda1591d066211dc5ac8e83ccdb4d16ee7350a81ee728d22d2c9b101",
+    "albedo/left.png": "4f3d75555102324e22844f92a8bf9cb41c67c314fcad125bd40d9295b68a2d1e",
+    "normal/left.png": "2fc7f66ae812db91bc37a8790898506178f8422a7fabdf79bd9568c2f9c8f91d",
+    "depth/left.png": "44e3f33f1640374eac88f39c9b6da7d49eee0eb1bb889886edc11ac972f2161d",
+    "albedo/back_left.png": "ba85fc5052569f3d9ecdef1a104c7bf8b1106a51e1a2df09a90dd6aedc245d4f",
+    "normal/back_left.png": "39cf7fb72cd05b6910df07374590b51020126ca7e2fcf2f71e122a62999c38a0",
+    "depth/back_left.png": "baad03af2c49e16e1056781d863110034c58081f6e8d4e0c20c7bbe42d77e204",
+    "albedo/back.png": "a34f3ce740f4f7f85f724a4ebd1fee7b450f123fce3ab6b1743749a259fb0e11",
+    "normal/back.png": "6fc25e13e3806eb23c3c6e31e189fa454ea7ae3a61bcc7e146d796555c940252",
+    "depth/back.png": "a342e2765d9c2cdcc0692735da8f8e9c6b0a3e73da0c3eb75fd8633f8b748eaa",
+    "albedo/back_right.png": "31c010a0e8b0e5f83a21cbe4a647c7cb1d88d5512a2bea21acb2e13fe008a0e1",
+    "normal/back_right.png": "2c638327d85e5f6f626203a13136be475c65ffe66df4f2d68a508ec566c36741",
+    "depth/back_right.png": "a2b081114c94a4d5396db4343d86889b2fc5459ac1ca6e3b9d3427d8201eaace",
+    "albedo/right.png": "fedc8395d4d873667763b5174eb74f8d46de41f915a574d7949c6abc6b3c18ea",
+    "normal/right.png": "ae1c956b020091209bca203244223fe521908d14a9f042c8f2457d7257799397",
+    "depth/right.png": "08f1a94387d316f3c0d1fcca2fb7bf2e3ea2e34ef6ea8d52e081a51fd25a72c5",
+    "albedo/front_right.png": "a9a40209462bb0b415edf74cc1875954317b3a0055bdb684ab3b6ba8ad306e16",
+    "normal/front_right.png": "6a6ee8f47b3ea468a10839a7ee2004403be631c5e16d5c9a7bbdc0d315aba464",
+    "depth/front_right.png": "d4acfc6f849a3d51d4eb6cabff80217c79498f44ee7faa0500d279aceba0956b",
+    "preview/contact_sheet.png": "a391741ca9849574086addcdfc9fef517f05bd305a6d022d748a5dbc405442bf"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\pirate_cutthroat_p3_20260327_024427",
+    "maps_dir": "bakeoff\\pirate_cutthroat_p3_20260327_024427_maps"
+  },
+  "notes": null
+}

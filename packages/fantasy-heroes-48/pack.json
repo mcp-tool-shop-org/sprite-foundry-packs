@@ -1,0 +1,18 @@
+{
+  "name": "Fantasy Heroes",
+  "slug": "fantasy-heroes-03",
+  "version": "1.0.0",
+  "tileSize": 48,
+  "directions": ["front", "front_left", "left", "back_left", "back", "back_right", "right", "front_right"],
+  "layers": ["albedo", "normal", "depth"],
+  "variants": [
+    { "slug": "fighter",   "name": "Fighter",   "role": "frontline all-rounder", "path": "assets/fighter/manifest.json" },
+    { "slug": "ranger",    "name": "Ranger",    "role": "ranged striker",        "path": "assets/ranger/manifest.json" },
+    { "slug": "mage",      "name": "Mage",      "role": "caster",               "path": "assets/mage/manifest.json" },
+    { "slug": "rogue",     "name": "Rogue",     "role": "flanker",              "path": "assets/rogue/manifest.json" },
+    { "slug": "cleric",    "name": "Cleric",    "role": "healer/support",       "path": "assets/cleric/manifest.json" },
+    { "slug": "barbarian", "name": "Barbarian", "role": "heavy damage",         "path": "assets/barbarian/manifest.json" },
+    { "slug": "paladin",   "name": "Paladin",   "role": "elite tank",           "path": "assets/paladin/manifest.json" },
+    { "slug": "monk",      "name": "Monk",      "role": "fast specialist",      "path": "assets/monk/manifest.json" }
+  ]
+}

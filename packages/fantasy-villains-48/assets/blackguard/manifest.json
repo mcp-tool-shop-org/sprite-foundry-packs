@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-26T21:20:47.165461+00:00",
+  "foundry_version": "90ef703",
+  "identity": {
+    "subject_slug": "villain_blackguard",
+    "display_name": "Blackguard",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "villain_blackguard_p3_20260326_204649",
+    "seed": 811700,
+    "generated_at": "2026-03-26T20:47:43.619466+00:00",
+    "accepted_at": "2026-03-26T20:49:08.564348+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "90ef703"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "dba63a5888125cb087e29a84ff717a704b7343066bf6b1188aaaf498996167e3",
+    "normal/front.png": "ce03bdaf8bc0cbc7e81f1f4e040a9df6783021a9ca5f89f156b86aa951c106bf",
+    "depth/front.png": "2087c9a0610d897444fc4dfcd59072a431968a66e5ab01c7cf3764a44a27356b",
+    "albedo/front_left.png": "7e89a97654b0347e9cbb9eb206ce469c23fe6a6871a01275f471e44d9791617b",
+    "normal/front_left.png": "99c44caad17ba54d9d7287476648a1470dc4971c124890362e64734e68c064b6",
+    "depth/front_left.png": "01e6b3a3451cd384f21669fbcf6bbe53bb19d48c741c27a7e4c5ac9991b242d6",
+    "albedo/left.png": "61459fbff51e1605220d61b28bc66dc1146d6407dff2b4260cd8be9544334c72",
+    "normal/left.png": "3fb94325bf36ef46082d24e3d7302ac4b7d61eef8180c245bd710f5a332eb421",
+    "depth/left.png": "7704064d1f784abc1900a094a609d32e394fec742d0c866ad712805250dc10c1",
+    "albedo/back_left.png": "2373bc470cd5e27ef08b259b6504c8a0e2786585f5675a1049b9c0a0a2f3ed53",
+    "normal/back_left.png": "0825006654b96e00bacfa87cdbbd9cc8809ae436cf45e2bf18657ef0c2661f64",
+    "depth/back_left.png": "dab253f5ab6669e3f757ea050b087a9bc57f75caa1adb35b81788b500a272a15",
+    "albedo/back.png": "e82850918716a8793a7f5a4be41c19f11af3b03684164cc5c5c1cc38197e5a7c",
+    "normal/back.png": "3d1d7c5df2518ead6ec113955a93bcc3de2d24ea03772d8b5e1eea71f90ed20a",
+    "depth/back.png": "80d5f8eab4f39e8e10f5445aecd44922aaa0eb82656ac8500f8ddf04c581116b",
+    "albedo/back_right.png": "be1443e5818a89d5d12ef8c3a7b2fa2daf4754aa5a258b2c5a354a805be701e8",
+    "normal/back_right.png": "59340e3ed64c76c08a0cb7e5eaba901af871dc29ded3d32f446e33cec4cd980f",
+    "depth/back_right.png": "031e6d65990fea58bf92178e1d97518aedba20eef183cab73547e82623176d33",
+    "albedo/right.png": "48a80ed1ab308610c543b1081fde6534263bf9915655f10b5fe300ff23abd963",
+    "normal/right.png": "cfba651209ad22583548659c66f9dcb9ca629a2f3a8694128c27136de5144e1a",
+    "depth/right.png": "5f8b08391e88d740c06dc3cd012cc12aa34be43d101618117bb312e8a8ba6113",
+    "albedo/front_right.png": "76ae7a4d542b4ca8ed71bbe29226d8d01bd4033d0a40b7f1f54d55e19905e3b4",
+    "normal/front_right.png": "0a4750beeb7f2bddf3bb079e5c7a64f908aa949b20a0902462e89fc65654876e",
+    "depth/front_right.png": "93c62e9e988f0965a9cc5f81af35eaa94790898c2ffb869252d7030ac8d62522",
+    "preview/contact_sheet.png": "d610a3abddd7395ac2d2d4e902009eabc727b256a41268fd3af635e62d796467"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\villain_blackguard_p3_20260326_204649",
+    "maps_dir": "bakeoff\\villain_blackguard_p3_20260326_204649_maps"
+  },
+  "notes": null
+}

@@ -1,0 +1,42 @@
+{
+  "name": "@sprite-foundry/undead-patrol-48",
+  "version": "1.0.0",
+  "description": "Undead Patrol — Pack 01: A 48px, 8-direction pixel-art zombie enemy pack with albedo, normal, and depth maps for engine-agnostic game use.",
+  "keywords": [
+    "sprites",
+    "pixel-art",
+    "zombie",
+    "game-assets",
+    "top-down",
+    "8-direction",
+    "normal-maps",
+    "depth-maps",
+    "48px",
+    "enemy-pack"
+  ],
+  "author": "mcp-tool-shop",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcp-tool-shop-org/sprite-foundry-packs",
+    "directory": "packages/undead-patrol-48"
+  },
+  "homepage": "https://github.com/mcp-tool-shop-org/sprite-foundry-packs/tree/main/packages/undead-patrol-48",
+  "scripts": {
+    "verify": "node -e \"const fs=require('fs');const p=require('./pack.json');let ok=true;for(const v of p.variants){const m=JSON.parse(fs.readFileSync(v.path,'utf8'));for(const d of m.directions){for(const[l,pat]of Object.entries(m.layers)){const f=v.path.replace('manifest.json','')+pat.replace('{direction}',d);if(!fs.existsSync(f)){console.error('MISSING:',f);ok=false}}}}if(ok){console.log('All assets verified')}else{process.exit(1)}\""
+  },
+  "files": [
+    "assets/",
+    "previews/",
+    "pack.json",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
