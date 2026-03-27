@@ -19,9 +19,11 @@ A 48px, 8-direction pixel-art pack of boss-ready humanoid antagonists with albed
 
 ## What's Included
 
-8 villain archetypes — elite humanoid antagonists, not generic monsters:
+16 villain archetypes across two tiers — **Elite Threats** and **The Court** — each with 8 directional views:
 
 ![Variant Lineup](previews/lineup.png)
+
+### Elite Threats (original 8)
 
 | Variant | Role | Silhouette |
 |---------|------|------------|
@@ -33,6 +35,19 @@ A 48px, 8-direction pixel-art pack of boss-ready humanoid antagonists with albed
 | Reaver | Heavy damage | Executioner's cleaver, half-mask, bare scarred torso, widest villain |
 | Warlord | Commander | Crown-helm with plume, halberd, banner on back, ornate gold/red armor |
 | Dark Monk | Fast specialist | Shaved tattooed head, chain-weighted staff, metal-studded wraps |
+
+### The Court — Mid-bosses and Entourage (v1.1)
+
+| Variant | Role | Silhouette |
+|---------|------|------------|
+| Vampire Lord | Aristocratic undead | High-collared crimson cape, chalice, pale skin, fangs |
+| Gorgon | Petrifying monster | Snake hair crown, bronze Greek armor, curved blade |
+| Mind Tyrant | Psychic overlord | Bulbous head, face tentacles, purple robes, psychic crown |
+| Corrupted Paladin | Fallen holy warrior | Cracked plate armor, broken halo, red eye, planted sword |
+| Witch | Forest curse weaver | Crooked pointed hat, gnarled staff, green glow, tattered robes |
+| Bandit King | Outlaw warlord | Iron thorn crown, fur cloak, dual swords, scarred muscular build |
+| Dark Elf Matriarch | Spider-themed ruler | Dark skin, white hair, spider scepter, purple/black armor |
+| Plague Doctor | Pestilence bringer | Beak mask, wide-brim hat, censer with green smoke, leather coat |
 
 Each variant ships with three map layers:
 
@@ -63,6 +78,14 @@ assets/
   reaver/
   warlord/
   dark-monk/
+  vampire-lord/
+  gorgon/
+  mind-tyrant/
+  corrupted-paladin/
+  witch/
+  bandit-king/
+  dark-elf-matriarch/
+  plague-doctor/
 pack.json          pack-level index
 previews/          banner and lineup sheets
 ```

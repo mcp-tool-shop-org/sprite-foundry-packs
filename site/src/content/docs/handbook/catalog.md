@@ -107,17 +107,33 @@ Each pack contains 8–16 character variants designed around a specific theme. E
 
 **npm:** `@sprite-foundry/fantasy-villains-48`
 **Theme:** Boss encounters and antagonists
+**Variants:** 16 (doubled in v1.1)
+
+### Elite Threats
 
 | Variant | Role | Visual identity |
 |---------|------|-----------------|
-| Dark Knight | Anti-paladin | Black plate, cursed sword, red visor |
-| Necromancer | Summoner | Bone staff, tattered robes, green aura |
-| Lich | Undead mage | Crown, skeletal, phylactery glow |
-| Demon Lord | Final boss | Horns, wings, infernal armor |
-| Assassin | Stealth boss | Shadowy cloak, poisoned blade, mask |
-| Warlock | Dark caster | Tome, chains, purple energy |
-| Dragon Priest | Cult leader | Dragon-scale robes, ritual dagger, horned helm |
-| Shadow Beast | Monster boss | Amorphous dark form, glowing eyes, claws |
+| Blackguard | Elite tank | Closed dark helm, tower shield, spiked mace, black plate |
+| Dread Ranger | Ranged hunter | Skull mask, longbow, bone trophies, tattered cloak |
+| Necromancer | Summoner/caster | Bone crown, skull staff, tattered robes, gaunt frame |
+| Assassin | Flanker | Face mask, curved daggers, vial bandolier |
+| Cult Priest | Support/debuffer | Horned headdress, censer, red/black vestments |
+| Reaver | Heavy damage | Executioner's cleaver, half-mask, bare scarred torso |
+| Warlord | Commander | Crown-helm with plume, halberd, banner, gold/red armor |
+| Dark Monk | Fast specialist | Shaved tattooed head, chain-weighted staff |
+
+### The Court — Mid-bosses and Entourage (v1.1)
+
+| Variant | Role | Visual identity |
+|---------|------|-----------------|
+| Vampire Lord | Aristocratic undead | High-collared crimson cape, chalice, pale skin, fangs |
+| Gorgon | Petrifying monster | Snake hair crown, bronze Greek armor, curved blade |
+| Mind Tyrant | Psychic overlord | Bulbous head, face tentacles, purple robes, psychic crown |
+| Corrupted Paladin | Fallen holy warrior | Cracked plate, broken halo, red eye, planted sword |
+| Witch | Forest curse weaver | Crooked hat, gnarled staff, green glow, tattered robes |
+| Bandit King | Outlaw warlord | Iron thorn crown, fur cloak, dual swords, scarred build |
+| Dark Elf Matriarch | Spider-themed ruler | Dark skin, white hair, spider scepter, purple armor |
+| Plague Doctor | Pestilence bringer | Beak mask, wide-brim hat, censer, leather coat |
 
 ## Pack 05 — Pirate Raiders
 
@@ -145,4 +161,4 @@ Each pack contains 8–16 character variants designed around a specific theme. E
 | Manifests | 1 | 8 | 16 | 56 |
 | Preview sheets | 1 | 8 | 16 | 56 |
 
-Three packs (Undead Patrol, Goblin Warband, Fantasy Heroes) have 16 variants each. Two packs (Fantasy Villains, Pirate Raiders) have 8 variants each, with expansions planned.
+Four packs (Undead Patrol, Goblin Warband, Fantasy Heroes, Fantasy Villains) have 16 variants each. Pirate Raiders has 8 variants, with an expansion planned.

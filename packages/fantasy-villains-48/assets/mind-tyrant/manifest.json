@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T18:58:26.954449+00:00",
+  "foundry_version": "177b1a8",
+  "identity": {
+    "subject_slug": "villain_mind_tyrant",
+    "display_name": "Mind Tyrant",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "villain_mind_tyrant_p3_20260327_184309",
+    "seed": 840410,
+    "generated_at": "2026-03-27T18:44:00.686351+00:00",
+    "accepted_at": "2026-03-27T18:58:26.703010+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "177b1a8"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "baef621a656d2b3d1d604bc656a1e650d9373e0636b60c717ee5eccf10d1e986",
+    "normal/front.png": "7e19e5b5a1720855e483fb098141229f0e3d681bb8bbe5df14d7da625c59cc5b",
+    "depth/front.png": "3a907a2a6f9e8a407c5b0bee1d044684ff2de69ce785d8dc9c173641b335ab7d",
+    "albedo/front_left.png": "316e3658f6fe1ae08a7b1df2bba21545a91a38698c5a17e374890518819841ab",
+    "normal/front_left.png": "2458a6c75a601f204273cb849880cfc253e54bd67cb42e9dfdee117bed55d764",
+    "depth/front_left.png": "777894234e687f9b4810f4c5d957d26732cd03b56562fa9b75240e6428def910",
+    "albedo/left.png": "a1f504b589677b13014da04b4bbbf1d1ed69bb6b821f1ad2f680693afbd95fc5",
+    "normal/left.png": "9764d3fd43d0108e9092ba8dad673d378017a21c1591b630ea5910b9d902a961",
+    "depth/left.png": "3c2dbfc4b3c15ef21fc1bbc28e15ac0d11c3126fb664084c1ef0505c101c6cd9",
+    "albedo/back_left.png": "ad0254ec493aa75beea3ba95c4bd98a288fa8538d8f1a41b0716219cea20c51d",
+    "normal/back_left.png": "337becd6f93a6e237a1f55660c851365d32285dd3fb4b59f516238e9a0084a3a",
+    "depth/back_left.png": "32bf760a71401d562a294083179fe79f5dd6238a04ac420efce5458226193d91",
+    "albedo/back.png": "ec8ae715cd70eeaabd6a3a2acf1e9ec8bea48efbd907a3d6ba7b2608555cac74",
+    "normal/back.png": "23f2296e34070d9c7f455f6d6974b1788fb6dd94efbb86a81ed30945af29c408",
+    "depth/back.png": "d2bbc91a3633336da111365070c3d20590fbbbfbeaf5ab267b8a6bd1eff92d75",
+    "albedo/back_right.png": "e3848fa830eb5a0cfe3e3ca07f33a4d0ee18f03efe916d7bf7d8667f0948c994",
+    "normal/back_right.png": "13c80164eedfc3832771370b055569887589794fe4507e4250bb9820032d49d0",
+    "depth/back_right.png": "b85ec866b2ec553d67f1d5c7a5bbb57afc801d1a4e22ca0c10514cca98057430",
+    "albedo/right.png": "23e82613447db66b48d687ed32cc9ec13bdac1b089707c73213fa6873d2ba043",
+    "normal/right.png": "bb06747a8baa1d9564c577b760534f32404db9f3b196548e927cb79df8cbc9b4",
+    "depth/right.png": "f0e729518881df76bd712111bdbe2467aa98625507dda1a2f4b94eb638f812e8",
+    "albedo/front_right.png": "5f4258b2b264515acfa8e24896b95502585454fad7dc96b90c3d5d30c92200ca",
+    "normal/front_right.png": "ce5ed0aa9c8c0f41645ac3f7a1c2111722b90a8bd41827a563159821f620c872",
+    "depth/front_right.png": "f7f0fde0ddd782a057a277cb7ba261e9651e845a2bf183da22c8b4beb62a2f2d",
+    "preview/contact_sheet.png": "953ce32d40570c579679c62a88144e4bfc0ec70618ff9a7634d9c610979f05d8"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\villain_mind_tyrant_p3_20260327_184309",
+    "maps_dir": "bakeoff\\villain_mind_tyrant_p3_20260327_184309_maps"
+  },
+  "notes": null
+}

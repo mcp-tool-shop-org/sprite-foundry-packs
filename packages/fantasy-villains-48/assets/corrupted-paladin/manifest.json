@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T18:58:27.377578+00:00",
+  "foundry_version": "177b1a8",
+  "identity": {
+    "subject_slug": "villain_corrupted_paladin",
+    "display_name": "Corrupted Paladin",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "villain_corrupted_paladin_p3_20260327_184411",
+    "seed": 840411,
+    "generated_at": "2026-03-27T18:45:03.172686+00:00",
+    "accepted_at": "2026-03-27T18:58:27.096460+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "177b1a8"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "36f729c4970745181a9721e443f3fc5fe3df053614ddb70a9be4e0bd31c32429",
+    "normal/front.png": "a875055102460de93dd4e1d87327476efc350da80541059f9c2b3e0c2dab63e4",
+    "depth/front.png": "ca87b32db1c10e2846ee7e1ef6ccc8a4cde6e386e922c0300fa27a7063f30c79",
+    "albedo/front_left.png": "7958762e3ee76c0c9167a85af20d020f5dc71b4913101002f5924e9f82650fa9",
+    "normal/front_left.png": "996a7c2a4daada736861c6ddcb736f86f9650084e073fb72522e110a3e4b2b2a",
+    "depth/front_left.png": "0381fbe8cb206052a0dba62959953f254e4205bf5a58332cca573b63660f1da2",
+    "albedo/left.png": "bbea9a0d7ee05ebfa3e3c9edb74de38c3bca9efc6cdee99525c2d6a1b5c83c86",
+    "normal/left.png": "08f443b11d1e34ec93bad9f6cc60de271d221bd14fb905041b0831377b9bd287",
+    "depth/left.png": "6cffef9c7ed7d5f863cfd0b5aa31f981e2057a592017b22c5c483f5b384a1e53",
+    "albedo/back_left.png": "9186255e5f636cdd92c8281933a490d1966cad764bc0b33d3939be6b7c86a126",
+    "normal/back_left.png": "4472f9e03ab4a5c4b9e5c433889063078d1e3d728e285aa3fb0b19656938312d",
+    "depth/back_left.png": "f6f58ca5dccc06709a35536547bc70a1adaa3b75c16b7e7808243f77c0ab4bc0",
+    "albedo/back.png": "a4ee82d121e7a233ea401709d1fff0242d45ff6a7dfcb06b406b5dc2c0a2f0d8",
+    "normal/back.png": "792bd05ca060d2e0391ff7f9ff80d0fca166adb24181e0542577105e46c50a90",
+    "depth/back.png": "ac4a83027019aa249cdd34cdc19ce850d23cabfa2cd0776a3f92715fe9c550ba",
+    "albedo/back_right.png": "56b29d16b65b70118caeb7fa7231a645d671aad3b065541e2ddc23fc561e21f1",
+    "normal/back_right.png": "dba251bf5510808068da64d71f2edf4cbe8700c085a96a0ae34d3a76e5767d14",
+    "depth/back_right.png": "a58326b148ec4fb9cb379df92a68df0ee71f3773f083aacb7307937fd5c04880",
+    "albedo/right.png": "ed6ae18f43f27102f009e2b0c835e9617c5f3179047053f37da40a3020e1057b",
+    "normal/right.png": "5644467838ad2ccb31cde6cb2c44f8a81ddb8b224a38280004ef0d47c30bb3ce",
+    "depth/right.png": "36ed2c99f84917332b89760a27c8f42fa706f83e5e045275ae913d9d222f669d",
+    "albedo/front_right.png": "f6cd445f498cbccbc34205ef0f317fc4b4ea6da0d111369f6ddb9a7ce4fcf2f4",
+    "normal/front_right.png": "a22374fdf86f292c231df912894377775cd4b37d795c0d6251794e964151daaf",
+    "depth/front_right.png": "d05b20ae0d1bdc95f59955dd6ee7ab71115c0452e72270897acb56e3c4b87dae",
+    "preview/contact_sheet.png": "bdf66a4aa0e236a63a2418085e4b5ac49b664182596d1bb4cbbefbe6509d267f"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\villain_corrupted_paladin_p3_20260327_184411",
+    "maps_dir": "bakeoff\\villain_corrupted_paladin_p3_20260327_184411_maps"
+  },
+  "notes": null
+}

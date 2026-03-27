@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T18:58:26.130378+00:00",
+  "foundry_version": "177b1a8",
+  "identity": {
+    "subject_slug": "villain_vampire_lord",
+    "display_name": "Vampire Lord",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "villain_vampire_lord_p3_20260327_184055",
+    "seed": 840408,
+    "generated_at": "2026-03-27T18:41:50.571712+00:00",
+    "accepted_at": "2026-03-27T18:58:25.874805+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "177b1a8"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "467cc8320bd0b5af0a79d3dda05d3cb1baf7ffba6579ff3175d5d2413cd290ce",
+    "normal/front.png": "c3bd909f5634c3f795bc1d75d983b5bdcacc9c3221ab04cbf1bbde6b074772bd",
+    "depth/front.png": "d250c0dc9d04e4a6f66faf6feac234aef6b295633fe910bc06a65699ccb69611",
+    "albedo/front_left.png": "7927de38921482f18a4b5c4b7cf622316771c17b971a3138b0c778bd8d23bd39",
+    "normal/front_left.png": "a02cd051567713f183a3a197670d8f8fbadd01541940265c795e73e19c6d7bbc",
+    "depth/front_left.png": "b4ee9e39dcc4913c25d7d7ba88f70a19ea215fa8d942f4d30213047db6aebee3",
+    "albedo/left.png": "d0fc8d479447e865b1b42c920d4a8fe76edeacd628e28a274eb98832df613411",
+    "normal/left.png": "124c7adc20d6e63ff82353b88e802da85fde1f68af2d54fe896e85d71f28f64d",
+    "depth/left.png": "304fe1e162aabb0695d4c56008c987b1f6194035d1b9a05795e163d11df5c2ee",
+    "albedo/back_left.png": "a815f27172ffe778c0e4290c8c3a2adcd78822cc3aeaf0ff79f2bb785a8ee188",
+    "normal/back_left.png": "31a3004b706fa2c4ef450c3f76151d97535586d7cfe0a7a3ec6bdac778c1eab1",
+    "depth/back_left.png": "055b4e076c89a38daf07ff7dcaca48eb1810e1fe59cfa662455e67698d0656f4",
+    "albedo/back.png": "d9924e05ed0c8662ccb9d87ce4a46187512d0900caea1aa1293ca34149cd1eec",
+    "normal/back.png": "7fb8db3f1bb843247a23164390f1046dc41fdd777fabc630212445e3d002bff3",
+    "depth/back.png": "3f0bdce79bb72e40da2b8b54e8929edd0616a420231232d21c8c7f41528e6134",
+    "albedo/back_right.png": "752cd6394eb53f09f2295e40945cb3a1c01affb40c849ca52de0b9dfcd202679",
+    "normal/back_right.png": "77ac6f61b3e9ac7e8d4f3c80590595b15d4defe5fff15fc95ef5889258f8e532",
+    "depth/back_right.png": "03604e0ade4dae541e271ad687b1156b3ced878e711017b0255b66c107d244ea",
+    "albedo/right.png": "7ed00b1b149b5d1798a495c3d7b8f8f21026127ae934846ccf2060c233eaa517",
+    "normal/right.png": "d3ac41945d1f9c7ab48bae96919707ead7301e66bb7ffe7a66c5c0af6cad691a",
+    "depth/right.png": "b29501b5e35583eacea3b7ed48fd9780e948d19dc56ef6787a5ae4afe0d3c14e",
+    "albedo/front_right.png": "061e24c39fccf29107fbf8cbfcbfd4fae8192ff76c384929dbb555b96363789e",
+    "normal/front_right.png": "d56838c91b33ce8ce0eaf00fb8e05bed3d7bce66827d2b5c068a4dbf023533e0",
+    "depth/front_right.png": "531949a2a4f917faf2a366caef4a0ef4b82d1f11f79500bd9ffd56ce24ec2792",
+    "preview/contact_sheet.png": "12a10d23a9c8c0bf36d8aca5ed1f51712d2b212ecd2bfcd9efb85af581d9cb6d"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\villain_vampire_lord_p3_20260327_184055",
+    "maps_dir": "bakeoff\\villain_vampire_lord_p3_20260327_184055_maps"
+  },
+  "notes": null
+}

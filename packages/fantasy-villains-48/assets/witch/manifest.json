@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T18:58:27.740402+00:00",
+  "foundry_version": "177b1a8",
+  "identity": {
+    "subject_slug": "villain_witch",
+    "display_name": "Witch",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "villain_witch_p3_20260327_184513",
+    "seed": 840412,
+    "generated_at": "2026-03-27T18:46:05.748638+00:00",
+    "accepted_at": "2026-03-27T18:58:27.497625+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "177b1a8"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "802e7b1714f4bf42254efa2cc479a0bd589fe6f78cedd3e3100c55f331a461bb",
+    "normal/front.png": "5c6a7dd7bd87dbfd24dfc971069910589f6aa961c02daf1c34e24b92b73c81e2",
+    "depth/front.png": "9f202dc4bb938cad46200c2cd69609ee0ae151484b30725d9d5a40d2309492aa",
+    "albedo/front_left.png": "d696c953f3a9a1beb4ed3fb76f26aa909815d0b49ae4ff201836549f5adbbcfe",
+    "normal/front_left.png": "1ecc1c824ec432aea5f79c8892977319a4295d2a94c9c2c0b5fdfce6b6a6a497",
+    "depth/front_left.png": "c0b74aecee49f32170aa6a56d7112af3eab7503ea29bc616a5295073b5298301",
+    "albedo/left.png": "69c5955121596a80463db372dc4a6f99dda608f429c05b8071b261916cbcf8b0",
+    "normal/left.png": "22127ae0cb0e3c34517236518e51d558f6b106519063c28bdbfbc6a64fc9e33f",
+    "depth/left.png": "4b63dab131671eec09bc3b4518560ba05bb4a3ef7bf445a07fa91ca230fbda51",
+    "albedo/back_left.png": "798fdb880becab8b745c74dedd5ebc2fb3371a4d7a63ff0c1e3d9f9e845097ca",
+    "normal/back_left.png": "2c2069304b0748fae8417c82febddf74ef969fcc1ff7532ff54914099c708838",
+    "depth/back_left.png": "e8c95559a811f9d33941e169660d21152a27c3991ec06bb785bea0cd62145dd2",
+    "albedo/back.png": "a0e78d5d2bd44ef74e1128a130fa155a57b67aa75f34aca97f886ebc03e658d7",
+    "normal/back.png": "5f58b425d297884ae90a43979e0fbfff3808c9aabce5faf705c42c2d48e96e5a",
+    "depth/back.png": "3f6715d6c17c07e6cdebefb4d8d71ac96500d7f4ea800d2ce135a8affbd344f3",
+    "albedo/back_right.png": "01970fa6850655d135306f646653dbc914706399cb7cd54cb1c6389e8b82f806",
+    "normal/back_right.png": "8df98adfdb75281041dac1055f8e217375141fdfa5a9548e704fb84c45a3b8cd",
+    "depth/back_right.png": "ba0dba23f2ea296841e30e133230ea19d2724f9210f6f4812cee928072bbdf53",
+    "albedo/right.png": "6de1470e45d61ff0d4906df9bc4f32e2424f4180e5bdb3de3837a91670545610",
+    "normal/right.png": "22f4bc70b4e833345d655343cee2dfa56eca7529f21a0a0bbe6dd99abd2f40d6",
+    "depth/right.png": "6c90bb06c1a5d3cdc320ee00307f0c87f389f47f489dcef0ac14895e643e9ef6",
+    "albedo/front_right.png": "b6f2f75cda851626f244f02bcfe87412a76134df8ef58017af122bf38ef04432",
+    "normal/front_right.png": "cce7a626c06f3dc32ab83d4c7c67ec0a8ace6162147f3a8d97e142a2ecf4786f",
+    "depth/front_right.png": "7af63e1e809dbacf4e4fc54d160739f8adb949633ab0386c91533bc51b8491db",
+    "preview/contact_sheet.png": "c122c5af51403e264dbb3ce9fd8e0e08cea17ce9430594462914453e087c75ba"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\villain_witch_p3_20260327_184513",
+    "maps_dir": "bakeoff\\villain_witch_p3_20260327_184513_maps"
+  },
+  "notes": null
+}

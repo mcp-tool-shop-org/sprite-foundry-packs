@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T18:58:26.578771+00:00",
+  "foundry_version": "177b1a8",
+  "identity": {
+    "subject_slug": "villain_gorgon",
+    "display_name": "Gorgon",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "villain_gorgon_p3_20260327_184203",
+    "seed": 840409,
+    "generated_at": "2026-03-27T18:42:54.650237+00:00",
+    "accepted_at": "2026-03-27T18:58:26.277717+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "177b1a8"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "d10befef44097f21763b359b4729eb0d7ee3cccc29463a02fabc56f1e544bc58",
+    "normal/front.png": "f29f4ae3d231bbcdfaab7cb987ba51f66c469765bf5b2bc2730ec964580d8867",
+    "depth/front.png": "71839f91fa94069cdc54cad5b53dde71692f99920026f55ec4178919692f5096",
+    "albedo/front_left.png": "a82bcf3781b7ccfa3bb7db7138c06177610080a4dc42082e39ab9d3dee8567f5",
+    "normal/front_left.png": "a9e9575ca18620727b4882798d6a8a94e8fbe8fc9f34865f1c837417967818e2",
+    "depth/front_left.png": "f47d764a886d6e1638f50961a114b317c8f022350f89c665c21469eed7af514f",
+    "albedo/left.png": "6f5a625373c8ccdb90bc4f46ddc93b7960bd7c7fc5d0614d964395e8377e1cfe",
+    "normal/left.png": "b5b85c4c655576a2790f10c5304e3b2b32794fb9c0eff95a9e8a253735d9586f",
+    "depth/left.png": "fbd2062fb50640ea34322a618bc86e58c9c2e181ed167ec4d4477bec6f9ff678",
+    "albedo/back_left.png": "c0a41069b7fec57c8746b7d4bd28796d1fde6973bd52df7acc56dae9b161c704",
+    "normal/back_left.png": "010f1be0085ed394b0efeaf5313f842a10d12dd573cedb2b2ffdb9d1990dcedc",
+    "depth/back_left.png": "1e1840d47b769ed673078581c28518ee5cbc96fdb75a988296359341c98d6066",
+    "albedo/back.png": "8572f3db3ef70e7cc4a9246ae138fa2e82c7cf67aa9092ca6c87e2939418b7f5",
+    "normal/back.png": "f7d8449b2c5fe6bf71938a11628319b7e610b1aed6ff861775f1d99d72294c1c",
+    "depth/back.png": "7f346904b291631364e33992bfd65815618a72538a5e295929e8f962fe02b0b8",
+    "albedo/back_right.png": "563d5770a7579963f5d540b01873552761482e1e5b7fcd16e2a9c47e40e51705",
+    "normal/back_right.png": "0225e472e6e9ec7640bcff4f158aefc8eb2d4815585c9b177ec302a722ffefab",
+    "depth/back_right.png": "847b55a3aa1cf4391fcc9e3de4efc5b452046c125465f898996d440fda95e544",
+    "albedo/right.png": "8222af08d86d6e7248b6c848130ffc4344a3228975b7038bbe2b74c285109e9c",
+    "normal/right.png": "0f4c5cc01396add076f2197fb62642652c70f77b8bdfe58a8ba4750a902bd54d",
+    "depth/right.png": "dc409a303a81fe3bd76534a98c2df6437a85a7b242af85fbdc25180d0d30d7e3",
+    "albedo/front_right.png": "b19934786a1487286b4ba33acced3c9ad8215d1dfa982a9d7fa336217613d5a3",
+    "normal/front_right.png": "9d505e8f115e693bb46faf53360f45f913819b765c9c056b9c2df06d81c06ea0",
+    "depth/front_right.png": "0ead02a17e7a59e79604e247bf75dfb020a414aec0514c1847f952c31d33d530",
+    "preview/contact_sheet.png": "db6d479506b3b047f850ae04460d9b7096ecb2520c098a8f540d4ea2d3c7749c"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\villain_gorgon_p3_20260327_184203",
+    "maps_dir": "bakeoff\\villain_gorgon_p3_20260327_184203_maps"
+  },
+  "notes": null
+}

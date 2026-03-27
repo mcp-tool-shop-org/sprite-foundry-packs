@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T18:58:28.118264+00:00",
+  "foundry_version": "177b1a8",
+  "identity": {
+    "subject_slug": "villain_bandit_king",
+    "display_name": "Bandit King",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "villain_bandit_king_p3_20260327_184617",
+    "seed": 840413,
+    "generated_at": "2026-03-27T18:47:08.966922+00:00",
+    "accepted_at": "2026-03-27T18:58:27.855494+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "177b1a8"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "3395982c3a60472bd3849900c713689b9e6f28d8c950ea40693a579d9108e028",
+    "normal/front.png": "d85c63659defdf03e8368b4cca9f1ebd3981a0daa60b715f57763d3a36a09b75",
+    "depth/front.png": "ce5c4434eed8048812839d2be26a06d02e30242fdf5f0835d3dbd39de0c9ac6d",
+    "albedo/front_left.png": "593a195ae2928b5b64adebec6e1df6c43b9c93c9d62ef8eac8cf9881051f183c",
+    "normal/front_left.png": "0af6f0875e00e09b9ebe26c6d86ab0c078be09b5ca8b9e964cedd2bdd386878d",
+    "depth/front_left.png": "705ad1e2cf7b6000b4e0f5225f45f67d69cd0d002478410e2b75d74c0a171e84",
+    "albedo/left.png": "4126f18d2a169092d1e4aa73273bd869e3430dab34149b36ed9c9811d054c15e",
+    "normal/left.png": "ee052c84b7ad0f08db4dea1fbe41a9e31002e9adb2ec3d3a110b0139ed101939",
+    "depth/left.png": "39b0b3a7f982bfc5aaaf542b709e0f827fb573aff1edfbff68fa2e029f3425aa",
+    "albedo/back_left.png": "3da18d2cbc6e6fd9a695ab010217845defde684817b48c59559de884fdf10981",
+    "normal/back_left.png": "15d0a9788c829bdf3949af8d6d4fa224e2fc11d047cbcab6d546783a2e2a7da8",
+    "depth/back_left.png": "3c4ecabf2a2ae87403bc2b1674aa6439ca9e2d0f6745cc88af31867d53f43b85",
+    "albedo/back.png": "1b100f98903c38f05fa4f661d6f7f35579193914a3a4644856b9152270e0115a",
+    "normal/back.png": "2e003d6a572bcd65eecd2d1bab692e800f103919652028ce90e490ad065105e8",
+    "depth/back.png": "c5c207fc14c9dc39f4d0d03c5e861a0c4a837cb087fffe2b9de8cffd0d8491d1",
+    "albedo/back_right.png": "ef09b4edc0da84fc3a586ebfb4dbc8fc293d773d304b9f4b04afffda36a9e729",
+    "normal/back_right.png": "970aa5f7b23968a03b033facc267d70a99539f385994c60c8655d5b28f01561b",
+    "depth/back_right.png": "5c051c9349b9ac34ece11d6f7ad4a4467ffb4bc1eb2542cbd5d375ae7b4095ee",
+    "albedo/right.png": "1db67942db6a920a211d6f427dbeb044ac904b79e514ccd74cd2e1f6ff9fff42",
+    "normal/right.png": "490bcbef98465541076003e8f0fc4fefc7d9055c1520b0bd79118ca4c8a2586d",
+    "depth/right.png": "100197842f702ab825d6e12ede6e4767e35326e3bb36c9deab0bb8ee11c87341",
+    "albedo/front_right.png": "27e731078904084b0c3aa7e43257e977976b5c500816826656bdac40c03919f1",
+    "normal/front_right.png": "3eb4444bc3264d2ebe68f0585d2a98eddb613bd2f90c50a7135eeba66d1c20ff",
+    "depth/front_right.png": "29143bd6745ec82b10b60f7af177b0a184d76056b55e6004830c42d4bd426979",
+    "preview/contact_sheet.png": "512ab0bcf215d183dcd3235028ec2adb37b3cea38504c01e01fed4386448e080"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\villain_bandit_king_p3_20260327_184617",
+    "maps_dir": "bakeoff\\villain_bandit_king_p3_20260327_184617_maps"
+  },
+  "notes": null
+}

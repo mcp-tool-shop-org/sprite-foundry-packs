@@ -13,6 +13,14 @@
     { "slug": "cult-priest",  "name": "Cult Priest",  "role": "support/debuffer",   "path": "assets/cult-priest/manifest.json" },
     { "slug": "reaver",       "name": "Reaver",       "role": "heavy damage",       "path": "assets/reaver/manifest.json" },
     { "slug": "warlord",      "name": "Warlord",      "role": "commander",          "path": "assets/warlord/manifest.json" },
-    { "slug": "dark-monk",    "name": "Dark Monk",    "role": "fast specialist",    "path": "assets/dark-monk/manifest.json" }
+    { "slug": "dark-monk",    "name": "Dark Monk",    "role": "fast specialist",    "path": "assets/dark-monk/manifest.json" },
+    { "slug": "vampire-lord", "name": "Vampire Lord", "role": "aristocratic undead", "path": "assets/vampire-lord/manifest.json" },
+    { "slug": "gorgon",       "name": "Gorgon",       "role": "petrifying monster",  "path": "assets/gorgon/manifest.json" },
+    { "slug": "mind-tyrant",  "name": "Mind Tyrant",  "role": "psychic overlord",    "path": "assets/mind-tyrant/manifest.json" },
+    { "slug": "corrupted-paladin", "name": "Corrupted Paladin", "role": "fallen holy warrior", "path": "assets/corrupted-paladin/manifest.json" },
+    { "slug": "witch",        "name": "Witch",        "role": "forest curse weaver", "path": "assets/witch/manifest.json" },
+    { "slug": "bandit-king",  "name": "Bandit King",  "role": "outlaw warlord",      "path": "assets/bandit-king/manifest.json" },
+    { "slug": "dark-elf-matriarch", "name": "Dark Elf Matriarch", "role": "spider-themed ruler", "path": "assets/dark-elf-matriarch/manifest.json" },
+    { "slug": "plague-doctor", "name": "Plague Doctor", "role": "pestilence bringer", "path": "assets/plague-doctor/manifest.json" }
   ]
 }

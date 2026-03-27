@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T18:58:28.519856+00:00",
+  "foundry_version": "177b1a8",
+  "identity": {
+    "subject_slug": "villain_dark_elf_matriarch",
+    "display_name": "Dark Elf Matriarch",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "villain_dark_elf_matriarch_p3_20260327_184719",
+    "seed": 840414,
+    "generated_at": "2026-03-27T18:48:11.387948+00:00",
+    "accepted_at": "2026-03-27T18:58:28.267286+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "177b1a8"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "bee1eadf543c07e2dd3c52c73ab5cd61ac0f364dd61c3efc9d8c45cdf9a8e741",
+    "normal/front.png": "c92d447c06f0225c586c1ea6a5a1f853ed16ee6fcc8094d87ea0dd720c4200e2",
+    "depth/front.png": "955ec2e230905ca5e09407895b2fe9ebe7bd341f04c01761e8cbcda9951b0de3",
+    "albedo/front_left.png": "1e396cdd0898a2cf7a8adc66e321bf985c907e9a0dd53684b6a4d5a2b2036ff7",
+    "normal/front_left.png": "5759284c183775e2cd2b91dd16518f874b3e065a56976896d32979bb47e44e93",
+    "depth/front_left.png": "2504a8b3434ec17841f7f0e77fabf78dadc8328af8f5e72c8c58c208411d0992",
+    "albedo/left.png": "7f8d0b0a9fce7105aa0d605604d8ecaec4b7d252d8308aabe18eeba096abc7d7",
+    "normal/left.png": "d52f9a95ff4ae794916bec6cf96bd45e698d000668eddce3b944013a690876b7",
+    "depth/left.png": "79ef5afd1f0899371f9a6eafd7f3a0f56049127e019822361fa183a011e8c868",
+    "albedo/back_left.png": "8a25b40e9a687c0fdbcc12eb97872cb7a09e5043f5d9b3964b2e31b10f74cb56",
+    "normal/back_left.png": "d37e17583a7a91c1a226b83cc1ee85fa7da154a5a853a7ac7b1a318bd2971941",
+    "depth/back_left.png": "03df460aed1783f035ef41679af988e83b2fc7c714ad9aafcbc6b3db66e50858",
+    "albedo/back.png": "0b7ee23c917aca911e3d33c88743cfcfbba0df506037225dbb7797de2b4cce31",
+    "normal/back.png": "ce39baa6286d20c34691ef0fd643c38d439831c5f0ee0160b23cbdd03ef94a39",
+    "depth/back.png": "fd5b231c6e3419e3a7ee4b57e4540432284790cfc7ace998bbf6660c88929df7",
+    "albedo/back_right.png": "e7e32e138f2a75de57493107da0b25ad1b63f2426307839d183cd292cf8b650d",
+    "normal/back_right.png": "bd484709b2338a0c1807066710694c1f8eb57fd778b84d7d28d8565bdd46c8e2",
+    "depth/back_right.png": "5531de8d602ff0592f36e34732d539289d05c4e42b318cf04bf62c465f774041",
+    "albedo/right.png": "46299729d9b1b355e3e843d333fed20aa6835fde57582a6aeb72227cbb4aeb65",
+    "normal/right.png": "f6a77cf56de9715010ceb6c3f0617d59aff04f3d71d511b0d63b605720efe456",
+    "depth/right.png": "bd0a585ae35352789b9bc964d14cc6451408091a38f0e453feaaa97f54a89ba9",
+    "albedo/front_right.png": "f2273a5cc3d954de2852fbba6545de65902c732c562910f6ecf4c6e47a475051",
+    "normal/front_right.png": "f03fb6497a2f0bd9f26f03052d1df92a359dc3d8efd025732cf05f2f5fb996bf",
+    "depth/front_right.png": "191be93b653dd9bdc881991aff369bb802d829e5f134d82bff2c705cedabcb75",
+    "preview/contact_sheet.png": "a471eb140e9d79078127b3c023a3137782d1babec968d440a4e18ba2480d522b"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\villain_dark_elf_matriarch_p3_20260327_184719",
+    "maps_dir": "bakeoff\\villain_dark_elf_matriarch_p3_20260327_184719_maps"
+  },
+  "notes": null
+}

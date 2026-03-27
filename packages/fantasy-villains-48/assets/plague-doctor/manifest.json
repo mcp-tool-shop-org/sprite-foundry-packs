@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "exported_at": "2026-03-27T18:58:28.922194+00:00",
+  "foundry_version": "177b1a8",
+  "identity": {
+    "subject_slug": "villain_plague_doctor",
+    "display_name": "Plague Doctor",
+    "body_family": "bipedal"
+  },
+  "provenance": {
+    "run_id": "villain_plague_doctor_p3_20260327_184821",
+    "seed": 840415,
+    "generated_at": "2026-03-27T18:49:13.154294+00:00",
+    "accepted_at": "2026-03-27T18:58:28.656822+00:00",
+    "regen_count": 0,
+    "reject_count": 0,
+    "git_hash": "177b1a8"
+  },
+  "generation": {
+    "stack_id": "A_v2",
+    "checkpoint": "juggernautXL_ragnarokBy.safetensors",
+    "lora": "pixel-art-xl @ 0.85",
+    "controlnet_depth": null,
+    "controlnet_depth_strength": null,
+    "controlnet_depth_end_percent": null,
+    "controlnet_edge": null,
+    "controlnet_edge_strength": null
+  },
+  "render_contract": {
+    "width": 48,
+    "height": 48,
+    "direction_order": [
+      "front",
+      "front_left",
+      "left",
+      "back_left",
+      "back",
+      "back_right",
+      "right",
+      "front_right"
+    ],
+    "pivot": "center_bottom",
+    "transparency": true
+  },
+  "files": {
+    "albedo/front.png": "39784eeff50133b2ede1ac02e3d0413289505f4cfcd848393761c9f803a94d96",
+    "normal/front.png": "73b3a91cc9ed9a8034ca31a932dd4661cfb27e734e261a3aa6f55342f21055b0",
+    "depth/front.png": "5376b84cd7a54337024e139bf04fe67740851f28b318c260658825fc79ec3787",
+    "albedo/front_left.png": "8dc299cea9c23a45e613cbd7bcdd9a7bdce4d3ca87f519979c3cafd12973b97c",
+    "normal/front_left.png": "de66320af02eb2eba6b7cebdc1485894aafb5ed2997bfedcba8495e45d84e779",
+    "depth/front_left.png": "f22cb0e3c8c28c23de7e5fc9ca84122aaba576e1e57d2c946082d004f8742a2d",
+    "albedo/left.png": "ef456a9e0c5cfb4cddde040f0cf5bdd230fb52da9c6e6e79b0f5f0628def951f",
+    "normal/left.png": "e4b5ee23d940b4f89949673ae067203f16791f1931774525cd53fe6348ad3459",
+    "depth/left.png": "d2c40bb9b38407214a5ae56a87a6856317b4321a2533a395036ca6f436fd4182",
+    "albedo/back_left.png": "535bd8b53b6fedbb75faba61a4847b80b2825acac17c15b292e90ef610244423",
+    "normal/back_left.png": "c8357cbd126d3f6064a13fc5bef8682f1a52227dc7922aa73ab356dcf6878cda",
+    "depth/back_left.png": "5e843b75f6ceddebc5bb39861c843922903b9a62ff4ce58727d3776d5829de22",
+    "albedo/back.png": "ed13044ebcd9f01edbd594076b445a1ed05eb5fd31b43eabd677f9aa90ec515c",
+    "normal/back.png": "02b1f49fdf45ee20ad5181209f247350204ea3bf0764cdb573d0f5b6059bcbf4",
+    "depth/back.png": "11abc5c12a40a51ed3db5bda28a2faa5b658e37236b509c075b34b34f392a0fa",
+    "albedo/back_right.png": "5ffb5fb34a50e4512c96fcf8fe01abaef5a91fb59cb5bdba0b978dec327bd489",
+    "normal/back_right.png": "0bbf640236f19c41ccf5dc60e2156c35d1da7e4a0eb7b255eae8bb82b41b3835",
+    "depth/back_right.png": "4d9864b1643828b332d5fc49e2170f951c4abe42b89ac3fcbd4871d3cbfb7519",
+    "albedo/right.png": "e3610cabcaf23a1ca3e329b872df0349cdb5c2a1af3d1de2baa596255312c056",
+    "normal/right.png": "9b3b9d0b256d835c0c304a6b76ea3908637d4e53f97719d50f806fba1a818db0",
+    "depth/right.png": "36918e3b0fb7e5dd62c240d97dc4ec7f90f25ef27654ff8520d398535c4ec75f",
+    "albedo/front_right.png": "6db9582d317c2443bd6a3f9e4300859118de2baa7c5308c73c02027bfd56280c",
+    "normal/front_right.png": "92340c73f77db937abb696abf12e789d5202e589b216e75b7aa5a27bdb477f0b",
+    "depth/front_right.png": "f297d9312bb5ad4a814b0b38c87d30cdc7eef0ae0eb86048dcc91698998f9978",
+    "preview/contact_sheet.png": "c3a1b1ffc4019f9f2739eed4ce8d2f6f96352882b55c7c37dc9bce261d87458a"
+  },
+  "source": {
+    "bakeoff_dir": "bakeoff\\villain_plague_doctor_p3_20260327_184821",
+    "maps_dir": "bakeoff\\villain_plague_doctor_p3_20260327_184821_maps"
+  },
+  "notes": null
+}
