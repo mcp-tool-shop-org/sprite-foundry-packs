@@ -127,10 +127,12 @@ No engine-specific format or runtime dependency.
 
 ## Specs
 
+- **Variants:** 16 villain archetypes (8 Elite Threats + 8 The Court)
 - **Tile size:** 48 x 48 px
 - **Directions:** 8 (front, front_left, left, back_left, back, back_right, right, front_right)
 - **Format:** transparent PNG
 - **Maps:** albedo + normal + depth
+- **Total sprites:** 384 (16 × 8 × 3)
 - **Animation:** static poses (v1)
 - **Perspective:** top-down
 

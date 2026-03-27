@@ -15,9 +15,13 @@
 
 A 48px, 8-direction pixel-art pack of maritime characters with albedo, normal, and depth maps for engine-agnostic game use. **Pack 05** in the [Sprite Foundry](https://github.com/mcp-tool-shop-org/sprite-foundry) catalog.
 
+![Pirate Raiders Banner](previews/banner.png)
+
 ## What's Included
 
 16 pirate archetypes across two tiers — **Officers and Authority** and **The Crew** — each with 8 directional views:
+
+![Variant Lineup](previews/lineup.png)
 
 ### Officers and Authority (original 8)
 
@@ -83,24 +87,26 @@ assets/
   kraken-cultist/
   shipwright/
 pack.json          pack-level index
-previews/          contact sheets per variant
+previews/          banner and lineup sheets
 ```
 
 ## Manifest Format
 
-Each variant has a `manifest.json` with full provenance and SHA-256 checksums:
+Each variant has a `manifest.json`:
 
 ```json
 {
-  "schema_version": "1.0.0",
-  "identity": { "subject_slug": "pirate_captain", "display_name": "Captain" },
-  "render_contract": {
-    "width": 48, "height": 48,
-    "direction_order": ["front", "front_left", "left", "back_left", "back", "back_right", "right", "front_right"],
-    "pivot": "center_bottom",
-    "transparency": true
+  "slug": "captain",
+  "name": "Captain",
+  "version": "1.0.0",
+  "tileSize": 48,
+  "directions": ["front", "front_left", "left", "back_left", "back", "back_right", "right", "front_right"],
+  "layers": {
+    "albedo": "albedo/{direction}.png",
+    "normal": "normal/{direction}.png",
+    "depth": "depth/{direction}.png"
   },
-  "files": { "albedo/front.png": "<sha256>", "normal/front.png": "<sha256>", "..." : "..." }
+  "preview": "preview/contact_sheet.png"
 }
 ```
 
@@ -121,8 +127,10 @@ No engine-specific format or runtime dependency.
 
 ## Specs
 
+- **Variants:** 16 pirate archetypes (8 Officers + 8 Crew)
 - **Tile size:** 48 x 48 px
 - **Directions:** 8 (front, front_left, left, back_left, back, back_right, right, front_right)
+- **Total sprites:** 384 (16 × 8 × 3)
 - **Format:** transparent PNG
 - **Maps:** albedo + normal + depth
 - **Animation:** static poses (v1)
@@ -135,8 +143,10 @@ Want to generate additional pirate variants that match this pack's art style and
 This pack was produced with [Sprite Foundry](https://github.com/mcp-tool-shop-org/sprite-foundry), an open-source ComfyUI + SDXL pixel-art generation pipeline. The foundry repo contains everything you need:
 
 - **Generation pipeline** — `pipeline/foundry_gen.py` drives ComfyUI with per-subject configs
-- **Subject configs** — `pipeline/chars/pirate_*.json` define the exact prompts, seeds, and silhouette rules for every variant in this pack
+- **Subject configs** — `pipeline/chars/pirate_*.json` define the exact prompts, seeds, silhouette rules, and reject conditions for every variant in this pack
+- **Batch manifest** — `pipeline/manifests/pirate_raiders_05.json` maps all 16 configs to the export structure
 - **Export CLI** — `foundry export <run_id>` produces deterministic packs with checksums
+- **ControlNet tuning** — humanoid depth strength 0.60, end% 0.85 (documented in the manifest)
 
 To add a new variant:
 
