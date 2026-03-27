@@ -13,6 +13,14 @@
     { "slug": "cleric",    "name": "Cleric",    "role": "healer/support",       "path": "assets/cleric/manifest.json" },
     { "slug": "barbarian", "name": "Barbarian", "role": "heavy damage",         "path": "assets/barbarian/manifest.json" },
     { "slug": "paladin",   "name": "Paladin",   "role": "elite tank",           "path": "assets/paladin/manifest.json" },
-    { "slug": "monk",      "name": "Monk",      "role": "fast specialist",      "path": "assets/monk/manifest.json" }
+    { "slug": "monk",      "name": "Monk",      "role": "fast specialist",      "path": "assets/monk/manifest.json" },
+    { "slug": "bard",      "name": "Bard",      "role": "support / buff",       "path": "assets/bard/manifest.json" },
+    { "slug": "druid",     "name": "Druid",     "role": "nature magic",         "path": "assets/druid/manifest.json" },
+    { "slug": "warlock",   "name": "Warlock",   "role": "dark pact DPS",        "path": "assets/warlock/manifest.json" },
+    { "slug": "sorcerer",  "name": "Sorcerer",  "role": "raw magic DPS",        "path": "assets/sorcerer/manifest.json" },
+    { "slug": "artificer", "name": "Artificer", "role": "tech / utility",       "path": "assets/artificer/manifest.json" },
+    { "slug": "samurai",   "name": "Samurai",   "role": "melee / discipline",   "path": "assets/samurai/manifest.json" },
+    { "slug": "knight",    "name": "Knight",    "role": "tank / frontline",     "path": "assets/knight/manifest.json" },
+    { "slug": "white_mage","name": "White Mage","role": "healer / holy",        "path": "assets/white_mage/manifest.json" }
   ]
 }

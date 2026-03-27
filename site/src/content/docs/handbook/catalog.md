@@ -5,7 +5,7 @@ sidebar:
   order: 2
 ---
 
-Each pack contains 8 character variants designed around a specific theme. Every variant ships 8 directional sprites across 3 map layers (albedo, normal, depth) at 48x48 pixels.
+Each pack contains 8–16 character variants designed around a specific theme. Every variant ships 8 directional sprites across 3 map layers (albedo, normal, depth) at 48x48 pixels.
 
 ## Pack 01 — Undead Patrol
 
@@ -43,6 +43,9 @@ Each pack contains 8 character variants designed around a specific theme. Every 
 
 **npm:** `@sprite-foundry/fantasy-heroes-48`
 **Theme:** Classic RPG party archetypes
+**Variants:** 16 (doubled in v1.1)
+
+### Core Party
 
 | Variant | Role | Visual identity |
 |---------|------|-----------------|
@@ -54,6 +57,19 @@ Each pack contains 8 character variants designed around a specific theme. Every 
 | Paladin | Holy tank | Full plate, glowing sword, tabard |
 | Barbarian | Berserker | Fur armor, greataxe, war paint |
 | Monk | Martial arts | Simple robes, hand wraps, balanced stance |
+
+### Second Party (v1.1)
+
+| Variant | Role | Visual identity |
+|---------|------|-----------------|
+| Bard | Support/buff | Lute, feathered cap, burgundy/green doublet |
+| Druid | Nature magic | Antler staff, leaf armor, earthy palette |
+| Warlock | Dark pact DPS | Pact tome, eldritch glow, dark robes |
+| Sorcerer | Raw magic DPS | Crackling hands, raw arcane energy |
+| Artificer | Tech/utility | Goggles, apron, tool belt, mechanical gear |
+| Samurai | Melee/discipline | Japanese armor, katana + scabbard, topknot |
+| Knight | Tank/frontline | Full plate, lance-ready stance, heavy armor |
+| White Mage | Healer/holy | White + gold robes, glowing crystal staff, circlet |
 
 ## Pack 04 — Fantasy Villains
 
@@ -89,10 +105,10 @@ Each pack contains 8 character variants designed around a specific theme. Every 
 
 ## Asset counts
 
-| Metric | Per variant | Per pack | All 5 packs |
-|--------|-----------|----------|-------------|
-| Directions | 8 | 64 | 320 |
-| Layers | 3 | 24 | 120 |
-| Total sprites | 24 | 192 | 960 |
-| Manifests | 1 | 8 | 40 |
-| Preview sheets | 1 | 8 | 40 |
+| Metric | Per variant | Per pack (8 variants) | Fantasy Heroes (16 variants) | All 5 packs |
+|--------|-----------|----------------------|------------------------------|-------------|
+| Directions | 8 | 64 | 128 | 512 |
+| Layers | 3 | 24 | 48 | 168 |
+| Total sprites | 24 | 192 | 384 | 1,152 |
+| Manifests | 1 | 8 | 16 | 48 |
+| Preview sheets | 1 | 8 | 16 | 48 |

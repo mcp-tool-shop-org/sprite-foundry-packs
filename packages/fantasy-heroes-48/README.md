@@ -19,9 +19,11 @@ A 48px, 8-direction pixel-art hero party pack with albedo, normal, and depth map
 
 ## What's Included
 
-8 hero archetypes forming a complete adventuring party:
+16 hero archetypes forming two complete adventuring parties:
 
 ![Variant Lineup](previews/lineup.png)
+
+### Core Party (v1.0)
 
 | Variant | Role | Silhouette |
 |---------|------|------------|
@@ -33,6 +35,19 @@ A 48px, 8-direction pixel-art hero party pack with albedo, normal, and depth map
 | Barbarian | Heavy damage | Huge weapon, broad upper body, fur/leather mass |
 | Paladin | Elite tank | Full plate, kite shield, warhammer, cape |
 | Monk | Fast specialist | Unarmored, wraps, bo staff, disciplined silhouette |
+
+### Second Party (v1.1)
+
+| Variant | Role | Silhouette |
+|---------|------|------------|
+| Bard | Support / buff | Lute, feathered cap, burgundy/green doublet |
+| Druid | Nature magic | Antler staff, leaf armor, earthy palette |
+| Warlock | Dark pact DPS | Pact tome, eldritch glow, dark robes |
+| Sorcerer | Raw magic DPS | Crackling hands, no staff, raw arcane energy |
+| Artificer | Tech / utility | Goggles, apron, tool belt, mechanical gear |
+| Samurai | Melee / discipline | Japanese armor, katana + scabbard, topknot |
+| Knight | Tank / frontline | Full plate, lance-ready stance, heavy armor |
+| White Mage | Healer / holy | White + gold robes, glowing crystal staff, circlet |
 
 Each variant ships with three map layers:
 
@@ -63,6 +78,14 @@ assets/
   barbarian/
   paladin/
   monk/
+  bard/
+  druid/
+  warlock/
+  sorcerer/
+  artificer/
+  samurai/
+  knight/
+  white_mage/
 pack.json          pack-level index
 previews/          banner and lineup sheets
 ```
@@ -104,8 +127,10 @@ No engine-specific format or runtime dependency.
 
 ## Specs
 
+- **Variants:** 16 hero archetypes
 - **Tile size:** 48 x 48 px
 - **Directions:** 8 (front, front_left, left, back_left, back, back_right, right, front_right)
+- **Total sprites:** 384 (16 × 8 × 3)
 - **Format:** transparent PNG
 - **Maps:** albedo + normal + depth
 - **Animation:** static poses (v1)
@@ -119,7 +144,7 @@ This pack was produced with [Sprite Foundry](https://github.com/mcp-tool-shop-or
 
 - **Generation pipeline** — `pipeline/foundry_gen.py` drives ComfyUI with per-subject configs
 - **Subject configs** — `pipeline/chars/hero_*.json` define the exact prompts, seeds, silhouette rules, and reject conditions for every variant in this pack
-- **Batch manifest** — `pipeline/manifests/fantasy_heroes_03.json` maps all 8 configs to the export structure
+- **Batch manifest** — `pipeline/manifests/fantasy_heroes_03.json` maps all 16 configs to the export structure
 - **Export CLI** — `foundry export <run_id>` produces deterministic packs with checksums
 - **ControlNet tuning** — humanoid depth strength 0.60, end% 0.85 (documented in the manifest)
 

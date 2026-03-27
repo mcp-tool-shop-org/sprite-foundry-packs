@@ -93,12 +93,12 @@ goblin.anchor.set(0.5, 1.0); // center-bottom pivot per manifest
 
 ## Verify installation
 
-Each pack includes a verify script that checks all 192 assets exist and match their manifest checksums:
+Each pack includes a verify script that checks all assets exist and match their manifests:
 
 ```bash
 cd node_modules/@sprite-foundry/fantasy-heroes-48
 npm run verify
-# → All assets verified: 192 files across 8 variants
+# → All assets verified
 ```
 
 From the monorepo root, verify all packs at once:
