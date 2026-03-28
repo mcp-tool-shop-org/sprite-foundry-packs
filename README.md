@@ -24,6 +24,7 @@ Monorepo for all [Sprite Foundry](https://github.com/mcp-tool-shop-org/sprite-fo
 | Fantasy Villains | [`@sprite-foundry/fantasy-villains-48`](https://www.npmjs.com/package/@sprite-foundry/fantasy-villains-48) | 16 (8 elite + 8 court) | Boss encounters |
 | Pirate Raiders | [`@sprite-foundry/pirate-raiders-48`](https://www.npmjs.com/package/@sprite-foundry/pirate-raiders-48) | 16 (8 officers + 8 crew) | Maritime/naval |
 | Townsfolk | [`@sprite-foundry/townsfolk-48`](https://www.npmjs.com/package/@sprite-foundry/townsfolk-48) | 16 (8 town core + 8 town life) | Medieval NPCs |
+| Monster Pack | [`@sprite-foundry/monster-pack-48`](https://www.npmjs.com/package/@sprite-foundry/monster-pack-48) | 16 (6 body classes) | Monster bestiary |
 
 ## Install
 
@@ -35,6 +36,7 @@ npm install @sprite-foundry/fantasy-heroes-48
 npm install @sprite-foundry/fantasy-villains-48
 npm install @sprite-foundry/pirate-raiders-48
 npm install @sprite-foundry/townsfolk-48
+npm install @sprite-foundry/monster-pack-48
 ```
 
 ## Asset Structure
@@ -85,7 +87,7 @@ Each pack contains:
 - **384 PNG sprites** (16 variants x 8 directions x 3 layers)
 - **16 manifests** with full provenance and checksums
 - **16 preview sheets** for visual reference
-- **Total across all 6 packs: 2,304 sprites**
+- **Total across all 7 packs: 2,688 sprites**
 
 ## Security and Trust
 
@@ -109,6 +111,7 @@ sprite-foundry-packs/
     fantasy-villains-48/   @sprite-foundry/fantasy-villains-48
     pirate-raiders-48/     @sprite-foundry/pirate-raiders-48
     townsfolk-48/          @sprite-foundry/townsfolk-48
+    monster-pack-48/       @sprite-foundry/monster-pack-48
   tooling/
     verify-all.mjs         shared verification script
 ```
