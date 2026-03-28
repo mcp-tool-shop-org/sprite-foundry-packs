@@ -1,0 +1,26 @@
+{
+  "name": "Monster Pack",
+  "slug": "monster-pack-07",
+  "version": "1.0.0",
+  "tileSize": 48,
+  "directions": ["front", "front_left", "left", "back_left", "back", "back_right", "right", "front_right"],
+  "layers": ["albedo", "normal", "depth"],
+  "variants": [
+    { "slug": "bell_warden",     "name": "Bell Warden",     "role": "curse / area denial",    "bodyClass": "humanoid",  "path": "assets/bell_warden/manifest.json" },
+    { "slug": "bone_weaver",     "name": "Bone Weaver",     "role": "trap / ambush",          "bodyClass": "arthropod", "path": "assets/bone_weaver/manifest.json" },
+    { "slug": "clock_golem",     "name": "Clock Golem",     "role": "heavy tank",             "bodyClass": "wide_squat","path": "assets/clock_golem/manifest.json" },
+    { "slug": "grinning_idol",   "name": "Grinning Idol",   "role": "environmental hazard",   "bodyClass": "wide_squat","path": "assets/grinning_idol/manifest.json" },
+    { "slug": "hive_keeper",     "name": "Hive Keeper",     "role": "swarm summoner",         "bodyClass": "wide_squat","path": "assets/hive_keeper/manifest.json" },
+    { "slug": "hollow_knight",   "name": "Hollow Knight",   "role": "elite melee",            "bodyClass": "humanoid",  "path": "assets/hollow_knight/manifest.json" },
+    { "slug": "ink_shade",       "name": "Ink Shade",       "role": "stealth / assassin",     "bodyClass": "tall_thin", "path": "assets/ink_shade/manifest.json" },
+    { "slug": "lantern_angler",  "name": "Lantern Angler",  "role": "lure / ambush predator", "bodyClass": "tall_thin", "path": "assets/lantern_angler/manifest.json" },
+    { "slug": "mirror_stalker",  "name": "Mirror Stalker",  "role": "reflect / counter",      "bodyClass": "tall_thin", "path": "assets/mirror_stalker/manifest.json" },
+    { "slug": "mud_revenant",    "name": "Mud Revenant",    "role": "slow pursuit",           "bodyClass": "amorphous", "path": "assets/mud_revenant/manifest.json" },
+    { "slug": "rat_king",        "name": "Rat King",        "role": "swarm boss",             "bodyClass": "amorphous", "path": "assets/rat_king/manifest.json" },
+    { "slug": "root_puppet",     "name": "Root Puppet",     "role": "parasite / control",     "bodyClass": "tall_thin", "path": "assets/root_puppet/manifest.json" },
+    { "slug": "spore_mother",    "name": "Spore Mother",    "role": "AoE / debuff",           "bodyClass": "amorphous", "path": "assets/spore_mother/manifest.json" },
+    { "slug": "teeth_collector", "name": "Teeth Collector",  "role": "rogue / scavenger",     "bodyClass": "humanoid",  "path": "assets/teeth_collector/manifest.json" },
+    { "slug": "throat_singer",   "name": "Throat Singer",   "role": "sonic / crowd control",  "bodyClass": "tall_thin", "path": "assets/throat_singer/manifest.json" },
+    { "slug": "wyvern",          "name": "Wyvern",          "role": "flying boss",            "bodyClass": "winged",    "path": "assets/wyvern/manifest.json" }
+  ]
+}

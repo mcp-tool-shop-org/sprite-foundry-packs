@@ -15,6 +15,7 @@ PACK_META = {
     "fantasy-villains-48": {"title": "Fantasy Villains", "pack_num": "04"},
     "pirate-raiders-48": {"title": "Pirate Raiders", "pack_num": "05"},
     "townsfolk-48": {"title": "Townsfolk", "pack_num": "06"},
+    "monster-pack-48": {"title": "Monster Pack", "pack_num": "07"},
 }
 
 BG_COLOR = (30, 30, 40)
