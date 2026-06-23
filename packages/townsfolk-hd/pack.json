@@ -1,7 +1,7 @@
 {
   "name": "Townsfolk HD",
   "slug": "townsfolk-hd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "tier": "hd",
   "companionOf": "townsfolk-48",
   "tileSize": 512,
