@@ -1,0 +1,31 @@
+{
+  "name": "Fantasy Heroes HD",
+  "slug": "fantasy-heroes-hd",
+  "version": "1.0.0",
+  "tier": "hd",
+  "companionOf": "fantasy-heroes-48",
+  "tileSize": 512,
+  "schema_version": "2.0.0",
+  "pivot": [0.5, 1.0],
+  "directions": ["front", "front_left", "left", "back_left", "back", "back_right", "right", "front_right"],
+  "layers": ["albedo", "normal", "mask", "depth"],
+  "maskChannels": { "r": "ao", "g": "roughness", "b": "emissive" },
+  "variants": [
+    { "slug": "fighter",    "name": "Fighter",    "role": "frontline all-rounder", "path": "assets/fighter/manifest.json" },
+    { "slug": "ranger",     "name": "Ranger",     "role": "ranged striker",        "path": "assets/ranger/manifest.json" },
+    { "slug": "mage",       "name": "Mage",       "role": "arcane caster",         "path": "assets/mage/manifest.json" },
+    { "slug": "rogue",      "name": "Rogue",      "role": "flanker",               "path": "assets/rogue/manifest.json" },
+    { "slug": "cleric",     "name": "Cleric",     "role": "healer / support",      "path": "assets/cleric/manifest.json" },
+    { "slug": "barbarian",  "name": "Barbarian",  "role": "heavy damage",          "path": "assets/barbarian/manifest.json" },
+    { "slug": "paladin",    "name": "Paladin",    "role": "elite tank",            "path": "assets/paladin/manifest.json" },
+    { "slug": "monk",       "name": "Monk",       "role": "fast specialist",       "path": "assets/monk/manifest.json" },
+    { "slug": "bard",       "name": "Bard",       "role": "support / buff",        "path": "assets/bard/manifest.json" },
+    { "slug": "druid",      "name": "Druid",      "role": "nature magic",          "path": "assets/druid/manifest.json" },
+    { "slug": "warlock",    "name": "Warlock",    "role": "dark-pact DPS",         "path": "assets/warlock/manifest.json" },
+    { "slug": "sorcerer",   "name": "Sorcerer",   "role": "raw magic DPS",         "path": "assets/sorcerer/manifest.json" },
+    { "slug": "artificer",  "name": "Artificer",  "role": "tech / utility",        "path": "assets/artificer/manifest.json" },
+    { "slug": "samurai",    "name": "Samurai",    "role": "melee / discipline",    "path": "assets/samurai/manifest.json" },
+    { "slug": "knight",     "name": "Knight",     "role": "tank / frontline",      "path": "assets/knight/manifest.json" },
+    { "slug": "white_mage", "name": "White Mage", "role": "healer / holy",         "path": "assets/white_mage/manifest.json" }
+  ]
+}
