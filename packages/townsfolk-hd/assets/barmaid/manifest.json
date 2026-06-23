@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "barmaid",
+  "name": "Barmaid",
+  "tileSize": 512,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "albedo",
+    "normal",
+    "mask",
+    "depth"
+  ],
+  "maskChannels": {
+    "r": "ao",
+    "g": "roughness",
+    "b": "emissive"
+  },
+  "maskStatus": "real",
+  "pipeline": "no-mesh-2p5d",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "albedo + normal via CanvasTexture; mask.r=AO -> ambient, mask.g=roughness -> specular; depth=parallax",
+    "unity_urp": "_BaseMap + _NormalMap + _MaskMap (R=AO,G=roughness); depth tooling-only",
+    "phaser": "albedo + normal (_n); mask/depth tooling-only"
+  },
+  "files": {
+    "albedo/front.png": "1a55762b4f7b7c30c9596c941048b7db4cab3a96018bd9c73b133c5c588eb81c",
+    "normal/front.png": "f5b18f4202c683850b4c2453a30e49ea1554ca0cacc96c87143530ab02c3a7b7",
+    "mask/front.png": "41f0f5c9b79df4c6eb641509f38574bede97b4e84ddf5adf96a9d0315a1604bd",
+    "depth/front.png": "f3bdf42c56fc442b0a5730a16f33f0020a16510876e255a69d585270d87f1285",
+    "albedo/front_left.png": "0f92ecf3bc4887177aca5aba234ef25c68ff171c5a7d50bffb457d30b07a8766",
+    "normal/front_left.png": "f2deb94274b64a1191c254102ec4a0ba5c55d9a79a76c21e9fffc65e77d44dd7",
+    "mask/front_left.png": "4c90f1ab91b66ab78f92d32c7faab5fbfc81efe67f1db9621471ccacf5069d43",
+    "depth/front_left.png": "27f9fc233fb91dc4beb3b26226de7a4bedc32969159310240e25dfb4af94ace9",
+    "albedo/left.png": "49410180c085012f8008a3e01e8505a9917cb70e29ff8166b0e9185185355319",
+    "normal/left.png": "fff08f6e62f05a7febb1d8f152dd74281c0e054887859a4e6ba916cde6ecceca",
+    "mask/left.png": "ab492d389f62215095ee33c60ac8015007dba5565f5057c7821f149a915a9063",
+    "depth/left.png": "b606322c3bbc906db406f1fc15f75d0661a9b0102e07998ad7bc1f21558b50d9",
+    "albedo/back_left.png": "c1f47031d369ebddd401c4e9b3916ad0323cfb68144debce995093a6ede23c70",
+    "normal/back_left.png": "bb2dceb3189a6baaa629fcbcd39352fd25986d2a37ebf8032e0e9801cda76cb8",
+    "mask/back_left.png": "9163f90e88a26ddd002206cac4d1a0590e567312d8abb59ed1e127b59ef2cf5f",
+    "depth/back_left.png": "1e84bcaa7a446b040b975048c6d63bfd66d27aea159171716aca0eb62f727089",
+    "albedo/back.png": "7be813378ec7153124d061cab47d4a4c8972daab75cd9b459b7f5c898110f842",
+    "normal/back.png": "021992a70292f12bf5a9b906fad4328646caff159162a2277bb685c884e814dd",
+    "mask/back.png": "e7b3b2d8f6359a8b76da4aa713f802408ec77eed80ec1dc7280ce8a52d201cae",
+    "depth/back.png": "0c3e9ae94c77cfff97948ffc5a675ae80e1d4a5ad006828105eeb9fbe3b7eea7",
+    "albedo/back_right.png": "7d4e555a363ef15a88df7ef442a538251c3d20d820c28d6c4ff383bfdd084993",
+    "normal/back_right.png": "b1750576f3ec1d5b895e35791c1af6b463c02aa6493c385dc1b8edf8cb30d237",
+    "mask/back_right.png": "4432e252c4e1b815ea7d80de03ebd572c1c26a86f5c7dfa84c7f577aba128c1a",
+    "depth/back_right.png": "497650f1b2d0ab6cb760c717565cb05b3c1e70b4dae2daa24873357f789414e0",
+    "albedo/right.png": "e58d5d50689a3431b0a8e2aa54512fb970eb2acd7794d40158e3ff79084d9eb2",
+    "normal/right.png": "f90770263e1c5ad3a6f7bba54808486ff8094375ee4ae20dca2ef8c31ec28b83",
+    "mask/right.png": "43c304a0e0cfab4a3bfcbe99e76d2f450db8cfd9c8825e548a9be564fc71560f",
+    "depth/right.png": "58be872cdc1171925913fc3c4bd5501345c388857d6b13667d81b3f7e249da5e",
+    "albedo/front_right.png": "7b7c09bd45befbc7e204e23a344222402eff0789113bdf7f6ee79b4d93652d68",
+    "normal/front_right.png": "50aa55420b642145fb894e39980f32a5e8b8ac879008edf9a84cb874abc496de",
+    "mask/front_right.png": "1200ba85be8dacafbca543f9623c7e7896821b9ff365d66a2214c0e1e23531bd",
+    "depth/front_right.png": "24391e113b4dd5158fcf73efb4c496f17320cda2f5f1008b59382c37efe399d1"
+  }
+}

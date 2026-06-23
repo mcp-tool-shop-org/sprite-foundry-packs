@@ -1,0 +1,152 @@
+name: Release
+
+# ============================================================================
+# Publishes ONE pack from this monorepo to npm via OIDC Trusted Publishing
+# (no tokens). The tag names the package: <slug>-v<semver>, e.g.
+# townsfolk-hd-v1.0.0. Each pack on npm has its own Trusted Publisher bound to
+# this repo + this file (release.yml — do NOT rename; the binding matches on
+# filename).
+#
+# Standards compliance (workflow-standards.md, 0-3):
+#   PIN_PER_STEP         3 — SHA-pinned actions; node 22.14.0 (OIDC floor); npm
+#                            sandbox version-floored; tag == package.json verified.
+#   ANDON_AUTHORITY      3 — fails closed: tag-format, remote-tag, dir-exists and
+#                            version-match gates each exit 1 before any publish.
+#   NAMED_COMPENSATORS   3 — table below; publish + release are both idempotent
+#                            (a re-run reconciles, never double-acts).
+#   DECOMPOSE_BY_SECRETS 3 — all tag-derived package identity isolated in one step.
+#   UNCERTAINTY_GATED    2 — the human pushes the tag (the gate); publish is then
+#                            deterministic CI (no mid-run prompt, by design).
+#   EXTERNAL_VERIFIER    3 — reviewed by a 3-lens adversarial Workflow before first use.
+#
+# Irreversible actions & compensators (NO SKIP — workflow-standards):
+#   npm publish <pkg>@<v>   -> `npm deprecate <pkg>@<v> "reason"` (unpublish is
+#                              restricted to <72h and burns the version; deprecate
+#                              is the durable undo). Owner: release operator.
+#                              Idempotent: step skips if the exact version is live.
+#   gh release create <tag> -> `gh release delete <tag> --yes`. Owner: operator.
+#                              Idempotent: step skips if the release already exists.
+#   git push <tag> (operator-side, not this file) -> `git push --delete origin <tag>`.
+# ============================================================================
+
+on:
+  push:
+    tags: ['*-v[0-9]*.[0-9]*.[0-9]*']
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag to release, e.g. townsfolk-hd-v1.0.0 (must already be pushed)'
+        required: true
+
+permissions:
+  contents: write       # GitHub Release creation
+  id-token: write       # npm provenance via Sigstore OIDC
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false   # never cancel a publish mid-flight
+
+jobs:
+  release:
+    name: Publish pack to npm + GitHub Release
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 0   # need tags for the remote-tag preflight
+
+      - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
+        with:
+          node-version: 22.14.0   # OIDC trusted-publishing Node floor (>= 22.14.0)
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install npm >=11.5 in a sandbox for OIDC trusted-publishing auth
+        run: |
+          set -euo pipefail
+          # Node 22's bundled npm 10.x signs provenance but cannot negotiate the
+          # OIDC auth path (the PUT returns a misleading 404). An in-place
+          # 'npm i -g npm@latest' races the bundled arborist and breaks, so we
+          # install npm@latest into a sandbox dir and PATH-shadow the system npm.
+          SANDBOX="$HOME/.npm-cli-sandbox"
+          mkdir -p "$SANDBOX"
+          pushd "$SANDBOX" >/dev/null
+          echo '{"name":"npm-cli-sandbox","version":"0.0.0","private":true}' > package.json
+          npm install --no-save --no-audit --no-fund --silent npm@latest
+          popd >/dev/null
+          echo "$SANDBOX/node_modules/.bin" >> "$GITHUB_PATH"
+          "$SANDBOX/node_modules/.bin/npm" --version
+
+      - name: Resolve tag -> package slug + version (+ remote-tag preflight)
+        run: |
+          set -euo pipefail
+          TAG="${{ github.event.inputs.tag || github.ref_name }}"
+          echo "Tag: $TAG"
+          if [[ "$TAG" =~ ^(.+)-v([0-9]+\.[0-9]+\.[0-9]+([-.+][0-9A-Za-z.-]+)?)$ ]]; then
+            SLUG="${BASH_REMATCH[1]}"
+            VERSION="${BASH_REMATCH[2]}"
+          else
+            echo "::error::Tag '$TAG' must match <slug>-v<semver>, e.g. townsfolk-hd-v1.0.0"
+            exit 1
+          fi
+          # Fail fast BEFORE any publish if the tag isn't on the remote (covers the
+          # workflow_dispatch 'forgot to push' case — otherwise --verify-tag would
+          # only catch it after the irreversible publish step).
+          git fetch --tags --force origin >/dev/null 2>&1 || true
+          if ! git rev-parse "refs/tags/$TAG" >/dev/null 2>&1; then
+            echo "::error::Tag '$TAG' not found on remote — push it first"
+            exit 1
+          fi
+          PKG_DIR="packages/$SLUG"
+          if [ ! -f "$PKG_DIR/package.json" ]; then
+            echo "::error::No package at $PKG_DIR (parsed from tag $TAG)"
+            exit 1
+          fi
+          PKG_VERSION=$(node -p "require('./$PKG_DIR/package.json').version")
+          if [ "$PKG_VERSION" != "$VERSION" ]; then
+            echo "::error::Tag version $VERSION != $PKG_DIR/package.json version $PKG_VERSION"
+            exit 1
+          fi
+          PKG_NAME=$(node -p "require('./$PKG_DIR/package.json').name")
+          PRERELEASE=""
+          case "$VERSION" in *-*|*+*) PRERELEASE="--prerelease" ;; esac
+          echo "Releasing $PKG_NAME@$VERSION from $PKG_DIR"
+          {
+            echo "TAG=$TAG"
+            echo "PKG_DIR=$PKG_DIR"
+            echo "PKG_NAME=$PKG_NAME"
+            echo "VERSION=$VERSION"
+            echo "PRERELEASE=$PRERELEASE"
+          } >> "$GITHUB_ENV"
+
+      - name: Verify pack assets are complete
+        run: npm run --prefix "$PKG_DIR" verify
+
+      - name: npm pack dry-run (verify shape)
+        working-directory: ${{ env.PKG_DIR }}
+        run: npm pack --dry-run
+
+      - name: Publish to npm with provenance (OIDC trusted publisher, idempotent)
+        working-directory: ${{ env.PKG_DIR }}
+        run: |
+          set -euo pipefail
+          # No NODE_AUTH_TOKEN by design — OIDC trusted publishing (npm >= 11.5)
+          # supersedes setup-node's .npmrc token line. Do NOT add NODE_AUTH_TOKEN;
+          # it would bypass provenance binding.
+          if npm view "$PKG_NAME@$VERSION" version >/dev/null 2>&1; then
+            echo "$PKG_NAME@$VERSION already on npm — skipping publish"
+          else
+            npm publish --provenance --access public
+          fi
+
+      - name: Create GitHub Release (idempotent)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG already exists — skipping"
+          else
+            gh release create "$TAG" --title "$PKG_NAME $VERSION" --generate-notes --verify-tag $PRERELEASE
+          fi
