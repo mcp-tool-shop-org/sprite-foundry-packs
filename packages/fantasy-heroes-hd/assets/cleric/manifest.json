@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "cleric",
+  "name": "Cleric",
+  "tileSize": 512,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "albedo",
+    "normal",
+    "mask",
+    "depth"
+  ],
+  "maskChannels": {
+    "r": "ao",
+    "g": "roughness",
+    "b": "emissive"
+  },
+  "maskStatus": "real",
+  "pipeline": "no-mesh-2p5d (Qwen-Edit NVS + Marigold-IID/normals + DepthAnythingV2 + BiRefNet)",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "albedo + normal via CanvasTexture; mask.r=AO -> ambient, mask.g=roughness -> specular; depth=parallax",
+    "unity_urp": "_BaseMap + _NormalMap + _MaskMap (R=AO,G=roughness); depth tooling-only",
+    "phaser": "albedo + normal (_n); mask/depth tooling-only"
+  },
+  "files": {
+    "albedo/front.png": "bdbbf600ef0c5502d1b728380427bb9be3ac87817d13da850cdd59182fa035ed",
+    "normal/front.png": "d9908347834eba719508c83a701d190a40668e475013359e10d8df41625b5b5e",
+    "mask/front.png": "e93152d6bdd6012e9b94eb88c3d6b1147ef6cae1c0a3a3dcaf2bb996ea9123df",
+    "depth/front.png": "3d204633a9149262a6b3e96bb832592231b5f26502a592c03c20e6e675d747bb",
+    "albedo/front_left.png": "6ecbdf049e703c14f7d1d29dccd8d878f216355c2f4efbc46922a5823b97587c",
+    "normal/front_left.png": "e2213cfc998c21343571dc20db5e660a5a049f710b29036b213d44ccd1ec2f45",
+    "mask/front_left.png": "b7c0a33974362ff641893f84e4d71c6c4814996d720f794b1a154c8a64dd7264",
+    "depth/front_left.png": "dde53f89c7f030b5a57174333d83927d5c89cda83b6109f0bff85b808148b4d6",
+    "albedo/left.png": "eb8757e8f77030f9a6daafeaf33f09fab927e24f4d3cd495726cd81fd3f87b26",
+    "normal/left.png": "9193587b9d15f8c48d8ac5eb93471a8ce6391c2734567c1dafcd171077074955",
+    "mask/left.png": "e2792bfffa0f2d102ea6a0ed4879ba3a3488a94fa5f1affad1d6282ea261d291",
+    "depth/left.png": "e397082b4fa504c4479ffb32a58029a725966df41ec24ab2e339ec92d7422911",
+    "albedo/back_left.png": "c800df0a2f2f68230ca53af2b14fa9849df631d96ab93d7c4aa529f64a82e182",
+    "normal/back_left.png": "3ba90216876f68839d02adc3710f72bb25d4a56c007ec2c321f7857b139b2c6c",
+    "mask/back_left.png": "10171e989653b6797d8fe91bcb23fd771ed00008744b0c52f2f0bb45c5430c0f",
+    "depth/back_left.png": "30e31914ac0b174d44593cf8e6624fc62d9896882171b3cda147a114cd54e3d6",
+    "albedo/back.png": "b7ad52be9aee900eeeadd80638c8e8fa0dd3ad0eeb984a919de92d40ef6d2c2a",
+    "normal/back.png": "e01697ec82e8604c683b556cffdb304019af5d44515985e0efd79690aa3220fe",
+    "mask/back.png": "0b65c13bafe9decbd0ec420fe93636d1d153f1ee6cbf1a098e3347efa40051ae",
+    "depth/back.png": "a4095241b714697c142c6358a5cfa833f4382a54c395eb7364e5f6ab12f9c2f1",
+    "albedo/back_right.png": "5c05f61f8ce34c060ef9298b0462ecda751ec7139500cf6f3811138f81800f73",
+    "normal/back_right.png": "164c162b32f32b20f49050e9ec8f77f11e4aad821e3972a171002e4cc4495b64",
+    "mask/back_right.png": "c5991454231505fce8516000e8074bd3384f58d6aa55eeaa38797c3d99149a4c",
+    "depth/back_right.png": "568f43b02219aeb51c630947c55e76e9d2ea93ba617854e6bb3b87369ac5171d",
+    "albedo/right.png": "d9e3b1faad2f5b17d42ee9f281a1e46d4855b825df5a2d9213fe341d5d042830",
+    "normal/right.png": "fb91f97df715ec08fd1fa5817de2029133f60133a4c7bf7de800df61590afda9",
+    "mask/right.png": "e3bcd6e1e8c789247811bfd07a7344730f6ba63ad763c48e16a853ca85e2f08c",
+    "depth/right.png": "7fc5d360c86cf9238e72f68692b411a286399181d4d17316b5e819941dfda07b",
+    "albedo/front_right.png": "ca76555218f975823f78c77e2c3ba848fe531df3e11166e2e4e5aee46afb0fd8",
+    "normal/front_right.png": "0355470ed3db8235895991e68393e7be07af96342820eef0ffdef5cbfbfb01ec",
+    "mask/front_right.png": "c9f7867d908a2eceee59d0682ee563ff0c2ec24c1dc677c2c444d2ccac0fac8d",
+    "depth/front_right.png": "337ee5e2de0850be9054d0fa2bcd35fd6b529a7eafe43c2ac34a10548a4a1c32"
+  }
+}

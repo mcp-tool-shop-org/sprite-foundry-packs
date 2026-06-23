@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "white_mage",
+  "name": "White_Mage",
+  "tileSize": 512,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "albedo",
+    "normal",
+    "mask",
+    "depth"
+  ],
+  "maskChannels": {
+    "r": "ao",
+    "g": "roughness",
+    "b": "emissive"
+  },
+  "maskStatus": "real",
+  "pipeline": "no-mesh-2p5d (Qwen-Edit NVS + Marigold-IID/normals + DepthAnythingV2 + BiRefNet)",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "albedo + normal via CanvasTexture; mask.r=AO -> ambient, mask.g=roughness -> specular; depth=parallax",
+    "unity_urp": "_BaseMap + _NormalMap + _MaskMap (R=AO,G=roughness); depth tooling-only",
+    "phaser": "albedo + normal (_n); mask/depth tooling-only"
+  },
+  "files": {
+    "albedo/front.png": "04d11adfa26640713ebe02c343aa9bf1d6beda5ed4f663a916282f2a07b13821",
+    "normal/front.png": "8cc89292b0681718d1fb6637a32860bce80e33df85ceecf640c9680b3415066f",
+    "mask/front.png": "a9a0dd19171438fce29f8d1cd5043937e61fef7807a629c165b67006e8678ab0",
+    "depth/front.png": "ced64a84b50bd7e106b1031cdb194af1497d2f8b5738d608df2a1bfcec12ef7d",
+    "albedo/front_left.png": "e420045504bc3351c5fcf27d89c14b103fb55a93f41b19007968c50da421cd54",
+    "normal/front_left.png": "b82d9c49dce3084081c43ecd67fdbd3b268aae8f6f4e13d7ee08ef0808c7a850",
+    "mask/front_left.png": "a814e52dc2a6858551ed83d03e1a27d4406acecf89d3023d87c89429c6068934",
+    "depth/front_left.png": "3df730a282c39de51e080bbf7f04979a93f4f6cdd5699dc42bdb417e1e72f5c6",
+    "albedo/left.png": "b45fa40ecb82f083668338f817070d3d9253e7855a06aadd544fab5f08d5d687",
+    "normal/left.png": "9b9d724e31796febef0d608bd61c4046c5b0f2f07b6a78145da1e88d7d77cdb2",
+    "mask/left.png": "c0462d04cb7ebc861b9480069800cbb4262076915393eeb3dd2d95280e363dd0",
+    "depth/left.png": "7e95a7512c054a30d179786a10fbc305ccd03282633017747bff482ba89c03d9",
+    "albedo/back_left.png": "605d2a57c8151f71bee970d1b692b17698f76869100197a3f2ff4c15af1f6fbd",
+    "normal/back_left.png": "a176eb5f8a7070576ccabdadaa5bd94d6e9793c3e9301d05ea10f1de6228e0cd",
+    "mask/back_left.png": "84f0911f633135a281d9017389a1cc54835f641ac527aa9aacc0416eec3460a0",
+    "depth/back_left.png": "a166437013bb351257d0da8e0af8456764f577ac7523b29c4b196cbaabd6e6be",
+    "albedo/back.png": "bac13564ad627130049d051680880da3bdecc356cfdc02abb0114fec91cfb5ab",
+    "normal/back.png": "a8f2b453359fa1b447bcff20bfa2521cc3db668c2957482231e32e6fb366d921",
+    "mask/back.png": "bf91ff8049298e29fe449e70d01ce218b814314161e4981d4d8bcd11fce8ad33",
+    "depth/back.png": "3d37dd7971bf551eb158eaebd70249a8495747459f83677ba87a0219fc5b982f",
+    "albedo/back_right.png": "6d1d06f817e6c9ba80e16f1e47887473151b4a7b1ac27d8f44d2126eb6ba53d0",
+    "normal/back_right.png": "534a65b26aaac6b0b9c8ec18e18b1a1484109db78e762c4f8c49914e9d8f6c98",
+    "mask/back_right.png": "f2437283b96b675c5e9d72d7c9cae91125a7d21661e90f80a2cfc36961ff5653",
+    "depth/back_right.png": "cb94a1bbeef7c802b7a058ff6b0653382c8c3ab721f562eaa6016ea124bb0382",
+    "albedo/right.png": "f782746cb940fd635aac411d6e0654df6c046c8b64291351ef78ae59f11b703a",
+    "normal/right.png": "1d2bef7bf6c166bfa7d6b53da28f72f2a9e8f3fcfbdc581bc0cddeac8ab87212",
+    "mask/right.png": "f10de91540b712450817a4a2e0d7e558f1403f4c09143c7b6fb150bac5258a5d",
+    "depth/right.png": "286f05725860cddd1298d38d541094b5a5dafcf4a7cec6cd15a2944aa8bf8b5a",
+    "albedo/front_right.png": "8a608413b693870ece9c4601eab22aaaa5f0c6ba1048edb1ed670ebe1e7a56b3",
+    "normal/front_right.png": "2af6275a20a33a6c28c5ccf2fe7279c5bea2ed9fbaa624657e593388904226af",
+    "mask/front_right.png": "316aaf0c685cf08068379c120dea2909e64b32b96af2e9e9cc09c555f589ed70",
+    "depth/front_right.png": "4ea07708fce4c20f529277e78bbfe1fc6b15e8db1f28e6b270cc87548aca23fb"
+  }
+}
