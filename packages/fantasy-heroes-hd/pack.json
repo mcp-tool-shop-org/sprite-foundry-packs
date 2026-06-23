@@ -1,7 +1,7 @@
 {
   "name": "Fantasy Heroes HD",
   "slug": "fantasy-heroes-hd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "tier": "hd",
   "companionOf": "fantasy-heroes-48",
   "tileSize": 512,
