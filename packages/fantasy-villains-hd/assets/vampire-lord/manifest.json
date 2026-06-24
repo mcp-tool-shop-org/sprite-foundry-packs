@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "vampire-lord",
+  "name": "Vampire Lord",
+  "tileSize": 512,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "albedo",
+    "normal",
+    "mask",
+    "depth"
+  ],
+  "maskChannels": {
+    "r": "ao",
+    "g": "roughness",
+    "b": "emissive"
+  },
+  "maskStatus": "real",
+  "pipeline": "no-mesh-2p5d",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "albedo + normal via CanvasTexture; mask.r=AO -> ambient, mask.g=roughness -> specular; depth=parallax",
+    "unity_urp": "_BaseMap + _NormalMap + _MaskMap (R=AO,G=roughness); depth tooling-only",
+    "phaser": "albedo + normal (_n); mask/depth tooling-only"
+  },
+  "files": {
+    "albedo/front.png": "eb06572e34f06daa6ef7a93f8947039d092246387ca94ac3dfcf538b55c08ad0",
+    "normal/front.png": "6ee9e887406c2b8ea5c84f58e20e39cc3d57389b9eb35ad840cdcdbac3aa5f6d",
+    "mask/front.png": "0e38cd95623e91578c0101a5e0b10798e9960aa381f07f13c2349e04bda266e0",
+    "depth/front.png": "9be81baa42715ddfd5b02b648ed283abd9e2caf3b7b748a02e82bce5ec5915d2",
+    "albedo/front_left.png": "0d78ebe3dac5e0ee058619787845f7e34af2ae2de0fdb304fdc5bac70af6a718",
+    "normal/front_left.png": "487fa45507a1dacc906a5287ecc843f8b5f86e38739637783d7e33ed7add08fc",
+    "mask/front_left.png": "9321241a7079b717ca3e81f2bb747aa54d6847f0db4550e514406818ec5aeec7",
+    "depth/front_left.png": "e0df221f195ff597552a029eef2bd9c8299260e1fec663478fd030b5074b0380",
+    "albedo/left.png": "090ee5bd9412c5777f60a8ee382850ff3545e3d66f931fe8098733b3721a78dc",
+    "normal/left.png": "a2524ddf88659e5084ce2136fbcb6bdd3c775af6a3fd358654482ee51d32fb20",
+    "mask/left.png": "d379ec1eeddd76d8722637a80b77f0fd0d49f5cb18390d57425938b71618924b",
+    "depth/left.png": "ce39ce714e28c9e8ab6b5b48bdf11814cbec7e14794ed65b18ba01992d992a1c",
+    "albedo/back_left.png": "2f9e21af384d5ae224e9465f8f3ac0b135c809921aa8693d4f1055c52206d9e4",
+    "normal/back_left.png": "34625b8c06ad77335742702fa85cc3e0e759bce339e6666e3cab4c5dd371e9e6",
+    "mask/back_left.png": "02513977e644789b303b8b99cc65bbca48ad85f37551593995c7fcfee34268ab",
+    "depth/back_left.png": "b6770b76a7c488c49a27f6673f2d7df993fa6a2abbe64dacdf4bc351e19a8a03",
+    "albedo/back.png": "f0aaabe471f9e3648bcaa928a4b4a401e11eac75a2f85268eecea3051069709b",
+    "normal/back.png": "6f7af7f96b81701df2231a3612e86b10ee6780e93c8c56fd9892e0c68ba1187d",
+    "mask/back.png": "ab03c5c6b83ec8c2b95bc7f45e07a4a6d270657e18013248a49016c6dc15f309",
+    "depth/back.png": "94aca450050c8833a0cf80986915f2b6079acb9bc01e465bfd75acb9d8845794",
+    "albedo/back_right.png": "52b8121d48d0fbf0b47eda05f9add0dd2dff8bc88754c9c6bb7dba9c1c07a6f8",
+    "normal/back_right.png": "322d1a800a80266a51ea185d0ca109d0d165d900dbe8c32d72f0921ee2744b52",
+    "mask/back_right.png": "375c2ac3d9a8a77547a8f210b9a123ffa240703b3f621b077dbf77a07c4c35d4",
+    "depth/back_right.png": "c3b6afe27a3ec4e0d06f561473e4c0e4a7ce0b3ca05b261d5624fb9d1bdf9494",
+    "albedo/right.png": "cccc40e7bf23a6e85125303d06e05a9387546454681171b0634933a080695772",
+    "normal/right.png": "d9dbe346b65eea4dc3a35921d4eeb12cd2777a4ebad4299e0edae660c5479680",
+    "mask/right.png": "3dadca2aed1d3157cbea30e2ce901a7f68e6d336b6fcae9c49f8446357ae0ae1",
+    "depth/right.png": "c210e9217bd1c39edc1562a2d28c2194197171f5c4f92021890ef01b743d4390",
+    "albedo/front_right.png": "0d5db8051d243e2dca83aa51c0843c3af8c6385ce3ee526170f677c56e6f3b71",
+    "normal/front_right.png": "915af78cdf74ee10673fc9a37249081b6240a8649e98ae4b274aedcbe4979ea8",
+    "mask/front_right.png": "21a170a0b93045e395d44dc1c23a8334d6e412dedaa534267f2e3e6247453af8",
+    "depth/front_right.png": "23d3bfc01db5f21d7251a2f9592f676f361808d73d48d78bcfc6cb5f4b10e36d"
+  }
+}

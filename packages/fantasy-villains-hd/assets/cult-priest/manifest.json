@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "cult-priest",
+  "name": "Cult Priest",
+  "tileSize": 512,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "albedo",
+    "normal",
+    "mask",
+    "depth"
+  ],
+  "maskChannels": {
+    "r": "ao",
+    "g": "roughness",
+    "b": "emissive"
+  },
+  "maskStatus": "real",
+  "pipeline": "no-mesh-2p5d",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "albedo + normal via CanvasTexture; mask.r=AO -> ambient, mask.g=roughness -> specular; depth=parallax",
+    "unity_urp": "_BaseMap + _NormalMap + _MaskMap (R=AO,G=roughness); depth tooling-only",
+    "phaser": "albedo + normal (_n); mask/depth tooling-only"
+  },
+  "files": {
+    "albedo/front.png": "6b76b2641e65a4ddf3918fd55585915ee1711ed25b1f236aaef872c76b1da110",
+    "normal/front.png": "f8cc38cf26af17d60dca526c56649750acb89bafdd7dbb6cad956db508f7bb69",
+    "mask/front.png": "d4cf56dfb485c24d772e9faade6c3bda863e210b0eca7590893b9b0a13b35d07",
+    "depth/front.png": "a8d15f4e752d9c5e4142de56b106f1bb1158264e2b0db2492316c86ffc66998d",
+    "albedo/front_left.png": "1999fd46d4791d993f79c6a11f4fa79e8afc9bf867681890cbbea4e24666ad84",
+    "normal/front_left.png": "f60eefe1075586d5be628c7447e0265b5c9e8b5090e9fb8c2a878ee5d4b16966",
+    "mask/front_left.png": "50d6f0a67bec029c84fa0122ca4927332d68797fb928145deeadfd050318ac90",
+    "depth/front_left.png": "2ba74e0be07fa3ad9f49370951f30e72338d76c1a2738eaf5a38817fd8270ebb",
+    "albedo/left.png": "6af7d3a6f80a7e23adbbfc1a91832e2be62dd480ef151de79b2e4cbec3384d27",
+    "normal/left.png": "1a483e9c517b9c3aaeb7a2ed1b35a1b6b32a5250b1d0f19a64142d702f964708",
+    "mask/left.png": "a4bf42b72018c3b5a234fb0bf7b987a1f3df06b8622c15b7aa3f39e405821a16",
+    "depth/left.png": "38ce03b94e6f9e115e30a450fe0894d13c1c763ccd49de2e930f7f4ff39156ac",
+    "albedo/back_left.png": "43a15e8552afb20a02ef0a9ef7250c16e2a686a02dda4d41267abf98ea46a55f",
+    "normal/back_left.png": "f75ce522734eed1b4e6f11e7415d62b7255f6a426743596c73b434addfe8caf3",
+    "mask/back_left.png": "2352b511f561b81f15a839e9780c1f125e223a7d5b3d8d3bd85aa1d94447ff99",
+    "depth/back_left.png": "491756472a0c7db53d586c5321eeb54b90c763d159a5c7f305eac1c13f0627fb",
+    "albedo/back.png": "5d1041bf544b2b351414401151be08c07f6778bfe29bb2c54af0e27fd3a2d436",
+    "normal/back.png": "56deff48f3fb4648507d966c59c67796397f5ac9e8742d98c2980ace4ff836ce",
+    "mask/back.png": "c95a478279f4715abfbe390b980a89da39298aef994572b2bcb204ef0b66ca3b",
+    "depth/back.png": "6a3bfff4ac4b162f4ed9464fe80be7b3411691ff8b5951a7745c4b497a9b5c7e",
+    "albedo/back_right.png": "70d16e858eecd97619db6d6b9707b5b7325881689cf9e00066ec7cb1263f53e9",
+    "normal/back_right.png": "5de736af7a90f3590146bbf8232d69816ff0d383380e70c503a5beb9f852dae8",
+    "mask/back_right.png": "24a22cf3e7e66215318a7fcd1695bfd9bf8493ddeba91953c22aa3536a62231b",
+    "depth/back_right.png": "81fe9726c6237260f0851280c9c905a72c56c5cd26a41a0a5021252b3b6f0d34",
+    "albedo/right.png": "0414875b5182dcfb1c1bc4ea20709a12d9f12d7b5ddaf4a35e9e1dce77e521ae",
+    "normal/right.png": "60fdd6f19462d786ac1fe13e6161c5bb52149a563e69bdbaf85d749d2f826e45",
+    "mask/right.png": "1738b043a10ca69514ba6fbba0cea836a45b297e33edc697155888d0aa9c5f5f",
+    "depth/right.png": "ad2dda4ee3ff76c830a6ed7354b7d48e9881c5c72e40d3c97ffd9a0ba98deb06",
+    "albedo/front_right.png": "56712e09edff49928e1d2d0fb3f9339fb33813edd32ba39a0b6d1dbc73557e72",
+    "normal/front_right.png": "2338161342342473b8e0455cadac1577b3b33a5f1fa6693f33ca9afa2ea58e69",
+    "mask/front_right.png": "8f56eb1141a869c06270a19641da466da2bf1d1356eea9fa2dcbd9016139b0c2",
+    "depth/front_right.png": "a144a378acb16bd5b34758a8ed45a829ec0c4a4e8c2ccaab072d5c0a0dc495f3"
+  }
+}

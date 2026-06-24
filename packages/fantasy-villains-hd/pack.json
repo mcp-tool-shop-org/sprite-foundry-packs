@@ -1,0 +1,31 @@
+{
+  "name": "Fantasy Villains HD",
+  "slug": "fantasy-villains-hd",
+  "version": "1.0.0",
+  "tier": "hd",
+  "companionOf": "fantasy-villains-48",
+  "tileSize": 512,
+  "schema_version": "2.0.0",
+  "pivot": [0.5, 1.0],
+  "directions": ["front", "front_left", "left", "back_left", "back", "back_right", "right", "front_right"],
+  "layers": ["albedo", "normal", "mask", "depth"],
+  "maskChannels": { "r": "ao", "g": "roughness", "b": "emissive" },
+  "variants": [
+    { "slug": "blackguard",         "name": "Blackguard",         "role": "elite tank",            "path": "assets/blackguard/manifest.json" },
+    { "slug": "dread-ranger",       "name": "Dread Ranger",       "role": "ranged hunter",         "path": "assets/dread-ranger/manifest.json" },
+    { "slug": "necromancer",        "name": "Necromancer",        "role": "summoner / caster",     "path": "assets/necromancer/manifest.json" },
+    { "slug": "assassin",           "name": "Assassin",           "role": "flanker",               "path": "assets/assassin/manifest.json" },
+    { "slug": "cult-priest",        "name": "Cult Priest",        "role": "support / debuffer",    "path": "assets/cult-priest/manifest.json" },
+    { "slug": "reaver",             "name": "Reaver",             "role": "heavy damage",          "path": "assets/reaver/manifest.json" },
+    { "slug": "warlord",            "name": "Warlord",            "role": "commander",             "path": "assets/warlord/manifest.json" },
+    { "slug": "dark-monk",          "name": "Dark Monk",          "role": "fast specialist",       "path": "assets/dark-monk/manifest.json" },
+    { "slug": "vampire-lord",       "name": "Vampire Lord",       "role": "aristocratic undead",   "path": "assets/vampire-lord/manifest.json" },
+    { "slug": "gorgon",             "name": "Gorgon",             "role": "petrifying monster",    "path": "assets/gorgon/manifest.json" },
+    { "slug": "mind-tyrant",        "name": "Mind Tyrant",        "role": "psychic overlord",      "path": "assets/mind-tyrant/manifest.json" },
+    { "slug": "corrupted-paladin",  "name": "Corrupted Paladin",  "role": "fallen holy warrior",   "path": "assets/corrupted-paladin/manifest.json" },
+    { "slug": "witch",              "name": "Witch",              "role": "forest curse weaver",   "path": "assets/witch/manifest.json" },
+    { "slug": "bandit-king",        "name": "Bandit King",        "role": "outlaw warlord",        "path": "assets/bandit-king/manifest.json" },
+    { "slug": "dark-elf-matriarch", "name": "Dark Elf Matriarch", "role": "spider-themed ruler",   "path": "assets/dark-elf-matriarch/manifest.json" },
+    { "slug": "plague-doctor",      "name": "Plague Doctor",      "role": "pestilence bringer",    "path": "assets/plague-doctor/manifest.json" }
+  ]
+}

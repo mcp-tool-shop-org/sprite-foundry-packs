@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "necromancer",
+  "name": "Necromancer",
+  "tileSize": 512,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "albedo",
+    "normal",
+    "mask",
+    "depth"
+  ],
+  "maskChannels": {
+    "r": "ao",
+    "g": "roughness",
+    "b": "emissive"
+  },
+  "maskStatus": "real",
+  "pipeline": "no-mesh-2p5d",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "albedo + normal via CanvasTexture; mask.r=AO -> ambient, mask.g=roughness -> specular; depth=parallax",
+    "unity_urp": "_BaseMap + _NormalMap + _MaskMap (R=AO,G=roughness); depth tooling-only",
+    "phaser": "albedo + normal (_n); mask/depth tooling-only"
+  },
+  "files": {
+    "albedo/front.png": "44e5dd0d38442ff5b93708dcb31515c4bcf91fbaa4a32b6f9f982e7fc86b11d1",
+    "normal/front.png": "1ad867be8f1fb6a34687414411e3400ef23e4e766f0080ec101471a4776d4525",
+    "mask/front.png": "44ffbf8e98e67cf24e1f8859ca856b00a8549f9a6e0f38d566afdaf0a9fbfaf2",
+    "depth/front.png": "254a87dd69e8f68900d5da2f42abacc477555afb22bbe3f60c1b42330176da17",
+    "albedo/front_left.png": "1b036a7b9e82253b08d5e4ab8f735f8ebc4b2d48bcce6098b42039a9c91cc309",
+    "normal/front_left.png": "f11b8de8935a5e81c3333fe813aa187f282711fadf8bd2a0140901a4445ad62b",
+    "mask/front_left.png": "afcbb3b3a81bd42c9f9a8f379a4af05016562993ca394c505fda56fd3e6eae4b",
+    "depth/front_left.png": "58a10b71ec32fb5d8a262088908e8d98b5d8b95102ff2237a09da510d9688af8",
+    "albedo/left.png": "b8fa9afc65d1116e982e6713c3e3b33c0eb7d65aebda4644931fefae9cd5295a",
+    "normal/left.png": "d69023605ffd0c63670d25e67f2829d17e62068cd6c1ccf1c70c19c906811993",
+    "mask/left.png": "d0cce72c35851cc80d45dc7a6f2e9dd20f3ac483cd56f75c129f445e92cfed4e",
+    "depth/left.png": "30324cb41ba37471f92fbefb77a8a155f44b65cbb9be4d4e9e89081798ca870a",
+    "albedo/back_left.png": "05db25b3c64184f4d3a370abab0d64b2d9210d1e4b83766a200ac9b8003ca794",
+    "normal/back_left.png": "251f2532256b1791b8beb361ba97269c7bce3a77b570c958afeb81bc466d8d04",
+    "mask/back_left.png": "48eb6083074c2e8db34f3b1ef682b718516dc3177591b5b00927658929ea0312",
+    "depth/back_left.png": "39f80bea69fc86b2a8f8329c3b4d8285409e39d47e4cd517feda8b858767586f",
+    "albedo/back.png": "016146113ef1ae95713e9f09f20321e17009f315b0a54907eb41747d525c1b1a",
+    "normal/back.png": "aa7a6d9853f164cccbc102fdbbfd71d4db2cf74b063ed336fff8ef153ac4c0ca",
+    "mask/back.png": "213cae2f6d567a6916f03020734354de10d82f5e29aabd43a52451ada5cca10b",
+    "depth/back.png": "37073cca4e762072ec1ad94025c1d20954d70ba1c1eedc235020b8a8f986f0e5",
+    "albedo/back_right.png": "db3cd244cee5ee3cd2e6d95957a61c1c7db5212e95d456030d1990fc7f54e675",
+    "normal/back_right.png": "aee74add8629c83cf7d8e38d3ce6b9c61ac95ded00e55802775b45b2755f1ac9",
+    "mask/back_right.png": "54d6d97936d09236c40dc0cecd37e6a9793d742e4c7d64f133e4726de1ad4b57",
+    "depth/back_right.png": "d990c3e858a66c5c136baec54d40aea2077eb4d90084aca078d96d774d55605b",
+    "albedo/right.png": "344d84591cf8bd073c4c8c10397d192681f3d5d8387d449a2750d1ec5e9ba8dd",
+    "normal/right.png": "3308be33d1828c39878ae96eb6bb79e6a7946fb3c5230065021d6efdb5c08787",
+    "mask/right.png": "ee720618471bb6226860c709d1b9e65b6fe5988d1f69cecf2e5e1389220de856",
+    "depth/right.png": "a8fbc18ed2f63011a6c29ca127c8a8fc83333c2de7375dcbbaa1b1ea49104755",
+    "albedo/front_right.png": "8e44cb63da2719789ba0d1d40c6bd2e8a888174e8471d42b0fc0ac5f228064f9",
+    "normal/front_right.png": "64084d9e0caa4ec77abc68c5efb2d59964e1019804a4caac589e08dd1b8d313b",
+    "mask/front_right.png": "6a918ebe10d0326feb66bc55e3d3bebb4bd2aacd32e72a0427b63258d904f76d",
+    "depth/front_right.png": "c5f76ad56480f25551d9578c46d5379fb9192abc22e5e01442910c58dc6bceaf"
+  }
+}

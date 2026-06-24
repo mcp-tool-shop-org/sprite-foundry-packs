@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "warlord",
+  "name": "Warlord",
+  "tileSize": 512,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "albedo",
+    "normal",
+    "mask",
+    "depth"
+  ],
+  "maskChannels": {
+    "r": "ao",
+    "g": "roughness",
+    "b": "emissive"
+  },
+  "maskStatus": "real",
+  "pipeline": "no-mesh-2p5d",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "albedo + normal via CanvasTexture; mask.r=AO -> ambient, mask.g=roughness -> specular; depth=parallax",
+    "unity_urp": "_BaseMap + _NormalMap + _MaskMap (R=AO,G=roughness); depth tooling-only",
+    "phaser": "albedo + normal (_n); mask/depth tooling-only"
+  },
+  "files": {
+    "albedo/front.png": "d99cf8c858f36855a59daba45b5aab08371d5543ce339866294c2a2dfb64a602",
+    "normal/front.png": "a9120970206ce7e83459f75acb9e426bfbf20c635f77fd09d9d12bdd5224695e",
+    "mask/front.png": "4677d03b2a86aaa0b72c9d73bd25d82e16f9c4e670c35c747b569c2dff592cbb",
+    "depth/front.png": "51dc70d99f4e47522c42316aca5114034c89bc3c6338b355c23f5e803a925aa4",
+    "albedo/front_left.png": "7020adf23c8f28962fd08e62bde6e4f32330a56b664c6e12c34de02c91e8c908",
+    "normal/front_left.png": "37a733575753eda9ec9792c81aa2f294a8bbbf792f89139f72b95bf14a08d2b3",
+    "mask/front_left.png": "d6153b2de774d63cde3b2dfa2d353f1a2596e8bea524e02f8eb07fcf3d2520c7",
+    "depth/front_left.png": "f205267fcc77bcff2232ea8ad0e5831a8455e8489a181867576fbf854326c03c",
+    "albedo/left.png": "0cd1ed551b12e7a296712bb0b5cdec349394ec0e3c202e40aad5cb8f12100b52",
+    "normal/left.png": "3b28584165368e37fed209fc7dbe83d17aa2f328a1b1fcf79a735e481c010cc5",
+    "mask/left.png": "2bff0101dc77e744fd2e0ff14f51af0bf43a4fad3c61f2699ba7ac95cca51a06",
+    "depth/left.png": "e10a450f9a9b211c926f6f881846b4b437407cc3c28f9bbbdc8c751cccf67a0c",
+    "albedo/back_left.png": "71fdc04c7f7626f4515fdf939cb17a3e093ccc93ff286d7e07ae87bd5061e6d9",
+    "normal/back_left.png": "bdee35f367ea34b18e1c2e9d59acd64ec01b8ef7fd100e997ddfb2959c1604df",
+    "mask/back_left.png": "b8af1f0d9b0bcf715d345035998e0d905fc8af5ba488f58a76f87302082f7933",
+    "depth/back_left.png": "d01a79e29463ce48baf5874cac149fcbf6ce5516a87b78a8fd05a92082dafd3e",
+    "albedo/back.png": "8d85087c1d688279076ed9c70f42d92f534c0041d73f4f94c933b6fd85dbf242",
+    "normal/back.png": "d470658598830c70088b1abbb17594653223b3b40d94a4759e9880f570b277fa",
+    "mask/back.png": "3b865566f2d7f95e0ede62c018ff829d0bcabb6541ce7990a879b318118331bd",
+    "depth/back.png": "edb4618e43d8e4e7c0391c90f0792153bf3f86b3b08dd20304e4238906284a0b",
+    "albedo/back_right.png": "3539073ee44944f0ff2cd9192d8ca41bab5345524c0cfd1a294c6a4290cbceaf",
+    "normal/back_right.png": "9f39dc8bb52017867e66bd28613c3e77d021f30aa7fdd768c77dc36b9b0b2d10",
+    "mask/back_right.png": "3dcd80309a9c9ac00abdb8d8fe0e16d681dc07032520648e0e5b6648326fa6ec",
+    "depth/back_right.png": "de7fe990796b8334e14afdee9be4027b3e9741b412a6cc59ab28457f91583f86",
+    "albedo/right.png": "139367f6267f452f8d6585c028e891b8cdfd12d89dc743317a65b112c1c70540",
+    "normal/right.png": "e022b487b8f5b64369f8028c7a3d71c0691b095537a3c860cb390f40135224be",
+    "mask/right.png": "a48f1e57ee3f6cf21e6fffc81e2435f714d4d3c64cedea820edc8b8b3b95e9e3",
+    "depth/right.png": "63031c811d85b69a5ed9ca1eac46078c37e03536b50eeeb223a8e7facc65a9db",
+    "albedo/front_right.png": "55ef08777fa02cf085bf967cbc58ece3832c6df89ae01815fcd02dfed658e44b",
+    "normal/front_right.png": "1147ed6962311668c6ff5d9dbee4f1378aeeeff7ed2b5ca239047fe1e3825401",
+    "mask/front_right.png": "2ae65ef4fcba0122c67d4046e1cc50ae4304e2d6b32a0a8629cc814aca411ddb",
+    "depth/front_right.png": "8046b51fbdf150a71d51b8aafe81c665222fe7a80ed4d25780d8ebe58bdcf263"
+  }
+}

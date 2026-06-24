@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "dark-elf-matriarch",
+  "name": "Dark Elf Matriarch",
+  "tileSize": 512,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "albedo",
+    "normal",
+    "mask",
+    "depth"
+  ],
+  "maskChannels": {
+    "r": "ao",
+    "g": "roughness",
+    "b": "emissive"
+  },
+  "maskStatus": "real",
+  "pipeline": "no-mesh-2p5d",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "albedo + normal via CanvasTexture; mask.r=AO -> ambient, mask.g=roughness -> specular; depth=parallax",
+    "unity_urp": "_BaseMap + _NormalMap + _MaskMap (R=AO,G=roughness); depth tooling-only",
+    "phaser": "albedo + normal (_n); mask/depth tooling-only"
+  },
+  "files": {
+    "albedo/front.png": "a12235ba1a9f02760aae68dbd2f7dc3034ac5ea4004c5adff44fefcb37198999",
+    "normal/front.png": "9e440b949d36abed1d9d85fad74a0e9b0bd5e9167aed2820627fcdd561ed64a1",
+    "mask/front.png": "0aebe5e5e5d2675bb40a5fcff023cd98aa06ccbd64a20c2a1534315b724dea89",
+    "depth/front.png": "f8e6e768a787606495ac371ba29a49dc956ad59b2076cb3fbcc6be2047b6363f",
+    "albedo/front_left.png": "fff664d1b3583666d1d7de406688b0540fc3d974eb66a7a75fb489b590503bae",
+    "normal/front_left.png": "4c289e71046fc90b095bf345d4870a5ef3b4e1e1b61ca78a669622d4e4ec724c",
+    "mask/front_left.png": "1f73f3e40c4317c449b6adb6a806b13a28413459809d7184d5b5b9dd34fd91ce",
+    "depth/front_left.png": "864d426d8d873a0ee5bf69f0352337ecc6b3251327ab9aa3ecb3c55997ec02e7",
+    "albedo/left.png": "bc14a5b035839b0f6d10a2d708f5ad601a47d6c5c843e3cdb06f8dd94a24f666",
+    "normal/left.png": "63a8f7d265b9fee098045ce12bc30bc28041dd0f05a55e715680365192cffc7a",
+    "mask/left.png": "6e7f2e99e458f5aea34f0666e749088244af076f96f35d46b61fed5517e47466",
+    "depth/left.png": "77c25f378014a70d26cc6c3d664959035320f54aecbc59611e01199290d2ec3d",
+    "albedo/back_left.png": "e0c182d769083d8bae9e4bc8a0f70fe7e2f1c177ad69c61a17bc3d61f5fe5878",
+    "normal/back_left.png": "136104a3688779e7bcc2a467c952b7f7573681fbab8f234c79dfa0568522ace5",
+    "mask/back_left.png": "869ff0fd732be0417743cb4bc4a7d0429238fa1015aac70e0ecc464643933456",
+    "depth/back_left.png": "3fc38834f21e34663d7de478987dbcda752b08b0679f9c7e75dba40e99836b98",
+    "albedo/back.png": "4e7081be789217adf920ce5f86d96d2ae3cd1cf76e2ee38eb6165115a5dbd1e0",
+    "normal/back.png": "d6f6d12831ec59a4afa8183f057be1276558c572f1d77c7798aed2c0aaefc372",
+    "mask/back.png": "65d5dc53bc747f03dfe3f7b6dbe73aab2fda8c9900efc4134454f5c6edaba7a1",
+    "depth/back.png": "d10cafa4f42319a8bdf70181c0f971da7509e94fc2620a3bfd998d7202e52488",
+    "albedo/back_right.png": "2ae42a84512215b48285b66758ffa9feb99e75941f4f3d7857892b0e71160ccc",
+    "normal/back_right.png": "a4129c58da4ecb7541783a4f047d4abc4e15bc8dced86796466b2007f8d2a77a",
+    "mask/back_right.png": "ec883b56f09c0f1ccd669516dd5f9446ddf17b8e929131054ab5cb7da2920d04",
+    "depth/back_right.png": "f458bc5c83aba7bb5710cc4ddfe4ab5ac41e6d8b89a0b5c2306a8636444b176c",
+    "albedo/right.png": "f4302448f5710aaf5029cd9f44cce7476b2ff67f0ace6cf6ba9b5c9ef6d70d23",
+    "normal/right.png": "6174d7f82fe7e24284ff02a9bbb1a374c6e1a82248b9922e50c968e4ed413e7b",
+    "mask/right.png": "b6e31b5206c303ac98f683141b03e685201a0e64594227a13987f39bd5983a91",
+    "depth/right.png": "2ec15eae6dfa2b348756902b9ede058398816bb569e7a4589408e1ecdd75d6c3",
+    "albedo/front_right.png": "30150b720491c3e38d787ac7c4b5aee81bcac6ae53d1019ad9208c909afbe778",
+    "normal/front_right.png": "723c2eab48d3fd3475357de0be955ac251a02ec5761cedca6dafa3172dc4f1cc",
+    "mask/front_right.png": "231d6214fc5769c4958410e30a89eedb80103cf77b432b6f2faa3d63ec29ff39",
+    "depth/front_right.png": "19aeb0fd1dec2dc056b33cabaf8843936ec0e4f7f842499e95ccd19bad1faf75"
+  }
+}
