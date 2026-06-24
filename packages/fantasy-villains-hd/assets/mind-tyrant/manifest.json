@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "mind-tyrant",
+  "name": "Mind Tyrant",
+  "tileSize": 512,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "albedo",
+    "normal",
+    "mask",
+    "depth"
+  ],
+  "maskChannels": {
+    "r": "ao",
+    "g": "roughness",
+    "b": "emissive"
+  },
+  "maskStatus": "real",
+  "pipeline": "no-mesh-2p5d",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "albedo + normal via CanvasTexture; mask.r=AO -> ambient, mask.g=roughness -> specular; depth=parallax",
+    "unity_urp": "_BaseMap + _NormalMap + _MaskMap (R=AO,G=roughness); depth tooling-only",
+    "phaser": "albedo + normal (_n); mask/depth tooling-only"
+  },
+  "files": {
+    "albedo/front.png": "72bf7a87592894050b9e7c7100e136b9a8b8bb2c08f4aff58ae22ea151ee81d8",
+    "normal/front.png": "d5933ac597196acd5cdf71f634fae4cd6807354751c38a241afa5fdb12d8228d",
+    "mask/front.png": "f6d9354627118fe5f404fffbbb40853bd63441a28a3383092f1be18b44ecf33d",
+    "depth/front.png": "d4bf1d17a32f47f5d9b22e56f395df24eea8ed968b2bd692ef1ada1eb2a5b476",
+    "albedo/front_left.png": "4af00617901fe9e478fe6dfe9b8de5781ed288da50164db22ee13f33513a807d",
+    "normal/front_left.png": "d121676cf3c032d320dd9c607ac059d692339345188eb497b4b6160552ec235a",
+    "mask/front_left.png": "b4ce47350e9b973f98ab33e3dc9205bf2319fd0a9482b7735864f6b3a89a05c2",
+    "depth/front_left.png": "845ea2b691a624f99c6872f2c1a5425993e751a925268502b1453a1864e288d0",
+    "albedo/left.png": "80f1a5434c51196d0cfc82a806ddf9a97ff5f250cca12aa8f25d0c73fed8ae42",
+    "normal/left.png": "23ac03c5367136a2d31af9642fb95f27ff66d20d3e89da74d89b3fc5779115bf",
+    "mask/left.png": "154922a97b26dfe8761099bacdab152fea7df40b5eca1df6b80722df4911e9e5",
+    "depth/left.png": "7784c650a0a972c8f253d2e63d7b28911605a7f91deebc6c9fdc15a66e5a60d2",
+    "albedo/back_left.png": "df465ed3208e35df6dcd6ed5e9241e2df50addad2d2a0be747d6e6dc75997a95",
+    "normal/back_left.png": "56ed4a93c44fb5c9d7f74dbef9bdfc02c3a47bab1b9346080b2389e86013ed07",
+    "mask/back_left.png": "a5a8851d962e1eb577fdf65979c6e79fa97c3b507fcd243d514f8a2067c48db5",
+    "depth/back_left.png": "bd0f6d996420442e56a443d60bd1f088f16a89a2f249faee7910ded235e3330b",
+    "albedo/back.png": "d0f095057d39c31254aba9af07dd378782476f87fbcb4d5179d9ba8b93c45a3e",
+    "normal/back.png": "6912d41635a6a226851bfaaf6329fdf5366416c9cc2839a83471ef780f953364",
+    "mask/back.png": "5e1352281ee743dc84494ce3b450aadf5dafc7b87f333ec871593c2950a17f0e",
+    "depth/back.png": "e17fc4fb7accc991f1cd0231e70791afaf44bb9bd82ca1dcc533d86887b4f060",
+    "albedo/back_right.png": "521273506ad0f11ff85515a1dc46a2ed0f3e9e319e4f91773d98d88e3e1dd4ed",
+    "normal/back_right.png": "e10b5f01a62105641493b5fc6eaa83d624225acf5f0eba05cc519fc140750661",
+    "mask/back_right.png": "34d0d26d9928e0048bf381f2a5a89972e2892152fd915945bdc2dca86e959996",
+    "depth/back_right.png": "e22faddfb49692eddd68a7518119f55fd769cd9f49c736018cf31414c2d3084a",
+    "albedo/right.png": "51cf729d557293bc8ed4a7bc9c43578682798c45f8fd40294d60341893e139c9",
+    "normal/right.png": "5485a9a3eb51f1f8b6c5472c1f6a2398005c155b7b502d8a3cf8214139f5604a",
+    "mask/right.png": "469da83b12c22d4afdbd4cd7c92452b7439ee6ab159814e2c550634b5434c80e",
+    "depth/right.png": "bdf8b0c2900405574f161835d5197e205e2bd67e216d927090c69e7e82b316f0",
+    "albedo/front_right.png": "ac3532226cf1815c9a7d9b51ffb0b1aac080cce80479dec64228c2dad8fe639f",
+    "normal/front_right.png": "07195766e397802330a8e009c10db7497a9501cc90c2552d557fdb7df870b32e",
+    "mask/front_right.png": "649d6e851c20e4417580bed7131eceb71e538dfdbb0ba6da1451b503d7af7574",
+    "depth/front_right.png": "708de887ad3ceea14b56e2a832a192bcf1428e6ed90f307c39b69e858f864250"
+  }
+}

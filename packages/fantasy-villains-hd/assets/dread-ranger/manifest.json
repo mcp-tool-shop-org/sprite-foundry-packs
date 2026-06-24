@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "dread-ranger",
+  "name": "Dread Ranger",
+  "tileSize": 512,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "albedo",
+    "normal",
+    "mask",
+    "depth"
+  ],
+  "maskChannels": {
+    "r": "ao",
+    "g": "roughness",
+    "b": "emissive"
+  },
+  "maskStatus": "real",
+  "pipeline": "no-mesh-2p5d",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "albedo + normal via CanvasTexture; mask.r=AO -> ambient, mask.g=roughness -> specular; depth=parallax",
+    "unity_urp": "_BaseMap + _NormalMap + _MaskMap (R=AO,G=roughness); depth tooling-only",
+    "phaser": "albedo + normal (_n); mask/depth tooling-only"
+  },
+  "files": {
+    "albedo/front.png": "26c6373850d52df5ab9f35a794608468e9483ae6cf9648750ed42893d80c0ed2",
+    "normal/front.png": "ef907fce707962f0b8fb78494c9db9f15c8eaffdf1cf75d58580669c92d1c6d0",
+    "mask/front.png": "e080b994c67bc94a57c1418d891682085e25af6e067b706dd1039f49d51bf831",
+    "depth/front.png": "7bca3348fea805e457da283e6161ce1094b6b59cd72cbf735685c964f39ba683",
+    "albedo/front_left.png": "d292bf5304517d5d6c19d384842f92687ed6e7263128d783721b134bf49635f4",
+    "normal/front_left.png": "efa273e0ac6ba62a0bf5c413457b6ae56eddd163bc1057008722245ba861d6ad",
+    "mask/front_left.png": "d010e555b9411db064ee88eeaa0d1510d6a3dc2fe2d7f384caf4181a44d80a72",
+    "depth/front_left.png": "2099287cea1892270ab0935e5f2aee9ba9d0252d614a2689845dd11aed2a6825",
+    "albedo/left.png": "c563b4efc819ac826bef7575582b9ddae5c46c2cea169f061d3f389de4e84828",
+    "normal/left.png": "9cfb3a80fbc2f469d2c6caf7f344ddf0d0d028107357ca51f85a5ba7100a8eaa",
+    "mask/left.png": "d9845ba3bf8c254f351c7b7082205030fca9e25bd7a396fde05b6411a961f8fe",
+    "depth/left.png": "6a26575656c1fc29749e904a4f56ad4a171dd49d02a7d7f015ab5e69c3dfc122",
+    "albedo/back_left.png": "dba3cee212be12c4959cbfb7c66872bca901c9cf0a13a1a143fa19f03b8a3c83",
+    "normal/back_left.png": "475f42aa8f469c90cad60c6b4f59d0c6fba773b80ee5e8f47bdd37736c025062",
+    "mask/back_left.png": "84fb20aca0b8e6bf399db35d77861af28ffcba7cee14d7ace5c4b9ada15dada7",
+    "depth/back_left.png": "af02d63008b0d88946b1bbf721dc2109e7ab8ad62bc83fbb0a6f230dee73fac6",
+    "albedo/back.png": "4bab1d18f47197a75f58a620878bad23eb4c656031972e65ca1156ceae65a99a",
+    "normal/back.png": "1e41fe1e28875fedfd4b0b59b57778703499985ea369b9bed3b5cfaf8530700a",
+    "mask/back.png": "e5f91dea84b9c79adfbd554ad011968c2dc2f7ec7b76d281049326310e113c3d",
+    "depth/back.png": "9d64cbce4be32806220114f75d76cdf7b452ceb26f325cf38daa02fdfc9bcefb",
+    "albedo/back_right.png": "d1487ad469fa95a322dfbc0dd3b13ba14ff5e2e467a9cbd2bbb88fbe07b0f9a4",
+    "normal/back_right.png": "9d86950a0f1a2c812e5eeff7aef599229552f6d1c4988e5869f0ee898e18e940",
+    "mask/back_right.png": "aece3395bd58e83587320a3f2c15d6653ed34302b8acd608eeddafe77102f1b5",
+    "depth/back_right.png": "ee671e468bbab62c881768324eeba4cee2b7b726ee8e41d083ccb905336dc635",
+    "albedo/right.png": "e91d4c7ca3e665dcdfe2d2073f7dc2340f52c8773f06cf68c70297fbb8ca659e",
+    "normal/right.png": "1e9fe12fe85d2b7c442f2bdf2c8c2042084a8dbfddb7095220ba924a520d02d3",
+    "mask/right.png": "ee2135b304d38239e136e7743d524e7d67cc302052b066137ad0952f556cf25f",
+    "depth/right.png": "924be1128bd1ce78c0b217a23ae22f396716f30f9726617e42c61412d02c23f5",
+    "albedo/front_right.png": "7e4352ae8c2997226b206ae791c89a20ab9366cd2107920863aeffddd5b8f721",
+    "normal/front_right.png": "e58d3d34de1840e86b5e1b29f72a28cffcd8b4b2f76587a6d697596193bde014",
+    "mask/front_right.png": "d7de68fb03091ca0e003b283f61cc6271ea91c5e8e8b0f01cdd19129082232da",
+    "depth/front_right.png": "5e57722d72bc3ba2d27f34584523ddc0b45f57008f091a991381d4c8bb962cc4"
+  }
+}

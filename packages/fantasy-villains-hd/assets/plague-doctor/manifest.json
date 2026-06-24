@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "plague-doctor",
+  "name": "Plague Doctor",
+  "tileSize": 512,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "albedo",
+    "normal",
+    "mask",
+    "depth"
+  ],
+  "maskChannels": {
+    "r": "ao",
+    "g": "roughness",
+    "b": "emissive"
+  },
+  "maskStatus": "real",
+  "pipeline": "no-mesh-2p5d",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "albedo + normal via CanvasTexture; mask.r=AO -> ambient, mask.g=roughness -> specular; depth=parallax",
+    "unity_urp": "_BaseMap + _NormalMap + _MaskMap (R=AO,G=roughness); depth tooling-only",
+    "phaser": "albedo + normal (_n); mask/depth tooling-only"
+  },
+  "files": {
+    "albedo/front.png": "c3cbd1291f5db48f59f175db13a2e85a74fa96eca85d8892b30dd8097c4f7710",
+    "normal/front.png": "d7d6c90948f15695e0bcc3ece0ee633fe1173ba14a199207a904f07409b179c2",
+    "mask/front.png": "b494a5dd3958f519c0f43ee6dec13a7770dbb30ad09ce683fd50dc7d5c9ef73e",
+    "depth/front.png": "633cc156ee70923017d09633b58dfa8a449c7f16580e2ee96315cec820196ef3",
+    "albedo/front_left.png": "0a4eef5e9bb0c3489ca71d00516b4ca79931478ea03f223b052809cab4385a51",
+    "normal/front_left.png": "2fffc283087ee5c7e3dcfe7850c4e9dcabbf293f43d33c2368f1f002a187c46e",
+    "mask/front_left.png": "81054e0a45eb83f745080c9916aefd8cfa4e3cda99e97473927a474c7964118c",
+    "depth/front_left.png": "5ecd730a3f44e1ad32cf63ca38c335a4e0bc45ae9c7800fce9305b38b4c416c5",
+    "albedo/left.png": "e516103c0fbf5d2b2db9ef2530e8a75bc7d05232c0268b2341ff492a1bd2982b",
+    "normal/left.png": "04ed9ac54d0e218e1138dd759d9eb0d37b360470da06c2d6582fc2d7f1de29e4",
+    "mask/left.png": "8228a6e4edfe455a0bf82160dd78aa92095c838286a943895ed478e5bb9a1d86",
+    "depth/left.png": "ae65e7e9c24b45bfcd134c41c65de4e5480ac90f7ac3d8275b8a68169708f5a9",
+    "albedo/back_left.png": "71e661f6b498ae7365953101a5f5eeccaa1142cb3da2525eba503aa2977a5c9a",
+    "normal/back_left.png": "cfa3c87fc2da104cb6d5543d737d7247d3d10b2ec8e9359df8e3d1d5783d622b",
+    "mask/back_left.png": "87dc4b1c5fc8246ad637f7c3840308e51cc844c6d6319ff489ff7beadc01f4f0",
+    "depth/back_left.png": "d56ca37331e28b99835cbad9beaf0bc62b7435001364d7fd235031ff5ede41d3",
+    "albedo/back.png": "4ff40e014357504cee9b2d8aa1c6132e3e19bce98718c0ff247487aab908adfb",
+    "normal/back.png": "c722305e53c86ae9486d8cdf3b7a086dfefb818aacb813dc57aaf3b4afe3c363",
+    "mask/back.png": "32899538e0671cf7417f9594fef4c9bf0b8eb41d3b0f07c7c2e1ac579fa5e5d1",
+    "depth/back.png": "d7cc60df8f311a3dd050fbba44c81e98f4d924de802a48492564bc3b24e857dc",
+    "albedo/back_right.png": "d91bd45ad00e62f079482a64cc2f7811b698cfc371c336c2e4a7e9df1343fa16",
+    "normal/back_right.png": "8cf60a9b20c2c00be252d2b9431a865b1945290c809dcf0d110b1ebe60696057",
+    "mask/back_right.png": "35a1cea383f3c8fa3fc2adb0f059234a94476c223209cdc16adb4bd87644d1ca",
+    "depth/back_right.png": "24a5f0e92c506309b42390fa8e68f0a85550eebdde31508c8936b6075c46c7fb",
+    "albedo/right.png": "8fad27c73ff888722d48381c6add6225958f14fbc6dea0204d1912f3ce1c3183",
+    "normal/right.png": "6ac53ddaec64668bbb6b309d317b89ccfe82e9fb54492719e3d37e350e687836",
+    "mask/right.png": "ca4264d72c3b30aed1ed27ac7f3875b2f175b5423c9f80d334c4b468eb15f535",
+    "depth/right.png": "4e396da9a692fa8324f6f984db2b76732f000147062a50ef2a1e0f26d2d3bd26",
+    "albedo/front_right.png": "5e3fda2a967ffe309a47648caa044514db88aa8d14ed4a6b623b41b6ce9dac34",
+    "normal/front_right.png": "af8d904a80d483c6796b81d9761056742f1dbecffa817711d87367581d6b8235",
+    "mask/front_right.png": "f320559331dc40e66b3caad404b544860de8ee08e2a411b144809dac834f1a98",
+    "depth/front_right.png": "cc64812ba3bbcc2284410dbfbf9313d0038cf327b5233392ad712ad8cfc7dda4"
+  }
+}

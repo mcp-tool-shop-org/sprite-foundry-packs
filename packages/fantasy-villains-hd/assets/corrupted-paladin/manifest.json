@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "corrupted-paladin",
+  "name": "Corrupted Paladin",
+  "tileSize": 512,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "albedo",
+    "normal",
+    "mask",
+    "depth"
+  ],
+  "maskChannels": {
+    "r": "ao",
+    "g": "roughness",
+    "b": "emissive"
+  },
+  "maskStatus": "real",
+  "pipeline": "no-mesh-2p5d",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "albedo + normal via CanvasTexture; mask.r=AO -> ambient, mask.g=roughness -> specular; depth=parallax",
+    "unity_urp": "_BaseMap + _NormalMap + _MaskMap (R=AO,G=roughness); depth tooling-only",
+    "phaser": "albedo + normal (_n); mask/depth tooling-only"
+  },
+  "files": {
+    "albedo/front.png": "9e6171d7f8d35ffec19d9480c0cab57059c747ecbc17dfe5b9d42251ed4fe462",
+    "normal/front.png": "2d03971261f263c3648f3d819a0f498d8ac35902940877ce0ee63ae38ec3a6ac",
+    "mask/front.png": "2dcc7cbdcc9a64b3771529f24bd5e5a374f0ecb88933edebfbde04f546b8d372",
+    "depth/front.png": "4611a72da217398b6e3c821a7610331f8103790f5682f36d93d9cf20d6fe2882",
+    "albedo/front_left.png": "19ae0d51bbc7e625deeb0ce99480c661097863a1e7ecf4620534f5231bc3ce5a",
+    "normal/front_left.png": "c0a4542d43f98761ba7b9b09a0e3f374d6dcf4dfc665a7fbc00581dacaa48e29",
+    "mask/front_left.png": "bac4f504d0dd79a409ccb69ce0768cf0242d56b3bbb64b476a2abea261824ad5",
+    "depth/front_left.png": "d9e0ccbccf23d5a60778ceaefca9e7f2a6c455985fc04de7d7349aeff600b261",
+    "albedo/left.png": "f96cf13896cf3a035ab970d7f1769c3210635458ea7fe5b010a7377d529c5192",
+    "normal/left.png": "a8a6542065fc6eac44b8c68099e5f3c3739b6f4423126bb35662be669fbb8bb6",
+    "mask/left.png": "41a82af18d8b810067e3c0f4e623cc020de6d89c0d172ef9df756eb877e3ed36",
+    "depth/left.png": "c45cc5b21eb5de6f773ae66d30e2d9aeff16593503cd5bcc1d482be31fa2d364",
+    "albedo/back_left.png": "beba205db2099459d5e2a01ad00758c2aa968fa29b3d5c140292f232c3646afe",
+    "normal/back_left.png": "4078ec22d75ed89740d767f2394c376fd85bd070d77941e618c4e97f54975bc4",
+    "mask/back_left.png": "28e0e0509cea6f9ae79aa11ca3e5069c75ec945ba2bea707634325b021a82f24",
+    "depth/back_left.png": "6f2d6296449c7ab7ace4eaa6f06a09f0d0d10f7c4651e816f329aaf0ae38a345",
+    "albedo/back.png": "30eaac351ca3d122c064bc2563d50574d9bb80cfa87e174606ca76371b35b5a4",
+    "normal/back.png": "a9fbba8a742480d875855b4c430ab0d5a2d3e7ebf22f369ec54b545e98dcd2d0",
+    "mask/back.png": "cd935e7e68ac0c451ec411c8888769ba9071b914636d8b08a76e20e05a677a01",
+    "depth/back.png": "bfbe4cadeb6dcc52c2b88615c1eef7fed82e975f936f3c3219c08e79e0a80be3",
+    "albedo/back_right.png": "0b87fb041d7d184d14eec559f673975081a116d922e0fcdca9bafea46539f2bf",
+    "normal/back_right.png": "544d4acbd712b82a7d64cdab09ef9065571eab618d18b80c91ead764054ec2d7",
+    "mask/back_right.png": "c65c0b6f55386a3908ed69d464f4067ac0a0d046ac4b3b230685d2cd43ebb408",
+    "depth/back_right.png": "574f02502da26cfcddb322cf9c77f0c636e8321c198610598da44f79f020bc07",
+    "albedo/right.png": "46224cdaa466509b284f0f4eb9e7bb2327f85e03f8243d178a335c60125ab41c",
+    "normal/right.png": "ac318e43b0069d12986ff363806a473a65cc5d70ead55a5d1e5a522b2115c4e9",
+    "mask/right.png": "24e0680e916000beda2fc76e3be382e3e5383ae3657e9c572b9b203b92bcca42",
+    "depth/right.png": "9cf64bc04cdeb2865b8fa65b356ad36a1f4dc70ecc8159249888ad58956aa264",
+    "albedo/front_right.png": "a3685d1244d9e855c589ec837ddf358b90cd773ecca8be5ceb8d818bf60b3f8a",
+    "normal/front_right.png": "737420a4adc3a503fb864f52b7334da49d213287d95825ec343b807d6a5bcd43",
+    "mask/front_right.png": "f049bd734d01d65b98a6ea714eb1688ae9a8f96eb72ff63c0daa106494d3eedb",
+    "depth/front_right.png": "8e2f5950e33475bbb2d1305a8754586342cf67c1b73e43866c3913b91041664f"
+  }
+}
