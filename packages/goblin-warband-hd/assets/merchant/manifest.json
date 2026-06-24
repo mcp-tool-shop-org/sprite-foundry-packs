@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "merchant",
+  "name": "Merchant",
+  "tileSize": 512,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "albedo",
+    "normal",
+    "mask",
+    "depth"
+  ],
+  "maskChannels": {
+    "r": "ao",
+    "g": "roughness",
+    "b": "emissive"
+  },
+  "maskStatus": "real",
+  "pipeline": "no-mesh-2p5d",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "albedo + normal via CanvasTexture; mask.r=AO -> ambient, mask.g=roughness -> specular; depth=parallax",
+    "unity_urp": "_BaseMap + _NormalMap + _MaskMap (R=AO,G=roughness); depth tooling-only",
+    "phaser": "albedo + normal (_n); mask/depth tooling-only"
+  },
+  "files": {
+    "albedo/front.png": "e002cc2f30acf43f0ee15fe8154e4117713241bfc6d766145b7c15618f612279",
+    "normal/front.png": "dff00fa58a61e0c2d52e17aa677b0c1beecaff61176de7642709539a44a1b738",
+    "mask/front.png": "587430e95c9fb643719643abed3feb636bc74ae576fa802678a5b540ad222d66",
+    "depth/front.png": "5c9473e90c13b4c6bc74adba91c695e790fa9343cdb3a1dfd720d7691e87c55e",
+    "albedo/front_left.png": "42cb383cfee645bfc74848566106a3d87d7dee6b66d826921d21685ca1708913",
+    "normal/front_left.png": "f0b38741e5ad889b0feeafb4c287aca51e408722fd4232db8da88d5d9a47b236",
+    "mask/front_left.png": "aa9ecd5060553b009ee980ec2ed2e0e6839a90e63b05c07e70da5d49360d3efd",
+    "depth/front_left.png": "10926f45503368f64164b03671d87d34fc2fe0b08e751c7c975b5303dbb7bd56",
+    "albedo/left.png": "f28fe9b139b3ec1b503e2a46507e058edb0a68aa653917624f42b3ea159ae99e",
+    "normal/left.png": "fcd5a16d4eb2576e5f794a24c6f4ede8f2bad556bb8791294dd967cecbb95b00",
+    "mask/left.png": "d506bd0d9401508979cd0baff5ba1c6394d33bba7f0994b36430c5062e5d151d",
+    "depth/left.png": "9d85ae3a76ee0b8a0d48d8fd1313f29fc04f672e76f65e9a708338d41903e7be",
+    "albedo/back_left.png": "6bbde6206539b3dc1d4ed797767b7a0012f0bd18e5d1119d7e2c887d8d6667db",
+    "normal/back_left.png": "0ce1d1c66c3bd59c2fb4abc1ce09b0594ee8d48e97410f8c430cf0f89e13bc0c",
+    "mask/back_left.png": "d487e88ebbfc6769274fb7fcbb98b627831dedd73cef65e3db3de76a32a04e07",
+    "depth/back_left.png": "6051f379c991722abe9382f0b492e53178866294a7d52db0422553488ed1dd3f",
+    "albedo/back.png": "c361943332f92616ff1b71492b7199f5502f7ebe469ff8fb951cdd1202f15afe",
+    "normal/back.png": "968052880ee13204a05ae7fbc1c6a37ad9916047f938680b76b3214558cf1724",
+    "mask/back.png": "1c3cd90856d28bbac70b825615f37e3efa6f7c9e4fe8c2f7570d912370edff4d",
+    "depth/back.png": "e17741b9fe4c6479be0764c8e53dc31324acc24d9df26de55ff4f4768dc0fdae",
+    "albedo/back_right.png": "2099e790ffabf307e321c4ddadb2e2af0322e869634df890d9acac2f374353b6",
+    "normal/back_right.png": "37dbbf5577a227d76d8060d1a0324b0d50cf05745af5ee6d39a0782f27e0e32a",
+    "mask/back_right.png": "cf17ac9234c8e20e158186a8c2369bedd25814e9a685a2ce4f58e4de47e6b5e3",
+    "depth/back_right.png": "30df41409134473de82f6a67cc7abfd9b680c6aa65769bb86c038ff392e8fb83",
+    "albedo/right.png": "19aeca7dd96f3f8f2ad35f3ea7b29f6d4bb4c5c82bd03d12255ca554e74b1866",
+    "normal/right.png": "e3346c54af3fc8226220d2ab4f856fd95050dd5ea5929f2b441ed0f26f6b3cc7",
+    "mask/right.png": "bdd7ed386a1f66e225c46c345d21627123b7bfcda64972f3df2df4f622216178",
+    "depth/right.png": "54ba2c7e7dfb5d60eaec1045f51ccbe3415cb9f3081e3abdae5f7f0c1073c4a6",
+    "albedo/front_right.png": "a927f86021677eca322c59deb07b641dd283dcff9cc5578ba5016c456ecc7945",
+    "normal/front_right.png": "a24ed25b2962d3e3d0781dee059df0b121429e2cb949ecb220bff6cd2f4b195d",
+    "mask/front_right.png": "2b8e89a8955d749976b62eb350a55af9fa3f3a7ad8f29695d8dde94c47abcecb",
+    "depth/front_right.png": "c82bc0f0b0513837fbe7fcdae9c668f3bcb3bc6dfd8f4ce842da8ea6cbc436b6"
+  }
+}

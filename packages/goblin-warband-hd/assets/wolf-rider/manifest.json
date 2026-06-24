@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "wolf-rider",
+  "name": "Wolf Rider",
+  "tileSize": 512,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "albedo",
+    "normal",
+    "mask",
+    "depth"
+  ],
+  "maskChannels": {
+    "r": "ao",
+    "g": "roughness",
+    "b": "emissive"
+  },
+  "maskStatus": "real",
+  "pipeline": "no-mesh-2p5d",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "albedo + normal via CanvasTexture; mask.r=AO -> ambient, mask.g=roughness -> specular; depth=parallax",
+    "unity_urp": "_BaseMap + _NormalMap + _MaskMap (R=AO,G=roughness); depth tooling-only",
+    "phaser": "albedo + normal (_n); mask/depth tooling-only"
+  },
+  "files": {
+    "albedo/front.png": "127484e60c134d9ed996c47f302028139739d1eb5dfd96124f2b7b7c645efb1c",
+    "normal/front.png": "233774d2ee99fb432ba055113bc8f774c02d0e3fe87993fd834c6680231f5343",
+    "mask/front.png": "9a029d6620206ed5b089c846c9bd76d46514fa6709e0a58b2a40970474d34dc9",
+    "depth/front.png": "a449798d778bf20e17a13ec96bd859a8b368c7a82b99cafd5ccdb63847b27193",
+    "albedo/front_left.png": "b7c64070b42de3cc5732b3371061ee5dd7561a7a813361812eb47b83f7aba3f9",
+    "normal/front_left.png": "91931c15219bbfdee17438fc68149a7fd404dbe9c1ff6f70c293bc68b0b3a611",
+    "mask/front_left.png": "281decb7f5ff873e2e0eeb6ca784341c3aebd71384733765519176b91494cac6",
+    "depth/front_left.png": "181bca1d2ab6e3eb312b8be53c654d17c55e8606b9789a01c6c7ac120cc5721f",
+    "albedo/left.png": "c53afe566a28e0a93a51f8d046900b8123f1abf49c405421e3738fc7fa952ddc",
+    "normal/left.png": "da1127a927fe110a119eb65e8b57eeff5d1ce21f12f8ef0a0e23e59dff97a4fc",
+    "mask/left.png": "df5c318e25c7a8656f14aab1a9b6afb472dc501219565062eb0a487b97bde68b",
+    "depth/left.png": "a81aee9f5dd704b20a564c5252302b91a8653e93e84454173bbfd6cc6be197a9",
+    "albedo/back_left.png": "44f4d8d524fe84b9aa49e5c12a49bbf17bf5c545b3747784779523d92c1b2a23",
+    "normal/back_left.png": "656f437077a8c80846ea91b9bbe59c6dbda15b030cc0a61eb8989f8ae6061fef",
+    "mask/back_left.png": "24e1d1437902e4a7ade2f68c4666ff98cce97c493d0d3479ecc8e07c2d0b39c5",
+    "depth/back_left.png": "bc383253a3c8c150e79ef5115d6f97dea5a4f14999a7826d2dfbb842abca6785",
+    "albedo/back.png": "c8d91566321d310b20f67d4c0f18c1d7ac0bbbf69f3d83cd7a9c7526b4b9ae48",
+    "normal/back.png": "89b209d4ad95bb07965aa74e652a9ee2b7075926e6332e674a35971686bdcfc7",
+    "mask/back.png": "429e912ca5e64c6dfbc11d16456136a34c59fb0ca6a67dd01211108fe0dbeda3",
+    "depth/back.png": "be8b3c5dd4b11b0b4b29b614fa427512c49ab51cecc3bb792b2f7ab7951f8cf9",
+    "albedo/back_right.png": "f895882381773eef2317170474e7a0c33371a8d739d057a918afaa7f2adfa7dd",
+    "normal/back_right.png": "e40d200623a74c0f412ca5b1aec0014603f87604bf503a58e87a88f9ddeb7fac",
+    "mask/back_right.png": "a274bf4ae8d4a6614a3085f048e117e8f607c93af9572913180aa4d278ac5ee4",
+    "depth/back_right.png": "f31bd60c8ceeff7065911375238bc99d86e65941c72bd625f60637e402a2e572",
+    "albedo/right.png": "539832446be49be613fdc4afe5dfaa130285c437a4d107dd3f0333c875f1df27",
+    "normal/right.png": "6a49b7cce632c48786be015c10bb09d39fadc3f174f12ee0f1266a23b1150944",
+    "mask/right.png": "d63f23331b1c8f9481e53a3217f68b40ff7c4627b4e2ca71b8b580067de8c257",
+    "depth/right.png": "4c0431e68dedb1abc683e6c6389aa0814f1a0988ed96230ed000d8fdd20de36b",
+    "albedo/front_right.png": "cb7cad5f5e781514da8c0c19e3b1facafa7cbe5555bef50f5fe578500496c423",
+    "normal/front_right.png": "1540bae885192c78badee32f31abf51aa98e88d47bfe7ecfb580c5b35dd11fb1",
+    "mask/front_right.png": "065bb283a6c15798e48cb0742db289d1dc8ddb6dd830c5283ecf8ac75ac7d0ce",
+    "depth/front_right.png": "07c57e50b9fad112f3b29812b64f706d84b24f91203a0fda3eec050a30090e12"
+  }
+}
