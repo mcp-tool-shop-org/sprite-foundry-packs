@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "cook",
+  "name": "Cook",
+  "tileSize": 512,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "albedo",
+    "normal",
+    "mask",
+    "depth"
+  ],
+  "maskChannels": {
+    "r": "ao",
+    "g": "roughness",
+    "b": "emissive"
+  },
+  "maskStatus": "real",
+  "pipeline": "no-mesh-2p5d",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "albedo + normal via CanvasTexture; mask.r=AO -> ambient, mask.g=roughness -> specular; depth=parallax",
+    "unity_urp": "_BaseMap + _NormalMap + _MaskMap (R=AO,G=roughness); depth tooling-only",
+    "phaser": "albedo + normal (_n); mask/depth tooling-only"
+  },
+  "files": {
+    "albedo/front.png": "10fbea89a2af0b55a1f490f4bd3e40860df29eadd9a63eb093343782799c7222",
+    "normal/front.png": "aa17a7404e86c50d91b7a61ede119013d77d51bef43126d48d37f3f7ac31ab2b",
+    "mask/front.png": "0609a7d5ccdbf046256708655c211750cc9d128239d3097b85bb7b4df1f1be2f",
+    "depth/front.png": "bd99581083f41466f49ab4f0ab93047ffb1719101a267d85f55d83e74a82d075",
+    "albedo/front_left.png": "b70abe19cf36538de4ad4d04f4795934ecc4a7e7e9771776be99580bd68f910c",
+    "normal/front_left.png": "b1677ed5c108ee8f2069755d496e313d7acd47fd71b7addd40fceaab9db7e7eb",
+    "mask/front_left.png": "f9b62c8d2d1067929cf495fc8b55e0090559fb8c5f3978dbeefc9bd50b68ef75",
+    "depth/front_left.png": "6eb1883c20455d7d0af6dad67205f4ea03d7a27a56eea4d383b4c0d1c7dd5e7f",
+    "albedo/left.png": "c2215a9dc134ac4636cc3fd32f53ca3c272bf7f3604ef97efc5b883a7415eebb",
+    "normal/left.png": "96453003639d0282017c7cb2e82e959ad4faf62693e65b4cc74888da4e2f8538",
+    "mask/left.png": "d11cad21843155494f2185e182e0ce4ff865ad1a28ba62729b36958d806d4e19",
+    "depth/left.png": "d447d315029296c84ea26c8caebd89ccd3dc10c15e6201d83ea8dc10ffd35ee3",
+    "albedo/back_left.png": "dd124acb2d7077a62cdbfc4acef8f297954d314d18629d7a345424fde6c6b001",
+    "normal/back_left.png": "89e094e46430cfdb100f6df72630577ae454e12a5b83c5bda81347fea39ce3e5",
+    "mask/back_left.png": "2e33addaab24332c66e9b28263c5644d09b62fe9f7386bf5f4f9c85196ed38ca",
+    "depth/back_left.png": "ed692c60e913443a3966a2f4556fffefcbfc181e914f6ae4600582634e1f224a",
+    "albedo/back.png": "543e3b3ae68b5c19bd57acd454f7b192efec7e1f1384698c8865c754bbb2acc8",
+    "normal/back.png": "a1bb1227d6810eaa2a85f14fe78ee2dd5e1301963563b2052553ec526f5abb24",
+    "mask/back.png": "7df227957ed37e4ee2dd77127e6208a8985954ee6e14219ce8dd4802250a56d0",
+    "depth/back.png": "d10f08f89f6ebbd8989ec47564b7459c6549702f00ab74827308cd2dec265985",
+    "albedo/back_right.png": "4857593c1c6c3db7541c1e24985acbb52fd6cf59dd67ff8aac6aa75250a76e9a",
+    "normal/back_right.png": "245fec69e52787461446fe684afdcebb17195b5a308b1214fb7459a50382f79f",
+    "mask/back_right.png": "edb5c2a9f808fb21c17c87a8928832e918974cc3460dc523953df51573fadf9b",
+    "depth/back_right.png": "d7b3dd9d63f16fc48b9b50e52f9de440a5d4c7f7be57a42daf7694b8664f5582",
+    "albedo/right.png": "ddd3b6090ffcec349a4643d3748ff249bf0507127335bc10889d973e96ac6356",
+    "normal/right.png": "c061efee6dcd1956a12677580b111deb9c1daebbfb14a18ee34fa213b902e79e",
+    "mask/right.png": "cfab6addeaed1847e354cbaeff68746a43fa38493b79b2cc9a643a0127f80a29",
+    "depth/right.png": "bbabdbe3553daa8e9e98d5601e6875e03101d1e77239877d20224d8bf8f5bb0d",
+    "albedo/front_right.png": "d3f1b964543680dd9231f2db0ff393f5479b61e5ebfb24474161011ca1c55b7b",
+    "normal/front_right.png": "791a8e2f2d5e01957c65bd624690c4034ff08371e09599f781e14937947a6c2f",
+    "mask/front_right.png": "b302dc00df3d06a9a0acbea2d38c1bb415cbc672b7e565f0462c5252bb34641c",
+    "depth/front_right.png": "b4b00e3f9caead225fb00fc801dcbedf1126397987ecb128c8a0ef4bc814eeae"
+  }
+}
