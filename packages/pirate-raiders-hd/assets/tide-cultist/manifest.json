@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "tide-cultist",
+  "name": "Tide Cultist",
+  "tileSize": 512,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "albedo",
+    "normal",
+    "mask",
+    "depth"
+  ],
+  "maskChannels": {
+    "r": "ao",
+    "g": "roughness",
+    "b": "emissive"
+  },
+  "maskStatus": "real",
+  "pipeline": "no-mesh-2p5d",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "albedo + normal via CanvasTexture; mask.r=AO -> ambient, mask.g=roughness -> specular; depth=parallax",
+    "unity_urp": "_BaseMap + _NormalMap + _MaskMap (R=AO,G=roughness); depth tooling-only",
+    "phaser": "albedo + normal (_n); mask/depth tooling-only"
+  },
+  "files": {
+    "albedo/front.png": "09e5db2d2a9200afea366819cf8f57b3d3c0c95f6da0618c6c1987e275ac227f",
+    "normal/front.png": "d46011ab72ce7343a146839fd466d66966c56e46689675c4ccebd1cdbf297c30",
+    "mask/front.png": "3bd7954259e199188605a0ad6699c3b93d636643484d52f18aa533f4fc9fdb12",
+    "depth/front.png": "4805d608beb8d2d4f3d5961e4f0adaceec115cbb536cdfecd3804df0647050a5",
+    "albedo/front_left.png": "2128e3374d0ce72e8a070e198cb3e215e9fc3a6544ea4d15da4b4f897cf5a205",
+    "normal/front_left.png": "6f37383aba68f5eec1e4da6a6be47df99080b06a343887418dc9f80867ca1eb9",
+    "mask/front_left.png": "a7d4e5c7dc075a14590ef8e373cee7f9819543eab7f3a945bdec55b9c7739980",
+    "depth/front_left.png": "3aee93a4b98d4d8000e7e420d6757ebb38573ce215c96ff093f94a508085f580",
+    "albedo/left.png": "eac2e5a528c8de4509906308d856495cec9a9b2b17690536ff005e3be55b6b6b",
+    "normal/left.png": "f1bc4690dbda3c55be921f9044aa9b8f376e559fd60fb56b43d3daf181ac2f77",
+    "mask/left.png": "fe96b9a47d3ba1c94dc7518c594812435f496d7e5ec6298244871546edc7a1f1",
+    "depth/left.png": "5638f2361d1fda9714c99177813fb6142bddd3002941d0e64c0aff50892dd6a3",
+    "albedo/back_left.png": "3c061a4f1e0d696a8ed33523887e1aa6c8e5df736824e9e3cbb710ca17f17025",
+    "normal/back_left.png": "e35744c20671273cf512d367482fcdac6e6c1d4b78668b0e147f844d272580d1",
+    "mask/back_left.png": "ff6d46b2a3b2f559445a402f63019c86111e4b1a58948b81d0c0040595a5fe46",
+    "depth/back_left.png": "cccd6aa0bb8996659da5fc32f8b5f56ba6800390b01b788d693dfea80fac59b7",
+    "albedo/back.png": "8365172e9a6247ab4745b8cf2a07f1e0436e5edf9a428bf99b9f6f9b6b372548",
+    "normal/back.png": "cdbc7273b942346d4ba1cc67da66f0b68c94982bc5173bcbdf0ea611c208c653",
+    "mask/back.png": "88c4710bf7de65c0a1c73dd2fe63433877cde44485eab8c7981b59d534343a55",
+    "depth/back.png": "9da72fe9143f988d8995e6deef35754712c69b5fd2da76e300a68db4162b327f",
+    "albedo/back_right.png": "cc4fd09bd9148b262ca2f059e4abb739ef21677aca785ce5b63623e08faf9062",
+    "normal/back_right.png": "e6a71c00a3cfde644f241c65210bbc3c97fede51c7eab6fc01e99ac05cb28db2",
+    "mask/back_right.png": "d9f98ea35ae4c8fc61eb2da04065c8645ff3d3c841a725b9e94f8abea180dfd0",
+    "depth/back_right.png": "66619d286a5ef40db1d8d88856ab012e3e9018e15e82d92078c9aa22497fed99",
+    "albedo/right.png": "bf4d9dd82771c69c6a58995f2c22f17c8cec69d026c6391bb4c2ab048d0c9057",
+    "normal/right.png": "74203d7e3c80d4d006b9151800dcfbe0b3b9ebe3bf9097e5eae8a5d677fcc9c3",
+    "mask/right.png": "eb892057fc8bd4c156810d39f2978ec9dc51caeeb950a5804ab92f41430850da",
+    "depth/right.png": "bb4c87ad605739a8670f73ffae305b0b3d0b116e311cf9677b15bed37f2d9a13",
+    "albedo/front_right.png": "8e67dedf4fc322444b9d0cd01471150a4fc745e3c2579bc9a8ea8e3e0755e0ad",
+    "normal/front_right.png": "d10988c43fd933890ec7b952189e9a2fcf6a0c1b5f3cc2bada54afeb0597a90c",
+    "mask/front_right.png": "8940eb4fdab042b02fb6b906be0a8013c0c5b3778cab27ec33c533f5998a39d4",
+    "depth/front_right.png": "9185443ef216cc7685b219fc84a9abc8485ac63641ed0fed9396968410c05eea"
+  }
+}

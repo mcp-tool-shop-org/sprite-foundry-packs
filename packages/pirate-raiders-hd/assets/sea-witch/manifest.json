@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "sea-witch",
+  "name": "Sea Witch",
+  "tileSize": 512,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "albedo",
+    "normal",
+    "mask",
+    "depth"
+  ],
+  "maskChannels": {
+    "r": "ao",
+    "g": "roughness",
+    "b": "emissive"
+  },
+  "maskStatus": "real",
+  "pipeline": "no-mesh-2p5d",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "albedo + normal via CanvasTexture; mask.r=AO -> ambient, mask.g=roughness -> specular; depth=parallax",
+    "unity_urp": "_BaseMap + _NormalMap + _MaskMap (R=AO,G=roughness); depth tooling-only",
+    "phaser": "albedo + normal (_n); mask/depth tooling-only"
+  },
+  "files": {
+    "albedo/front.png": "7ead88b14623d8184c094d4a280c9302f8c0c8f2a8a50f1055c0fb52b6c67ea4",
+    "normal/front.png": "82d2c323eeb4f62449f8ca312ffe25a084b59ac6e5cc304b968881394a0293f8",
+    "mask/front.png": "d7ce88a170979beb38342cf800eee5f528880a67f81d6214c2a90d0684613eee",
+    "depth/front.png": "dd8a2a14192cbe4cb9fa70fef9969cb0c7f430e1aed8dc50b05212eb77a3f261",
+    "albedo/front_left.png": "9691766c0ad7a5207f27a865d90ffc82655e90247578a476673f5918450f9380",
+    "normal/front_left.png": "d50ca3e923fcbd2406c8aa67dcf271a29a005f24c410c2d0cd4aeac94fcb97fd",
+    "mask/front_left.png": "045c1f3e1b22cf730cb9c9fea18964545d2e74ca3dcc26e9ddab79ca32f09df5",
+    "depth/front_left.png": "28e8e4f56db957671bec6d6d24273d3f9aee778707648fc02e23a26b4f078263",
+    "albedo/left.png": "cbd645b817d470e68fa3af927e63c00f42061d416588a2d1da4c632bfca356b3",
+    "normal/left.png": "d40a76828012c22db3da5959639f4ca36362340508bbb548ff2b8e79df75891f",
+    "mask/left.png": "ff218ad0241ce9456ffbb9a5d8874802dd286353b32b115129b86a3584e82904",
+    "depth/left.png": "d0c6d68d6f8b4ce7d6f69c52d5c8854b3bcd93ffeb4592e01a41f1336280091b",
+    "albedo/back_left.png": "c48ee17e0e9f6ce98ddb6bc03c1d113744a2fab968bb8fe143c8a7c446c08570",
+    "normal/back_left.png": "3d0f1c7ae7d55c9abdfd770e3461915e533e13b249e541bcda56f08787bcdfef",
+    "mask/back_left.png": "2f5867600e9e9e0e8490bfe0246f75eb304515397f889fc8e0964b886ab22f51",
+    "depth/back_left.png": "56211007274b25f077257a55a512c5b1d3b6c8439eeab32cc9bbb6f3082021ed",
+    "albedo/back.png": "bd4462b7cc842bdf341f7d5c3d0a2904f22430a8f9ffb57f6b3593e714236ae5",
+    "normal/back.png": "8deacf3c627c4e9815d69457d8daa3835411cface1ee29452a5762f90d25ea5a",
+    "mask/back.png": "dfa774c020ab451f44f7dc7594fcfc5b5046799ab91669a8325d6667a9badb6b",
+    "depth/back.png": "c0881dd97dc01937a503f5ef396a76857173407b2b3b723124efa5d0a67eec63",
+    "albedo/back_right.png": "d762482871e427d31d854ea8e32cfbc556db4976cefece22f7d2f5da47aba97e",
+    "normal/back_right.png": "b9ebf6dec7632e19a5ce09e189ac11e9e596cf29b6dfeb240a6959952c4238b6",
+    "mask/back_right.png": "b271555f0198f2d53ef136a9db12beaf0b413495b2fd7e08974bf1898697586e",
+    "depth/back_right.png": "4958b482d151592c08d4d851161107415b674c51c9984890f17a7881ae8c7bce",
+    "albedo/right.png": "06661301776987d59896a96341d80863c21c38c92d4a02262e0fd28e6a251cc8",
+    "normal/right.png": "566f5f4b008fa6bd995ae97ab7558917890bc74bdd4cf9fd7e330457a2e7604a",
+    "mask/right.png": "24016d2c368de2564dad739cd3dd242f333172db930de59a28501833cdf2aee2",
+    "depth/right.png": "444a569e127c0f6447f210ba481b47bcaa8d982e7bba703a123149fb4fd4d375",
+    "albedo/front_right.png": "9269434980e2f4a2d444359166dbf72be460249d4f11aedaca1435d0d5b09e0d",
+    "normal/front_right.png": "6b4666a221282e11a57161a38e4adbd25461b85f2ee002daddb3836e9595b966",
+    "mask/front_right.png": "0838ade0a04ca39ea334f67c2e6eaabcd8d73acec3d02c733c5e6e0cd92bf00c",
+    "depth/front_right.png": "13dbfb29368edd3b94361a7ed9394407761de43a95f18f965bc8a4dcdedcbc77"
+  }
+}
