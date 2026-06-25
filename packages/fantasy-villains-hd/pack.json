@@ -1,7 +1,7 @@
 {
   "name": "Fantasy Villains HD",
   "slug": "fantasy-villains-hd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "tier": "hd",
   "companionOf": "fantasy-villains-48",
   "tileSize": 512,
