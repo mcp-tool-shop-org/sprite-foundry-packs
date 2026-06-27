@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "marine",
+  "name": "Marine",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "painterly",
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "painterly OR render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = painterly or render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame; pick the painterly or render look per project."
+  },
+  "files": {
+    "painterly/front.png": "5270803ae8f35ba08e3879aa0806f8bba11f6a859ea3fe0ec97562caa791ff9c",
+    "render/front.png": "513b81ca408d7fbb643410501169b1d2ee6c347738a82dd3eb8046d1cf756a70",
+    "painterly/front_left.png": "80f7112cc31eb7bd1fae3c894402ecd512ab0c4d3b3505c77b365caa5a71e188",
+    "render/front_left.png": "be7bab123962e289f9567da37ebd1d635f72eab187ee3bac1527e7e47f8dfe1c",
+    "painterly/left.png": "900ee6356545fa20608a65cfb449994533434136ce778a6f7727c08bed81d835",
+    "render/left.png": "3f482b3629c52d577eeca92c9af5edb6d0e84cd7122c2fc33aaf51b030057989",
+    "painterly/back_left.png": "4c6a72cee8a7dd82a9fda7f5b26eb40989c4a3369348a0a3ef0878031f039780",
+    "render/back_left.png": "dd17bcce23646126f04db9553f706f156ffed80787df55313b96d26d6b8b043d",
+    "painterly/back.png": "9f5e7e30054977f38d0a9701afb122dc6bbfb5e96e353b33ded63984c288f0bc",
+    "render/back.png": "66ed2aba9aa6add6fefaec3c9a9ed8092be669622b22e9d2a355a77a3f5d7c86",
+    "painterly/back_right.png": "b5ebfc596f365b8243cfc04798c586dfa11d47ab26b46f73b85b164e639697bd",
+    "render/back_right.png": "0cc6d77b57155383ffe6d5c8fdec6bbe9d3c97a10227871968ff7acec9ea9a0e",
+    "painterly/right.png": "14b8b36c8033648b644cd63db04be1fcea7c665635a756c22d3a0c214d435f03",
+    "render/right.png": "3be1423b00ec5fbc00c91e09ad69cb14da08e6fed4f3c1570cf9a5db6220622d",
+    "painterly/front_right.png": "418d652aec88f2eee9c1bed6f4f7fddd08ec1cb15482935607f72a3f9ed174a5",
+    "render/front_right.png": "1af0ae8589eb7a105f6a7f00b914600821e7183cfe7f9190e1ebe260fc65dbcc"
+  }
+}

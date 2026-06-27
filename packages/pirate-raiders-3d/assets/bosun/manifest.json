@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "bosun",
+  "name": "Bosun",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "painterly",
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "painterly OR render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = painterly or render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame; pick the painterly or render look per project."
+  },
+  "files": {
+    "painterly/front.png": "7033a18e1eb0fe489f2e82e1c141c1e5098db8f5f507390d96f3a8d2f3011bdb",
+    "render/front.png": "e326588488c69811c400dae8d64eebfb93a879664430a2357611413cd7efab41",
+    "painterly/front_left.png": "579c26f82ba3f958d114c088cd491c9caea3fe9e03079f54db93d96639041d23",
+    "render/front_left.png": "72f77a818a7c7332cffdd394a590b18eaecbcf8a1b9412236b3a1049b5e18aef",
+    "painterly/left.png": "b36a34bb27e1ab373eb39279b4b170feb2c318dd39538fcc07d6e6f85745e5cf",
+    "render/left.png": "de491a181bea689b2d0251acee0e818a55dd4eb256a323b6748d593d74cb637e",
+    "painterly/back_left.png": "c3cd11290ceb358fb20c5e1441f3a509c2d92a950c9f04bc4f265d4180f9bf31",
+    "render/back_left.png": "1827f60f77ec1547672d048f8a715699cfebff0561ba1e96e3ac9641edc59f39",
+    "painterly/back.png": "83576aa2b07f2e1f671ba99bcb90134e513afa7a50c10f1232324dd6e4d5d709",
+    "render/back.png": "e33bf66d13e4afcccb69b42a8aeb70bb3048cc858053a42788deddb898c3a863",
+    "painterly/back_right.png": "3a7c2b9fdf03e1f299289499b3ad568058e42fe36d14c60b543f609aa425cde0",
+    "render/back_right.png": "96c29ed5a481d9d5cab8ed1da2320541c7bbd08548c65541af6fc722f99fafdb",
+    "painterly/right.png": "56b78ad45057b692f919271a8adf0d234b0d3abdbe566c6d585d76494ef42b8a",
+    "render/right.png": "981802e38bc3d859d2ad1b18b7efcfb53d15d8039eba74bd0cffd1989e1ef42c",
+    "painterly/front_right.png": "90cc5763107bddb829ed50b9e005ae4efaada4322a8b7b1aa0c9e3c4e176b5ad",
+    "render/front_right.png": "2bbf91ffea0c8b104008674c9c06dba9f36bda59e3017dae5212452c93db0eb9"
+  }
+}

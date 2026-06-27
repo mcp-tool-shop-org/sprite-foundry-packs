@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "cabin-kid",
+  "name": "Cabin Kid",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "painterly",
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "painterly OR render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = painterly or render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame; pick the painterly or render look per project."
+  },
+  "files": {
+    "painterly/front.png": "1a8f6ed39964ac28c8ca372daecc871bcf9c2c08b0adf39734a50084d6d5a50d",
+    "render/front.png": "0df7657acbd8be9975a82b8d24beceb0c5fa05008a1df2d90342fe3c24a5a6ca",
+    "painterly/front_left.png": "ff4248e0d71410f19b54bafa1e0456dac5fa40fb39e9c2901b798ba1e8f1735c",
+    "render/front_left.png": "54374e4a2f0c8cbf4a48b46c1cda9ff2bcb55f111380ee7078cfcc23abeceeed",
+    "painterly/left.png": "67f2d420d20954407794bdfa0023b21701f665c534c5d06b7189058334930ddf",
+    "render/left.png": "dab4c3c19341bc6348b784aec0c56a84937935f31402087a8dd3cdc4882ce258",
+    "painterly/back_left.png": "b5cebbf7914ea198c04bec781c228d645f7498a4cf7cd4ad15353c9613d1c9c6",
+    "render/back_left.png": "50a5f63c0944490526a8d1db4b460e20dde483e24cd868adf98a84c625c595e5",
+    "painterly/back.png": "67a19a1f1e25dcda79e79de1e5821b2dd3e2f74bd8a9ecc5931f107be5323872",
+    "render/back.png": "51cd94b28a6d2bb40f3798a7be9c9f16aff5c98b1037ee3a42706ce65d0b6460",
+    "painterly/back_right.png": "c0b0600f1bf36e2ba894b3037c7f2cae348d27c16a4c8a5f3514833f7c89da78",
+    "render/back_right.png": "54a153b69723a1f072bcfa8ba2d5bff5da6a72cf00eadeff33593f5d43ca07b5",
+    "painterly/right.png": "14623a901c01afad7fa486fac74b74cc92a99e7a79034fa03e8111852f9c2ea1",
+    "render/right.png": "0f7f31fa3be3192d5ba8391fc93ebdd45b67eda487f4f96e0ba0fd9d78b18e25",
+    "painterly/front_right.png": "2624d04d677cb260df06004c6b2c03bbbc89930210624eb7d4c316081a9f4b86",
+    "render/front_right.png": "3271776176381fe2d08a6c8a0841fb33abbb82162223958f2bf5ff5f71902c13"
+  }
+}

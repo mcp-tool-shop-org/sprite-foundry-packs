@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "quartermaster",
+  "name": "Quartermaster",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "painterly",
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "painterly OR render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = painterly or render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame; pick the painterly or render look per project."
+  },
+  "files": {
+    "painterly/front.png": "107695ee6a05e58148cec8d017d5b43115296500ffe7be60cb97325ece3619ad",
+    "render/front.png": "20b2caaf68ac12c0e37069873ce1d96be1be156c3d88594d22a5b30c6708738b",
+    "painterly/front_left.png": "8047ebb88241946fc0f3c8850e45706f1b46adf2f7df7bb99c6efffbf7946c7f",
+    "render/front_left.png": "728db8f4cdbe84854ce4618a11912b5632f50ba092a5a8c0db1ad5ce01cef9ef",
+    "painterly/left.png": "c9711bf0f7b75163042d1927fbfcea6de47952b3d77f754a0fdcdfc9f9db9d2e",
+    "render/left.png": "25927bbcb2dec878bfb0153721d3e8abb303496b61d7edb4882b4dd0d98a5fe1",
+    "painterly/back_left.png": "36baa6bc9c8eecdd51215acd5a2cd1bccc00ad8ad426c50418a542f1aa4be714",
+    "render/back_left.png": "ee1d912962b85287a0d78c7dccb06b5bba18c0821cfb63aae2a589f5ccfd93a5",
+    "painterly/back.png": "175e7c52abf41e4b7f865886fe11d7e720f9b65ca727f9055d61da9bf1f78d72",
+    "render/back.png": "a3a2e6eaa2603108540416ed01e4eb099a8fd3fd71d6e3108ff63d76c2e800f2",
+    "painterly/back_right.png": "7c1ec06130b4d01d887729af46a72119a4cc1da1a0f593e2ba55462e6b3b215f",
+    "render/back_right.png": "c2fb668157b92c77012feeee8c94058e1dcdeca43b65fa307432f11115d155d9",
+    "painterly/right.png": "57194bcf8bb9c971caee4c5f85d0a83f08204c4b3630efc569531b8a50c088d1",
+    "render/right.png": "c7d4fb538f594d3a4a4923f2d7bef193298412f08b9a2735d18c7a18748da8f9",
+    "painterly/front_right.png": "647084bd5f7f59315d37aa28c73c8adb3a358c12993063722dc0a0971022b300",
+    "render/front_right.png": "7cd6eb25a84115bf8d9730dba9667c189d1890bacda9c546c9262eb75650b367"
+  }
+}

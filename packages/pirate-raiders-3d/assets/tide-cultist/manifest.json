@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "tide-cultist",
+  "name": "Tide-Cultist",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "painterly",
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "painterly OR render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = painterly or render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame; pick the painterly or render look per project."
+  },
+  "files": {
+    "painterly/front.png": "0d04d22f0f2ac869f1817628c59944b3bf1ac98e4b329b4345a3e89f26196aba",
+    "render/front.png": "ec076f8a84e282d83fbd7cb346f01f9b875a881c8334e86d24075c8c8ac6f07f",
+    "painterly/front_left.png": "7ea9f789da0ea3d8da1a395be3a7308b4aad873926809559565eb83ea81bc4d4",
+    "render/front_left.png": "3bb8ab376df7237192b0c5abb18f65a5119b3bc22b506c2ca76759de4a398197",
+    "painterly/left.png": "908460cab6dab632e64a957c57e751dcc3709e0dceed9f6d17628d27f781d8cc",
+    "render/left.png": "8a094b43c7dd40ea29fd3f4808a60dff7a3179b7feea893b75c374c9dc7c1644",
+    "painterly/back_left.png": "dfe7e85898ddf0324412f8f3d1d5e6393102f765f157d76d6c440a932ffe6c3f",
+    "render/back_left.png": "c1ebeaafea94b342b4a2d1dcf29bd511ed34f748045c477a057abcbcfb2b69af",
+    "painterly/back.png": "e2c9fe9deb8fefc3852a2aa23ce18108e1fc707c1dad7de5259d3f4902e36684",
+    "render/back.png": "5bfafcb850b63c6e8ab67c126d73f5397937c5f375b8fa7d434031eda7fbbe3d",
+    "painterly/back_right.png": "7daf6dae9edc31ba588d33d4a047168cb6134edee3a8b39939e4b56bd7c0fd58",
+    "render/back_right.png": "0b7b046747b3e73ac1c4456754f3fd841f189a6e0d8bacbf78218a0801c9fdbd",
+    "painterly/right.png": "31a268b9475297a706c6481ab626934ff5d4c5f0ea2f374bed3288f06481e1fd",
+    "render/right.png": "c5e2b839a7e8ba973a1d3662f5887175ec096332b8f0f92e6c073760216e0473",
+    "painterly/front_right.png": "0a22e33ed1f3808fbd592d4960c01913629684c50f0a87e6b8bd9365a41a1b4f",
+    "render/front_right.png": "f914887ce7e75dcab34f420de1222e602e0357f0da173fb5b6b2295a854ec41f"
+  }
+}

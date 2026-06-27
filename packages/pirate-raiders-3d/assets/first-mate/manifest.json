@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "first-mate",
+  "name": "First Mate",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "painterly",
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "painterly OR render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = painterly or render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame; pick the painterly or render look per project."
+  },
+  "files": {
+    "painterly/front.png": "2043b7c662b89fdf70eda502b6d88f01cfe3b7f78b8b30161b3e02295a36e391",
+    "render/front.png": "9bf7dfa2651e9788fb398ffc79962b8302a08194718e4ddc83058d82be66a041",
+    "painterly/front_left.png": "13e1131bdbf08798c984d727b5a91482d35fa415a085d5b9e9702e16ee5d1443",
+    "render/front_left.png": "f3198ac43046ccccffffdf6ef4adfe2732cdbb7e920eb8fd014c024746a6850c",
+    "painterly/left.png": "e3f740aa68639441a89a3428f829ed090407df764a682358b3564fc23f173df9",
+    "render/left.png": "141a4f28cc859d30e9419937b7907297b7b9c4dfde860bc9d9c39b8853fa1e05",
+    "painterly/back_left.png": "a7d451484f2e0bdabdad9882c9e5d511448976ddb0690ca48f8ac27d208b5927",
+    "render/back_left.png": "f25d742e70cd5cd0e442bf74bf2dac74ce435e09ee3813fe4f282ad66cabe472",
+    "painterly/back.png": "6a530228f88a60feee323c4e56d756e3099dfce0611ba2ce3647414d6602025d",
+    "render/back.png": "da2637214384b7574402614b49b9632b364aa387b65045eda30f4bc7a738defe",
+    "painterly/back_right.png": "68c621900b47c3fc4a606dcaea59be5a33e7ce48809ccbe03e9a28c0cd5b09bd",
+    "render/back_right.png": "82bb48d708da2d9e7cb3231b88aa55e724b6a70603f426a8fbd83e9b93cea4fd",
+    "painterly/right.png": "e89085fd6c9aaffd06f26a456e7a680088ba580c32ec8fcf055145cabd92a2e9",
+    "render/right.png": "17004b00b16fb1703e1a6d2e5447ec396148a6c9655b184ccf103cb41976bc1e",
+    "painterly/front_right.png": "3531b5f498e5dc9e58858a0a3220ec1e35cbda984825d863745305e8663dd00d",
+    "render/front_right.png": "f283dc7bcfc9bb94ad2df8cc6d4c200689bed6e04e9cb42b462bb79e94ee8ca1"
+  }
+}

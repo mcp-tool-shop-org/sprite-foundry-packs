@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "berserker",
+  "name": "Berserker",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "painterly",
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "painterly OR render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = painterly or render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame; pick the painterly or render look per project."
+  },
+  "files": {
+    "painterly/front.png": "b572046af244723f93a243ce2d55e6d101e1ff1720fda96035ec66558fd6f54b",
+    "render/front.png": "198efb7ec2ab2c07d5ee46c280d156d9251dcecb7de5cf05e40c65a84c124805",
+    "painterly/front_left.png": "59df70fb9b3048b6e82115b6e45e6e25ed5318acb76f2e52e98abb08d2234b04",
+    "render/front_left.png": "7ef2ad0857ca6bf2e11875d14e724e63aeb7c7f10febfa899169f4b559be67f5",
+    "painterly/left.png": "3eb262a4f401d211aa7704a52110c83ffe26691ad9df8fdfcc632248c229d26c",
+    "render/left.png": "410ad6520eff5103dc1a771653130e6d7c334b280599d1cf43453e94b90cdc61",
+    "painterly/back_left.png": "33af00ebb8047e9f8a9581cefe79172dd6d17dc8a15fcc4c058cedd9bfbefe53",
+    "render/back_left.png": "1b99066294072ee768990a2e5d851df269e52baaaab61dc3c9bef7981e07134c",
+    "painterly/back.png": "6f883c05c664978ea50f27af9bb9a31f152eef8237073c3b2ae06cee1bf8cfd2",
+    "render/back.png": "32317219c9ca40e235b7febe28b81df6a63debb0e72d6d4b44eb5512575b6852",
+    "painterly/back_right.png": "67119b5dccbfbcfada982a73518a71bacb5add67e76fa61ab082ada60e4c90ca",
+    "render/back_right.png": "b64f2e430329412cf2e0f07451ab0751a72883ca7e35b9e1dfa50e7ff2ef4a57",
+    "painterly/right.png": "fdcc9999b8444c4a674777c58eb7fec576c03a9db24609816cb32dcf6a6c3f06",
+    "render/right.png": "87e969bf80ac54d7a1e6559ba09c818a0d71009e1eb16c76dea92b2db29e5a1f",
+    "painterly/front_right.png": "943a916427bf7d102cbebe0fb7633bb771f0be777a440121798e8f49b42e76a6",
+    "render/front_right.png": "521f547d3549639eeb2a5f6cbcbe347c4cba6d8e8dd16a45d5b2004e0328316c"
+  }
+}
