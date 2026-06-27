@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "bombardier",
+  "name": "Bombardier",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "painterly",
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "painterly OR render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = painterly or render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame; pick the painterly or render look per project."
+  },
+  "files": {
+    "painterly/front.png": "d0dd15514c47ad6915f16d95b73fdc20e3019372306aa395c316864aa9555245",
+    "render/front.png": "2c8e92ca05ee5a4c1c237d672ab7c489475679552ebe97ab08c8d278e757e883",
+    "painterly/front_left.png": "8bc906d3727b41ae86cc1da16be012ecd41827830fb4a97962f2626fd429e3f3",
+    "render/front_left.png": "3ffefe0e3416681abfc4a140dd9f40332325e10b6e80f9f274d28c8a89580ab9",
+    "painterly/left.png": "3ff6e215cf21eb80f579808ab26ab9bf914b36e646f87bb91edfaff3de59247a",
+    "render/left.png": "d87f502dd87d012cb603c2be56d50b7b4836fbd378f31a2e754e3957c1ae424a",
+    "painterly/back_left.png": "caaf5580eacf5b274cd20657842edcfb9bc2e7936c81cd33dc4e50ead9c54934",
+    "render/back_left.png": "57dcd9770b76d13d898c66113f24fdd760a6076553d3f295bb25591cb03e94bf",
+    "painterly/back.png": "68d86010cb2d4a654b2665c12184a9be39a0e46171503f472dfa43829b046432",
+    "render/back.png": "2f9e1db279161ac2d5086e2c0805da714e6b5b97cc34de90035ec9818cfe9424",
+    "painterly/back_right.png": "360969a1b35baac75d35a83896c7763221a5814cb8e6cce1e8ff19422ffba405",
+    "render/back_right.png": "8c8f29ef07e289be4e2ab00a9956ab975635995ecb25240a5e48a276540c10a9",
+    "painterly/right.png": "e220bd92fc2965c9fad771292b8045e4385c146b91777c503ace561ce9704465",
+    "render/right.png": "880a7eb1f3e4556413a49714a8f30178a38dea6d3bd5c2bfd03b003cdafa9bf3",
+    "painterly/front_right.png": "98112cd89a55951f30216fb5dfcd706fd7d9ed5d74409ec75aba72d7b0e254c5",
+    "render/front_right.png": "d509d6dfd3142adb033dfb8dd20ab00b0b6c28a2f87c054c3a5380d08691414b"
+  }
+}

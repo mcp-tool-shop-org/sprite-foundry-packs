@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "smuggler",
+  "name": "Smuggler",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "painterly",
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "painterly OR render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = painterly or render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame; pick the painterly or render look per project."
+  },
+  "files": {
+    "painterly/front.png": "3eb8bba67c7e46a530c0d3746afd846b240132a9dbd33153fa2112c754f248ab",
+    "render/front.png": "7c5723ec512b96b442f5677cbf9f4ed3922e3ed14a5e5009ae1ef09afd398e41",
+    "painterly/front_left.png": "5df776c4ce287fd5552f04621c7c1774cc6a970f5aa847c9974e7cb914e27d83",
+    "render/front_left.png": "aacc90aed85be0d45ae29b00c0febe9dc0d6355a430de6013299000fe3b3f114",
+    "painterly/left.png": "34ce8e6f8af902b26804904f32914df60091484dd2f396b170b9deb2c1b7014d",
+    "render/left.png": "2543b6e8af3a849d958a8dcb1f68986ca0b4d856b19a3ff5e8f361e082c6369c",
+    "painterly/back_left.png": "16ab95e3f953aeed2ebe7be4587a1ba5fa29c23dd87ca2c5e8ac1f4049e137ff",
+    "render/back_left.png": "fd0fdf04e3749a3ec073e29ba1224c2ffd9c0a2eec20036eac1bb9ae218c797e",
+    "painterly/back.png": "e203941ca52806b02267aef7ee64c1cf93e2d89dbeacd3bbc892cdc201981462",
+    "render/back.png": "52d0980fa80a12bf13948595ce557734ad5c80a2a9fa36740d7c4225530175e5",
+    "painterly/back_right.png": "9917b3fe69f7252b3ca8682a05b47685fc84f73d6fca811ef0e791c187669fae",
+    "render/back_right.png": "4c69e29658255dc3ab0c4da24b94de8fc647dacb1f4a5f401ec30aca077caede",
+    "painterly/right.png": "f0407a0d25b421531fa7f5d5546f7fa49ad4246d57c51f91a428ee9dcfdf373f",
+    "render/right.png": "3973873bcd7854bc5ee0483cb0ffcce9c7cbe64a868807274fecc82237ea259b",
+    "painterly/front_right.png": "6cca01513a9e7a299b2b172b816d01f838e6cb8d066e4cdf23aaaff80c7039a8",
+    "render/front_right.png": "2866394ed3c020c80cb83ebd9c149b8725c4c987e777d6fdcd3befa0ca253b03"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "sawbones",
+  "name": "Sawbones",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "painterly",
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "painterly OR render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = painterly or render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame; pick the painterly or render look per project."
+  },
+  "files": {
+    "painterly/front.png": "0bc12a49a0cbec5b3c8f44b8f2295d9d558fd0f3b1dde4422ece3a92a43b2486",
+    "render/front.png": "4a87831c1de46e1ddad8cb9947c1e483310b34cc7902d54c0a09af81c46e1ce8",
+    "painterly/front_left.png": "764d0b129d9726c80ecfab97f34baa8b9081d31618ebbccd2bdaabf7bf74a6eb",
+    "render/front_left.png": "f608f032121d8fe192fa163e7adaa9665c712c2d7ced910e1a39ea860b8dfe8b",
+    "painterly/left.png": "2aa3d99393507e5bec0a6841467ca16311b760b17fdbeb684bbb1d2d965dc296",
+    "render/left.png": "dfd4affc278270d4b8e6dc8b81b64dc0c3eb0e8452dcefad228d37a2e159f9af",
+    "painterly/back_left.png": "0c42c07e19d90a290808766b9f8f2327d7b5c5d8ea8adbfd3d2172dc62e68088",
+    "render/back_left.png": "3c7803db1d00a49011d5adfbab41ef483c65a4bdc4ccc5db5682a59c48de39bf",
+    "painterly/back.png": "7499174e0093f63d68a774e3c3105f93ee2091e15db3575b7423f78740e3f790",
+    "render/back.png": "1b7ae5014fb97c3d937ed10c447b253ff94c869dfd7427729e066e88add119b2",
+    "painterly/back_right.png": "fd48a2aeedffae24036c3520d216596ad696d645d992c3412955d7ea99083bad",
+    "render/back_right.png": "611cd67143fd2058694c739d341fc8cfb20c072d4859282e5631dc3301bc93e4",
+    "painterly/right.png": "396339c851be60d7539e64070a43492959559a5c9330f7b4d4da37266c4b9d34",
+    "render/right.png": "eee51809e7af98635314caa7b2de35bda21267d2b68519d00e79fe480f5c7844",
+    "painterly/front_right.png": "2a2f93dc81e538c82914d7911454477987ebae053e509644ff506f7dff063e27",
+    "render/front_right.png": "7410fd3b00f9291ac0ad72e6f17f49dcb5a087cedcacbe770d153917dcf0c63f"
+  }
+}

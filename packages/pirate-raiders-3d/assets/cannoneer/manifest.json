@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "cannoneer",
+  "name": "Cannoneer",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "painterly",
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "painterly OR render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = painterly or render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame; pick the painterly or render look per project."
+  },
+  "files": {
+    "painterly/front.png": "6a343247ca1d09b0ae9f0b716e189c723a82fd2f0527f99f6c306ee48a0c15f7",
+    "render/front.png": "1843496a47583ef21f902d3f686c0eff334f179be6cbf6e45fb92e4b852a0620",
+    "painterly/front_left.png": "d40edbc2bcb82c305c4f080104b62c403de72c55532ba9784f02089a4ad29a19",
+    "render/front_left.png": "6f7ecf0b28e000a5256af112f9a333feddbc1593cfee74596f688b784d20b34d",
+    "painterly/left.png": "5759dfef21c778efc50ac79a971ebe131172bc1d7caa650b567aedb4a37d3fa9",
+    "render/left.png": "94a8703b6848647dc70d8e9fcecef517306c0e8b378583d4a772cdec21ec7799",
+    "painterly/back_left.png": "6b1a0cd9a9101cd9c568091a967dd76c650d4fd5feb87ef575aaeabf5cfed6db",
+    "render/back_left.png": "9a2e6bdf5a555c3a7c6cf388c6bcaad3b28802aa6a32feaace07b339080f4a17",
+    "painterly/back.png": "2b1f0916664bd15c0e24c1bb35c012557bde6921551c4efb8594a1598f81aa25",
+    "render/back.png": "2434313670176dfb8cfc9d14ea1fedc7f4c1c69c5fc01df2cdc7850c0a0bbfaa",
+    "painterly/back_right.png": "efb3e70e93fc783727ce2449ecbd13fb09586f11fdb9f3e0717325c224db8de7",
+    "render/back_right.png": "ba50b51ee32478675be955c40c401b526cc97ab6a63e31d2c924e335fa0cd057",
+    "painterly/right.png": "6a725ff9a7cfc616897e0c5e5b92a93b511999fdfe033051a0f7089c6e57b71f",
+    "render/right.png": "beb45248785d8d8f088c0f9d3a3f30fae2f7657b4080cd810d553b38cfb10b19",
+    "painterly/front_right.png": "873e8b8191c077b6ee24f651abd499eaf3d1c4f8113afd4052538071eafd50b8",
+    "render/front_right.png": "cfbc6f8db9a91e8fd0dac263a235abdf5f50b78425887185da8212e87858bd95"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "reaver",
+  "name": "Reaver",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "painterly",
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "painterly OR render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = painterly or render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame; pick the painterly or render look per project."
+  },
+  "files": {
+    "painterly/front.png": "00dc2d794c42ed7699629d46481c748c1416ec978ea3fc8d4dc8c21dc0a0906c",
+    "render/front.png": "24ab6b11d5e31ec2fee438099c3bf8f3c6adae8cc25faaecc9f44ef0c27ea77f",
+    "painterly/front_left.png": "5c7548dc9cdc5d5ef3e07256b7de7863b24b18495c799fd7b45274645697521c",
+    "render/front_left.png": "ea7e4e70e62f894b36c84758773d556b0267c23c62148f47d2214e84c7479f14",
+    "painterly/left.png": "db1983a124cc927f535f54e0e0a60ceca1e873c9a7f4daed387e8b1aa9dd7649",
+    "render/left.png": "45ccb12cf35d88ace61c2a78c26e0d675c91df56d4afa8a598a7f4597d2e67e8",
+    "painterly/back_left.png": "eae858bff04cb26106a58d80ad6a9dc243e9202109f8e4bffb91e1ab7f454d55",
+    "render/back_left.png": "f86d3c7dd19dc6f858f594335e9e579cf7fcdbefc7a1e0c61f9f9dc15989439d",
+    "painterly/back.png": "c85c8320ca82ef41f4940ac9c275f34ef238462b914ecaecdc91bf4555f80099",
+    "render/back.png": "77ca5591eb5436f2855cc272f0290f79e50d2be17c643bc2550edbf1f48dbe8e",
+    "painterly/back_right.png": "3fbae8e9475703614f7810d8ed7f99f1c0b9d7b95bfccb529b756797820c30ad",
+    "render/back_right.png": "63fb45e3c5441edf381c20534f1e052b7221d6755d7d8af39b8f5546e2ab4d52",
+    "painterly/right.png": "8c0d712dd831d024836dd11e65d997e6fbb27ceb193f805e12f938b8be8f049b",
+    "render/right.png": "a1c7e4ca357cc7397aa0ca3dc93d9c3e1d90ed39f04b9c40bbf784d15345c944",
+    "painterly/front_right.png": "de0e9f23e09ff555c957fb1a228c378ae1306e84cc8ac7baa7cdedcbd09893d2",
+    "render/front_right.png": "944443e9dc25be07131b39489cde8985b07eac5b2ad49f77653151f589234d89"
+  }
+}

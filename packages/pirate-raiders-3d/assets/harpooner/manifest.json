@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "harpooner",
+  "name": "Harpooner",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "painterly",
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "painterly OR render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = painterly or render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame; pick the painterly or render look per project."
+  },
+  "files": {
+    "painterly/front.png": "a8104f0f0f8087b4b04c378e2b08fbe70d852f10c563db5023c0de64cf7e8f21",
+    "render/front.png": "f86f8cee247621d2d9b0379075a0d0ee42bf5c2619af2fe7f345377e1a8c2a6a",
+    "painterly/front_left.png": "69764058186405e4f65dbea9631c36a51204d251cac39a5eadb2a7fb50cab9e9",
+    "render/front_left.png": "9a1cfcc839a0c01036a83e86824993bd80468325c6db8a5537875b207dfa7bee",
+    "painterly/left.png": "412b1ad6b9b65b97a651b468865a604a51e28f2d31535135ee6f74c74b0d4013",
+    "render/left.png": "e57d876436924c2f91be8fe7aae9d0516018da8f7a271f64ee4967a927d764b6",
+    "painterly/back_left.png": "c5ddd595b7e72b0ba474d2b54898c669837fc5bc66b12548a6618fdc55eb2dd1",
+    "render/back_left.png": "d20a94d12ac80aeb697114d2d8a538038310b9a02dcd968f61645a6d227247c1",
+    "painterly/back.png": "ac774e992bbb6c6ef0c31f846786cdd6c1996394ada220bb94bc10a19a8b159a",
+    "render/back.png": "3ed1aa33a3035bc12794e53477e31fbf906b036c456bd973119f8a557a3552c1",
+    "painterly/back_right.png": "9c0e35c54faf874225d10981fd6479fab59f980d7198291b9c1ad6971f61b26d",
+    "render/back_right.png": "b6c56ac505bdf239dbf794ba46be4376a68da1dd3cd65a503b40aa06b62d8797",
+    "painterly/right.png": "fe347212de79b1ac7f1c0967f48c8c9226de0f737bb308cef5fb9a6d7400a4fb",
+    "render/right.png": "5b04550979f210c6e2b1b838513e8cf64b726fedd3fbd83a62278b3152e0154e",
+    "painterly/front_right.png": "c05883ef0dd7d3ef79c825098720b82ab9bc4cc3d370fa443afffc88e4917768",
+    "render/front_right.png": "f612edaba7f6d479e4304ad81993a9d3214d8fab11a0a7e7e5388d852739814c"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "sea-witch",
+  "name": "Sea-Witch",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "painterly",
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "painterly OR render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = painterly or render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame; pick the painterly or render look per project."
+  },
+  "files": {
+    "painterly/front.png": "05d45d269b184d441842d0877e5b3ed87256e38384625ca64541cd98dc1d6e95",
+    "render/front.png": "270507e569b2be7082e46df149daf99002a7147e77dd9f013af93d5086abcc9b",
+    "painterly/front_left.png": "86f0c3fa1b426a480b7dd59096343cae93acf1fab787ff3a667db502c4fcf630",
+    "render/front_left.png": "80d61dbe23e65a07911f540821f5450ea169ade5ba1ed621493f875d93737241",
+    "painterly/left.png": "f9b9dc43b9a1faeb0d10a273a459bdd51140e90b7287c4ac6f0cda05312fd5e4",
+    "render/left.png": "aa4e1326c869412a9c66f2edba53be73bba66616ba3d171f5cb0db08ae0bdadb",
+    "painterly/back_left.png": "72928be7de17fe21c21ac81d2406142da41b35769dc86e460f1b95a0d1e06565",
+    "render/back_left.png": "457015bf5576f2099478abec72e8f610d5bb24693449ba17dc418ff81644baed",
+    "painterly/back.png": "acd1e419dda4685b377f5ab99dd6e15a50a15aa43f98f7ef92de6628fd1c6f8c",
+    "render/back.png": "270cecfcee059fd295f2a1a3257c0056fe9180baf050cfab3d3baa795808ebf5",
+    "painterly/back_right.png": "84a275903f28fba358f6869f11b1a8e0d1baadba722e4728c87be7934232b40e",
+    "render/back_right.png": "a4957bc40d3ec9092cb8609f0bbf24d16523988d42c28ca0eb2de3b9dda93e40",
+    "painterly/right.png": "968e38b711f7f6903097da3af34985eb130ddc5fa7def683c7ca043d954e989c",
+    "render/right.png": "84ad557342fda8145576a5be94f1bede20ecb6a6768459b852acb5d11f89b371",
+    "painterly/front_right.png": "f8ab9149df30843b8d405f6529d59c94c57d77742a00cb872819e78fb77a009a",
+    "render/front_right.png": "e356e77997fcfe40e4d30c364e9e2eb8750f67e955de7b5022800ffa49665bdc"
+  }
+}

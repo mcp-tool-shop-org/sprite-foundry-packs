@@ -1,0 +1,50 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "brig-keeper",
+  "name": "Brig-Keeper",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "painterly",
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "painterly OR render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = painterly or render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame; pick the painterly or render look per project."
+  },
+  "files": {
+    "painterly/front.png": "31a6c45536eba0a2b1be9bde1b799659dc9c871688167a96b104bb19cd9b8bfd",
+    "render/front.png": "e54146e3128b6c798469e94d67e34c80492e2bc4db3b69f4438c52215c41d1b5",
+    "painterly/front_left.png": "5daf1ecc4cfe5a3bd6c96f55c8748ce71e873efeeedaeaee61c47da768cbf303",
+    "render/front_left.png": "d424c3e297027f23a87faa7a5f679ed25e2fa13ada30cd820dbb5fbc1943d398",
+    "painterly/left.png": "e60a6b31b78fece8c04817deb00b60d19c68c78c3f562ef25a1dcf4c6e851d79",
+    "render/left.png": "454a2cded22936b03bf0eb41308128d98bc2538d99220b4cec38faac6447876f",
+    "painterly/back_left.png": "a107c203d5a44ae5fc1b8258124bb07540496b30047975e97bc08385e41ef5ed",
+    "render/back_left.png": "7006f81e139debda08301198953dcb8c225f6e3581926db10c4a271657858a45",
+    "painterly/back.png": "09d1a08535839ac6a3c95ed087bb4341d8132ccef8d721fb2e8690f0c5bb6f07",
+    "render/back.png": "512f12091c3f95a475bcf12f583606ec44e9dd6d5575af5e52d2230e3d1b6f61",
+    "painterly/back_right.png": "9106b108a1c5fbf70cdcd42784211cf3c461088477b0b8d72ea511d153ea0836",
+    "render/back_right.png": "39dfec678089daf1eb8260191b72c0fd7bdfa509b0d7f60c81b115f61ea695c0",
+    "painterly/right.png": "256af7f5e4d41dd641b30ec03db91436b58027a41d8ff98632e1465fe637da1e",
+    "render/right.png": "cb9edfee5b264ecaef76c0637f5c80037ca75ebea8ca4483b01eab9fb775bcfd",
+    "painterly/front_right.png": "3c45186f8d76d92a0d5d62206cba3d7ef182f37a62f1f3b5d780440f56af563c",
+    "render/front_right.png": "9b50635836dea20b4a3459d2a66b2fe48014ee7f9604ac3e8e257a125245799a"
+  }
+}
