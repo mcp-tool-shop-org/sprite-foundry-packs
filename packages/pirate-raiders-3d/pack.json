@@ -1,7 +1,7 @@
 {
   "name": "Pirate Raiders 3D",
   "slug": "pirate-raiders-3d",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "tier": "3d",
   "companionOf": "pirate-raiders-hd",
   "tileSize": 768,
