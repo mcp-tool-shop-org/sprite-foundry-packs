@@ -1,12 +1,12 @@
 {
   "name": "@sprite-foundry/pirate-raiders-3d",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pirate Raiders 3D | 26 fantasy pirate-crew archetypes × 8 directions × 2 looks | true-3D pre-rendered 2.5D sprite pack (768px, painterly + raw render, pre-lit, transparent)",
   "author": "mcp-tool-shop",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcp-tool-shop-org/sprite-foundry-packs.git",
+    "url": "git+https://github.com/mcp-tool-shop-org/sprite-foundry-packs.git",
     "directory": "packages/pirate-raiders-3d"
   },
   "keywords": [
