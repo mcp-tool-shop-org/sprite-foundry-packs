@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "bombardier",
+  "name": "Bombardier",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "eef1676b345b6381e2f58cdff3644ec0776bc7b89935a92bb08c99157d2dfb56",
+    "render/front_left.png": "12ea96232fa858bbe1eb2ace08e7a84c73565b134220ecf96e29ab7a1edc789d",
+    "render/left.png": "5b97618b98bca5c5dc1d1381569325455959ca3bb682919ad5d2c07d0d7a0e5a",
+    "render/back_left.png": "247b2ad6ecef3f986cabb0ba2108b4fb3b0e199a4d4fa4cacb94e775ff664c45",
+    "render/back.png": "8e799d39075d9f37ba6f922b39fccac002396e9adab157cc8a0c53b338c65d8d",
+    "render/back_right.png": "404c96da7dc3094654dd2eaa16db8c2a97a8dcb6f4b99085647b18fc85219e0d",
+    "render/right.png": "ce28264320aac996e6b9e8156391dfb31e88abc9589266001cd4ab0d2277fe6f",
+    "render/front_right.png": "bda566877d7a3b78a106005dd55f275f74aeedb8e05c909f4b2df3719f3c983f"
+  }
+}

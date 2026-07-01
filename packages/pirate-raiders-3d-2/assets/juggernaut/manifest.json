@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "juggernaut",
+  "name": "Juggernaut",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "be6ff59b6ac4cbcd7ff7268e1e90fc35df6a0a283711a644d6eef3ac7433dcd3",
+    "render/front_left.png": "f871e65b10ffc770ea9c970a3a2e4ac9418e2ab81001cca1e530bc3554ee564e",
+    "render/left.png": "047f5a8c402915dbef45d75a1175bdec8404578641bc77ebc4b569456a7a06fe",
+    "render/back_left.png": "05753fc55d49849da858943c6aae9d0c89ae98bb74332037e92ce4841f9d70a6",
+    "render/back.png": "5b0868fc3b2cbdcba92cb604125dbb3176357961db535f7864a3dc9761ac1ef7",
+    "render/back_right.png": "d8d459e298108abae513208b436a6026173b911ade9fd40fceb240ee70fbe7f3",
+    "render/right.png": "aa42040a5e8abef47cd7c953dcdfca08e28f9913ef3f2b5c91c5df1311a4a7db",
+    "render/front_right.png": "4e7a2db66ec9ea3296913913b5bda93058b07e82b64aaf773502656f2c87b7e0"
+  }
+}

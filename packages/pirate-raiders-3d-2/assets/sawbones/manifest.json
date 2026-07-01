@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "sawbones",
+  "name": "Sawbones",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "d90aaaad286fb9f5e823485c900a03ffdc89e6d6fae0b53bf28230a4e5de5732",
+    "render/front_left.png": "60a1bdfb6bb73c1b8f4c7d4bfe382ff1e0d1776e3c7dc95d778fe1735df6b8ba",
+    "render/left.png": "b141e6e0e929b6023057d8b670cc1a5f822e94da286f759e1bdd69c783899c12",
+    "render/back_left.png": "22a701112ea6313656e20b37ae89ac4caa2bcc0c1bdc5068ac79c5820701dbd6",
+    "render/back.png": "e40c9846e1858b77c1f6f3aac1bfe9d7400e162df73ecf75b14acb10bb085098",
+    "render/back_right.png": "ac76b197d0f91b1b6cd114b610bfe26ef6c65f95db25db8b35a5ad9c66c2adab",
+    "render/right.png": "3016084981b8bdb26f43542f7bed2f80851ccef21e286964b74664acd27a2faf",
+    "render/front_right.png": "90ac4ff4ccc31f6638461003ce5638b4e7b1d554cdcc2fd3404efc39c0753d8a"
+  }
+}

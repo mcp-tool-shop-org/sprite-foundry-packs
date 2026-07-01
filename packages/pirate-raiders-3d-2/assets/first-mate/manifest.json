@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "first-mate",
+  "name": "First Mate",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "6f694c53804ec29804d2d9e4efc0739ed0cf472f078402a0ec5a430ca3708001",
+    "render/front_left.png": "42a4512e6ee1a0002154d27ff07d497c229ed207e6f0f338ba6b6a52c88ac514",
+    "render/left.png": "7cc3ccbf3a67dfad048ab92dc6d5a290f7ea4abfeed80ae2e1415ec98f996e96",
+    "render/back_left.png": "ff09328123146379b506d121de9ffcedc1cb7d6d9650dfb12126bcb7d3c28c7c",
+    "render/back.png": "d16b3ab1b1be48449e72a42042034caf33417789b5f032507802b97708d74551",
+    "render/back_right.png": "aad8aadff19bc57e886618bb11c6f7efd2ba582e653fb26082696ba710d390fa",
+    "render/right.png": "2c083a62070573c312a5a2c1cb11f5c80c2fc3226cb0fb7f1bb1ffddc9355a92",
+    "render/front_right.png": "789337815c9fb9776eea50b602759a4db7b81d17602bf31920f3e0c40397ee16"
+  }
+}

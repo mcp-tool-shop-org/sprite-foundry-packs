@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "bosun",
+  "name": "Bosun",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "f98ca7bf0e333739b07c92fe248688780a0e7842f2123b353acd227adde63e48",
+    "render/front_left.png": "9a11c471640106b133b0f72fb4dcf13a1889bfc75981c2fc544a94c7f8d3f49e",
+    "render/left.png": "c063831cc59f2f2466cde43bd51df1bcc2a1d4413ad27df506cbd9639dce62f4",
+    "render/back_left.png": "f7fdacf36f761cd93d31315c81e9b099b3e6b054ba4710cbe0e3c1a0d3f24777",
+    "render/back.png": "2143f4b19b4f76bb2389d51fe86b012214e05f9a279ad8d5eacd297086950930",
+    "render/back_right.png": "b6c2c1d13b27dbeb37d943968096f1962a7bba7da93f3ee5e501c8001fdbdef1",
+    "render/right.png": "7186eff6c4d2f01d4e95268e53e5b6a75a0d95bcac31c208936ed05a2c200019",
+    "render/front_right.png": "8ba315f67d047fbac8000dcdbcd3cb16b87302ecdaf1fe389f6a16f2c92d6941"
+  }
+}

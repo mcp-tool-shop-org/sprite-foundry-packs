@@ -1,0 +1,212 @@
+{
+  "name": "Pirate Raiders 3D-2",
+  "slug": "pirate-raiders-3d-2",
+  "version": "1.0.0",
+  "tier": "3d-2",
+  "companionOf": "pirate-raiders-3d",
+  "tileSize": 768,
+  "schema_version": "2.0.0",
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "layers": [
+    "render"
+  ],
+  "variants": [
+    {
+      "slug": "captain",
+      "name": "Captain",
+      "species": "human",
+      "role": "fleet commander",
+      "path": "assets/captain/manifest.json"
+    },
+    {
+      "slug": "bosun",
+      "name": "Bosun",
+      "species": "ogre",
+      "role": "deck discipline",
+      "path": "assets/bosun/manifest.json"
+    },
+    {
+      "slug": "cannoneer",
+      "name": "Cannoneer",
+      "species": "dwarf",
+      "role": "deck guns",
+      "path": "assets/cannoneer/manifest.json"
+    },
+    {
+      "slug": "brig-keeper",
+      "name": "Brig-Keeper",
+      "species": "half-giant",
+      "role": "jailer",
+      "path": "assets/brig-keeper/manifest.json"
+    },
+    {
+      "slug": "sea-witch",
+      "name": "Sea-Witch",
+      "species": "human",
+      "role": "sea-magic caster",
+      "path": "assets/sea-witch/manifest.json"
+    },
+    {
+      "slug": "bombardier",
+      "name": "Bombardier",
+      "species": "goblin",
+      "role": "sea-bombs",
+      "path": "assets/bombardier/manifest.json"
+    },
+    {
+      "slug": "breaker",
+      "name": "Breaker",
+      "species": "sea-troll",
+      "role": "siege brute",
+      "path": "assets/breaker/manifest.json"
+    },
+    {
+      "slug": "cabin-kid",
+      "name": "Cabin Kid",
+      "species": "human",
+      "role": "deckhand",
+      "path": "assets/cabin-kid/manifest.json"
+    },
+    {
+      "slug": "harpooner",
+      "name": "Harpooner",
+      "species": "orc",
+      "role": "ranged hunter",
+      "path": "assets/harpooner/manifest.json"
+    },
+    {
+      "slug": "poisoner",
+      "name": "Poisoner",
+      "species": "grung",
+      "role": "dart & toxin",
+      "path": "assets/poisoner/manifest.json"
+    },
+    {
+      "slug": "quartermaster",
+      "name": "Quartermaster",
+      "species": "dwarf",
+      "role": "supplies & coin",
+      "path": "assets/quartermaster/manifest.json"
+    },
+    {
+      "slug": "reaver",
+      "name": "Reaver",
+      "species": "gnoll",
+      "role": "frenzied boarder",
+      "path": "assets/reaver/manifest.json"
+    },
+    {
+      "slug": "rigger",
+      "name": "Rigger",
+      "species": "ratfolk",
+      "role": "topman / ropes",
+      "path": "assets/rigger/manifest.json"
+    },
+    {
+      "slug": "sawbones",
+      "name": "Sawbones",
+      "species": "human",
+      "role": "ship surgeon",
+      "path": "assets/sawbones/manifest.json"
+    },
+    {
+      "slug": "stormcaller",
+      "name": "Stormcaller",
+      "species": "kenku",
+      "role": "storm-magic",
+      "path": "assets/stormcaller/manifest.json"
+    },
+    {
+      "slug": "tide-cultist",
+      "name": "Tide-Cultist",
+      "species": "sahuagin",
+      "role": "kraken priest",
+      "path": "assets/tide-cultist/manifest.json"
+    },
+    {
+      "slug": "cook",
+      "name": "Cook",
+      "species": "tortle",
+      "role": "galley & cleaver",
+      "path": "assets/cook/manifest.json"
+    },
+    {
+      "slug": "marine",
+      "name": "Marine",
+      "species": "dragonborn",
+      "role": "armored boarder",
+      "path": "assets/marine/manifest.json"
+    },
+    {
+      "slug": "marksman",
+      "name": "Marksman",
+      "species": "goblin",
+      "role": "crossbow sniper",
+      "path": "assets/marksman/manifest.json"
+    },
+    {
+      "slug": "smuggler",
+      "name": "Smuggler",
+      "species": "human",
+      "role": "fence / contraband",
+      "path": "assets/smuggler/manifest.json"
+    },
+    {
+      "slug": "diver",
+      "name": "Diver",
+      "species": "lizardfolk",
+      "role": "pearl-hunter",
+      "path": "assets/diver/manifest.json"
+    },
+    {
+      "slug": "first-mate",
+      "name": "First Mate",
+      "species": "orc",
+      "role": "enforcer",
+      "path": "assets/first-mate/manifest.json"
+    },
+    {
+      "slug": "navigator",
+      "name": "Navigator",
+      "species": "human",
+      "role": "charts & helm",
+      "path": "assets/navigator/manifest.json"
+    },
+    {
+      "slug": "swashbuckler",
+      "name": "Swashbuckler",
+      "species": "human",
+      "role": "duelist",
+      "path": "assets/swashbuckler/manifest.json"
+    },
+    {
+      "slug": "juggernaut",
+      "name": "Juggernaut",
+      "species": "minotaur",
+      "role": "anchor tank",
+      "path": "assets/juggernaut/manifest.json"
+    },
+    {
+      "slug": "berserker",
+      "name": "Berserker",
+      "species": "ogre",
+      "role": "boarding bruiser",
+      "path": "assets/berserker/manifest.json"
+    }
+  ]
+}

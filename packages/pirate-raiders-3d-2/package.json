@@ -1,0 +1,38 @@
+{
+  "name": "@sprite-foundry/pirate-raiders-3d-2",
+  "version": "1.0.0",
+  "description": "Pirate Raiders 3D-2 | 26 fantasy pirate-crew archetypes x 8 directions | next-gen true-3D pre-rendered 2.5D sprite pack (768px, raw render, pre-lit, transparent, perfect cross-angle consistency)",
+  "author": "mcp-tool-shop",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcp-tool-shop-org/sprite-foundry-packs.git",
+    "directory": "packages/pirate-raiders-3d-2"
+  },
+  "keywords": [
+    "sprites",
+    "2.5d",
+    "hd-2d",
+    "game-assets",
+    "rpg",
+    "pirates",
+    "nautical",
+    "crew",
+    "768px",
+    "pre-rendered",
+    "3d-prerender",
+    "8-direction",
+    "transparent",
+    "billboard",
+    "sprite-foundry"
+  ],
+  "files": [
+    "assets/",
+    "pack.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "verify": "node -e \"const fs=require('fs');const p=require('./pack.json');let ok=true;let total=0;for(const v of p.variants){const base='assets/'+v.slug+'/';if(!fs.existsSync(base+'manifest.json')){console.error('MISSING manifest:',base);ok=false;continue}for(const l of p.layers){for(const d of p.directions){const f=base+l+'/'+d+'.png';if(!fs.existsSync(f)){console.error('MISSING:',f);ok=false}else{total++}}}}if(ok){console.log('All assets verified: '+total+' files across '+p.variants.length+' variants ('+p.layers.length+' layer x '+p.directions.length+' directions)')}else{process.exit(1)}\""
+  }
+}

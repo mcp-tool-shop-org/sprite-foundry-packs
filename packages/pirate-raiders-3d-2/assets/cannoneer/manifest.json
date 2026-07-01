@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "cannoneer",
+  "name": "Cannoneer",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "c2dcdc2737acbe35e31970d98b459bfe173544bac8b2202c1986804409ff8d30",
+    "render/front_left.png": "73a15f45bee9ea0b2c4f1669ceb86c5e586f39ff303cb5416bdd6cbce09c25e8",
+    "render/left.png": "ca881981b7f4202cd002ff003bc10c3d3b8d368e0bb512e7bb56f280668d999d",
+    "render/back_left.png": "ab2b14cdf0c7bb539646828b8a1c8b5c24d006faf3f7f74d0385702c113739cf",
+    "render/back.png": "16dbf0e57ee6c0ad2d2f77d968376428fa12cf179ebf5f6f35d2e77a9fd24787",
+    "render/back_right.png": "f0ffde79459cd7810fa62bc9dbd778b7cf2d3ea49e182948d85a20730c95aab6",
+    "render/right.png": "78b8b3472015ee8a2993564ac50b94828196a07980bdcd18def8e091e8203b0b",
+    "render/front_right.png": "7bc1b93d5b46121853883375fe6bca38ae29968858fc26f144719ef342228541"
+  }
+}
