@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "quartermaster",
+  "name": "Quartermaster",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "61dfe40b181a35de896e145884222a0255900e8c65658d54f90a32f493469acb",
+    "render/front_left.png": "19089336805441fdaa590c7e9dbc2ea75baf3008b317d9fb416974a817805815",
+    "render/left.png": "30ffc62fb264896418ec2475657a9f751af0a6ff2560c42598a3edec9a6f59d0",
+    "render/back_left.png": "d513831f30464daa34aa24943eb2220df82fe765671633e5545be02090484167",
+    "render/back.png": "6217807e530232524105e70909d6a02cd688da4c895a78f7141fa48f018e446f",
+    "render/back_right.png": "88781da34cd82235905ff4e49da0d87e19741aa8440eb39265b2041a39c52908",
+    "render/right.png": "bc62f57d90b57950d164ed0b010cc984d11fb965a698ec4f1656cd64b6c26df3",
+    "render/front_right.png": "89b06504e4b3838863e6e61f15b8342c80631ef4c20b333c9127d081cc476e6d"
+  }
+}

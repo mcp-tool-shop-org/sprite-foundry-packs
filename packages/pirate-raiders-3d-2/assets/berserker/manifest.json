@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "berserker",
+  "name": "Berserker",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "b17c39cf24b860dc1ebbfbfe01c6da33d45358ef7b00ed3452cacd652390ea56",
+    "render/front_left.png": "6690ad3f5be38e0be64954b77d54ae5507794e0e2ec618add66503e691479098",
+    "render/left.png": "0235154bec5355b9fb06def0a9c6d052ae8a9307fa2fb3eae3cdbd76ccb31b53",
+    "render/back_left.png": "664e7ef52252e6c9a3cafdf8a7fa6efdb5da9f55efdaed055cdbf46d773329b4",
+    "render/back.png": "920cbb2c26c528b36dd9d861a807ff4ea93eda3f0da7ddb6c80d45bb2432b071",
+    "render/back_right.png": "399688d73026664dca7872bb9f4036d5dd49588232c5e46209f471700b3ff49a",
+    "render/right.png": "f748bca8180868f3ec142eb0cc58b32b108b0c6a95a050dd3d77682080494da7",
+    "render/front_right.png": "10f26872e6cd2c02b328cc9e7d43da780f58f49aaf14e647f0d515f38359b24d"
+  }
+}

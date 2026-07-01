@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "navigator",
+  "name": "Navigator",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "b4befa0778fa3387b72f88a0457c194ee31c80b9e33a86522a7e3491c66a584a",
+    "render/front_left.png": "e6f0afff42c51fb6bd5719712891cadd95acd5d7b0d06316f5377de3745f8e89",
+    "render/left.png": "8a140a5be809db4e63add4be32bfdbbc876a9f4bb6b775d8a8217c048e0b6a4f",
+    "render/back_left.png": "f8b580fbe68957207ae8f30ec16c87ad62cc3104a063572a0437635cc71a7eca",
+    "render/back.png": "9b7c7d96149bc3396b265fb7f017998c84d714fad34bfdb6847a58d637cbc867",
+    "render/back_right.png": "10e923fd8eb0203a1b1dd7b5852c142443a4e2e24cc70bf300c294c4103a1ea8",
+    "render/right.png": "2d78928337167b60888a0f766ede12829ff41ef8c22ad6fd0bd6c651eaec0bf6",
+    "render/front_right.png": "efc54ca4a4060756789d0f4aa9f1b7e8bd93428ccdb8793576c7b947f4efd01d"
+  }
+}

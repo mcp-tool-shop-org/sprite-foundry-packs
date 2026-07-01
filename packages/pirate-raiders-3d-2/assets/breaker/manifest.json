@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "breaker",
+  "name": "Breaker",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "5251646ec4bfc9c41405dc674b47a25a4d9d91d45aec4f230840bfc9bf595eda",
+    "render/front_left.png": "c4857c3d437aab15e280577c57e275e5e13df89e79e8cd71b1d8c846f771ead3",
+    "render/left.png": "c68ec3e529103922b79784e6994631f7d61a83631a8ad350549ccf92cb3b6e88",
+    "render/back_left.png": "e530a501c187f788368c6b585631505f97830092d389afc3521063a85f2e4feb",
+    "render/back.png": "d8979c120110770e91b728d65c8d1d77ef3e262beacb01259abab2c4a1570b2e",
+    "render/back_right.png": "545cc4de2aa9333ea0ad5d9e642e20c79ed2a088d5d65ba48f953576845e932b",
+    "render/right.png": "885e56de1a7cc12d53dbd7ffb7231d5dde5b274ef8cb983d929b143fd9bb7e4f",
+    "render/front_right.png": "4219333b50cd112a0f3c970c7ec38ab7ae6e34028c181a9a760b96f5dcc525a8"
+  }
+}

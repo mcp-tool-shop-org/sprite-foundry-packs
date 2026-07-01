@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "smuggler",
+  "name": "Smuggler",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "c3e26cd11f5619b212a150d34b59fa3d98726fc5ed4092cbf240cdca40896d88",
+    "render/front_left.png": "8b00aa3bf6110abc3495c0ea61766c881da18d27775612d7a341cdd1a6e1b2de",
+    "render/left.png": "8834384cb3c46c1147ca494e4dd0e0b11a85e5e8ee69939b5b688698c5076251",
+    "render/back_left.png": "b59c8dc6ff4f1603c0e498f0c5c4da1fd452e8ddc6ddd8d482cb9e06aa4eff04",
+    "render/back.png": "66450d00890fa13572438770ddf89d79f1bf7d6d34247fcc4f638fc2667ab1ff",
+    "render/back_right.png": "c30bf64e8d9708ab11c7946934e8354f85dc593b75d29b21bb87cf74276c5bdd",
+    "render/right.png": "3f734194adb0a6b9ca626a28bd345acf100d2d04fd68a85eaa8dca53bcbc4722",
+    "render/front_right.png": "d024bbd49976fa0d2179ec3d61df14e781e87f616860c44e6e32e05d4ac4b4e9"
+  }
+}

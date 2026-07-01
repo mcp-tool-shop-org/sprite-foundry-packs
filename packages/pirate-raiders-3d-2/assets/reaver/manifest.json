@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "reaver",
+  "name": "Reaver",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "1d07d43c392b2a2efcb3c1bf4c47421c4f9b460412705ba0469e430a87f5b4a3",
+    "render/front_left.png": "aa8c42589a6bc070598f1fdaf2a37a8f00b29dd4572f9151c0f75dcba4faf8b0",
+    "render/left.png": "14e56b370699e3fe0cd068d42b9bb0e7df5e035d158334d00c3643d049a414be",
+    "render/back_left.png": "fe13f4c429c8df67a6fa6bead100e54b9ef462dd2e1a4b7b96ab5290b4e1a255",
+    "render/back.png": "7e797e4773b553d86d97a8c1df0246fce473d6d1e016c082a18589693d3b3591",
+    "render/back_right.png": "3f8a3fca3f9e66c25439677e95ca875291a72e41afbcaa64b1ccd84f01e5655b",
+    "render/right.png": "0f88d4a15f5476e6538874d14eccbe58481b1257bce33709409ec84a76a241b4",
+    "render/front_right.png": "2945d2b30b51141e627ea8d8fb25494a52ec9a3896d9c220fe5df6e3abca32c5"
+  }
+}

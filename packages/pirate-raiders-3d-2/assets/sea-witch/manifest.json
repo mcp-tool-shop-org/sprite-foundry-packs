@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "sea-witch",
+  "name": "Sea-Witch",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "4601090f5e2cf8dd9345c7976e92e1b33e10bc1160ece28c6230fae1c2224357",
+    "render/front_left.png": "0e3891cc40b7ce034eb8924926a8fc101240be1e0b597d3d647976465e3276cb",
+    "render/left.png": "133b8a57b00c9426c8cc04f66bb3c3315ec717f6dd11b41e0016ad58f8467ebc",
+    "render/back_left.png": "7716a4f45099f06ae4fb4d6b12989b6d344ce1d313783173acb2cf4e7300133d",
+    "render/back.png": "2eb9e09ac3ec1c5e5ed4cb5a177e481fa425ee1e6879637ebb7ae431f372257b",
+    "render/back_right.png": "acc51aecb195c140d25ee82bea7f56c4fd445e4c784bae1b83e8e9b26968d423",
+    "render/right.png": "7b04cd6ccdd12ce0f2b4bab295d25ff59092f55f2de0eefe036d5678517c604e",
+    "render/front_right.png": "f51b050c6dfef4f1306d13b826777e22565fee9f2f95854b05d8054cb2cceefa"
+  }
+}

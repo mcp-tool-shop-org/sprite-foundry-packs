@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "diver",
+  "name": "Diver",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "3747b4e7efe21691ed091adf2d2846b3ae8ba8b9aac6c37403d1a570b2e70124",
+    "render/front_left.png": "1ded48a0de3977194cb9def404f9770064a59c35bacd22f14c66fda51d537a32",
+    "render/left.png": "1c77bb9acfe8f53b5608f1b68688738508b1dea8ced02a9574b7809d41f3ade2",
+    "render/back_left.png": "2badabaf7e30e89f2b55f1dac97f81c5c85af4cd1d85afa9e6f5ef1759dccaa9",
+    "render/back.png": "e8886c3b95d527ac18cbf8212bdadd3864a8f20ba832db7edf3c994abc486dfc",
+    "render/back_right.png": "d391956ef3b4759bb6c69fdf82bff4e33b69bc2afb31e46a663a3ed9d83cfebf",
+    "render/right.png": "0acfbcd0d45f49e8b53912a845a4909c58eda45b2d556d3f00cbeec855d96803",
+    "render/front_right.png": "bf42d7dce1ab6929701bd035195a6fc4452407c394d623304035d9500f05d13e"
+  }
+}

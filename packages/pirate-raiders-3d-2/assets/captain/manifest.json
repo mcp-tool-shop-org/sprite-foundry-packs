@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "captain",
+  "name": "Captain",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "44afe854624b6256b4b2615ec21a55bd996f28b9b03e30512531186281f95ef7",
+    "render/front_left.png": "85e6153ea78a51ae90022241e4a3be008ee8f4716bf2bed53bf66d33d3cac1b0",
+    "render/left.png": "e33e51d577b063d0e0e50796f203ada593e91607ece165309c64c8a866c6caf5",
+    "render/back_left.png": "ae4e8b7295ad2110cd188ce45bd35d1c6ffe05fd6eff2e62f649bb78f0691167",
+    "render/back.png": "164da66a03282595111b0c4381b841080c807295d48968bbfff2f131258068f1",
+    "render/back_right.png": "e3555c7deae37f8167311fc539adc02898599a2d53b8696feacf2bf0738d7f04",
+    "render/right.png": "d17c2cf359a2aba8d6f62cc872a8e7605ca76b33596f353e18fe8fcece9a8dea",
+    "render/front_right.png": "db498109343e42832d289f94c95233b827d6e0be03f4b6f1cf3bc38f8c643cda"
+  }
+}

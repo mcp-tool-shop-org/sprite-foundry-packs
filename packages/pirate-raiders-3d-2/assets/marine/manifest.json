@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "marine",
+  "name": "Marine",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "93b9c6152203dfdba009eb4710c1f198d8bcabe344e6ab8ecdce922af788dd5c",
+    "render/front_left.png": "e726583294e229419ca9458540d6b04862063383873b6211fc1c32ade01fcf23",
+    "render/left.png": "edd57bc87ccd2882ae9b160507d6bdf4f9fcf08fb2d5151da426ddb74df22f0d",
+    "render/back_left.png": "a081994a1eef1e59300cf298159d8c126344548bef07642a4d258fc5ea691034",
+    "render/back.png": "b76044c9b547ec7bc55b6b89503bf2058b14633e2450d8ebc2532ec57406ed74",
+    "render/back_right.png": "e3d38451cfcde300447bf93122ebd68676d5ff190b88786b6e030a96c09d0322",
+    "render/right.png": "2bb8e631bc4edfc344709f6e85eb5a56ba28eb734e73e1cdc8cb460ba1115e0f",
+    "render/front_right.png": "7331db531a05c50fabb06bbc9aafe9e6435caa153ee65ac7ac5146e195a01e2f"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "brig-keeper",
+  "name": "Brig-Keeper",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "ab17210244508dbfe96cf152e10858e5e1979f6430eb4ffc2b467b0a3df741ce",
+    "render/front_left.png": "ec3663486bc2807b3a0f362bd1380d74bbe7342c5fc6b0f18e8b88eeae278f5e",
+    "render/left.png": "4f2be94d7929dad44fe9a1f291fa3da4322b7bcf2c80ec3843a06f8f26f49326",
+    "render/back_left.png": "c5fe7000fbc1981b053e9442ac173072d3d1b33a4a5f7663319c0fc17b1a883f",
+    "render/back.png": "2b2893d73ae6ed996144709c68460b9880317c85c4fc1b884ca30d321a373d07",
+    "render/back_right.png": "a7210276cad0833434ac08e602c7ca1d568700f407c6071f229915fe5e499b2c",
+    "render/right.png": "d679d0545eb2a2b54dc9a1ebae64b8d9ed81bd49f4997d6039ffc00aefb1566c",
+    "render/front_right.png": "115fb99d28b1f646338d6cdd98ec95b48fc0688afd93b18de9830c9f0084fee5"
+  }
+}

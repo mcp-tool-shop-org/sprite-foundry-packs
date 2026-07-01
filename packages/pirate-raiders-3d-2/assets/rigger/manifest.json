@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "rigger",
+  "name": "Rigger",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "fc16235b4fe89793d0a0a07b8a0d766663f7ac23415c9d8de314ed4f6bdaacf2",
+    "render/front_left.png": "843bbb4472b91febc3bb1426938af150e04a8d0a41616105b94451a854463bd7",
+    "render/left.png": "27b15d3d4fa159b87b6f58a3344da4b18f93f27c2be8c9e559c23cc41a8dcb77",
+    "render/back_left.png": "9d8bbe33a08e9d9285426a8706d1fd9678a22b34677f70265fcac30c91427bc7",
+    "render/back.png": "1a382df62844aba2e466f2d0bc3a1d86337ecac132a8757548a484367afd29f9",
+    "render/back_right.png": "6a287109ed5c1b523149a04ccd6908092f10623e58479e31660339c0b3a36da0",
+    "render/right.png": "7c2223f752b4b974df1240f19f123770c7cec9c8053658e8418a4431bf17dfd1",
+    "render/front_right.png": "822b3becd95dc768cb48686db097a34f67ddd3e1a6389cfbde2720eb2617707f"
+  }
+}

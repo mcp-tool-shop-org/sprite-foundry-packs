@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "stormcaller",
+  "name": "Stormcaller",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "322de9b17b520676c5bbd54fc0ac2362bbaca4d6afd8fbabe8b941bd17ca9186",
+    "render/front_left.png": "ba9060a724db77d2cb02cbd3980c4d34a9f17ba810e7eafa8ef5198eb06a9098",
+    "render/left.png": "c9d228c63b910a7fc66e91093a8b3af9608f020c4711c91cc4cd58718b313523",
+    "render/back_left.png": "b2e193d34949fcb70328eaf1a1c125bcf92a1bbdb341b2bbd5d14a249b14c979",
+    "render/back.png": "d08ad09f3eaaa07147442c6b3d13313d306cf1ddc4632409c71cc62d997acc4f",
+    "render/back_right.png": "8655f1ea1d34bd00ed1cf5d5c1d15b783a8d7c708454c29e93f9b25767cd895a",
+    "render/right.png": "f0eb8f517d56663423e8bd21c583dbc0395a9376ac4474a12143f345b0c8c4eb",
+    "render/front_right.png": "b8ee0bbc996afee45694377a232dd7e63fdb9b4b552113132cfa26cee0987a75"
+  }
+}

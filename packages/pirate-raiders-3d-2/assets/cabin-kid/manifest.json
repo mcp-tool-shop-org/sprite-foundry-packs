@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "cabin-kid",
+  "name": "Cabin Kid",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "4f604ba0ca477ea95add85b490685fb2d14e39b1bc152ee941f5e3b5ed3a9619",
+    "render/front_left.png": "c3f9933c8c69dd835504bab9e93d1489dc31de8b87705ea2c3a7471b7eb511f2",
+    "render/left.png": "d3ad1ea4ccf3312a9f000d19c3551aaf5145f2ffeda3e7dd3bab7487dec81dfd",
+    "render/back_left.png": "496d8d3bfa4482704f2d56d7a27ab6b032e82bcab74aecc107aa709218532d10",
+    "render/back.png": "68127e3c2c4cc13580f2ec7c19c701a56964106f98afd9efe3ba19c289d648da",
+    "render/back_right.png": "adf18ff74fa07aac98ac37b3e47e187d86054a88acef835887c8b5304d16e4c7",
+    "render/right.png": "d27c5d94ce99be8a7e070f45f07a439ece3c6bdad2c715aac07a788e429d5e47",
+    "render/front_right.png": "9df08cb28543cdc5ab0a8a94a3cc3b33b7f82205160d1ba183457318b38de374"
+  }
+}

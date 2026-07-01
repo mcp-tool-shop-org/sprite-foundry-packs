@@ -1,0 +1,41 @@
+{
+  "schema_version": "2.0.0",
+  "slug": "swashbuckler",
+  "name": "Swashbuckler",
+  "tileSize": 768,
+  "directions": [
+    "front",
+    "front_left",
+    "left",
+    "back_left",
+    "back",
+    "back_right",
+    "right",
+    "front_right"
+  ],
+  "pivot": [
+    0.5,
+    1.0
+  ],
+  "layers": [
+    "render"
+  ],
+  "prelit": true,
+  "pipeline": "3d-prerender-v2",
+  "license": "commercial-OK",
+  "engineNotes": {
+    "godot": "render on a Sprite3D/Sprite2D billboard, unshaded material; depth-sort by pivot. Pre-lit \u2014 do NOT add a normal map.",
+    "unity_urp": "Sprite-Unlit / Unlit material; _BaseMap = render. Pre-lit; no _NormalMap.",
+    "phaser": "drop the PNG straight in as a sprite frame."
+  },
+  "files": {
+    "render/front.png": "019c57f14131a3c32bba1cbcdd71379ebd99a89052acd710fd2af4d160affa0e",
+    "render/front_left.png": "cc7f2b926ac578e0daa69747002ec2b071dcc58b23bfc65d4089a55b21d450d0",
+    "render/left.png": "ac36452e39b4e5f4dac4282537e60042eaabcd797f02543d5048cbbb1e7e7504",
+    "render/back_left.png": "2ad0f47d5ef9f6946c838d2132072b97f8d77981f461c6f2c4aa6bd6631f9cd1",
+    "render/back.png": "37bbb77977e29213c9e358d475165143168360d9455a7f4545cc2fe6b000c08d",
+    "render/back_right.png": "59ec2e9c5ea14c37b8471a12eb481fe7893afd69692087822b12afae6ade494d",
+    "render/right.png": "ae7b1873da1db34fba5944d9a14e8d4f127e290e7371b806cf55ced6248dd7b1",
+    "render/front_right.png": "0168ae45a0962f989b303b3fbd18d961d418ee3c95881e1206f63d44cd590d98"
+  }
+}
