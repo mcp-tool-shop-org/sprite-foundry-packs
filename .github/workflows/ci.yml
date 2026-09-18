@@ -8,12 +8,18 @@ on:
       - 'tooling/**'
       - 'package.json'
       - '.github/workflows/ci.yml'
+      - 'site/package.json'
+      - 'site/package-lock.json'
+      - 'site/astro.config.mjs'
   pull_request:
     paths:
       - 'packages/**'
       - 'tooling/**'
       - 'package.json'
       - '.github/workflows/ci.yml'
+      - 'site/package.json'
+      - 'site/package-lock.json'
+      - 'site/astro.config.mjs'
   workflow_dispatch:
 
 concurrency:
