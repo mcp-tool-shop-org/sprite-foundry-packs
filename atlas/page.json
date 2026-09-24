@@ -1,0 +1,167 @@
+{
+  "authored": [
+    ".github/",
+    "packages/fantasy-heroes-48/",
+    "packages/fantasy-heroes-hd/",
+    "packages/fantasy-villains-48/",
+    "packages/fantasy-villains-hd/",
+    "packages/goblin-warband-48/",
+    "packages/goblin-warband-hd/",
+    "packages/monster-pack-48/",
+    "packages/pirate-raiders-3d-2/",
+    "packages/pirate-raiders-3d/",
+    "packages/pirate-raiders-48/",
+    "packages/pirate-raiders-hd/",
+    "packages/townsfolk-48/",
+    "packages/townsfolk-hd/",
+    "packages/undead-patrol-48/",
+    "root",
+    "site/"
+  ],
+  "breaks": [],
+  "changes": {
+    "first": true
+  },
+  "changesTogether": [],
+  "changesTogetherNote": [
+    "Window: 180 days; a pair counts from 3 shared commits, since the window holds fewer than 30 qualifying commits."
+  ],
+  "changesTogetherWithTests": 0,
+  "commit": "09f49ca3755a1bbc114c9d47c7ab72d9ad4e9edc",
+  "defaultBranch": "main",
+  "derived": "19 parts, in JavaScript (2 files) and TypeScript (2 files). Work enters through 3 doors; the busiest is CI, which reaches 1 part. It publishes to npm.",
+  "doors": [
+    {
+      "checks": [],
+      "checksCount": 0,
+      "file": ".github/workflows/ci.yml",
+      "id": ".github/workflows/ci.yml",
+      "landings": [],
+      "name": "CI",
+      "pushes": false,
+      "reach": [
+        {
+          "boundary": "tooling",
+          "depth": 0,
+          "files": 1
+        }
+      ],
+      "runs": [
+        "tooling/verify-all.mjs"
+      ],
+      "runsCount": 1,
+      "sends": [],
+      "stages": [],
+      "triggers": [
+        "on a pull request touching 8 paths",
+        "on a push to main touching 8 paths",
+        "or by hand"
+      ]
+    },
+    {
+      "checks": [],
+      "checksCount": 0,
+      "file": ".github/workflows/pages.yml",
+      "id": ".github/workflows/pages.yml",
+      "landings": [],
+      "name": "Deploy site to GitHub Pages",
+      "pushes": false,
+      "reach": [
+        {
+          "boundary": "site",
+          "depth": 0,
+          "files": 3
+        }
+      ],
+      "runs": [
+        "site/astro.config.mjs",
+        "site/src/"
+      ],
+      "runsCount": 2,
+      "sends": [
+        "deploys the site"
+      ],
+      "stages": [],
+      "triggers": [
+        "on a push to main touching 2 paths",
+        "or by hand"
+      ]
+    },
+    {
+      "checks": [],
+      "checksCount": 0,
+      "file": ".github/workflows/release.yml",
+      "id": ".github/workflows/release.yml",
+      "landings": [],
+      "name": "Release",
+      "pushes": false,
+      "reach": [],
+      "runs": [],
+      "runsCount": 0,
+      "sends": [
+        "publishes to npm",
+        "creates a GitHub release"
+      ],
+      "stages": [],
+      "triggers": [
+        "when a tag matching `*-v[0-9]*.[0-9]*.[0-9]*` is pushed",
+        "or by hand"
+      ]
+    }
+  ],
+  "duplicates": [],
+  "duplicatesLead": null,
+  "duplicatesNote": [],
+  "edges": [],
+  "generated": [],
+  "generatedAt": "2026-09-24T02:28:19.723Z",
+  "limits": [
+    "Statistics confidence is low: fewer than 30 qualifying commits in the window, and fewer than 20 source files reach 10 revisions."
+  ],
+  "mainDoor": ".github/workflows/ci.yml",
+  "partLabels": {
+    ".github": ".github",
+    "fantasy-heroes-48": "fantasy-heroes-48",
+    "fantasy-heroes-hd": "fantasy-heroes-hd",
+    "fantasy-villains-48": "fantasy-villains-48",
+    "fantasy-villains-hd": "fantasy-villains-hd",
+    "goblin-warband-48": "goblin-warband-48",
+    "goblin-warband-hd": "goblin-warband-hd",
+    "monster-pack-48": "monster-pack-48",
+    "pirate-raiders-3d": "pirate-raiders-3d",
+    "pirate-raiders-3d-2": "pirate-raiders-3d-2",
+    "pirate-raiders-48": "pirate-raiders-48",
+    "pirate-raiders-hd": "pirate-raiders-hd",
+    "root": "the repository root",
+    "scripts": "scripts",
+    "site": "the site",
+    "tooling": "tooling",
+    "townsfolk-48": "townsfolk-48",
+    "townsfolk-hd": "townsfolk-hd",
+    "undead-patrol-48": "undead-patrol-48"
+  },
+  "parts": 19,
+  "readers": [],
+  "repo": "mcp-tool-shop-org/sprite-foundry-packs",
+  "sequences": [],
+  "startDoor": ".github/workflows/ci.yml",
+  "startHere": [
+    ".github/workflows/ci.yml",
+    "tooling/verify-all.mjs"
+  ],
+  "summary": null,
+  "summaryFrom": null,
+  "testFiles": 0,
+  "testedBy": {
+    "scripts": 0,
+    "tooling": 0
+  },
+  "unnamedWrites": 0,
+  "unread": [],
+  "unreadNote": [],
+  "untested": [],
+  "untestedNote": [
+    "No test files were found by name."
+  ],
+  "written": 0
+}

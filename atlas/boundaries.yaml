@@ -1,0 +1,78 @@
+summary: ""
+boundaries:
+  - name: .github
+    globs:
+      - .github/**
+    role: config
+  - name: fantasy-heroes-48
+    globs:
+      - packages/fantasy-heroes-48/**
+    role: config
+  - name: fantasy-heroes-hd
+    globs:
+      - packages/fantasy-heroes-hd/**
+    role: config
+  - name: fantasy-villains-48
+    globs:
+      - packages/fantasy-villains-48/**
+    role: config
+  - name: fantasy-villains-hd
+    globs:
+      - packages/fantasy-villains-hd/**
+    role: config
+  - name: goblin-warband-48
+    globs:
+      - packages/goblin-warband-48/**
+    role: config
+  - name: goblin-warband-hd
+    globs:
+      - packages/goblin-warband-hd/**
+    role: config
+  - name: monster-pack-48
+    globs:
+      - packages/monster-pack-48/**
+    role: config
+  - name: pirate-raiders-3d
+    globs:
+      - packages/pirate-raiders-3d/**
+    role: config
+  - name: pirate-raiders-3d-2
+    globs:
+      - packages/pirate-raiders-3d-2/**
+    role: config
+  - name: pirate-raiders-48
+    globs:
+      - packages/pirate-raiders-48/**
+    role: config
+  - name: pirate-raiders-hd
+    globs:
+      - packages/pirate-raiders-hd/**
+    role: config
+  - name: root
+    globs:
+      - "*"
+    role: config
+  - name: scripts
+    globs:
+      - scripts/**
+    role: code
+  - name: site
+    globs:
+      - site/**
+    role: site
+  - name: tooling
+    globs:
+      - tooling/**
+    role: code
+  - name: townsfolk-48
+    globs:
+      - packages/townsfolk-48/**
+    role: config
+  - name: townsfolk-hd
+    globs:
+      - packages/townsfolk-hd/**
+    role: config
+  - name: undead-patrol-48
+    globs:
+      - packages/undead-patrol-48/**
+    role: config
