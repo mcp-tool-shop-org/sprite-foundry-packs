@@ -20,20 +20,68 @@
   ],
   "breaks": [],
   "changes": {
-    "first": true
+    "fileCounts": {
+      "added": 0,
+      "changed": 408,
+      "moved": 0,
+      "parts": 19,
+      "removed": 0
+    },
+    "items": [
+      {
+        "kind": "landing",
+        "sentence": "packages/ is now written by scripts/gen_previews.py.",
+        "subjects": [
+          "packages/",
+          "scripts/gen_previews.py"
+        ]
+      },
+      {
+        "kind": "landing",
+        "sentence": "packages/ is now also read by scripts/gen_previews.py.",
+        "subjects": [
+          "packages/",
+          "scripts/gen_previews.py"
+        ]
+      },
+      {
+        "kind": "landing",
+        "sentence": "packages/fantasy-heroes-48/assets/artificer/albedo/ is now read by packages/fantasy-heroes-48/assets/artificer/manifest.json.",
+        "subjects": [
+          "packages/fantasy-heroes-48/assets/artificer/albedo/",
+          "packages/fantasy-heroes-48/assets/artificer/manifest.json"
+        ]
+      },
+      {
+        "kind": "landing",
+        "sentence": "And 5803 more new writers and readers of places.",
+        "subjects": []
+      },
+      {
+        "kind": "counts",
+        "sentence": "408 files changed content, across 19 parts.",
+        "subjects": []
+      }
+    ],
+    "since": {
+      "commit": "09f49ca3755a1bbc114c9d47c7ab72d9ad4e9edc",
+      "generatedAt": "2026-09-24T02:28:19.723Z"
+    },
+    "unchanged": false
   },
   "changesTogether": [],
   "changesTogetherNote": [
     "Window: 180 days; a pair counts from 3 shared commits, since the window holds fewer than 30 qualifying commits."
   ],
   "changesTogetherWithTests": 0,
-  "commit": "09f49ca3755a1bbc114c9d47c7ab72d9ad4e9edc",
+  "commit": "aae7ad56df7541559c02d929b94991a85085574c",
   "defaultBranch": "main",
-  "derived": "19 parts, in JavaScript (2 files) and TypeScript (2 files). Work enters through 3 doors; the busiest is CI, which reaches 1 part. It publishes to npm.",
+  "derived": "19 parts, mostly images (6651 files); code in CSS (2), JavaScript (2), TypeScript (2), Astro (1) and Python (1). Work enters through 3 doors; CI and Deploy site to GitHub Pages each reach 1 part, and CI is followed because a pull request goes through it. It publishes one of the 14 packages under packages/ to npm, chosen by the tag. It deploys a site to GitHub Pages.",
   "doors": [
     {
       "checks": [],
       "checksCount": 0,
+      "checksMore": 0,
       "file": ".github/workflows/ci.yml",
       "id": ".github/workflows/ci.yml",
       "landings": [],
@@ -50,6 +98,7 @@
         "tooling/verify-all.mjs"
       ],
       "runsCount": 1,
+      "runsMore": 0,
       "sends": [],
       "stages": [],
       "triggers": [
@@ -61,6 +110,7 @@
     {
       "checks": [],
       "checksCount": 0,
+      "checksMore": 0,
       "file": ".github/workflows/pages.yml",
       "id": ".github/workflows/pages.yml",
       "landings": [],
@@ -70,7 +120,7 @@
         {
           "boundary": "site",
           "depth": 0,
-          "files": 3
+          "files": 5
         }
       ],
       "runs": [
@@ -78,6 +128,7 @@
         "site/src/"
       ],
       "runsCount": 2,
+      "runsMore": 0,
       "sends": [
         "deploys the site"
       ],
@@ -90,6 +141,7 @@
     {
       "checks": [],
       "checksCount": 0,
+      "checksMore": 0,
       "file": ".github/workflows/release.yml",
       "id": ".github/workflows/release.yml",
       "landings": [],
@@ -98,8 +150,9 @@
       "reach": [],
       "runs": [],
       "runsCount": 0,
+      "runsMore": 0,
       "sends": [
-        "publishes to npm",
+        "publishes one of the 14 packages under packages/ to npm, chosen by the tag",
         "creates a GitHub release"
       ],
       "stages": [],
@@ -113,10 +166,11 @@
   "duplicatesLead": null,
   "duplicatesNote": [],
   "edges": [],
+  "engine": "1.24.0",
   "generated": [],
-  "generatedAt": "2026-09-24T02:28:19.723Z",
+  "generatedAt": "2026-09-30T20:13:39.994Z",
   "limits": [
-    "Statistics confidence is low: fewer than 30 qualifying commits in the window, and fewer than 20 source files reach 10 revisions."
+    "Statistics confidence is low: fewer than 30 qualifying commits in the window, and fewer than 25 source files reach 10 revisions."
   ],
   "mainDoor": ".github/workflows/ci.yml",
   "partLabels": {
@@ -145,10 +199,8 @@
   "repo": "mcp-tool-shop-org/sprite-foundry-packs",
   "sequences": [],
   "startDoor": ".github/workflows/ci.yml",
-  "startHere": [
-    ".github/workflows/ci.yml",
-    "tooling/verify-all.mjs"
-  ],
+  "startHere": [],
+  "startNote": "CI runs no code this map can follow, so there is no path of files to read in order.",
   "summary": null,
   "summaryFrom": null,
   "testFiles": 0,
@@ -158,6 +210,7 @@
   },
   "unnamedWrites": 0,
   "unread": [],
+  "unreadFiles": 0,
   "unreadNote": [],
   "untested": [],
   "untestedNote": [
