@@ -1,14 +1,18 @@
 # sprite-foundry-packs: how it works
 
-Mapped at 2026-09-24 from commit 09f49ca.
+Mapped at 2026-09-30 from commit aae7ad5 by Atlas 1.24.0.
 
 ## What this is
 
-19 parts, in JavaScript (2 files) and TypeScript (2 files). Work enters through 3 doors; the busiest is CI, which reaches 1 part. It publishes to npm.
+19 parts, mostly images (6651 files); code in CSS (2), JavaScript (2), TypeScript (2), Astro (1) and Python (1). Work enters through 3 doors; CI and Deploy site to GitHub Pages each reach 1 part, and CI is followed because a pull request goes through it. It publishes one of the 14 packages under packages/ to npm, chosen by the tag. It deploys a site to GitHub Pages.
 
-## What changed since the last map
+## What changed since 2026-09-24 (09f49ca)
 
-This is the first map.
+- packages/ is now written by scripts/gen_previews.py.
+- packages/ is now also read by scripts/gen_previews.py.
+- packages/fantasy-heroes-48/assets/artificer/albedo/ is now read by packages/fantasy-heroes-48/assets/artificer/manifest.json.
+- And 5803 more new writers and readers of places.
+- 408 files changed content, across 19 parts.
 
 ## What comes in
 
@@ -28,7 +32,7 @@ CI writes nothing this map can see.
 
 **Deploy site to GitHub Pages** runs site/astro.config.mjs and site/src/, and deploys the site.
 
-**Release** runs no file this map can see, publishes to npm, and creates a GitHub release.
+**Release** runs no file this map can see, publishes one of the 14 packages under packages/ to npm, chosen by the tag, and creates a GitHub release.
 
 ## What breaks what
 
@@ -62,12 +66,10 @@ People write .github/, packages/fantasy-heroes-48/, packages/fantasy-heroes-hd/,
 
 ## Where to start
 
-.github/workflows/ci.yml → tooling/verify-all.mjs
-
-Read those in order to follow one pull request end to end.
+CI runs no code this map can follow, so there is no path of files to read in order.
 
 ## What this map cannot see
 
-- Statistics confidence is low: fewer than 30 qualifying commits in the window, and fewer than 20 source files reach 10 revisions.
+- Statistics confidence is low: fewer than 30 qualifying commits in the window, and fewer than 25 source files reach 10 revisions.
 
 Regenerate with `npx --yes @dogfood-lab/atlas map`.

@@ -39,7 +39,7 @@ jobs:
           node-version: 22
 
       - name: Atlas check
-        run: npx --yes @dogfood-lab/atlas@1.16.0 check
+        run: npx --yes @dogfood-lab/atlas@1.24.0 check
 
       - name: Verify all packs
         run: node tooling/verify-all.mjs
