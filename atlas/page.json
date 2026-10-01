@@ -22,35 +22,28 @@
   "changes": {
     "fileCounts": {
       "added": 0,
-      "changed": 2,
+      "changed": 1,
       "moved": 0,
-      "parts": 2,
+      "parts": 1,
       "removed": 0
     },
     "items": [
       {
         "kind": "door",
-        "sentence": "CI's pull request trigger now also names `.github/workflows/**` and `.gitignore` and no longer names `.github/workflows/ci.yml`.",
-        "subjects": [
-          ".github/workflows/ci.yml"
-        ]
-      },
-      {
-        "kind": "door",
-        "sentence": "CI's push trigger now also names `.github/workflows/**` and `.gitignore` and no longer names `.github/workflows/ci.yml`.",
+        "sentence": "CI's pull request trigger no longer names `.github/workflows/**`, `.gitignore`, `atlas/**`, `package.json`, `packages/**`, `site/astro.config.mjs`, `site/package-lock.json`, `site/package.json` and `tooling/**`.",
         "subjects": [
           ".github/workflows/ci.yml"
         ]
       },
       {
         "kind": "counts",
-        "sentence": "2 files changed content, across 2 parts.",
+        "sentence": "1 file changed content, across 1 part.",
         "subjects": []
       }
     ],
     "since": {
-      "commit": "aae7ad56df7541559c02d929b94991a85085574c",
-      "generatedAt": "2026-09-30T20:13:39.994Z"
+      "commit": "4e6b82700cdc790f7147ce1201291da7f7e6ec1d",
+      "generatedAt": "2026-10-01T00:24:42.927Z"
     },
     "unchanged": false
   },
@@ -59,7 +52,7 @@
     "Window: 180 days; a pair counts from 3 shared commits, since the window holds fewer than 30 qualifying commits."
   ],
   "changesTogetherWithTests": 0,
-  "commit": "4e6b82700cdc790f7147ce1201291da7f7e6ec1d",
+  "commit": "13a7e2e3655ac2596a53cb191acb5473f7cb9dd2",
   "defaultBranch": "main",
   "derived": "19 parts, mostly images (6651 files); code in CSS (2), JavaScript (2), TypeScript (2), Astro (1) and Python (1). Work enters through 3 doors; CI and Deploy site to GitHub Pages each reach 1 part, and CI is followed because a pull request goes through it. It publishes one of the 14 packages under packages/ to npm, chosen by the tag. It deploys a site to GitHub Pages.",
   "doors": [
@@ -87,7 +80,7 @@
       "sends": [],
       "stages": [],
       "triggers": [
-        "on a pull request touching 9 paths",
+        "on a pull request",
         "on a push to main touching 9 paths",
         "or by hand"
       ]
@@ -153,7 +146,7 @@
   "edges": [],
   "engine": "1.24.0",
   "generated": [],
-  "generatedAt": "2026-10-01T00:24:42.927Z",
+  "generatedAt": "2026-10-01T02:13:43.522Z",
   "limits": [
     "Statistics confidence is low: fewer than 30 qualifying commits in the window, and fewer than 25 source files reach 10 revisions."
   ],

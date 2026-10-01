@@ -9,7 +9,7 @@
       "externals": 0,
       "files": [
         {
-          "hash": "766dde6cd6aa9de674a9f1c62e0b14e0c6ff981c3ada2b71dc2ed65655c931dd",
+          "hash": "623a083f8e85a45f424d9b263ee188a8cffd23b5789817878efb61dce97aa5e5",
           "path": ".github/workflows/ci.yml"
         },
         {
@@ -28721,18 +28721,7 @@
       "stages": [],
       "triggers": [
         {
-          "event": "pull_request",
-          "paths": [
-            ".github/workflows/**",
-            ".gitignore",
-            "atlas/**",
-            "package.json",
-            "packages/**",
-            "site/astro.config.mjs",
-            "site/package-lock.json",
-            "site/package.json",
-            "tooling/**"
-          ]
+          "event": "pull_request"
         },
         {
           "branches": [
@@ -29061,7 +29050,7 @@
   "edges": [],
   "engine": "1.24.0",
   "generatedFrom": {
-    "commit": "4e6b82700cdc790f7147ce1201291da7f7e6ec1d",
+    "commit": "13a7e2e3655ac2596a53cb191acb5473f7cb9dd2",
     "tracked": 7059
   },
   "landings": [
