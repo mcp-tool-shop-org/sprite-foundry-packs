@@ -9,7 +9,7 @@
       "externals": 0,
       "files": [
         {
-          "hash": "70dbaff90ebf66a1f255853d0932f7002b7513782c853195e09132d129707bd5",
+          "hash": "766dde6cd6aa9de674a9f1c62e0b14e0c6ff981c3ada2b71dc2ed65655c931dd",
           "path": ".github/workflows/ci.yml"
         },
         {
@@ -22809,7 +22809,7 @@
       "externals": 0,
       "files": [
         {
-          "hash": "3c859d0ba478c4b6bde889e90ab526aa65baf77bd0b31ecbd3a1c3211ff8d593",
+          "hash": "1692b5fee946f31c07c848e8f8f60d28d1c318094ab386f898c828a316221391",
           "path": ".gitignore"
         },
         {
@@ -28723,7 +28723,8 @@
         {
           "event": "pull_request",
           "paths": [
-            ".github/workflows/ci.yml",
+            ".github/workflows/**",
+            ".gitignore",
             "atlas/**",
             "package.json",
             "packages/**",
@@ -28739,7 +28740,8 @@
           ],
           "event": "push",
           "paths": [
-            ".github/workflows/ci.yml",
+            ".github/workflows/**",
+            ".gitignore",
             "atlas/**",
             "package.json",
             "packages/**",
@@ -29059,7 +29061,7 @@
   "edges": [],
   "engine": "1.24.0",
   "generatedFrom": {
-    "commit": "aae7ad56df7541559c02d929b94991a85085574c",
+    "commit": "4e6b82700cdc790f7147ce1201291da7f7e6ec1d",
     "tracked": 7059
   },
   "landings": [
