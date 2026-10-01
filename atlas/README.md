@@ -1,20 +1,19 @@
 # sprite-foundry-packs: how it works
 
-Mapped at 2026-10-01 from commit 4e6b827 by Atlas 1.24.0.
+Mapped at 2026-10-01 from commit 13a7e2e by Atlas 1.24.0.
 
 ## What this is
 
 19 parts, mostly images (6651 files); code in CSS (2), JavaScript (2), TypeScript (2), Astro (1) and Python (1). Work enters through 3 doors; CI and Deploy site to GitHub Pages each reach 1 part, and CI is followed because a pull request goes through it. It publishes one of the 14 packages under packages/ to npm, chosen by the tag. It deploys a site to GitHub Pages.
 
-## What changed since 2026-09-30 (aae7ad5)
+## What changed since 2026-10-01 (4e6b827)
 
-- CI's pull request trigger now also names `.github/workflows/**` and `.gitignore` and no longer names `.github/workflows/ci.yml`.
-- CI's push trigger now also names `.github/workflows/**` and `.gitignore` and no longer names `.github/workflows/ci.yml`.
-- 2 files changed content, across 2 parts.
+- CI's pull request trigger no longer names `.github/workflows/**`, `.gitignore`, `atlas/**`, `package.json`, `packages/**`, `site/astro.config.mjs`, `site/package-lock.json`, `site/package.json` and `tooling/**`.
+- 1 file changed content, across 1 part.
 
 ## What comes in
 
-1. **CI.** On a pull request touching 9 paths; on a push to main touching 9 paths; or by hand. Runs tooling/verify-all.mjs.
+1. **CI.** On a pull request; on a push to main touching 9 paths; or by hand. Runs tooling/verify-all.mjs.
 2. **Deploy site to GitHub Pages.** On a push to main touching 2 paths; or by hand. Runs site/astro.config.mjs and site/src/.
 3. **Release.** When a tag matching `*-v[0-9]*.[0-9]*.[0-9]*` is pushed; or by hand. Runs no file this map can see.
 
