@@ -1,15 +1,14 @@
 # sprite-foundry-packs: how it works
 
-Mapped at 2026-10-01 from commit 13a7e2e by Atlas 1.24.0.
+Mapped at 2026-11-11 from commit 116e02a by Atlas 1.26.0.
 
 ## What this is
 
 19 parts, mostly images (6651 files); code in CSS (2), JavaScript (2), TypeScript (2), Astro (1) and Python (1). Work enters through 3 doors; CI and Deploy site to GitHub Pages each reach 1 part, and CI is followed because a pull request goes through it. It publishes one of the 14 packages under packages/ to npm, chosen by the tag. It deploys a site to GitHub Pages.
 
-## What changed since 2026-10-01 (4e6b827)
+## What changed since 2026-10-01 (13a7e2e)
 
-- CI's pull request trigger no longer names `.github/workflows/**`, `.gitignore`, `atlas/**`, `package.json`, `packages/**`, `site/astro.config.mjs`, `site/package-lock.json`, `site/package.json` and `tooling/**`.
-- 1 file changed content, across 1 part.
+Nothing structural changed since 2026-10-01; 2 files changed content.
 
 ## What comes in
 
@@ -63,7 +62,7 @@ People write .github/, packages/fantasy-heroes-48/, packages/fantasy-heroes-hd/,
 
 ## Where to start
 
-CI runs no code this map can follow, so there is no path of files to read in order.
+CI reaches tooling (1 file), but no file it runs leads on into code this map can follow, so there is no path of files to read in order.
 
 ## What this map cannot see
 
